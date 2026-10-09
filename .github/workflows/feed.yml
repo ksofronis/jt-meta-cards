@@ -11,8 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 feed_rewrite.py
+      - run: python3 -c "n=int(open('supp_count.txt').read());t=sum(1 for l in open('supp_order.txt') if l.strip());open('supp_count.txt','w').write(str(min(t,n+300)))"
+      - run: python3 supp_build.py
       - run: |
           git config user.name "jt-feed-bot"
           git config user.email "jt-feed-bot@users.noreply.github.com"
-          git add feed/facebook.xml
+          git add feed/facebook.xml feed/supplementary.csv supp_count.txt
           git diff --cached --quiet || (git commit -m "feed refresh" && git push)
