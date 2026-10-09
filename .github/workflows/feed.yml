@@ -5,6 +5,10 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
+concurrency:
+  group: meta-feed
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,3 +22,18 @@ jobs:
           git config user.email "jt-feed-bot@users.noreply.github.com"
           git add feed/facebook.xml feed/supplementary.csv supp_count.txt
           git diff --cached --quiet || (git commit -m "feed refresh" && git push)
+  # GitHub's cron is unreliable on new repos: while the rollout is incomplete, re-trigger this workflow after ~55 min.
+  next:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: |
+          n=$(cat supp_count.txt); t=$(grep -c . supp_order.txt)
+          if [ "$n" -lt "$t" ]; then
+            sleep 3300
+            curl -s -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/${{ github.repository }}/actions/workflows/feed.yml/dispatches -d '{"ref":"main"}'
+          fi
