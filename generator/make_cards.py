@@ -83,7 +83,11 @@ def trim_white(im):
     box = ImageChops.difference(im, bg).convert('L').point(lambda p: 255 if p > 12 else 0).getbbox()
     return im.crop(box) if box else im
 
+ALLOWED_HOSTS = ('jthomedesign.gr', 'www.jthomedesign.gr')  # images are only fetched from the client's own site
 def card(item):
+    u = urllib.parse.urlparse(item['image'])
+    if not re.fullmatch(r'[A-Za-z0-9_-]{1,80}', str(item['id'])) or u.scheme != 'https' or u.hostname not in ALLOWED_HOSTS:
+        raise ValueError(f"refused: unsafe id or image host for {item['id']!r}")
     raw = urllib.request.urlopen(urllib.request.Request(urllib.parse.quote(item['image'], safe=':/%?=&'), headers={'User-Agent': 'Mozilla/5.0'}), timeout=60).read()
     im = Image.open(io.BytesIO(raw))
     if im.mode in ('RGBA', 'LA', 'P'):
