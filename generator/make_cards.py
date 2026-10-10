@@ -29,7 +29,7 @@ def split_name(title):
 
 BADGES = [  # (regex on title+description+product_type, badge); first match wins, only claims stated in the feed
     (r'μετατρέπεται σε κρεβάτι|γίνεται κρεβάτι|γωνία\s*[-–]\s*κρεβάτι|καναπέδες κρεβάτια', 'Γίνεται κρεβάτι'),
-    (r'με αποθηκευτικό χώρο|ντουλάπια αποθηκευτικού χώρου|πλούσιους αποθηκευτικούς χώρους', 'Με αποθηκευτικό χώρο'),
+    (r'με αποθηκευτικό χώρο|ντουλάπια αποθηκευτικού χώρου|πλούσιους αποθηκευτικούς χώρους|χώρο αποθήκευσης', 'Με αποθηκευτικό χώρο'),
     (r'^[^|]*τραπέζι[^|]*\|.*(ανοιγόμεν|επεκτειν|επιπλέον χώρο όποτε)', 'Ανοιγόμενο'),
     (r'αλλαγής των (?:εργοστασιακών )?διαστάσ|υφάσματος και διαστάσεων|στις διαστάσεις που επιθυμείτε', 'Στα μέτρα σας'),
     (r'αδιάβροχ.{0,25}(?:ύφασμ|υφάσμ)', 'Αδιάβροχο ύφασμα'),
@@ -42,13 +42,25 @@ BADGES = [  # (regex on title+description+product_type, badge); first match wins
     (r'(?=.*\|[^|]*στρώματα[^|]*$).*(?:pocket spring|ανεξάρτητ\w* ελατήρ)', 'Pocket ελατήρια'),
     (r'(?=.*\|[^|]*στρώματα[^|]*$).*(?:διπλής όψης|δύο όψεων)', 'Διπλής όψης'),
     (r'φωτισμ\w* led|\bled\b', 'Με φωτισμό LED'),
-    (r'(?=.*\|[^|]*καναπέδες[^|]*$).*πολυμορφικ', 'Πολυμορφικός'),  # modular sofas only (title, description or site category); last so it never displaces a stronger badge
+    (r'(?=.*\|[^|]*καναπέδες[^|]*$).*πολυμορφικ', 'Πολυμορφικός'),
+    (r'μηχανισμ\w* ρολογιού|ρολόι', 'Με ρολόι'),
+    (r'(?=.*\|[^|]*στρώματα[^|]*$).*latex', 'Latex'),
+    (r'βελουτέ|βελούδ', 'Βελούδινο'),
+    (r'επιλογή χρώματος|επιλογή απόχρωσης', 'Επιλογή χρώματος'),  # modular sofas only (title, description or site category); last so it never displaces a stronger badge
 ]
 SOFA_LINE = 'Επιλέξτε ύφασμα & διαστάσεις'
 def is_sofa(ptype): return 'Καναπέδες' in ptype
-def badges_for(text, sofa=False, n=2):
+def badges_for(text, sofa=False, n=2, extra=()):
     t = ' '.join(text.lower().split())  # one line, single spaces; sofas already carry the customization line, so skip the duplicate badge
-    return list(dict.fromkeys(b for rx, b in BADGES if re.search(rx, t) and not (sofa and b == 'Στα μέτρα σας')))[:n]
+    return list(dict.fromkeys([b for rx, b in BADGES if re.search(rx, t) and not (sofa and b == 'Στα μέτρα σας')] + [e for e in extra if e]))[:n]
+def options_badge(links):
+    """'Σε N διαστάσεις' / 'Σε N χρώματα' from the variant links of one item_group (WooCommerce attribute_* query params)."""
+    vals = {}
+    for l in links:
+        for k, v in urllib.parse.parse_qs(urllib.parse.urlparse(l).query).items():
+            vals.setdefault(urllib.parse.unquote(k), set()).add(v[0])
+    size = max([len(v) for k, v in vals.items() if 'diastas' in k] or [0]); col = max([len(v) for k, v in vals.items() if 'xroma' in k or 'chroma' in k] or [0])
+    return f'Σε {size} διαστάσεις' if size > 1 else f'Σε {col} χρώματα' if col > 1 else ''
 def badge_for(text, sofa=False):
     return (badges_for(text, sofa, 1) or [''])[0]
 

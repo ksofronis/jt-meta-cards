@@ -10,11 +10,16 @@ GEN = os.path.abspath('generator/make_cards.py')
 ns = {}; argv = sys.argv; sys.argv = [GEN]; exec(open(GEN).read().split('items = []')[0], ns); sys.argv = argv
 NS = ns['NS']
 root = ET.fromstring(urllib.request.urlopen(urllib.request.Request(SRC, headers={'User-Agent': 'Mozilla/5.0'}), timeout=120).read())
+import collections
+GROUPS = collections.defaultdict(list)
+for it in root.findall('./channel/item'):
+    if it.findtext('g:item_group_id', namespaces=NS): GROUPS[it.findtext('g:item_group_id', namespaces=NS)].append(it.findtext('g:link', namespaces=NS) or '')
 def spec(it):
     g = lambda k: (it.findtext(k, namespaces=NS) or '').strip()
     pt = g('g:product_type'); sofa = ns['is_sofa'](pt); name, dims = ns['split_name'](g('g:title'))
     return {'id': g('g:id'), 'image': g('g:image_link'), 'title': g('g:title'), 'name': name, 'line': ns['info_line'](dims, pt), 'sofa': sofa,
-            'badges': ns['badges_for'](' | '.join(g(k) for k in ('g:title', 'g:description', 'g:product_type')), sofa)}
+            'badges': ns['badges_for'](' | '.join(g(k) for k in ('g:title', 'g:description', 'g:product_type')), sofa, 2,
+                                       [ns['options_badge'](GROUPS[g('g:item_group_id')]) if g('g:item_group_id') else ''])}
 items = [spec(it) for it in root.findall('./channel/item')]
 import urllib.parse
 SAFE_ID = re.compile(r'[A-Za-z0-9_-]{1,64}')  # id becomes a file name

@@ -21,7 +21,8 @@ v3 = set(open('v3_now.txt').read().split()) if os.path.exists('v3_now.txt') else
 v4 = set(open('v4_ids.txt').read().split()) if os.path.exists('v4_ids.txt') and datetime.datetime.now(datetime.timezone.utc) >= V2_AT else set()
 # v5: up to 2 badges side by side (138 cards); also switches at V2_AT, highest priority
 v5 = set(open('v5_ids.txt').read().split()) if os.path.exists('v5_ids.txt') and datetime.datetime.now(datetime.timezone.utc) >= V2_AT else set()
-url = lambda i: f'https://ksofronis.github.io/jt-meta-cards/{"v5" if i in v5 else "v4" if i in v4 else "v3" if i in v3 else "v2" if i in v2 else "item"}/{i}.jpg'
+v6 = set(open('v6_ids.txt').read().split()) if os.path.exists('v6_ids.txt') else set()  # 11/10: clock, latex, velvet, colour choice, storage, Σε N διαστάσεις/χρώματα (live immediately)
+url = lambda i: f'https://ksofronis.github.io/jt-meta-cards/{"v6" if i in v6 else "v5" if i in v5 else "v4" if i in v4 else "v3" if i in v3 else "v2" if i in v2 else "item"}/{i}.jpg'
 # auto cards (auto_cards.py): new products and products whose photo/title changed; used while they match the live feed
 auto = json.load(open('auto_manifest.json')) if os.path.exists('auto_manifest.json') else {}
 ok_auto = lambda i: i in auto and i in cur and cur[i] == (auto[i]['image'], auto[i]['title'])
@@ -30,4 +31,4 @@ ids = order[:n] + [i for i in cur if i not in set(order)]
 rows = [(i, f"https://ksofronis.github.io/jt-meta-cards/{auto[i]['path']}" if ok_auto(i) and not ok_man(i) else url(i)) for i in ids if ok_man(i) or ok_auto(i)]
 with open('feed/supplementary.csv', 'w', newline='') as f:
     w = csv.writer(f); w.writerow(['id', 'image_link']); w.writerows(rows)
-print('supplementary rows', len(rows), 'of first', n, '| auto', sum(1 for r in rows if '/auto/' in r[1]), '| v2', sum(1 for r in rows if '/v2/' in r[1]), '| v3', sum(1 for r in rows if '/v3/' in r[1]), '| v4', sum(1 for r in rows if '/v4/' in r[1]), '| v5', sum(1 for r in rows if '/v5/' in r[1]))
+print('supplementary rows', len(rows), 'of first', n, '| auto', sum(1 for r in rows if '/auto/' in r[1]), '| v2', sum(1 for r in rows if '/v2/' in r[1]), '| v3', sum(1 for r in rows if '/v3/' in r[1]), '| v4', sum(1 for r in rows if '/v4/' in r[1]), '| v5', sum(1 for r in rows if '/v5/' in r[1]), '| v6', sum(1 for r in rows if '/v6/' in r[1]))
