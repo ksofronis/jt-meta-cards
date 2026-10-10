@@ -11,8 +11,13 @@ for b in re.findall(r'<item>.*?</item>', raw, re.S):
 man = json.load(open('manifest_items.json'))
 order = [l.strip() for l in open('supp_order.txt') if l.strip()]
 n = int(open('supp_count.txt').read().strip())
-rows = [(i, f'https://ksofronis.github.io/jt-meta-cards/item/{i}.jpg') for i in order[:n]
+import datetime, os
+# v2 cards (fixed names, sofa line, new badges) switch on at V2_AT so the image change happens at night
+V2_AT = datetime.datetime(2026, 10, 10, 20, 55, tzinfo=datetime.timezone.utc)  # 23:55 Athens, Meta reads at 00:06
+v2 = set(open('v2_ids.txt').read().split()) if os.path.exists('v2_ids.txt') and datetime.datetime.now(datetime.timezone.utc) >= V2_AT else set()
+url = lambda i: f'https://ksofronis.github.io/jt-meta-cards/{"v2" if i in v2 else "item"}/{i}.jpg'
+rows = [(i, url(i)) for i in order[:n]
         if i in man and i in cur and cur[i] == (man[i]['image'], man[i]['title'])]
 with open('feed/supplementary.csv', 'w', newline='') as f:
     w = csv.writer(f); w.writerow(['id', 'image_link']); w.writerows(rows)
-print('supplementary rows', len(rows), 'of first', n)
+print('supplementary rows', len(rows), 'of first', n, '| v2', sum(1 for r in rows if '/v2/' in r[1]))

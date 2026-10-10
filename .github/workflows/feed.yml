@@ -33,9 +33,10 @@ jobs:
           ref: main
       - run: |
           n=$(cat supp_count.txt); t=$(grep -c . supp_order.txt)
-          if [ "$n" -lt "$t" ]; then
-            # wake exactly at release time if it falls inside the normal 55-min wait
-            r=$(date -d 2026-10-09T20:55:30Z +%s); now=$(date +%s); w=3300
+          r=$(date -d 2026-10-10T20:55:30Z +%s); now=$(date +%s)
+          # keep chaining while the rollout is incomplete or a timed release (r) is still ahead
+          if [ "$n" -lt "$t" ] || [ "$now" -lt "$r" ]; then
+            w=3300
             if [ $((r-now)) -gt 0 ] && [ $((r-now)) -lt 3300 ]; then w=$((r-now)); fi
             sleep $w
             curl -s -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github+json" \
