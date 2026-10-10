@@ -126,3 +126,14 @@ Any one of these returns all products to their original photos at the next Meta 
 - Some products share one photo with a different product on the website (e.g. "Καθρέπτης Napoli" uses the bedroom set photo). Each card shows the correct product name, but the photo is the one the website uses.
 - Value-mapping feed rules are limited by Meta to about 20 entries, and regex feed rules sent through the API were not applied. That is why the supplementary feed is used.
 - Pre-existing catalog diagnostics not related to images: 13 product IDs conflicting with group IDs, 2 products with empty price, products hidden from Shops. These come from the website data.
+
+## 11. Automatic cards for new and changed products (added 10/10/2026)
+
+Every hourly run of `meta-feed` now also runs `auto_cards.py` before `supp_build.py`:
+
+- A product gets a new card when it is not in `manifest_items.json` (new product) or when its live photo or title differs from the one its card was built from (changed product). Maximum 60 per run.
+- Cards use the same renderer and rules (`generator/make_cards.py`). On GitHub's Linux runner the font is Liberation Sans, which has the same letter widths as Arial; the visual difference is negligible.
+- Each card is saved as `auto/<g:id>-<hash>.jpg` (the hash changes when the photo or title changes, so Meta downloads the new version) and recorded in `auto_manifest.json`.
+- `supp_build.py` uses the automatic card only while it matches the live feed, so a later change on the website again falls back to the original photo until the next run makes a new card.
+- A product that receives its first card, or a new one, is temporarily not eligible for catalog ads until Meta downloads the image (typically a few hours).
+- The workflow now re-triggers itself permanently (about every 56 minutes), because GitHub's scheduled trigger is unreliable on this repository.

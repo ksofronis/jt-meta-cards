@@ -16,14 +16,17 @@ jobs:
       - uses: actions/checkout@v4
       - run: python3 feed_rewrite.py
       - run: python3 release.py
+      - run: sudo apt-get install -y -qq fonts-liberation >/dev/null && pip install -q pillow
+      - run: python3 auto_cards.py
       - run: python3 supp_build.py
       - run: |
           git config user.name "jt-feed-bot"
           git config user.email "jt-feed-bot@users.noreply.github.com"
-          git add feed/facebook.xml feed/supplementary.csv supp_count.txt
+          git add feed/facebook.xml feed/supplementary.csv supp_count.txt auto_manifest.json
+          if [ -d auto ]; then git add -A auto; fi
           [ -e PAUSE ] || git rm -q --cached --ignore-unmatch PAUSE
           git diff --cached --quiet || (git commit -m "feed refresh" && git push)
-  # GitHub's cron is unreliable on new repos: while the rollout is incomplete, re-trigger this workflow after ~55 min.
+  # GitHub's cron is unreliable on this repo: the job re-triggers itself after ~55 min, permanently (PAUSE does not stop this).
   next:
     needs: build
     runs-on: ubuntu-latest
@@ -34,8 +37,8 @@ jobs:
       - run: |
           n=$(cat supp_count.txt); t=$(grep -c . supp_order.txt)
           r=$(date -d 2026-10-10T20:55:30Z +%s); now=$(date +%s)
-          # keep chaining while the rollout is incomplete or a timed release (r) is still ahead
-          if [ "$n" -lt "$t" ] || [ "$now" -lt "$r" ]; then
+          # always chain (hourly auto cards for new products); wake exactly at a timed release (r) if it is inside the wait
+          if true; then
             w=3300
             if [ $((r-now)) -gt 0 ] && [ $((r-now)) -lt 3300 ]; then w=$((r-now)); fi
             sleep $w
