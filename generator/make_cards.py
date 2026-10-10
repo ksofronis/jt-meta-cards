@@ -41,6 +41,7 @@ BADGES = [  # (regex on title+description+product_type, badge); first match wins
     (r'(?=.*\|[^|]*στρώματα[^|]*$).*(?:διπλής όψης|δύο όψεων)', 'Διπλής όψης'),
     (r'(?=.*\|[^|]*στρώματα[^|]*$).*ανατομικ', 'Ανατομικό'),
     (r'φωτισμ\w* led|\bled\b', 'Με φωτισμό LED'),
+    (r'(?=.*\|[^|]*καναπέδες[^|]*$).*πολυμορφικ', 'Πολυμορφικός'),  # modular sofas only (title, description or site category); last so it never displaces a stronger badge
 ]
 SOFA_LINE = 'Επιλέξτε ύφασμα & διαστάσεις'
 def is_sofa(ptype): return 'Καναπέδες' in ptype
