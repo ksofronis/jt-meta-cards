@@ -16,7 +16,10 @@ def spec(it):
     return {'id': g('g:id'), 'image': g('g:image_link'), 'title': g('g:title'), 'name': name, 'line': ns['info_line'](dims, pt), 'sofa': sofa,
             'badges': ns['badges_for'](' | '.join(g(k) for k in ('g:title', 'g:description', 'g:product_type')), sofa)}
 items = [spec(it) for it in root.findall('./channel/item')]
-items = [i for i in items if i['id'] and i['image']]
+import urllib.parse
+SAFE_ID = re.compile(r'[A-Za-z0-9_-]{1,64}')  # id becomes a file name
+safe_img = lambda u: urllib.parse.urlparse(u).scheme == 'https' and urllib.parse.urlparse(u).hostname in ('jthomedesign.gr', 'www.jthomedesign.gr')
+items = [i for i in items if i['id'] and i['image'] and SAFE_ID.fullmatch(i['id']) and safe_img(i['image'])]  # only the client's own images
 if '--preview' in sys.argv:
     want = set(sys.argv[sys.argv.index('--preview') + 1:]); os.makedirs('preview', exist_ok=True); ns['OUT'] = os.path.abspath('preview')
     for it in items:
