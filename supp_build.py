@@ -19,9 +19,11 @@ v2 |= set(open('v2_now.txt').read().split()) if os.path.exists('v2_now.txt') els
 v3 = set(open('v3_now.txt').read().split()) if os.path.exists('v3_now.txt') else set()  # sofas, customization strip on the photo
 # v4: 9 modular sofas with the Πολυμορφικός badge; switch with the rest at V2_AT (no second daytime dropout)
 v4 = set(open('v4_ids.txt').read().split()) if os.path.exists('v4_ids.txt') and datetime.datetime.now(datetime.timezone.utc) >= V2_AT else set()
-url = lambda i: f'https://ksofronis.github.io/jt-meta-cards/{"v4" if i in v4 else "v3" if i in v3 else "v2" if i in v2 else "item"}/{i}.jpg'
+# v5: up to 2 badges side by side (138 cards); also switches at V2_AT, highest priority
+v5 = set(open('v5_ids.txt').read().split()) if os.path.exists('v5_ids.txt') and datetime.datetime.now(datetime.timezone.utc) >= V2_AT else set()
+url = lambda i: f'https://ksofronis.github.io/jt-meta-cards/{"v5" if i in v5 else "v4" if i in v4 else "v3" if i in v3 else "v2" if i in v2 else "item"}/{i}.jpg'
 rows = [(i, url(i)) for i in order[:n]
         if i in man and i in cur and cur[i] == (man[i]['image'], man[i]['title'])]
 with open('feed/supplementary.csv', 'w', newline='') as f:
     w = csv.writer(f); w.writerow(['id', 'image_link']); w.writerows(rows)
-print('supplementary rows', len(rows), 'of first', n, '| v2', sum(1 for r in rows if '/v2/' in r[1]), '| v3', sum(1 for r in rows if '/v3/' in r[1]), '| v4', sum(1 for r in rows if '/v4/' in r[1]))
+print('supplementary rows', len(rows), 'of first', n, '| v2', sum(1 for r in rows if '/v2/' in r[1]), '| v3', sum(1 for r in rows if '/v3/' in r[1]), '| v4', sum(1 for r in rows if '/v4/' in r[1]), '| v5', sum(1 for r in rows if '/v5/' in r[1]))

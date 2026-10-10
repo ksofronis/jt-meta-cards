@@ -35,21 +35,19 @@ BADGES = [  # (regex on title+description+product_type, badge); first match wins
     (r'ελληνικής κατασκευής', 'Ελληνική κατασκευή'),
     (r'(?:από|σε συνδυασμό με) (?:φυσικό )?ξύλο δρυς|ξύλο δρυς σε συνδυασμό|κατασκευ\w* από (?:φυσικό )?ξύλο δρυς', 'Ξύλο δρυς'),
     (r'best sellers', 'Best Seller'),
-    # mattresses (category Στρώματα = last | field): user priority Ανατομικό > Memory foam > Pocket > Διπλής όψης
-    (r'(?=.*\|[^|]*στρώματα[^|]*$).*ανατομικ', 'Ανατομικό'),
-    (r'(?=.*\|[^|]*στρώματα[^|]*$).*(?:memory foam|memory gel|αφρ\w* μνήμης)', 'Memory foam'),
+    # mattresses (category Στρώματα = last | field): most specific feature first
     (r'(?=.*\|[^|]*στρώματα[^|]*$).*(?:pocket spring|ανεξάρτητ\w* ελατήρ)', 'Pocket ελατήρια'),
+    (r'(?=.*\|[^|]*στρώματα[^|]*$).*(?:memory foam|memory gel|αφρ\w* μνήμης)', 'Memory foam'),
     (r'(?=.*\|[^|]*στρώματα[^|]*$).*(?:διπλής όψης|δύο όψεων)', 'Διπλής όψης'),
+    (r'(?=.*\|[^|]*στρώματα[^|]*$).*ανατομικ', 'Ανατομικό'),
     (r'φωτισμ\w* led|\bled\b', 'Με φωτισμό LED'),
     (r'(?=.*\|[^|]*καναπέδες[^|]*$).*πολυμορφικ', 'Πολυμορφικός'),  # modular sofas only (title, description or site category); last so it never displaces a stronger badge
 ]
 SOFA_LINE = 'Επιλέξτε ύφασμα & διαστάσεις'
 def is_sofa(ptype): return 'Καναπέδες' in ptype
-def badges_for(text, sofa=False, n=2):
-    t = ' '.join(text.lower().split())  # one line, single spaces; sofas already carry the customization line, so skip the duplicate badge
-    return list(dict.fromkeys(b for rx, b in BADGES if re.search(rx, t) and not (sofa and b == 'Στα μέτρα σας')))[:n]
 def badge_for(text, sofa=False):
-    return (badges_for(text, sofa, 1) or [''])[0]
+    t = ' '.join(text.lower().split())  # one line, single spaces; sofas already carry the customization line, so skip the duplicate badge
+    return next((b for rx, b in BADGES if re.search(rx, t) and not (sofa and b == 'Στα μέτρα σας')), '')
 
 def info_line(dims, ptype):
     return dims
@@ -95,12 +93,11 @@ def card(item):
         phone_line(d, S - 52)
     else:
         phone_line(d, S - BAND // 2 - 6)
-    bf = ImageFont.truetype(FB, 38); x0, y0 = 40, BAND + 18  # up to 2 pills, full size, side by side (wrap if too wide)
-    for b in item.get('badges') or ([item['badge']] if item.get('badge') else []):
-        w = d.textlength(b, font=bf)
-        if x0 > 40 and x0 + w + 48 > S - 40: x0, y0 = 40, y0 + 76
+    if item.get('badge'):
+        bf = ImageFont.truetype(FB, 38); w = d.textlength(item['badge'], font=bf)
+        x0, y0 = 40, BAND + 18
         d.rounded_rectangle((x0, y0, x0 + w + 48, y0 + 66), radius=33, fill=(110, 100, 88))
-        d.text((x0 + 24 + w / 2, y0 + 33), b, font=bf, fill='white', anchor='mm'); x0 += w + 48 + 12
+        d.text((x0 + 24 + w / 2, y0 + 33), item['badge'], font=bf, fill='white', anchor='mm')
     c.save(f"{OUT}/{item['id']}.jpg", quality=88, optimize=True)
 
 items = []
