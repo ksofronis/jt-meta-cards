@@ -16,9 +16,10 @@ import datetime, os
 V2_AT = datetime.datetime(2026, 10, 10, 20, 55, tzinfo=datetime.timezone.utc)  # 23:55 Athens, Meta reads at 00:06
 v2 = set(open('v2_ids.txt').read().split()) if os.path.exists('v2_ids.txt') and datetime.datetime.now(datetime.timezone.utc) >= V2_AT else set()
 v2 |= set(open('v2_now.txt').read().split()) if os.path.exists('v2_now.txt') else set()  # name fixes + sofas: switched immediately
-url = lambda i: f'https://ksofronis.github.io/jt-meta-cards/{"v2" if i in v2 else "item"}/{i}.jpg'
+v3 = set(open('v3_now.txt').read().split()) if os.path.exists('v3_now.txt') else set()  # sofas, customization strip on the photo
+url = lambda i: f'https://ksofronis.github.io/jt-meta-cards/{"v3" if i in v3 else "v2" if i in v2 else "item"}/{i}.jpg'
 rows = [(i, url(i)) for i in order[:n]
         if i in man and i in cur and cur[i] == (man[i]['image'], man[i]['title'])]
 with open('feed/supplementary.csv', 'w', newline='') as f:
     w = csv.writer(f); w.writerow(['id', 'image_link']); w.writerows(rows)
-print('supplementary rows', len(rows), 'of first', n, '| v2', sum(1 for r in rows if '/v2/' in r[1]))
+print('supplementary rows', len(rows), 'of first', n, '| v2', sum(1 for r in rows if '/v2/' in r[1]), '| v3', sum(1 for r in rows if '/v3/' in r[1]))

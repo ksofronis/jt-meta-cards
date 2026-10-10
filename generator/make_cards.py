@@ -74,21 +74,19 @@ def card(item):
         im = im.convert('RGBA'); bg = Image.new('RGBA', im.size, 'white'); bg.alpha_composite(im); im = bg
     im = trim_white(im.convert('RGB'))
     c = Image.new('RGB', (S, S), 'white'); d = ImageDraw.Draw(c)
-    sofa = item.get('sofa'); bot = BAND + (40 if sofa and item['line'] else 0)
-    aw, ah = S - 40, S - BAND - bot
+    sofa = item.get('sofa')
+    aw, ah = S - 40, S - 2 * BAND
     r = min(aw / im.width, ah / im.height)
     t = im.resize((round(im.width * r), round(im.height * r)), Image.LANCZOS)
     c.paste(t, ((S - t.width) // 2, BAND + (ah - t.height) // 2))
     name, f = fit(d, item['name'], FB, 64, S - 80)
     d.text((S // 2, BAND // 2 + 6), name, font=f, fill=(34, 34, 34), anchor='mm')
-    if sofa:  # option A: dimensions / customization line / phone
-        y = S - bot
-        if item['line']:
-            line, f2 = fit(d, item['line'], F, 42, S - 80); d.text((S // 2, y + 42), line, font=f2, fill=(110, 100, 88), anchor='mm')
-            y += 58
-        d.text((S // 2, y + 42), SOFA_LINE, font=ImageFont.truetype(FB, 40), fill=(110, 100, 88), anchor='mm')
-        phone_line(d, S - 46)
-    elif item['line']:
+    if sofa:  # customization strip across the bottom of the photo (brown, 88% opaque, white text)
+        sf = ImageFont.truetype(FB, 40); sw = max(t.width, int(d.textlength(SOFA_LINE, font=sf)) + 60)
+        x0, y0 = (S - sw) // 2, BAND + (ah - t.height) // 2 + t.height - 70
+        ov = Image.new('RGBA', (sw, 70), (110, 100, 88, 225)); c.paste(ov, (x0, y0), ov)
+        d.text((S // 2, y0 + 35), SOFA_LINE, font=sf, fill='white', anchor='mm')
+    if item['line']:
         line, f2 = fit(d, item['line'], F, 44, S - 80)
         d.text((S // 2, S - BAND + 50), line, font=f2, fill=(110, 100, 88), anchor='mm')
         phone_line(d, S - 52)
