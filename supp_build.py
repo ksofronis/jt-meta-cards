@@ -15,6 +15,7 @@ import datetime, os
 # v2 cards (fixed names, sofa line, new badges) switch on at V2_AT so the image change happens at night
 V2_AT = datetime.datetime(2026, 10, 10, 20, 55, tzinfo=datetime.timezone.utc)  # 23:55 Athens, Meta reads at 00:06
 v2 = set(open('v2_ids.txt').read().split()) if os.path.exists('v2_ids.txt') and datetime.datetime.now(datetime.timezone.utc) >= V2_AT else set()
+v2 |= set(open('v2_now.txt').read().split()) if os.path.exists('v2_now.txt') else set()  # name fixes + sofas: switched immediately
 url = lambda i: f'https://ksofronis.github.io/jt-meta-cards/{"v2" if i in v2 else "item"}/{i}.jpg'
 rows = [(i, url(i)) for i in order[:n]
         if i in man and i in cur and cur[i] == (man[i]['image'], man[i]['title'])]
