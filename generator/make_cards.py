@@ -14,8 +14,9 @@ def phone_line(d, cy):
     x = (S - wi - 14 - wt) / 2
     d._image.paste(ICON, (int(x), int(cy - ICON.height / 2)), ICON)
     d.text((x + wi + 14, cy), PHONE, font=f, fill=(34, 34, 34), anchor='lm')
-FB = '/System/Library/Fonts/Supplemental/Arial Bold.ttf'
-F = '/System/Library/Fonts/Supplemental/Arial.ttf'
+_font = lambda *ps: next((p for p in ps if os.path.exists(p)), ps[-1])  # Arial on macOS, Liberation Sans (Arial metrics) on Linux CI
+FB = _font('/System/Library/Fonts/Supplemental/Arial Bold.ttf', '/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf')
+F = _font('/System/Library/Fonts/Supplemental/Arial.ttf', '/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf')
 DIM = re.compile(r'\d{2,3}(?:[,.]\d)?(?:\s*[xχΧ×]\s*\d{2,3}(?:[,.]\d)?)+')  # 2 or more numbers, e.g. 300x360x170x100
 import os; OUT = os.path.join(os.path.dirname(os.path.abspath(sys.argv[0])), 'cards')
 
