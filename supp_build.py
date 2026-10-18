@@ -4,10 +4,11 @@ Products whose photo or title changed are left out, so Meta keeps their original
 import csv, json, re, html, urllib.request
 SRC = 'https://jthomedesign.gr/wp-content/uploads/wpwoof-feed/xml/facebook.xml'
 raw = urllib.request.urlopen(urllib.request.Request(SRC, headers={'User-Agent': 'Mozilla/5.0'}), timeout=120).read().decode()
-cur = {}
+cur, ptype = {}, {}
 for b in re.findall(r'<item>.*?</item>', raw, re.S):
     g = lambda t: (re.search(rf'<g:{t}>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</g:{t}>', b, re.S) or [None, ''])[1].strip()
     cur[g('id')] = (html.unescape(g('image_link')), html.unescape(g('title')))  # same text as the XML parser (&quot; etc.)
+    ptype[g('id')] = html.unescape(g('product_type'))
 man = json.load(open('manifest_items.json'))
 order = [l.strip() for l in open('supp_order.txt') if l.strip()]
 n = int(open('supp_count.txt').read().strip())
@@ -27,8 +28,14 @@ url = lambda i: f'https://ksofronis.github.io/jt-meta-cards/{"v6" if i in v6 els
 auto = json.load(open('auto_manifest.json')) if os.path.exists('auto_manifest.json') else {}
 ok_auto = lambda i: i in auto and i in cur and cur[i] == (auto[i]['image'], auto[i]['title'])
 ok_man = lambda i: i in man and i in cur and cur[i] == (man[i]['image'], man[i]['title'])
+# v7 cards (v7_cards.py): highest priority, only for groups enabled in v7_groups.txt and while they match the live feed
+import sys; sys.path.insert(0, 'generator'); import v7_groups
+v7on = v7_groups.enabled()
+v7m = json.load(open('v7_manifest.json')) if os.path.exists('v7_manifest.json') else {}
+ok_v7 = lambda i: i in v7m and i in cur and cur[i] == (v7m[i]['image'], v7m[i]['title']) and v7_groups.group_of(ptype.get(i, '')) in v7on
 ids = order[:n] + [i for i in cur if i not in set(order)]
-rows = [(i, f"https://ksofronis.github.io/jt-meta-cards/{auto[i]['path']}" if ok_auto(i) and not ok_man(i) else url(i)) for i in ids if ok_man(i) or ok_auto(i)]
+pick = lambda i: v7m[i]['path'] if ok_v7(i) else auto[i]['path'] if ok_auto(i) and not ok_man(i) else None
+rows = [(i, f"https://ksofronis.github.io/jt-meta-cards/{pick(i)}" if pick(i) else url(i)) for i in ids if ok_v7(i) or ok_man(i) or ok_auto(i)]
 with open('feed/supplementary.csv', 'w', newline='') as f:
     w = csv.writer(f); w.writerow(['id', 'image_link']); w.writerows(rows)
-print('supplementary rows', len(rows), 'of first', n, '| auto', sum(1 for r in rows if '/auto/' in r[1]), '| v2', sum(1 for r in rows if '/v2/' in r[1]), '| v3', sum(1 for r in rows if '/v3/' in r[1]), '| v4', sum(1 for r in rows if '/v4/' in r[1]), '| v5', sum(1 for r in rows if '/v5/' in r[1]), '| v6', sum(1 for r in rows if '/v6/' in r[1]))
+print('supplementary rows', len(rows), 'of first', n, '| auto', sum(1 for r in rows if '/auto/' in r[1]), '| v2', sum(1 for r in rows if '/v2/' in r[1]), '| v3', sum(1 for r in rows if '/v3/' in r[1]), '| v4', sum(1 for r in rows if '/v4/' in r[1]), '| v5', sum(1 for r in rows if '/v5/' in r[1]), '| v6', sum(1 for r in rows if '/v6/' in r[1]), '| v7', sum(1 for r in rows if '/v7/' in r[1]))
