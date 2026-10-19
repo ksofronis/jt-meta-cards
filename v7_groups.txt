@@ -1,3 +1,4 @@
 sofas
 tables
 bedrooms
+rest
