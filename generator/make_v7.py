@@ -22,6 +22,9 @@ DIM = re.compile(r'\d{2,3}(?:[,.]\d)?(?:\s*[xχΧ×*]\s*\d{2,3}(?:[,.]\d)?)+')
 PLAIN = [(r'^μεταλλικό γκρι ανθρακί$', '#3d3f42'), (r'^γκρι σκούρο$', '#4a4a4a'), (r'^γκρι$', '#8c8c8a'), (r'^μπεζ$', '#d9c8aa'),
          (r'^κεραμικό λευκό$', '#efece6'), (r'^λευκό$', '#f5f3ef'), (r'^εκρού$', '#ece4d2'), (r'^καφέ σκούρο$', '#4a3424'),
          (r'^καφέ$', '#6b4a2f'), (r'^μόκα$', '#7b5a45'), (r'^μαύρο$', '#1d1d1d'), (r'^ανθρακί$', '#3b3b3b')]
+# leading model codes ("1025-1 Τραπέζι", "M30 Καθρέπτης"): dropped from the card name; a quantity like "2 Καρέκλες" stays
+CODE = re.compile(r'^(?=[A-Za-zΑ-Ω]*\d)(?:[A-Za-z]{0,3}\d{2,}[A-Za-z]?(?:-\d+)*|\d+-\d+)\s+(?=[Α-Ωα-ωΆ-Ώά-ώ])')
+name_salt = lambda title: '|nc' if CODE.match(title or '') else ''  # in the card hash, so affected cards get a new file name
 SIZE_PREF = ['90x200', '140x200', '160x200', '150x200', '170x200', '180x200', '100x200', '120x200']
 
 # ---------- data ----------
@@ -52,6 +55,7 @@ def build(it):
     title, ptype = g('title'), g('product_type')
     dims = [re.sub(r'\s*[xχΧ×*]\s*', ' × ', d) for d in DIM.findall(title)]
     name = re.sub(r'(?:[\s,]+|\s[x×])+$', '', re.sub(r'\s{2,}', ' ', DIM.sub('', title))).strip(' ,-/')
+    name = CODE.sub('', name)
     attrs = {a['taxonomy'] or a['name']: [t['name'] for t in a['terms']] for a in store(g('item_group_id') or g('id')).get('attributes', [])}
     mattress = 'Στρώματα' in ptype
     # primary option row: fabric/colour (pa_xroma, pa_chroma) first, then wood colour; sizes for mattresses
