@@ -117,7 +117,13 @@
 "79373": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/06/DSC0092.jpg",
 "title": "Καναπές-Κρεβάτι Rest 120x80x78",
-"path": "v7/79373-a8eb8fc2.jpg"
+"path": "v7/79373-e68df2cf.jpg",
+"crop": [
+141,
+15,
+1196,
+839
+]
 },
 "52617": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02382.jpg",
@@ -342,7 +348,13 @@
 "83249": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/02/t107-6.jpg",
 "title": "Τραπέζι T107 120x70",
-"path": "v7/83249-c1920530.jpg"
+"path": "v7/83249-acbd3e8b.jpg",
+"crop": [
+138,
+55,
+1436,
+1068
+]
 },
 "14823": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/06/DSC09900-Edit-2.jpg",
@@ -387,7 +399,13 @@
 "46653": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03645-Edit_.jpg",
 "title": "Τραπέζι Nefeli 160x90x77",
-"path": "v7/46653-ea035743.jpg"
+"path": "v7/46653-fc758cf0.jpg",
+"crop": [
+94,
+80,
+1205,
+821
+]
 },
 "76042": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/10/430dc61d-7d05-4f58-bc39-adbebee04ed6.png",
@@ -402,7 +420,13 @@
 "85704": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1130.jpg",
 "title": "Καρέκλα Foldi",
-"path": "v7/85704-3507ce96.jpg"
+"path": "v7/85704-0edcb054.jpg",
+"crop": [
+207,
+0,
+1846,
+1279
+]
 },
 "47265": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/double02-1.jpg",
@@ -437,7 +461,13 @@
 "9564": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/king02.jpg",
 "title": "Τραπεζάκι σαλονιού King 2 44x51",
-"path": "v7/9564-a78f421a.jpg"
+"path": "v7/9564-2d4de385.jpg",
+"crop": [
+55,
+0,
+1148,
+853
+]
 },
 "81038": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC08249.jpg",
@@ -452,7 +482,13 @@
 "85715": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1137.jpg",
 "title": "Πολυθρόνα Foldi",
-"path": "v7/85715-a378665e.jpg"
+"path": "v7/85715-21c34ca4.jpg",
+"crop": [
+153,
+0,
+1907,
+1368
+]
 },
 "84179": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/03/fellis-10.jpg",
@@ -462,7 +498,13 @@
 "30650": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/03/76a180bf-f161-4a24-b892-34f0ebc5617a.png",
 "title": "Τραπέζι Chara 160x90x80",
-"path": "v7/30650-31e29dc6.jpg"
+"path": "v7/30650-911271c1.jpg",
+"crop": [
+93,
+123,
+1440,
+1023
+]
 },
 "85629": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1220.jpg",
@@ -472,7 +514,13 @@
 "46652": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03645-Edit_.jpg",
 "title": "Τραπέζι Nefeli 160x90x77",
-"path": "v7/46652-ea035743.jpg"
+"path": "v7/46652-fc758cf0.jpg",
+"crop": [
+94,
+80,
+1205,
+821
+]
 },
 "32042": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/06/9602117c-11af-426e-a5dd-af21b510475d.png",
@@ -482,12 +530,24 @@
 "30744": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/e55cc41d-12b2-433c-a00d-5a50bc4266f6.png",
 "title": "Τραπέζι Domino 125x98",
-"path": "v7/30744-5cdff16a.jpg"
+"path": "v7/30744-931c5148.jpg",
+"crop": [
+72,
+296,
+1285,
+1105
+]
 },
 "1617": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/CA859378-2EE9-47EF-BAEA-5D4ECBEF09DF-1.png",
 "title": "Μπουφέ Coffee Cream 200x50x90",
-"path": "v7/1617-480a14e7.jpg"
+"path": "v7/1617-b3154620.jpg",
+"crop": [
+136,
+0,
+1451,
+1026
+]
 },
 "91165": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2482.jpg",
@@ -522,7 +582,13 @@
 "49733": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/01/a0b1993b-4d81-4c5d-b79a-3bd556de408b.png",
 "title": "Τραπέζι Ariadni 180×100x78",
-"path": "v7/49733-2125ad19.jpg"
+"path": "v7/49733-b775617e.jpg",
+"crop": [
+204,
+213,
+1418,
+1024
+]
 },
 "63729": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC03899.jpg",
@@ -567,7 +633,13 @@
 "9552": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/05/DSC0247.jpg",
 "title": "Τραπέζι καθιστικού Light 2 85Φ",
-"path": "v7/9552-ec74d842.jpg"
+"path": "v7/9552-89e4925a.jpg",
+"crop": [
+94,
+0,
+1188,
+853
+]
 },
 "47256": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/double02-1.jpg",
@@ -582,7 +654,13 @@
 "49730": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/01/a0b1993b-4d81-4c5d-b79a-3bd556de408b.png",
 "title": "Τραπέζι Ariadni 180×100x78",
-"path": "v7/49730-2125ad19.jpg"
+"path": "v7/49730-b775617e.jpg",
+"crop": [
+204,
+213,
+1418,
+1024
+]
 },
 "45929": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/kozi-diafano.jpg",
@@ -632,7 +710,13 @@
 "91465": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/08/Wooden_table_on_wool_rug_.jpeg",
 "title": "Τραπεζάκι σαλονιού Coen",
-"path": "v7/91465-547e1aa1.jpg"
+"path": "v7/91465-306a7164.jpg",
+"crop": [
+289,
+246,
+2118,
+1673
+]
 },
 "79648": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/07/DSC0022.jpg",
@@ -697,7 +781,13 @@
 "30748": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/312588ae-7b06-47f7-84e5-0bca50c8a78f.png",
 "title": "Τραπέζι Cross 170x90",
-"path": "v7/30748-1ac1b251.jpg"
+"path": "v7/30748-f08d217f.jpg",
+"crop": [
+0,
+186,
+1402,
+1122
+]
 },
 "47260": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/double02-1.jpg",
@@ -712,7 +802,13 @@
 "30722": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/6347f801-377a-4bfd-a419-ebc832f12a2a.png",
 "title": "Τραπέζι Napoli 180x95x78",
-"path": "v7/30722-bbe49b9f.jpg"
+"path": "v7/30722-8d99ecf8.jpg",
+"crop": [
+81,
+116,
+1440,
+1023
+]
 },
 "30590": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/08/napoli_mpoufe.jpg",
@@ -722,7 +818,13 @@
 "9538": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/12/DSC06145.jpg",
 "title": "Τραπεζάκι σαλονιού Sixteen με συρτάρια 120x80x38",
-"path": "v7/9538-7566cb48.jpg"
+"path": "v7/9538-1b87d26f.jpg",
+"crop": [
+115,
+19,
+1250,
+777
+]
 },
 "33033": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/POLYTHRONA-ESPINA.jpg",
@@ -957,7 +1059,13 @@
 "30749": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/ac08c2c8-b10e-4e7b-8971-3605727fa093.png",
 "title": "Τραπέζι Olive 200x100",
-"path": "v7/30749-8727ab43.jpg"
+"path": "v7/30749-d2c9a867.jpg",
+"crop": [
+0,
+309,
+1254,
+1146
+]
 },
 "33817": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/02/TRAPEZARIA-ECO-SET.jpg",
@@ -997,12 +1105,24 @@
 "88784": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09099.jpg",
 "title": "Τραπέζι Triple 120x100",
-"path": "v7/88784-deaf2ed1.jpg"
+"path": "v7/88784-7f90dd5e.jpg",
+"crop": [
+167,
+0,
+2019,
+1236
+]
 },
 "30762": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/2db6bd76-23e0-4129-b6e3-69f1a95ea785.png",
 "title": "Τραπέζι Eco 170x90x80",
-"path": "v7/30762-b8f54eaf.jpg"
+"path": "v7/30762-84853110.jpg",
+"crop": [
+110,
+164,
+1395,
+1023
+]
 },
 "9522": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC00109.jpg",
@@ -1092,7 +1212,13 @@
 "86175": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1067.jpg",
 "title": "Poli Καρέκλα Τραπεζαρίας",
-"path": "v7/86175-05c9aaad.jpg"
+"path": "v7/86175-d5557a07.jpg",
+"crop": [
+171,
+0,
+1924,
+1368
+]
 },
 "47273": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/double02-1.jpg",
@@ -1112,7 +1238,13 @@
 "33780": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/312588ae-7b06-47f7-84e5-0bca50c8a78f.png",
 "title": "Τραπέζι Cross 170x90",
-"path": "v7/33780-1ac1b251.jpg"
+"path": "v7/33780-f08d217f.jpg",
+"crop": [
+0,
+186,
+1402,
+1122
+]
 },
 "48147": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/07/e2d949fb-a971-4960-8e4e-26a4d8fbf0e1.png",
@@ -1122,7 +1254,13 @@
 "85658": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1241.jpg",
 "title": "Τραπεζάκι σαλονιού Flex 48.5x49",
-"path": "v7/85658-82ec633e.jpg"
+"path": "v7/85658-6773017b.jpg",
+"crop": [
+199,
+0,
+1992,
+1196
+]
 },
 "47263": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/double02-1.jpg",
@@ -1142,7 +1280,13 @@
 "30751": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/2f1ad894-d072-4fd0-81e9-ee4a7905df6b.png",
 "title": "Τραπέζι Mykonos 170x90",
-"path": "v7/30751-3f972841.jpg"
+"path": "v7/30751-04b1d30d.jpg",
+"crop": [
+169,
+215,
+1379,
+1023
+]
 },
 "33813": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/trapezaria-cross-1.jpg",
@@ -1212,7 +1356,13 @@
 "807": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/25ed2d85-3adb-4f07-b129-486166edaa86.png",
 "title": "Τραπέζι Triplex 125x98",
-"path": "v7/807-db0b9636.jpg"
+"path": "v7/807-4b0f9c42.jpg",
+"crop": [
+279,
+245,
+1277,
+1024
+]
 },
 "33015": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/xelidoni.jpg",
@@ -1267,7 +1417,13 @@
 "49757": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/01/7c098504-4139-44cd-9336-109af522939e.png",
 "title": "Μπουφέ Ariadni 200x50x80",
-"path": "v7/49757-9a624898.jpg"
+"path": "v7/49757-bea51b8c.jpg",
+"crop": [
+182,
+77,
+1411,
+898
+]
 },
 "30646": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/10/DSC03437-1.jpg",
@@ -1302,7 +1458,13 @@
 "91188": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2509.png",
 "title": "Τραπεζάκι σαλονιού Elvio 60x42.5",
-"path": "v7/91188-a1d27b21.jpg"
+"path": "v7/91188-c4a257ae.jpg",
+"crop": [
+163,
+0,
+1404,
+828
+]
 },
 "76140": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/11/DSC04208.jpg",
@@ -1322,12 +1484,24 @@
 "80585": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/09/b5b42c45-4760-4e99-bced-0cbb142a354e.png",
 "title": "Τραπέζι Olympus Ροτόντα 130×76",
-"path": "v7/80585-cc85154b.jpg"
+"path": "v7/80585-273d7e89.jpg",
+"crop": [
+0,
+273,
+1254,
+1110
+]
 },
 "33781": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/312588ae-7b06-47f7-84e5-0bca50c8a78f.png",
 "title": "Τραπέζι Cross 170x90",
-"path": "v7/33781-1ac1b251.jpg"
+"path": "v7/33781-f08d217f.jpg",
+"crop": [
+0,
+186,
+1402,
+1122
+]
 },
 "63728": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC03899.jpg",
@@ -1427,7 +1601,13 @@
 "32035": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/02/DSC0877.jpg",
 "title": "Τραπέζι Ροτόντα Dream 120Φ",
-"path": "v7/32035-7fea1c07.jpg"
+"path": "v7/32035-8e31bd90.jpg",
+"crop": [
+138,
+190,
+1902,
+1368
+]
 },
 "48151": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/07/tores.jpg",
@@ -1442,7 +1622,13 @@
 "90574": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/06/8d5dd506-6518-4f2d-9a2c-067bdf4c7bc2.png",
 "title": "Τραπέζι Temple 190×100",
-"path": "v7/90574-6364b9d2.jpg"
+"path": "v7/90574-15cd2106.jpg",
+"crop": [
+71,
+304,
+1284,
+1113
+]
 },
 "85653": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1224.jpg",
@@ -1492,7 +1678,13 @@
 "91206": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2536.jpg",
 "title": "Τραπεζάκι σαλονιού Cosmo 45.5×29.5",
-"path": "v7/91206-f15511a7.jpg"
+"path": "v7/91206-7c921f3f.jpg",
+"crop": [
+103,
+180,
+1988,
+1438
+]
 },
 "91212": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2420.jpg",
@@ -1587,7 +1779,13 @@
 "30747": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/312588ae-7b06-47f7-84e5-0bca50c8a78f.png",
 "title": "Τραπέζι Cross 170x90",
-"path": "v7/30747-1ac1b251.jpg"
+"path": "v7/30747-f08d217f.jpg",
+"crop": [
+0,
+186,
+1402,
+1122
+]
 },
 "63939": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03280-Edit.jpg",
@@ -1627,7 +1825,13 @@
 "32084": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/07/28427517-58e1-44ad-8890-5dc188ecce9e.png",
 "title": "Παγκάκι Olive",
-"path": "v7/32084-28070be8.jpg"
+"path": "v7/32084-f459c174.jpg",
+"crop": [
+10,
+362,
+959,
+996
+]
 },
 "79742": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/07/DSC0163-Edit.jpg",
@@ -1757,7 +1961,13 @@
 "30651": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/03/76a180bf-f161-4a24-b892-34f0ebc5617a.png",
 "title": "Τραπέζι Chara 160x90x80",
-"path": "v7/30651-31e29dc6.jpg"
+"path": "v7/30651-911271c1.jpg",
+"crop": [
+93,
+123,
+1440,
+1023
+]
 },
 "33816": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/10/DSC00257.jpg",
@@ -1787,7 +1997,13 @@
 "30582": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/10/DSC03390.jpg",
 "title": "Μπουφέ Riviera 200x50x89",
-"path": "v7/30582-25593661.jpg"
+"path": "v7/30582-3f02172c.jpg",
+"crop": [
+99,
+72,
+1192,
+802
+]
 },
 "45944": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/03/gianno.jpg",
@@ -1802,12 +2018,24 @@
 "44268": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/M30-2.jpg",
 "title": "M30 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44268-60312341.jpg"
+"path": "v7/44268-38fc8ab6.jpg",
+"crop": [
+106,
+0,
+1199,
+853
+]
 },
 "44265": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/M20-1.jpg",
 "title": "M20 Καθρέπτης Τοίχου 160x85",
-"path": "v7/44265-66e9cb6a.jpg"
+"path": "v7/44265-b59fc1fd.jpg",
+"crop": [
+268,
+0,
+1239,
+757
+]
 },
 "88872": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0740.jpg",
@@ -1837,7 +2065,13 @@
 "44305": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N80-1.jpg",
 "title": "N80 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44305-e67483d8.jpg"
+"path": "v7/44305-754699b0.jpg",
+"crop": [
+133,
+0,
+1226,
+853
+]
 },
 "47305": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -1852,12 +2086,24 @@
 "74038": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l30.jpg",
 "title": "L30 Καθρέπτης Τοίχου Οβάλ 160x83",
-"path": "v7/74038-5fed19bc.jpg"
+"path": "v7/74038-53d75b39.jpg",
+"crop": [
+0,
+0,
+1093,
+853
+]
 },
 "74117": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j140.jpg",
 "title": "J140 Καθρέπτης Τοίχου Ρολόι Δάκρυ",
-"path": "v7/74117-0de72b23.jpg"
+"path": "v7/74117-9489d1e2.jpg",
+"crop": [
+0,
+105,
+958,
+853
+]
 },
 "3512": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tret024m-1.jpg",
@@ -1902,7 +2148,13 @@
 "90699": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90699-fbdab79c.jpg"
+"path": "v7/90699-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "90865": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO224AA00430-1445x690-1-principale.jpg",
@@ -1927,7 +2179,13 @@
 "90734": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/fabia-shop2.jpg",
 "title": "Fiaba 5 Plus",
-"path": "v7/90734-1117d36f.jpg"
+"path": "v7/90734-4c1c8292.jpg",
+"crop": [
+121,
+32,
+1106,
+690
+]
 },
 "45713": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/ocean.webp",
@@ -1942,7 +2200,13 @@
 "74046": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l10.jpg",
 "title": "L10 Καθρέπτης Τοίχου Ρολόι Αντίκα 95Φ",
-"path": "v7/74046-be6cea40.jpg"
+"path": "v7/74046-75fd8eb2.jpg",
+"crop": [
+131,
+10,
+1212,
+853
+]
 },
 "45455": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/02/bab8653a-9831-4f23-b9fe-a1745a430abd-1.png",
@@ -1952,12 +2216,24 @@
 "44284": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/06/mpoufes-tokyo-1.jpg",
 "title": "Καθρέπτης Tokyo 160×90 / 180x90",
-"path": "v7/44284-7b9381b9.jpg"
+"path": "v7/44284-ba6ca2c3.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "45307": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s170.jpg",
 "title": "S170 Καθρέπτης Τοίχου",
-"path": "v7/45307-f5f40798.jpg"
+"path": "v7/45307-a6f1815e.jpg",
+"crop": [
+78,
+0,
+1171,
+853
+]
 },
 "89162": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/647.jpg",
@@ -1992,7 +2268,13 @@
 "77251": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04412.jpg",
 "title": "Πολυθρόνα Pafi 80x100x100",
-"path": "v7/77251-c76237d6.jpg"
+"path": "v7/77251-b31a1216.jpg",
+"crop": [
+18,
+0,
+1111,
+853
+]
 },
 "47293": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -2027,7 +2309,13 @@
 "44322": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/20.jpg",
 "title": "K20 Καθρέπτης Τοίχου 105x105",
-"path": "v7/44322-16e79f83.jpg"
+"path": "v7/44322-7185e2c8.jpg",
+"crop": [
+95,
+10,
+1172,
+850
+]
 },
 "46177": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/04/amelia.jpg",
@@ -2077,7 +2365,13 @@
 "90696": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90696-fbdab79c.jpg"
+"path": "v7/90696-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "9321": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/09/DSC00882.jpg",
@@ -2092,7 +2386,13 @@
 "45325": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s110.jpg",
 "title": "S110 Καθρέπτης Τοίχου",
-"path": "v7/45325-c90fddeb.jpg"
+"path": "v7/45325-91db7b13.jpg",
+"crop": [
+103,
+36,
+1148,
+853
+]
 },
 "90882": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO225AA00487-1445x690-1-principale.jpg",
@@ -2102,7 +2402,13 @@
 "44282": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/06/mpoufes-tokyo-1.jpg",
 "title": "Καθρέπτης Tokyo 160×90 / 180x90",
-"path": "v7/44282-7b9381b9.jpg"
+"path": "v7/44282-ba6ca2c3.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "74084": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j80.jpg",
@@ -2117,7 +2423,13 @@
 "90687": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q140_1.jpg",
 "title": "Q140 Καθρέπτης Τοίχου 100x100",
-"path": "v7/90687-5ad3d8a4.jpg"
+"path": "v7/90687-9bc25147.jpg",
+"crop": [
+0,
+0,
+1130,
+881
+]
 },
 "46730": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03216_-1.jpg",
@@ -2177,7 +2489,13 @@
 "86073": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1075.jpg",
 "title": "Σκαμπό Katania",
-"path": "v7/86073-4364d638.jpg"
+"path": "v7/86073-d0e0bdde.jpg",
+"crop": [
+120,
+97,
+1763,
+1193
+]
 },
 "47317": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -2192,7 +2510,13 @@
 "44241": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D140c1.jpg",
 "title": "D140 Καθρέπτης Τοίχου 158×83",
-"path": "v7/44241-84f519d3.jpg"
+"path": "v7/44241-0dcd6b3f.jpg",
+"crop": [
+22,
+0,
+1115,
+853
+]
 },
 "90746": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO222AA00169-1445x690-1-principale-1.jpg",
@@ -2202,12 +2526,24 @@
 "2734": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/07/0d552840-72d6-4732-b0b2-6880ebff38fb-1.png",
 "title": "Κομοδίνο Pixie",
-"path": "v7/2734-a58714bd.jpg"
+"path": "v7/2734-f9a8a6bf.jpg",
+"crop": [
+219,
+155,
+1327,
+1020
+]
 },
 "8017": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/STHLH-60-IFAISTOS-2.jpg",
 "title": "Στήλη 60 Ifaistos",
-"path": "v7/8017-701b6d19.jpg"
+"path": "v7/8017-bac20747.jpg",
+"crop": [
+90,
+0,
+1183,
+853
+]
 },
 "90505": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00357-1.jpg",
@@ -2242,7 +2578,13 @@
 "74047": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l10.jpg",
 "title": "L10 Καθρέπτης Τοίχου Ρολόι Αντίκα 95Φ",
-"path": "v7/74047-be6cea40.jpg"
+"path": "v7/74047-75fd8eb2.jpg",
+"crop": [
+131,
+10,
+1212,
+853
+]
 },
 "90896": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO225AA00480-1445x690-1-principale.jpg",
@@ -2262,7 +2604,13 @@
 "44312": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/k120.jpg",
 "title": "K120 Καθρέπτης Τοίχου 105Φ",
-"path": "v7/44312-f2b163df.jpg"
+"path": "v7/44312-92596928.jpg",
+"crop": [
+136,
+37,
+1141,
+821
+]
 },
 "74042": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l20.jpg",
@@ -2272,7 +2620,13 @@
 "63198": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/02/DSC02843-1.jpg",
 "title": "Πολυθρόνα Helen 73x80x116",
-"path": "v7/63198-54f7d14e.jpg"
+"path": "v7/63198-51f8ed6a.jpg",
+"crop": [
+105,
+0,
+1198,
+853
+]
 },
 "80132": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/carmen5.jpg",
@@ -2297,7 +2651,13 @@
 "49387": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC09705.jpg",
 "title": "Κομοδίνο Faidra",
-"path": "v7/49387-75e257ce.jpg"
+"path": "v7/49387-5b90d1e9.jpg",
+"crop": [
+154,
+89,
+1125,
+737
+]
 },
 "3425": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tref023-1.jpg",
@@ -2337,17 +2697,35 @@
 "9444": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/02/POLYTHRONA-PARAOH.jpg",
 "title": "Πολυθρόνα Paraoh",
-"path": "v7/9444-26364422.jpg"
+"path": "v7/9444-cdbbd208.jpg",
+"crop": [
+84,
+0,
+1177,
+853
+]
 },
 "58546": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/DSC02515.jpg",
 "title": "Πολυθρόνα Omega 78x76x110",
-"path": "v7/58546-597bb964.jpg"
+"path": "v7/58546-41d0f028.jpg",
+"crop": [
+48,
+0,
+1797,
+1365
+]
 },
 "44256": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/M10-2.jpg",
 "title": "M10 Καθρέπτης Τοίχου 120×80",
-"path": "v7/44256-2b369f30.jpg"
+"path": "v7/44256-8b799a3f.jpg",
+"crop": [
+102,
+0,
+1195,
+853
+]
 },
 "47303": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -2367,7 +2745,13 @@
 "42706": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/b44ce1cf-9a83-4842-bdb0-3717c5c139b2.png",
 "title": "Κομοδίνο Venezia",
-"path": "v7/42706-6739fcb8.jpg"
+"path": "v7/42706-d44e24a9.jpg",
+"crop": [
+34,
+39,
+1303,
+1030
+]
 },
 "90955": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MMAEST0836IT0-1445x690-1-principale.jpg",
@@ -2432,7 +2816,13 @@
 "44253": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D70c2.jpg",
 "title": "D70 Καθρέπτης Τοίχου 158×83",
-"path": "v7/44253-e1a1cd22.jpg"
+"path": "v7/44253-4f8a38e5.jpg",
+"crop": [
+116,
+0,
+1209,
+853
+]
 },
 "9503": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/04/tv-chara.jpg",
@@ -2467,7 +2857,13 @@
 "45293": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s203.jpg",
 "title": "S203 Καθρέπτης Τοίχου",
-"path": "v7/45293-48078272.jpg"
+"path": "v7/45293-d8151e66.jpg",
+"crop": [
+150,
+47,
+1125,
+807
+]
 },
 "91078": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
@@ -2517,7 +2913,13 @@
 "44269": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/M30-2.jpg",
 "title": "M30 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44269-60312341.jpg"
+"path": "v7/44269-38fc8ab6.jpg",
+"crop": [
+106,
+0,
+1199,
+853
+]
 },
 "5654": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/09/Print-1.jpg",
@@ -2567,7 +2969,13 @@
 "80526": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/11/DSC04266-Edit.jpg",
 "title": "W10 Καθρέπτης Τοίχου Ολόσωμος 150x50",
-"path": "v7/80526-15cff4f6.jpg"
+"path": "v7/80526-592120a1.jpg",
+"crop": [
+74,
+0,
+1168,
+853
+]
 },
 "90801": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO224AA00428-1445x690-1-principale-1.jpg",
@@ -2597,7 +3005,13 @@
 "44315": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/110.jpg",
 "title": "K110 Καθρέπτης Τοίχου 105x105",
-"path": "v7/44315-b99beca9.jpg"
+"path": "v7/44315-71aa0541.jpg",
+"crop": [
+101,
+0,
+1194,
+853
+]
 },
 "58737": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/pluto-vison-1.jpg",
@@ -2662,7 +3076,13 @@
 "85602": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1165.jpg",
 "title": "Πολυθρόνα Beny 82x82x80",
-"path": "v7/85602-bbfb4f16.jpg"
+"path": "v7/85602-ee093236.jpg",
+"crop": [
+273,
+123,
+1797,
+1311
+]
 },
 "90917": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00585-1445x690-1-principale.jpg",
@@ -2772,12 +3192,24 @@
 "45358": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/08/eba5ca40-c7df-4cd3-b3f7-83f5523edc58.png",
 "title": "Κρεβάτι Regen 175x225x100",
-"path": "v7/45358-a28f8f96.jpg"
+"path": "v7/45358-10936fc5.jpg",
+"crop": [
+0,
+192,
+1254,
+1029
+]
 },
 "89519": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/02/avignion.jpg",
 "title": "Πολυθρόνα Avignion Περιστρεφόμενη",
-"path": "v7/89519-d0826455.jpg"
+"path": "v7/89519-6306033e.jpg",
+"crop": [
+133,
+0,
+1982,
+1443
+]
 },
 "53198": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02411.jpg",
@@ -2802,17 +3234,35 @@
 "73912": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/L190.jpg",
 "title": "L190 Καθρέπτης Τοίχου Ρολόι Λευκό 104Φ",
-"path": "v7/73912-0a0beb09.jpg"
+"path": "v7/73912-dd77e6e9.jpg",
+"crop": [
+121,
+0,
+1214,
+853
+]
 },
 "45278": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s207.jpg",
 "title": "S207 Καθρέπτης Τοίχου",
-"path": "v7/45278-072ddb17.jpg"
+"path": "v7/45278-e4861e64.jpg",
+"crop": [
+138,
+21,
+1197,
+847
+]
 },
 "45302": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s200.jpg",
 "title": "S200 Καθρέπτης Τοίχου",
-"path": "v7/45302-c69bc924.jpg"
+"path": "v7/45302-02b268e0.jpg",
+"crop": [
+130,
+2,
+1123,
+776
+]
 },
 "89105": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/016.jpg",
@@ -2822,12 +3272,24 @@
 "74116": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j140.jpg",
 "title": "J140 Καθρέπτης Τοίχου Ρολόι Δάκρυ",
-"path": "v7/74116-0de72b23.jpg"
+"path": "v7/74116-9489d1e2.jpg",
+"crop": [
+0,
+105,
+958,
+853
+]
 },
 "45314": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s150.jpg",
 "title": "S150 Καθρέπτης Τοίχου",
-"path": "v7/45314-e4dfc2e1.jpg"
+"path": "v7/45314-20ac6de2.jpg",
+"crop": [
+132,
+0,
+1225,
+853
+]
 },
 "90634": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q70_1.jpg",
@@ -2857,7 +3319,13 @@
 "45176": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ506-1.jpg",
 "title": "X506 Καθρέπτης Τοίχου",
-"path": "v7/45176-19d2acf8.jpg"
+"path": "v7/45176-d4c201fe.jpg",
+"crop": [
+128,
+0,
+1221,
+853
+]
 },
 "88412": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/12/hypnotic_.webp",
@@ -2867,7 +3335,13 @@
 "44249": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D50c2.jpg",
 "title": "D50 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44249-4c20214e.jpg"
+"path": "v7/44249-cb0df5d8.jpg",
+"crop": [
+0,
+0,
+980,
+764
+]
 },
 "47289": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -2902,7 +3376,13 @@
 "74065": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j40.jpg",
 "title": "J40 Καθρέπτης Τοίχου με Led 160x83",
-"path": "v7/74065-1b7f09b7.jpg"
+"path": "v7/74065-6474d5c0.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "83208": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0828.jpg",
@@ -2927,22 +3407,46 @@
 "9324": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/02/amorgos.jpg",
 "title": "Σκαμπό Amorgos 140x60",
-"path": "v7/9324-f389c2a6.jpg"
+"path": "v7/9324-4a6a2a3e.jpg",
+"crop": [
+77,
+104,
+1198,
+853
+]
 },
 "42700": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/e1fb48be-a14f-4c4f-a163-96c10b376a6f.png",
 "title": "Κομοδίνο Regen 50x45x32",
-"path": "v7/42700-5785ff4f.jpg"
+"path": "v7/42700-8ae500f2.jpg",
+"crop": [
+32,
+298,
+1254,
+1113
+]
 },
 "42719": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/2523db0c-deb2-4ecc-9c72-4d5b9e50cd31.png",
 "title": "Κομοδίνο River 60x40,5x45",
-"path": "v7/42719-f1ee4dfe.jpg"
+"path": "v7/42719-f431897c.jpg",
+"crop": [
+194,
+94,
+1421,
+913
+]
 },
 "73911": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/L190.jpg",
 "title": "L190 Καθρέπτης Τοίχου Ρολόι Λευκό 104Φ",
-"path": "v7/73911-0a0beb09.jpg"
+"path": "v7/73911-dd77e6e9.jpg",
+"crop": [
+121,
+0,
+1214,
+853
+]
 },
 "46216": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/ΑΝΙΤΑ-WOOD.jpg",
@@ -3022,7 +3526,13 @@
 "86150": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1087.jpg",
 "title": "Τραπεζάκι σαλονιού Olaf 50x55, 41x46.5",
-"path": "v7/86150-cdd67253.jpg"
+"path": "v7/86150-0b36d14f.jpg",
+"crop": [
+192,
+0,
+1945,
+1368
+]
 },
 "42696": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/03/komodino-irida.jpg",
@@ -3097,12 +3607,24 @@
 "91364": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2451.jpg",
 "title": "Βοηθητικό Τραπεζάκι σαλονιού Taso 2/39*46",
-"path": "v7/91364-6dee1268.jpg"
+"path": "v7/91364-378b6618.jpg",
+"crop": [
+217,
+104,
+1898,
+1416
+]
 },
 "91408": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2540.jpg",
 "title": "Κομοδίνο Linda 55x42x53",
-"path": "v7/91408-9de464d0.jpg"
+"path": "v7/91408-e2245810.jpg",
+"crop": [
+193,
+216,
+1973,
+1404
+]
 },
 "90017": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/05/SAK_1216ww.jpg",
@@ -3132,7 +3654,13 @@
 "45355": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC00596.jpg",
 "title": "Κρεβάτι Irida",
-"path": "v7/45355-b07ac0be.jpg"
+"path": "v7/45355-56599f57.jpg",
+"crop": [
+133,
+114,
+1228,
+844
+]
 },
 "90883": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO225AA00487-1445x690-1-principale.jpg",
@@ -3142,7 +3670,13 @@
 "42731": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/12/897ed330-f3a1-4e8b-81f3-559e15fcddb6.png",
 "title": "Συρταριέρα Caldera 120x50x84",
-"path": "v7/42731-cfa04e08.jpg"
+"path": "v7/42731-03634cdb.jpg",
+"crop": [
+99,
+211,
+1367,
+1057
+]
 },
 "45564": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Elixir.webp",
@@ -3192,7 +3726,13 @@
 "44297": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N40-2.jpg",
 "title": "N40 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44297-63079a20.jpg"
+"path": "v7/44297-fac174c8.jpg",
+"crop": [
+120,
+0,
+1213,
+853
+]
 },
 "45435": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/10/DSC05819-1.jpg",
@@ -3212,7 +3752,13 @@
 "44321": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/20.jpg",
 "title": "K20 Καθρέπτης Τοίχου 105x105",
-"path": "v7/44321-16e79f83.jpg"
+"path": "v7/44321-7185e2c8.jpg",
+"crop": [
+95,
+10,
+1172,
+850
+]
 },
 "80106": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/carmen5.jpg",
@@ -3222,7 +3768,13 @@
 "74023": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l70.jpg",
 "title": "L70 Καθρέπτης Τοίχου Animal Print",
-"path": "v7/74023-1df97a47.jpg"
+"path": "v7/74023-e9685f3b.jpg",
+"crop": [
+106,
+2,
+1195,
+853
+]
 },
 "8021": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/ETAZERA-KREMASTH-IFAISTOS-.jpg",
@@ -3242,12 +3794,24 @@
 "7941": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/bd114667-f7f0-4385-89b9-bc2be8fcdd3c.png",
 "title": "Κομοδίνο Foinikas",
-"path": "v7/7941-5c2347ad.jpg"
+"path": "v7/7941-e44bd2b6.jpg",
+"crop": [
+302,
+166,
+1282,
+930
+]
 },
 "7995": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/82eb55ca-e6bc-40ac-9663-d37efd3b7eff.png",
 "title": "Παιδικό κρεβάτι Margarita 108x208x95",
-"path": "v7/7995-693d8b9c.jpg"
+"path": "v7/7995-b3155abd.jpg",
+"crop": [
+129,
+0,
+1390,
+983
+]
 },
 "44955": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ523-1.jpg",
@@ -3282,17 +3846,35 @@
 "44354": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/b90-1.jpg",
 "title": "B90-1 Καθρέπτης Τοίχου 160x85",
-"path": "v7/44354-0cf2843f.jpg"
+"path": "v7/44354-a1cd1b66.jpg",
+"crop": [
+266,
+0,
+1173,
+707
+]
 },
 "77262": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04379-Edit-2.jpg",
 "title": "Repan Gold",
-"path": "v7/77262-fb2da2a7.jpg"
+"path": "v7/77262-d1a64639.jpg",
+"crop": [
+117,
+0,
+1210,
+853
+]
 },
 "44945": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ525-1.jpg",
 "title": "X525 Καθρέπτης Τοίχου 104x112",
-"path": "v7/44945-5f1e11a9.jpg"
+"path": "v7/44945-fd8c08ac.jpg",
+"crop": [
+155,
+0,
+1248,
+853
+]
 },
 "45653": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/memory_lux.webp",
@@ -3317,7 +3899,13 @@
 "45167": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ508-1.jpg",
 "title": "X508 Καθρέπτης Τοίχου",
-"path": "v7/45167-73af3012.jpg"
+"path": "v7/45167-a8bbfd60.jpg",
+"crop": [
+21,
+0,
+1114,
+853
+]
 },
 "44301": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N60.jpg",
@@ -3357,7 +3945,13 @@
 "86083": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1101.jpg",
 "title": "Τραπεζάκι σαλονιού Lydia 45x45x48.5",
-"path": "v7/86083-5a991f99.jpg"
+"path": "v7/86083-9a1ae002.jpg",
+"crop": [
+161,
+0,
+1915,
+1368
+]
 },
 "73439": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/krevati-spitaki.jpg",
@@ -3387,7 +3981,13 @@
 "9322": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/10/DSC00693.jpg",
 "title": "Σκαμπό Nikoletta 93x50",
-"path": "v7/9322-76cb00c4.jpg"
+"path": "v7/9322-ef3b6caa.jpg",
+"crop": [
+61,
+83,
+1152,
+811
+]
 },
 "9498": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00328-1.jpg",
@@ -3402,7 +4002,13 @@
 "42718": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/natalia.jpg",
 "title": "Κομοδίνο Natalia",
-"path": "v7/42718-a8551d7e.jpg"
+"path": "v7/42718-2f650cdc.jpg",
+"crop": [
+140,
+197,
+1123,
+853
+]
 },
 "90512": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/06/Q10_1.jpg",
@@ -3432,12 +4038,24 @@
 "80529": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/11/DSC04269-Edit.jpg",
 "title": "W20 Καθρέπτης Τοίχου 120x80",
-"path": "v7/80529-7e493dd7.jpg"
+"path": "v7/80529-4a8545c8.jpg",
+"crop": [
+122,
+0,
+1159,
+809
+]
 },
 "2316": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/07/trapezaki-wood.jpg",
 "title": "Τραπεζάκι σαλονιού WOOD",
-"path": "v7/2316-090ef6e4.jpg"
+"path": "v7/2316-5f717157.jpg",
+"crop": [
+83,
+0,
+1176,
+853
+]
 },
 "89047": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09028.jpg",
@@ -3462,7 +4080,13 @@
 "90701": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90701-fbdab79c.jpg"
+"path": "v7/90701-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "45351": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/04/DSC06965.jpg",
@@ -3507,7 +4131,13 @@
 "45153": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ512-1.jpg",
 "title": "X512 Καθρέπτης Τοίχου",
-"path": "v7/45153-5acdc9c5.jpg"
+"path": "v7/45153-f32250be.jpg",
+"crop": [
+112,
+0,
+1205,
+853
+]
 },
 "77314": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04392-Edit.jpg",
@@ -3517,7 +4147,13 @@
 "45171": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ507-1.jpg",
 "title": "X507 Καθρέπτης Τοίχου",
-"path": "v7/45171-fc943ecf.jpg"
+"path": "v7/45171-08cfce59.jpg",
+"crop": [
+120,
+0,
+1214,
+853
+]
 },
 "46239": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/04/loris-mple..jpg",
@@ -3547,7 +4183,13 @@
 "42705": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/12/4a786149-8861-46ce-a05a-8f049b16f8d2.png",
 "title": "Κομοδίνο Caldera 60x45x60",
-"path": "v7/42705-975c32aa.jpg"
+"path": "v7/42705-27a70cb0.jpg",
+"crop": [
+39,
+117,
+1374,
+1008
+]
 },
 "20316": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/06/allesia.jpg",
@@ -3557,12 +4199,24 @@
 "45322": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s120.jpg",
 "title": "S120 Καθρέπτης Τοίχου",
-"path": "v7/45322-6898674d.jpg"
+"path": "v7/45322-d7e9cf65.jpg",
+"crop": [
+79,
+0,
+1172,
+853
+]
 },
 "90707": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90707-fbdab79c.jpg"
+"path": "v7/90707-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "9470": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/09/Bumbac2-1.jpg",
@@ -3572,7 +4226,13 @@
 "44238": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D130c2.jpg",
 "title": "D130 Καθρέπτης Τοίχου 158×83",
-"path": "v7/44238-94757521.jpg"
+"path": "v7/44238-b8cf16b0.jpg",
+"crop": [
+94,
+0,
+1187,
+853
+]
 },
 "74070": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j50.jpg",
@@ -3587,7 +4247,13 @@
 "7277": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/03/c96e8034-5d21-4b8f-8c0c-15d5c9416259.png",
 "title": "Κομοδίνο Amore 60x45x58",
-"path": "v7/7277-de558d20.jpg"
+"path": "v7/7277-2f15879c.jpg",
+"crop": [
+102,
+130,
+1368,
+1117
+]
 },
 "45658": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/memory_lux.webp",
@@ -3627,12 +4293,24 @@
 "44293": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N20.jpg",
 "title": "N20 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44293-0c34e126.jpg"
+"path": "v7/44293-f2f1d4d6.jpg",
+"crop": [
+80,
+56,
+1101,
+853
+]
 },
 "91378": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2470.jpg",
 "title": "Βοηθητικό Τραπεζάκι σαλονιού Taso 4/39*46",
-"path": "v7/91378-cd2da6d9.jpg"
+"path": "v7/91378-023a0c2f.jpg",
+"crop": [
+282,
+0,
+1948,
+1300
+]
 },
 "45588": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/serenity.webp",
@@ -3692,7 +4370,13 @@
 "45266": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ302-1.jpg",
 "title": "T302 Καθρέπτης Τοίχου",
-"path": "v7/45266-acfbbf57.jpg"
+"path": "v7/45266-aaf958fa.jpg",
+"crop": [
+93,
+0,
+1186,
+853
+]
 },
 "9466": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/09/Polo-1.jpg",
@@ -3747,7 +4431,13 @@
 "88753": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09109.jpg",
 "title": "Repan Red",
-"path": "v7/88753-7c9d0445.jpg"
+"path": "v7/88753-40cb0247.jpg",
+"crop": [
+142,
+0,
+1987,
+1440
+]
 },
 "73444": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/krevati-spitaki.jpg",
@@ -3792,7 +4482,13 @@
 "74109": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j120.jpg",
 "title": "J120 Καθρέπτης Τοίχου Ρολόι 104Φ",
-"path": "v7/74109-de488a95.jpg"
+"path": "v7/74109-4b7f34b3.jpg",
+"crop": [
+249,
+31,
+1280,
+835
+]
 },
 "58733": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/torino-kokkino-1.jpg",
@@ -3847,7 +4543,13 @@
 "44300": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N50-1.jpg",
 "title": "N50 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44300-9a11bd9f.jpg"
+"path": "v7/44300-df75da00.jpg",
+"crop": [
+85,
+0,
+1178,
+853
+]
 },
 "45381": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00549-1.jpg",
@@ -3872,12 +4574,24 @@
 "45332": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/p90.jpg",
 "title": "P90 Καθρέπτης Τοίχου",
-"path": "v7/45332-8c1423f9.jpg"
+"path": "v7/45332-44ddfa60.jpg",
+"crop": [
+67,
+0,
+1160,
+853
+]
 },
 "74089": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j90.jpg",
 "title": "J90 Καθρέπτης Τοίχου 100x100",
-"path": "v7/74089-bb662b1a.jpg"
+"path": "v7/74089-5c537f27.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "74080": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j70.jpg",
@@ -3902,7 +4616,13 @@
 "44257": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/M10-2.jpg",
 "title": "M10 Καθρέπτης Τοίχου 120×80",
-"path": "v7/44257-2b369f30.jpg"
+"path": "v7/44257-8b799a3f.jpg",
+"crop": [
+102,
+0,
+1195,
+853
+]
 },
 "90943": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/virtusos-shop2.jpg",
@@ -3917,7 +4637,13 @@
 "45148": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ513-1.jpg",
 "title": "X513 Καθρέπτης Τοίχου",
-"path": "v7/45148-befe81b3.jpg"
+"path": "v7/45148-227b4cac.jpg",
+"crop": [
+153,
+0,
+1246,
+853
+]
 },
 "20315": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/08/emma-vivliothiki.jpg",
@@ -3932,12 +4658,24 @@
 "45008": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ514-1.jpg",
 "title": "X514 Καθρέπτης Τοίχου",
-"path": "v7/45008-ec815819.jpg"
+"path": "v7/45008-1964436d.jpg",
+"crop": [
+112,
+0,
+1171,
+825
+]
 },
 "46906": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/05/26101553-510A-4BAB-8EC4-E1E47AEB6109.png",
 "title": "Κρεβάτι Cloud 175*210",
-"path": "v7/46906-917eb009.jpg"
+"path": "v7/46906-dfc51595.jpg",
+"crop": [
+276,
+80,
+1379,
+941
+]
 },
 "47295": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -4032,7 +4770,13 @@
 "44988": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ519-1.jpg",
 "title": "X519 Καθρέπτης Τοίχου 140x60",
-"path": "v7/44988-080bfcdf.jpg"
+"path": "v7/44988-f4326c6d.jpg",
+"crop": [
+83,
+0,
+1176,
+853
+]
 },
 "3358": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tred007m-1.jpg",
@@ -4047,7 +4791,13 @@
 "74061": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j30.jpg",
 "title": "J30 Καθρέπτης Τοίχου με Led 160x83",
-"path": "v7/74061-f75ca01d.jpg"
+"path": "v7/74061-a68f0c53.jpg",
+"crop": [
+192,
+0,
+1183,
+772
+]
 },
 "88999": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/DSC09038.jpg",
@@ -4092,7 +4842,13 @@
 "90688": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q140_1.jpg",
 "title": "Q140 Καθρέπτης Τοίχου 100x100",
-"path": "v7/90688-5ad3d8a4.jpg"
+"path": "v7/90688-9bc25147.jpg",
+"crop": [
+0,
+0,
+1130,
+881
+]
 },
 "90895": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO225AA00480-1445x690-1-principale.jpg",
@@ -4112,7 +4868,13 @@
 "45009": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ514-1.jpg",
 "title": "X514 Καθρέπτης Τοίχου",
-"path": "v7/45009-ec815819.jpg"
+"path": "v7/45009-1964436d.jpg",
+"crop": [
+112,
+0,
+1171,
+825
+]
 },
 "49355": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC09699-Edit_.jpg",
@@ -4172,7 +4934,13 @@
 "45292": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s203.jpg",
 "title": "S203 Καθρέπτης Τοίχου",
-"path": "v7/45292-48078272.jpg"
+"path": "v7/45292-d8151e66.jpg",
+"crop": [
+150,
+47,
+1125,
+807
+]
 },
 "45731": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/07/Enjoy.webp",
@@ -4252,7 +5020,13 @@
 "53043": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02420-Edit_.jpg",
 "title": "Κρεβάτι Johan",
-"path": "v7/53043-230e8f57.jpg"
+"path": "v7/53043-65b06426.jpg",
+"crop": [
+133,
+99,
+1204,
+813
+]
 },
 "5660": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/09/Totem-1.jpg",
@@ -4287,7 +5061,13 @@
 "45251": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ309-1.jpg",
 "title": "T309 Καθρέπτης Τοίχου",
-"path": "v7/45251-8088ad7e.jpg"
+"path": "v7/45251-458b1313.jpg",
+"crop": [
+50,
+0,
+1143,
+853
+]
 },
 "91090": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09055.jpg",
@@ -4347,7 +5127,13 @@
 "88760": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09119.jpg",
 "title": "Repan Black",
-"path": "v7/88760-ea956a55.jpg"
+"path": "v7/88760-02f96ebd.jpg",
+"crop": [
+159,
+0,
+2005,
+1440
+]
 },
 "20314": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/57A7654-1.jpg",
@@ -4357,12 +5143,24 @@
 "85611": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1153.jpg",
 "title": "Πολυθρόνα Bril Περιστρεφόμενη 86x90x97",
-"path": "v7/85611-665e9f55.jpg"
+"path": "v7/85611-aa59b8ee.jpg",
+"crop": [
+177,
+0,
+1860,
+1313
+]
 },
 "89489": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/02/41d6b3f2-9d14-4669-9720-2eeeb7dd4cf0.png",
 "title": "Κρεβάτι Alma",
-"path": "v7/89489-0ced6d2c.jpg"
+"path": "v7/89489-580762f0.jpg",
+"crop": [
+91,
+53,
+1336,
+1025
+]
 },
 "9502": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/12/tv-amaretto.jpg",
@@ -4377,7 +5175,13 @@
 "45317": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s140.jpg",
 "title": "S140 Καθρέπτης Τοίχου",
-"path": "v7/45317-2fc383d8.jpg"
+"path": "v7/45317-1d2312f2.jpg",
+"crop": [
+94,
+0,
+1187,
+853
+]
 },
 "49702": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC01707_.jpg",
@@ -4387,7 +5191,13 @@
 "44248": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D50c2.jpg",
 "title": "D50 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44248-4c20214e.jpg"
+"path": "v7/44248-cb0df5d8.jpg",
+"crop": [
+0,
+0,
+980,
+764
+]
 },
 "58731": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/torino-kokkino-1.jpg",
@@ -4442,7 +5252,13 @@
 "44353": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/b90-1.jpg",
 "title": "B90-1 Καθρέπτης Τοίχου 160x85",
-"path": "v7/44353-0cf2843f.jpg"
+"path": "v7/44353-a1cd1b66.jpg",
+"crop": [
+266,
+0,
+1173,
+707
+]
 },
 "91099": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09071.jpg",
@@ -4477,7 +5293,13 @@
 "7944": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/FOINIKAS-GRAFEIO-1.jpg",
 "title": "Συρταριέρα γραφείου Foinikas",
-"path": "v7/7944-913e2c6e.jpg"
+"path": "v7/7944-573279bb.jpg",
+"crop": [
+147,
+103,
+1086,
+835
+]
 },
 "74015": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l100.jpg",
@@ -4492,7 +5314,13 @@
 "90705": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90705-fbdab79c.jpg"
+"path": "v7/90705-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "47680": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
@@ -4542,17 +5370,35 @@
 "80072": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/07/18e62f81-88b2-4e79-918e-717bb87433e0.png",
 "title": "Παιδικό κρεβάτι - καναπές Oliver",
-"path": "v7/80072-b32a2219.jpg"
+"path": "v7/80072-c3b33ad6.jpg",
+"crop": [
+256,
+134,
+1375,
+1007
+]
 },
 "44250": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D60c2.jpg",
 "title": "D60 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44250-c66fca1f.jpg"
+"path": "v7/44250-1e348a92.jpg",
+"crop": [
+60,
+0,
+1153,
+853
+]
 },
 "45362": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/08/DREAM-e1511346885500-1500x781-1.jpg",
 "title": "Κρεβάτι Dream",
-"path": "v7/45362-03768b19.jpg"
+"path": "v7/45362-8ff25464.jpg",
+"crop": [
+0,
+179,
+1009,
+853
+]
 },
 "90944": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/virtusos-shop2.jpg",
@@ -4562,12 +5408,24 @@
 "90704": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90704-fbdab79c.jpg"
+"path": "v7/90704-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "90731": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/fabia-shop2.jpg",
 "title": "Fiaba 5 Plus",
-"path": "v7/90731-1117d36f.jpg"
+"path": "v7/90731-4c1c8292.jpg",
+"crop": [
+121,
+32,
+1106,
+690
+]
 },
 "78509": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC04191.jpg",
@@ -4597,7 +5455,13 @@
 "90733": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/fabia-shop2.jpg",
 "title": "Fiaba 5 Plus",
-"path": "v7/90733-1117d36f.jpg"
+"path": "v7/90733-4c1c8292.jpg",
+"crop": [
+121,
+32,
+1106,
+690
+]
 },
 "46479": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/04/francesca-mavro.jpg",
@@ -4612,7 +5476,13 @@
 "90697": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90697-fbdab79c.jpg"
+"path": "v7/90697-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "90964": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MMAEST0836IT0-1445x690-1-principale.jpg",
@@ -4642,7 +5512,13 @@
 "90708": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90708-fbdab79c.jpg"
+"path": "v7/90708-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "45661": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/memory_lux.webp",
@@ -4692,7 +5568,13 @@
 "44274": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/M70-1.jpg",
 "title": "M70 Καθρέπτης Τοίχου 140x78",
-"path": "v7/44274-c95491be.jpg"
+"path": "v7/44274-06211034.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "42709": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/BOX-5.jpg",
@@ -4702,7 +5584,13 @@
 "44336": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/e580.jpg",
 "title": "E580 Καθρέπτης Τοίχου 158x45",
-"path": "v7/44336-6b2f5ac7.jpg"
+"path": "v7/44336-31f17614.jpg",
+"crop": [
+122,
+0,
+1215,
+853
+]
 },
 "45810": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/ecf58406-bf07-41de-8a72-465495f33abc.png",
@@ -4762,7 +5650,13 @@
 "44246": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D40c1.jpg",
 "title": "D40 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44246-4365c87c.jpg"
+"path": "v7/44246-acfebe2c.jpg",
+"crop": [
+101,
+0,
+1194,
+853
+]
 },
 "90915": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00585-1445x690-1-principale.jpg",
@@ -4777,7 +5671,13 @@
 "45254": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ306-1.jpg",
 "title": "T306 Καθρέπτης Τοίχου",
-"path": "v7/45254-45f876fc.jpg"
+"path": "v7/45254-0bba2132.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "45597": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Power-Plus.webp",
@@ -4882,7 +5782,13 @@
 "44239": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D130c2.jpg",
 "title": "D130 Καθρέπτης Τοίχου 158×83",
-"path": "v7/44239-94757521.jpg"
+"path": "v7/44239-b8cf16b0.jpg",
+"crop": [
+94,
+0,
+1187,
+853
+]
 },
 "80312": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/07/MT15014-1.jpg",
@@ -4917,17 +5823,35 @@
 "44324": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/10.jpg",
 "title": "K10 Καθρέπτης Τοίχου 150x77",
-"path": "v7/44324-b7fa2084.jpg"
+"path": "v7/44324-6a641317.jpg",
+"crop": [
+89,
+0,
+1182,
+853
+]
 },
 "74066": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j40.jpg",
 "title": "J40 Καθρέπτης Τοίχου με Led 160x83",
-"path": "v7/74066-1b7f09b7.jpg"
+"path": "v7/74066-6474d5c0.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "74108": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j120.jpg",
 "title": "J120 Καθρέπτης Τοίχου Ρολόι 104Φ",
-"path": "v7/74108-de488a95.jpg"
+"path": "v7/74108-4b7f34b3.jpg",
+"crop": [
+249,
+31,
+1280,
+835
+]
 },
 "45629": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/10/aria.webp",
@@ -4952,12 +5876,24 @@
 "74099": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j100.jpg",
 "title": "J100 Καθρέπτης Τοίχου 100Φ",
-"path": "v7/74099-a7d03388.jpg"
+"path": "v7/74099-c8285ffe.jpg",
+"crop": [
+86,
+0,
+1179,
+853
+]
 },
 "45283": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s206.jpg",
 "title": "S206 Καθρέπτης Τοίχου",
-"path": "v7/45283-a41a5e45.jpg"
+"path": "v7/45283-eb151658.jpg",
+"crop": [
+93,
+0,
+1186,
+853
+]
 },
 "90023": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/05/SAK_1233ww.jpg",
@@ -5022,12 +5958,24 @@
 "44304": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N70-1.jpg",
 "title": "N70 Καθρέπτης Τοίχου 95Φ",
-"path": "v7/44304-6a6100ca.jpg"
+"path": "v7/44304-f8a1624c.jpg",
+"crop": [
+131,
+0,
+1224,
+853
+]
 },
 "44296": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N30-2.jpg",
 "title": "N30 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44296-c370ae5e.jpg"
+"path": "v7/44296-299b763a.jpg",
+"crop": [
+22,
+0,
+1115,
+853
+]
 },
 "45557": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Elixir.webp",
@@ -5052,7 +6000,13 @@
 "45260": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ304-2-1.jpg",
 "title": "T304 Καθρέπτης Τοίχου",
-"path": "v7/45260-393cbf41.jpg"
+"path": "v7/45260-0d87c4de.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "80133": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/carmen5.jpg",
@@ -5067,7 +6021,13 @@
 "90735": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/fabia-shop2.jpg",
 "title": "Fiaba 5 Plus",
-"path": "v7/90735-1117d36f.jpg"
+"path": "v7/90735-4c1c8292.jpg",
+"crop": [
+121,
+32,
+1106,
+690
+]
 },
 "46092": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/03/roberta-gkri.jpg",
@@ -5092,7 +6052,13 @@
 "7997": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/GRAFEIO-MARGARITA-1.jpg",
 "title": "Γραφείο Margarita",
-"path": "v7/7997-9dc86afa.jpg"
+"path": "v7/7997-9f95da83.jpg",
+"crop": [
+115,
+0,
+1208,
+853
+]
 },
 "89080": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09071.jpg",
@@ -5132,7 +6098,13 @@
 "8018": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/a19a38cb-f142-495a-ab6c-ea81a5a7727b.png",
 "title": "Παιδικό κρεβάτι Ifaistos",
-"path": "v7/8018-deaa34f2.jpg"
+"path": "v7/8018-a39f79c9.jpg",
+"crop": [
+342,
+212,
+1275,
+940
+]
 },
 "62815": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/01/Κονσόλα-Νο75-HQ.jpg",
@@ -5142,7 +6114,13 @@
 "77252": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04364-1.jpg",
 "title": "Repan White 100x82",
-"path": "v7/77252-924aade6.jpg"
+"path": "v7/77252-4cc3a23e.jpg",
+"crop": [
+44,
+0,
+1137,
+853
+]
 },
 "90925": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00585-1445x690-1-principale.jpg",
@@ -5192,7 +6170,13 @@
 "53044": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02420-Edit_.jpg",
 "title": "Κρεβάτι Johan",
-"path": "v7/53044-230e8f57.jpg"
+"path": "v7/53044-65b06426.jpg",
+"crop": [
+133,
+99,
+1204,
+813
+]
 },
 "44954": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ523-1.jpg",
@@ -5227,7 +6211,13 @@
 "42707": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/08/loft.jpg",
 "title": "Κομοδίνο Loft",
-"path": "v7/42707-4f71f8d5.jpg"
+"path": "v7/42707-ea4daba3.jpg",
+"crop": [
+127,
+0,
+1220,
+853
+]
 },
 "3479": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tret003m-1.jpg",
@@ -5277,7 +6267,13 @@
 "63199": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/02/DSC02843-1.jpg",
 "title": "Πολυθρόνα Helen 73x80x116",
-"path": "v7/63199-54f7d14e.jpg"
+"path": "v7/63199-51f8ed6a.jpg",
+"crop": [
+105,
+0,
+1198,
+853
+]
 },
 "90643": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q80_1.jpg",
@@ -5297,7 +6293,13 @@
 "44323": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/10.jpg",
 "title": "K10 Καθρέπτης Τοίχου 150x77",
-"path": "v7/44323-b7fa2084.jpg"
+"path": "v7/44323-6a641317.jpg",
+"crop": [
+89,
+0,
+1182,
+853
+]
 },
 "90926": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00585-1445x690-1-principale.jpg",
@@ -5312,7 +6314,13 @@
 "45152": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ512-1.jpg",
 "title": "X512 Καθρέπτης Τοίχου",
-"path": "v7/45152-5acdc9c5.jpg"
+"path": "v7/45152-f32250be.jpg",
+"crop": [
+112,
+0,
+1205,
+853
+]
 },
 "3504": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tret017m-1.jpg",
@@ -5327,7 +6335,13 @@
 "7942": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/3063c1be-cc86-4abb-b520-98c63b312a1d.png",
 "title": "Γραφείο Foinikas",
-"path": "v7/7942-4e2f1f8d.jpg"
+"path": "v7/7942-65157c13.jpg",
+"crop": [
+166,
+51,
+1413,
+1024
+]
 },
 "45608": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Power-Plus.webp",
@@ -5342,7 +6356,13 @@
 "90732": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/fabia-shop2.jpg",
 "title": "Fiaba 5 Plus",
-"path": "v7/90732-1117d36f.jpg"
+"path": "v7/90732-4c1c8292.jpg",
+"crop": [
+121,
+32,
+1106,
+690
+]
 },
 "47677": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
@@ -5357,12 +6377,24 @@
 "44303": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N70-1.jpg",
 "title": "N70 Καθρέπτης Τοίχου 95Φ",
-"path": "v7/44303-6a6100ca.jpg"
+"path": "v7/44303-f8a1624c.jpg",
+"crop": [
+131,
+0,
+1224,
+853
+]
 },
 "89499": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/02/e3ccd7a3-d050-496b-999b-f5fa2ecd9938.png",
 "title": "Κρεβάτι Stella",
-"path": "v7/89499-ef948e07.jpg"
+"path": "v7/89499-7b75f607.jpg",
+"crop": [
+97,
+3,
+1407,
+1025
+]
 },
 "45730": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/07/Enjoy.webp",
@@ -5372,7 +6404,13 @@
 "45301": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s200.jpg",
 "title": "S200 Καθρέπτης Τοίχου",
-"path": "v7/45301-c69bc924.jpg"
+"path": "v7/45301-02b268e0.jpg",
+"crop": [
+130,
+2,
+1123,
+776
+]
 },
 "45639": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/10/aria.webp",
@@ -5382,7 +6420,13 @@
 "45368": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/elsa.jpg",
 "title": "Κρεβάτι Elsa",
-"path": "v7/45368-cd9c0c93.jpg"
+"path": "v7/45368-3540db69.jpg",
+"crop": [
+0,
+167,
+1026,
+853
+]
 },
 "80144": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/carmen5.jpg",
@@ -5462,7 +6506,13 @@
 "44254": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D80c2.jpg",
 "title": "D80 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44254-5a65dcfd.jpg"
+"path": "v7/44254-0671ae0c.jpg",
+"crop": [
+94,
+0,
+1187,
+853
+]
 },
 "78209": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/08/trapezakia-lampas.jpg",
@@ -5512,7 +6562,13 @@
 "53195": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02414.jpg",
 "title": "Κομοδίνο Johan",
-"path": "v7/53195-97a618f3.jpg"
+"path": "v7/53195-bd268c48.jpg",
+"crop": [
+111,
+0,
+1202,
+728
+]
 },
 "49704": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC01707_.jpg",
@@ -5522,7 +6578,13 @@
 "90698": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90698-fbdab79c.jpg"
+"path": "v7/90698-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "45777": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/12/1c97367d-30a0-493f-b599-4b5269dc7aad.png",
@@ -5562,7 +6624,13 @@
 "86100": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1206.jpg",
 "title": "Σκαμπό Lorentzo 42x42x43",
-"path": "v7/86100-956a88bf.jpg"
+"path": "v7/86100-58060a36.jpg",
+"crop": [
+202,
+139,
+1879,
+1257
+]
 },
 "47307": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -5577,7 +6645,13 @@
 "74060": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j30.jpg",
 "title": "J30 Καθρέπτης Τοίχου με Led 160x83",
-"path": "v7/74060-f75ca01d.jpg"
+"path": "v7/74060-a68f0c53.jpg",
+"crop": [
+192,
+0,
+1183,
+772
+]
 },
 "42726": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/12/DSC05974.jpg",
@@ -5682,7 +6756,13 @@
 "45258": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ305-1.jpg",
 "title": "T305 Καθρέπτης Τοίχου",
-"path": "v7/45258-6b2b22c3.jpg"
+"path": "v7/45258-73ed3095.jpg",
+"crop": [
+137,
+11,
+1213,
+851
+]
 },
 "47852": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
@@ -5722,12 +6802,24 @@
 "46791": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03282_.jpg",
 "title": "Συρταριέρα Niovi 58x50x122",
-"path": "v7/46791-76888fdb.jpg"
+"path": "v7/46791-9e16dfde.jpg",
+"crop": [
+38,
+0,
+1131,
+853
+]
 },
 "44946": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ525-1.jpg",
 "title": "X525 Καθρέπτης Τοίχου 104x112",
-"path": "v7/44946-5f1e11a9.jpg"
+"path": "v7/44946-fd8c08ac.jpg",
+"crop": [
+155,
+0,
+1248,
+853
+]
 },
 "3449": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/trel001m.jpg",
@@ -5737,7 +6829,13 @@
 "74051": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j10.jpg",
 "title": "J10 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/74051-dcbc99a6.jpg"
+"path": "v7/74051-1e5c1efd.jpg",
+"crop": [
+158,
+0,
+1251,
+853
+]
 },
 "3437": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tef029-1.jpg",
@@ -5762,7 +6860,13 @@
 "45257": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ305-1.jpg",
 "title": "T305 Καθρέπτης Τοίχου",
-"path": "v7/45257-6b2b22c3.jpg"
+"path": "v7/45257-73ed3095.jpg",
+"crop": [
+137,
+11,
+1213,
+851
+]
 },
 "74019": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l90.jpg",
@@ -5802,7 +6906,13 @@
 "53196": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02414.jpg",
 "title": "Κομοδίνο Johan",
-"path": "v7/53196-97a618f3.jpg"
+"path": "v7/53196-bd268c48.jpg",
+"crop": [
+111,
+0,
+1202,
+728
+]
 },
 "44325": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/z110.jpg",
@@ -5817,7 +6927,13 @@
 "44313": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/k120.jpg",
 "title": "K120 Καθρέπτης Τοίχου 105Φ",
-"path": "v7/44313-f2b163df.jpg"
+"path": "v7/44313-92596928.jpg",
+"crop": [
+136,
+37,
+1141,
+821
+]
 },
 "89074": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09071.jpg",
@@ -5837,7 +6953,13 @@
 "84130": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/03/repan2-1.jpg",
 "title": "Repan 2",
-"path": "v7/84130-a7eab07c.jpg"
+"path": "v7/84130-3ec05623.jpg",
+"crop": [
+100,
+0,
+1466,
+1066
+]
 },
 "44358": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/Β70-1.jpg",
@@ -5862,7 +6984,13 @@
 "45267": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ302-1.jpg",
 "title": "T302 Καθρέπτης Τοίχου",
-"path": "v7/45267-acfbbf57.jpg"
+"path": "v7/45267-aaf958fa.jpg",
+"crop": [
+93,
+0,
+1186,
+853
+]
 },
 "90789": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/memorabile-shop2.jpg",
@@ -5877,12 +7005,24 @@
 "45331": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/p90.jpg",
 "title": "P90 Καθρέπτης Τοίχου",
-"path": "v7/45331-8c1423f9.jpg"
+"path": "v7/45331-44ddfa60.jpg",
+"crop": [
+67,
+0,
+1160,
+853
+]
 },
 "44299": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N50-1.jpg",
 "title": "N50 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44299-9a11bd9f.jpg"
+"path": "v7/44299-df75da00.jpg",
+"crop": [
+85,
+0,
+1178,
+853
+]
 },
 "45570": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Elixir.webp",
@@ -5917,7 +7057,13 @@
 "80660": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/09/2c204f56-0a7e-4baf-a907-6a908174067f.png",
 "title": "Κρεβάτι Fantasy",
-"path": "v7/80660-c45d872e.jpg"
+"path": "v7/80660-4dded15c.jpg",
+"crop": [
+159,
+0,
+1472,
+1024
+]
 },
 "20319": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/V104_A-Z-1.jpg",
@@ -5927,7 +7073,13 @@
 "86091": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1193.jpg",
 "title": "Σκαμπό Lorentzo 82x42x43",
-"path": "v7/86091-33a55a0d.jpg"
+"path": "v7/86091-1423f5db.jpg",
+"crop": [
+145,
+43,
+1973,
+1263
+]
 },
 "45577": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/serenity.webp",
@@ -5957,7 +7109,13 @@
 "45367": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/elsa.jpg",
 "title": "Κρεβάτι Elsa",
-"path": "v7/45367-cd9c0c93.jpg"
+"path": "v7/45367-3540db69.jpg",
+"crop": [
+0,
+167,
+1026,
+853
+]
 },
 "90518": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/06/Q20_1.jpg",
@@ -6002,7 +7160,13 @@
 "74143": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/h110.jpg",
 "title": "H110 Καθρέπτης Τοίχου Ρολόι",
-"path": "v7/74143-ef856e32.jpg"
+"path": "v7/74143-1066652d.jpg",
+"crop": [
+171,
+0,
+1264,
+853
+]
 },
 "47124": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/06/DSC03650_.jpg",
@@ -6067,7 +7231,13 @@
 "9316": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/DSC00752.jpg",
 "title": "Σκαμπό Dias 98x50",
-"path": "v7/9316-b9606080.jpg"
+"path": "v7/9316-17a21578.jpg",
+"crop": [
+24,
+0,
+1123,
+733
+]
 },
 "44344": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/e510.jpg",
@@ -6087,7 +7257,13 @@
 "45304": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s180.jpg",
 "title": "S180 Καθρέπτης Τοίχου",
-"path": "v7/45304-9c2fa683.jpg"
+"path": "v7/45304-232dfe93.jpg",
+"crop": [
+73,
+12,
+1112,
+824
+]
 },
 "45561": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Elixir.webp",
@@ -6137,7 +7313,13 @@
 "44245": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D40c1.jpg",
 "title": "D40 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44245-4365c87c.jpg"
+"path": "v7/44245-acfebe2c.jpg",
+"crop": [
+101,
+0,
+1194,
+853
+]
 },
 "82156": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0738.jpg",
@@ -6147,7 +7329,13 @@
 "90695": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90695-fbdab79c.jpg"
+"path": "v7/90695-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "45604": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Power-Plus.webp",
@@ -6157,12 +7345,24 @@
 "45147": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ513-1.jpg",
 "title": "X513 Καθρέπτης Τοίχου",
-"path": "v7/45147-befe81b3.jpg"
+"path": "v7/45147-227b4cac.jpg",
+"crop": [
+153,
+0,
+1246,
+853
+]
 },
 "45316": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s140.jpg",
 "title": "S140 Καθρέπτης Τοίχου",
-"path": "v7/45316-2fc383d8.jpg"
+"path": "v7/45316-1d2312f2.jpg",
+"crop": [
+94,
+0,
+1187,
+853
+]
 },
 "89078": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09071.jpg",
@@ -6217,7 +7417,13 @@
 "45328": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/p110.jpg",
 "title": "P110 Καθρέπτης Τοίχου",
-"path": "v7/45328-3b1db43e.jpg"
+"path": "v7/45328-d5b30633.jpg",
+"crop": [
+109,
+0,
+1202,
+853
+]
 },
 "74112": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j130.jpg",
@@ -6257,7 +7463,13 @@
 "91371": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2466.jpg",
 "title": "Βοηθητικό Τραπεζάκι σαλονιού Taso 3/45*52",
-"path": "v7/91371-c91998b2.jpg"
+"path": "v7/91371-6785b58e.jpg",
+"crop": [
+334,
+0,
+1852,
+1184
+]
 },
 "45642": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/10/aria.webp",
@@ -6277,17 +7489,35 @@
 "91444": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/08/DSC2547.jpg",
 "title": "Κομοδίνο Paris 55x42x56",
-"path": "v7/91444-319287d1.jpg"
+"path": "v7/91444-1ca1c150.jpg",
+"crop": [
+132,
+126,
+2017,
+1384
+]
 },
 "44275": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/M70-1.jpg",
 "title": "M70 Καθρέπτης Τοίχου 140x78",
-"path": "v7/44275-c95491be.jpg"
+"path": "v7/44275-06211034.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "74022": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l70.jpg",
 "title": "L70 Καθρέπτης Τοίχου Animal Print",
-"path": "v7/74022-1df97a47.jpg"
+"path": "v7/74022-e9685f3b.jpg",
+"crop": [
+106,
+2,
+1195,
+853
+]
 },
 "90620": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q50_1.jpg",
@@ -6297,7 +7527,13 @@
 "44255": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D80c2.jpg",
 "title": "D80 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44255-5a65dcfd.jpg"
+"path": "v7/44255-0671ae0c.jpg",
+"crop": [
+94,
+0,
+1187,
+853
+]
 },
 "3392": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tref011-1.jpg",
@@ -6322,7 +7558,13 @@
 "45361": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/08/DREAM-e1511346885500-1500x781-1.jpg",
 "title": "Κρεβάτι Dream",
-"path": "v7/45361-03768b19.jpg"
+"path": "v7/45361-8ff25464.jpg",
+"crop": [
+0,
+179,
+1009,
+853
+]
 },
 "77331": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04449-Edit.jpg",
@@ -6332,12 +7574,24 @@
 "7999": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/STHLH-MARGARITA-200.jpg",
 "title": "Στήλη Margarita",
-"path": "v7/7999-b6dbd806.jpg"
+"path": "v7/7999-aa12168f.jpg",
+"crop": [
+83,
+0,
+1176,
+853
+]
 },
 "86076": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1094.jpg",
 "title": "Τραπεζάκι σαλονιού Olympus 50x50",
-"path": "v7/86076-a291dc17.jpg"
+"path": "v7/86076-b3aa5c3f.jpg",
+"crop": [
+127,
+0,
+1880,
+1368
+]
 },
 "89159": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/062.jpg",
@@ -6362,7 +7616,13 @@
 "77308": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04387-Edit.jpg",
 "title": "Repan Blue",
-"path": "v7/77308-160b0247.jpg"
+"path": "v7/77308-b00306e6.jpg",
+"crop": [
+114,
+0,
+1207,
+853
+]
 },
 "58742": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/loft-lila-1.jpg",
@@ -6427,7 +7687,13 @@
 "91357": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2443.jpg",
 "title": "Βοηθητικό Τραπεζάκι σαλονιού Taso1/35*47",
-"path": "v7/91357-8a9c11e1.jpg"
+"path": "v7/91357-0918582d.jpg",
+"crop": [
+209,
+0,
+2058,
+1443
+]
 },
 "58746": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/ermis_gkri-1.jpg",
@@ -6457,7 +7723,13 @@
 "84122": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/03/repan1-4.jpg",
 "title": "Repan 1",
-"path": "v7/84122-dac02775.jpg"
+"path": "v7/84122-ccf3c48c.jpg",
+"crop": [
+184,
+39,
+1408,
+994
+]
 },
 "44235": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D10c1.jpg",
@@ -6502,7 +7774,13 @@
 "73942": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/L130.jpg",
 "title": "L130 Καθρέπτης Τοίχου Ρολόι Αντίκα 110x110",
-"path": "v7/73942-54a7790c.jpg"
+"path": "v7/73942-08bce065.jpg",
+"crop": [
+115,
+0,
+1209,
+853
+]
 },
 "46736": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03215_.jpg",
@@ -6547,7 +7825,13 @@
 "90703": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90703-fbdab79c.jpg"
+"path": "v7/90703-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "90511": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/06/Q10_1.jpg",
@@ -6567,17 +7851,35 @@
 "45305": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s180.jpg",
 "title": "S180 Καθρέπτης Τοίχου",
-"path": "v7/45305-9c2fa683.jpg"
+"path": "v7/45305-232dfe93.jpg",
+"crop": [
+73,
+12,
+1112,
+824
+]
 },
 "45450": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/02/irida-kathreptis.jpg",
 "title": "Καθρέπτης Irida",
-"path": "v7/45450-003a4a9c.jpg"
+"path": "v7/45450-7598b406.jpg",
+"crop": [
+132,
+113,
+1229,
+846
+]
 },
 "80525": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/11/DSC04266-Edit.jpg",
 "title": "W10 Καθρέπτης Τοίχου Ολόσωμος 150x50",
-"path": "v7/80525-15cff4f6.jpg"
+"path": "v7/80525-592120a1.jpg",
+"crop": [
+74,
+0,
+1168,
+853
+]
 },
 "45875": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/06/one.jpg",
@@ -6592,7 +7894,13 @@
 "45252": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ309-1.jpg",
 "title": "T309 Καθρέπτης Τοίχου",
-"path": "v7/45252-8088ad7e.jpg"
+"path": "v7/45252-458b1313.jpg",
+"crop": [
+50,
+0,
+1143,
+853
+]
 },
 "90613": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q40_1.jpg",
@@ -6602,17 +7910,35 @@
 "44271": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/M50.jpg",
 "title": "M50 Καθρέπτης Τοίχου 110Φ",
-"path": "v7/44271-a83a45cd.jpg"
+"path": "v7/44271-9f90c1e8.jpg",
+"crop": [
+138,
+39,
+1143,
+823
+]
 },
 "83064": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/01/thalia-2.jpg",
 "title": "Κρεβάτι Thalia και στρώμα Orion 150x200x115",
-"path": "v7/83064-16330329.jpg"
+"path": "v7/83064-61b3739f.jpg",
+"crop": [
+71,
+85,
+1328,
+1066
+]
 },
 "44294": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N20.jpg",
 "title": "N20 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44294-0c34e126.jpg"
+"path": "v7/44294-f2f1d4d6.jpg",
+"crop": [
+80,
+56,
+1101,
+853
+]
 },
 "90866": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO224AA00430-1445x690-1-principale.jpg",
@@ -6667,7 +7993,13 @@
 "50042": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/02/DSC03725_.jpg",
 "title": "Γραφείο Gea",
-"path": "v7/50042-9698d625.jpg"
+"path": "v7/50042-e5828261.jpg",
+"crop": [
+83,
+0,
+1176,
+853
+]
 },
 "47299": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -6697,7 +8029,13 @@
 "44320": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/k40.jpg",
 "title": "K40 Καθρέπτης Τοίχου 125x80",
-"path": "v7/44320-448d4c19.jpg"
+"path": "v7/44320-e942649f.jpg",
+"crop": [
+0,
+0,
+1093,
+853
+]
 },
 "3500": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tret016m-1.jpg",
@@ -6707,7 +8045,13 @@
 "45326": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s110.jpg",
 "title": "S110 Καθρέπτης Τοίχου",
-"path": "v7/45326-c90fddeb.jpg"
+"path": "v7/45326-91db7b13.jpg",
+"crop": [
+103,
+36,
+1148,
+853
+]
 },
 "9468": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/09/ViktorioC-1.jpg",
@@ -6762,7 +8106,13 @@
 "44949": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ524-1.jpg",
 "title": "X524 Καθρέπτης Τοίχου",
-"path": "v7/44949-0ffafc9e.jpg"
+"path": "v7/44949-3868c654.jpg",
+"crop": [
+42,
+0,
+1135,
+853
+]
 },
 "47302": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -6837,7 +8187,13 @@
 "7998": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/SYRTARIERA-MARGARITA-3.jpg",
 "title": "Σιφινιέρα Margarita",
-"path": "v7/7998-b5398af2.jpg"
+"path": "v7/7998-c380dca4.jpg",
+"crop": [
+75,
+0,
+1168,
+853
+]
 },
 "45711": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/ocean.webp",
@@ -6862,7 +8218,13 @@
 "90702": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90702-fbdab79c.jpg"
+"path": "v7/90702-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "90635": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q70_1.jpg",
@@ -6872,12 +8234,24 @@
 "45277": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s207.jpg",
 "title": "S207 Καθρέπτης Τοίχου",
-"path": "v7/45277-072ddb17.jpg"
+"path": "v7/45277-e4861e64.jpg",
+"crop": [
+138,
+21,
+1197,
+847
+]
 },
 "44295": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N30-2.jpg",
 "title": "N30 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44295-c370ae5e.jpg"
+"path": "v7/44295-299b763a.jpg",
+"crop": [
+22,
+0,
+1115,
+853
+]
 },
 "74129": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/h190.jpg",
@@ -6892,12 +8266,24 @@
 "44314": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/110.jpg",
 "title": "K110 Καθρέπτης Τοίχου 105x105",
-"path": "v7/44314-b99beca9.jpg"
+"path": "v7/44314-71aa0541.jpg",
+"crop": [
+101,
+0,
+1194,
+853
+]
 },
 "8001": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/ETAZERA-EPIKATHIMENH-MARGARITA-1.jpg",
 "title": "Εταζέρα Margarita",
-"path": "v7/8001-8b71ae22.jpg"
+"path": "v7/8001-5391d0a3.jpg",
+"crop": [
+88,
+0,
+1181,
+853
+]
 },
 "46442": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/04/virginia-lefko.jpg",
@@ -6932,12 +8318,24 @@
 "44266": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/M20-1.jpg",
 "title": "M20 Καθρέπτης Τοίχου 160x85",
-"path": "v7/44266-66e9cb6a.jpg"
+"path": "v7/44266-b59fc1fd.jpg",
+"crop": [
+268,
+0,
+1239,
+757
+]
 },
 "46739": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/05/d8984a58-d482-4915-b8a1-dfce154b7adf.png",
 "title": "Κρεβάτι Star 169x210x108",
-"path": "v7/46739-3a39789a.jpg"
+"path": "v7/46739-4e6473fe.jpg",
+"crop": [
+0,
+184,
+1254,
+1163
+]
 },
 "49391": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC09708_.jpg",
@@ -6962,7 +8360,13 @@
 "45175": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ506-1.jpg",
 "title": "X506 Καθρέπτης Τοίχου",
-"path": "v7/45175-19d2acf8.jpg"
+"path": "v7/45175-d4c201fe.jpg",
+"crop": [
+128,
+0,
+1221,
+853
+]
 },
 "3443": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tref031-1.jpg",
@@ -6997,7 +8401,13 @@
 "46789": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03302_.jpg",
 "title": "Κομοδίνο Niovi 48,5x47x42,4",
-"path": "v7/46789-53e3e124.jpg"
+"path": "v7/46789-68f61f86.jpg",
+"crop": [
+89,
+0,
+1182,
+853
+]
 },
 "90041": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/05/SAK_1249ww.jpg",
@@ -7012,7 +8422,13 @@
 "45313": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s150.jpg",
 "title": "S150 Καθρέπτης Τοίχου",
-"path": "v7/45313-e4dfc2e1.jpg"
+"path": "v7/45313-20ac6de2.jpg",
+"crop": [
+132,
+0,
+1225,
+853
+]
 },
 "45446": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/02/καθρεπτης-dream.jpg",
@@ -7022,7 +8438,13 @@
 "44309": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/Κ130-1.jpg",
 "title": "K130 Καθρέπτης Τοίχου 145x80",
-"path": "v7/44309-72813d4c.jpg"
+"path": "v7/44309-b0ef93a7.jpg",
+"crop": [
+137,
+0,
+1094,
+745
+]
 },
 "45556": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Elixir.webp",
@@ -7052,7 +8474,13 @@
 "48498": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/06/mpoufes-tokyo-1.jpg",
 "title": "Καθρέπτης Tokyo 160×90 / 180x90",
-"path": "v7/48498-7b9381b9.jpg"
+"path": "v7/48498-ba6ca2c3.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "90044": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/05/SAK_1250ww.jpg",
@@ -7102,7 +8530,13 @@
 "74032": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l50.jpg",
 "title": "L50 Καθρέπτης Τοίχου Ρολόι Ολόσωμος 160x80",
-"path": "v7/74032-ea512db1.jpg"
+"path": "v7/74032-f9c940ee.jpg",
+"crop": [
+164,
+43,
+1128,
+795
+]
 },
 "46246": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/04/loris-gkri.jpg",
@@ -7117,7 +8551,13 @@
 "45295": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Σ202-1.jpg",
 "title": "S202 Καθρέπτης Τοίχου",
-"path": "v7/45295-2d5a9d78.jpg"
+"path": "v7/45295-a5e12cbe.jpg",
+"crop": [
+113,
+0,
+1206,
+853
+]
 },
 "83207": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0828.jpg",
@@ -7132,7 +8572,13 @@
 "44240": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D140c1.jpg",
 "title": "D140 Καθρέπτης Τοίχου 158×83",
-"path": "v7/44240-84f519d3.jpg"
+"path": "v7/44240-0dcd6b3f.jpg",
+"crop": [
+22,
+0,
+1115,
+853
+]
 },
 "45835": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/07/puro.jpg",
@@ -7152,7 +8598,13 @@
 "73943": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/L130.jpg",
 "title": "L130 Καθρέπτης Τοίχου Ρολόι Αντίκα 110x110",
-"path": "v7/73943-54a7790c.jpg"
+"path": "v7/73943-08bce065.jpg",
+"crop": [
+115,
+0,
+1209,
+853
+]
 },
 "50033": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/02/b1ed455c-f9c8-41dc-861b-98807d38161b.png",
@@ -7212,7 +8664,13 @@
 "62758": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC01664-1.jpg",
 "title": "Σύνθεση Clio",
-"path": "v7/62758-002c4efe.jpg"
+"path": "v7/62758-3c9e6517.jpg",
+"crop": [
+91,
+0,
+1184,
+853
+]
 },
 "45654": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/memory_lux.webp",
@@ -7242,17 +8700,35 @@
 "65958": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/04/DSC04018.jpg",
 "title": "Κομοδίνο Marita",
-"path": "v7/65958-2c8aed33.jpg"
+"path": "v7/65958-ed42402f.jpg",
+"crop": [
+148,
+77,
+1149,
+745
+]
 },
 "44298": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N40-2.jpg",
 "title": "N40 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44298-63079a20.jpg"
+"path": "v7/44298-fac174c8.jpg",
+"crop": [
+120,
+0,
+1213,
+853
+]
 },
 "64074": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03308.jpg",
 "title": "Κομοδίνο Elisabeth 56x42x55",
-"path": "v7/64074-0a9d9c66.jpg"
+"path": "v7/64074-ccc933e0.jpg",
+"crop": [
+85,
+0,
+1182,
+732
+]
 },
 "8020": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/STHLH-70-IFAISTOS.jpg",
@@ -7337,7 +8813,13 @@
 "77261": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04379-Edit-2.jpg",
 "title": "Repan Gold",
-"path": "v7/77261-fb2da2a7.jpg"
+"path": "v7/77261-d1a64639.jpg",
+"crop": [
+117,
+0,
+1210,
+853
+]
 },
 "44264": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/M120-1.jpg",
@@ -7357,7 +8839,13 @@
 "44349": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/g400.jpg",
 "title": "G400 Καθρέπτης Τοίχου 160x85",
-"path": "v7/44349-042c0c5f.jpg"
+"path": "v7/44349-62d6696f.jpg",
+"crop": [
+100,
+0,
+1191,
+852
+]
 },
 "44259": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/M100-1.jpg",
@@ -7377,7 +8865,13 @@
 "63200": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/02/DSC02843-1.jpg",
 "title": "Πολυθρόνα Helen 73x80x116",
-"path": "v7/63200-54f7d14e.jpg"
+"path": "v7/63200-51f8ed6a.jpg",
+"crop": [
+105,
+0,
+1198,
+853
+]
 },
 "88986": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
@@ -7477,12 +8971,24 @@
 "44310": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/Κ130-1.jpg",
 "title": "K130 Καθρέπτης Τοίχου 145x80",
-"path": "v7/44310-72813d4c.jpg"
+"path": "v7/44310-b0ef93a7.jpg",
+"crop": [
+137,
+0,
+1094,
+745
+]
 },
 "45261": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ304-2-1.jpg",
 "title": "T304 Καθρέπτης Τοίχου",
-"path": "v7/45261-393cbf41.jpg"
+"path": "v7/45261-0d87c4de.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "45162": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ509-1.jpg",
@@ -7497,7 +9003,13 @@
 "74037": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l30.jpg",
 "title": "L30 Καθρέπτης Τοίχου Οβάλ 160x83",
-"path": "v7/74037-5fed19bc.jpg"
+"path": "v7/74037-53d75b39.jpg",
+"crop": [
+0,
+0,
+1093,
+853
+]
 },
 "47851": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
@@ -7507,12 +9019,24 @@
 "50035": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/b5078166-4a9c-40c9-9b62-bb067cca739d-1.png",
 "title": "Παιδικό κομοδίνο Gea 50x35x51",
-"path": "v7/50035-a837d2c6.jpg"
+"path": "v7/50035-3964aab7.jpg",
+"crop": [
+310,
+175,
+1299,
+947
+]
 },
 "44270": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/M50.jpg",
 "title": "M50 Καθρέπτης Τοίχου 110Φ",
-"path": "v7/44270-a83a45cd.jpg"
+"path": "v7/44270-9f90c1e8.jpg",
+"crop": [
+138,
+39,
+1143,
+823
+]
 },
 "47310": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -7542,7 +9066,13 @@
 "45296": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Σ202-1.jpg",
 "title": "S202 Καθρέπτης Τοίχου",
-"path": "v7/45296-2d5a9d78.jpg"
+"path": "v7/45296-a5e12cbe.jpg",
+"crop": [
+113,
+0,
+1206,
+853
+]
 },
 "44342": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/e540.jpg",
@@ -7582,12 +9112,24 @@
 "45255": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ306-1.jpg",
 "title": "T306 Καθρέπτης Τοίχου",
-"path": "v7/45255-45f876fc.jpg"
+"path": "v7/45255-0bba2132.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "74033": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l50.jpg",
 "title": "L50 Καθρέπτης Τοίχου Ρολόι Ολόσωμος 160x80",
-"path": "v7/74033-ea512db1.jpg"
+"path": "v7/74033-f9c940ee.jpg",
+"crop": [
+164,
+43,
+1128,
+795
+]
 },
 "45869": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/GRAFEIO-MORE.jpg",
@@ -7622,7 +9164,13 @@
 "91385": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2525.jpg",
 "title": "Ξύλινο βοηθητικό τραπεζάκι καναπέ",
-"path": "v7/91385-e557e811.jpg"
+"path": "v7/91385-e6a2fd97.jpg",
+"crop": [
+92,
+0,
+1942,
+1443
+]
 },
 "3401": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tref014-1.jpg",
@@ -7677,7 +9225,13 @@
 "44989": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ519-1.jpg",
 "title": "X519 Καθρέπτης Τοίχου 140x60",
-"path": "v7/44989-080bfcdf.jpg"
+"path": "v7/44989-f4326c6d.jpg",
+"crop": [
+83,
+0,
+1176,
+853
+]
 },
 "47683": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
@@ -7687,7 +9241,13 @@
 "80219": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/07/DSC0229.jpg",
 "title": "Πολυθρόνα Toffee Περιστρεφόμενη 80x90x80",
-"path": "v7/80219-2d1401b9.jpg"
+"path": "v7/80219-31e63819.jpg",
+"crop": [
+107,
+45,
+1085,
+807
+]
 },
 "45575": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/serenity.webp",
@@ -7697,7 +9257,13 @@
 "82358": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/09/DSC04144-Edit.jpg",
 "title": "Κονσόλα Ellie",
-"path": "v7/82358-8e704777.jpg"
+"path": "v7/82358-ec129aa0.jpg",
+"crop": [
+109,
+0,
+1202,
+853
+]
 },
 "8016": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/GRAFEIO-IFAISTOS.jpg",
@@ -7707,7 +9273,13 @@
 "45263": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ303-1.jpg",
 "title": "T303 Καθρέπτης Τοίχου",
-"path": "v7/45263-cc2ab7f6.jpg"
+"path": "v7/45263-412254a9.jpg",
+"crop": [
+250,
+32,
+1209,
+780
+]
 },
 "46233": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/04/Quadralefko.jpg",
@@ -7747,7 +9319,13 @@
 "44319": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/k40.jpg",
 "title": "K40 Καθρέπτης Τοίχου 125x80",
-"path": "v7/44319-448d4c19.jpg"
+"path": "v7/44319-e942649f.jpg",
+"crop": [
+0,
+0,
+1093,
+853
+]
 },
 "90797": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO224AA00428-1445x690-1-principale-1.jpg",
@@ -7832,7 +9410,13 @@
 "48497": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/06/mpoufes-tokyo-1.jpg",
 "title": "Καθρέπτης Tokyo 160×90 / 180x90",
-"path": "v7/48497-7b9381b9.jpg"
+"path": "v7/48497-ba6ca2c3.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "74041": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l20.jpg",
@@ -7847,7 +9431,13 @@
 "76469": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/09/DSC04165.jpg",
 "title": "Κρεβάτι Mary και στρώμα EN07 170x216x108",
-"path": "v7/76469-a49a3ade.jpg"
+"path": "v7/76469-56e627d8.jpg",
+"crop": [
+56,
+0,
+1149,
+853
+]
 },
 "90650": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q90_1.jpg",
@@ -7857,12 +9447,24 @@
 "91435": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/08/DSC2558.jpg",
 "title": "Συρταριέρα Paris 110x50x81",
-"path": "v7/91435-dbc58029.jpg"
+"path": "v7/91435-6eb80131.jpg",
+"crop": [
+159,
+83,
+1976,
+1295
+]
 },
 "74144": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/h110.jpg",
 "title": "H110 Καθρέπτης Τοίχου Ρολόι",
-"path": "v7/74144-ef856e32.jpg"
+"path": "v7/74144-1066652d.jpg",
+"crop": [
+171,
+0,
+1264,
+853
+]
 },
 "90907": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO225AA00480-1445x690-1-principale.jpg",
@@ -7877,7 +9479,13 @@
 "45168": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ508-1.jpg",
 "title": "X508 Καθρέπτης Τοίχου",
-"path": "v7/45168-73af3012.jpg"
+"path": "v7/45168-a8bbfd60.jpg",
+"crop": [
+21,
+0,
+1114,
+853
+]
 },
 "9462": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/09/GordonB-1.jpg",
@@ -7887,7 +9495,13 @@
 "44251": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D60c2.jpg",
 "title": "D60 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44251-c66fca1f.jpg"
+"path": "v7/44251-1e348a92.jpg",
+"crop": [
+60,
+0,
+1153,
+853
+]
 },
 "45721": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/07/Enjoy.webp",
@@ -7917,7 +9531,13 @@
 "44281": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/01/MPOUFE-OSCAR.jpg",
 "title": "Καθρέπτης Heart 150×70",
-"path": "v7/44281-4c229c4a.jpg"
+"path": "v7/44281-bdbf535c.jpg",
+"crop": [
+106,
+0,
+1199,
+853
+]
 },
 "47876": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
@@ -7957,7 +9577,13 @@
 "90706": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO230AA00492-1445x690-3-principale.jpg",
 "title": "Magnistretch 12",
-"path": "v7/90706-fbdab79c.jpg"
+"path": "v7/90706-7237f857.jpg",
+"crop": [
+223,
+0,
+1257,
+690
+]
 },
 "45565": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/Elixir.webp",
@@ -8007,7 +9633,13 @@
 "44280": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/01/MPOUFE-OSCAR.jpg",
 "title": "Καθρέπτης Heart 150×70",
-"path": "v7/44280-4c229c4a.jpg"
+"path": "v7/44280-bdbf535c.jpg",
+"crop": [
+106,
+0,
+1199,
+853
+]
 },
 "90047": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/05/SAK_1256ww.jpg",
@@ -8027,7 +9659,13 @@
 "58548": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/DSC02515.jpg",
 "title": "Πολυθρόνα Omega 78x76x110",
-"path": "v7/58548-597bb964.jpg"
+"path": "v7/58548-41d0f028.jpg",
+"crop": [
+48,
+0,
+1797,
+1365
+]
 },
 "90627": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q60_1.jpg",
@@ -8062,7 +9700,13 @@
 "45526": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/DSC03634_.jpg",
 "title": "Ανάκλινδρο Miron 170x100x47",
-"path": "v7/45526-494ba40b.jpg"
+"path": "v7/45526-a2e5af83.jpg",
+"crop": [
+85,
+0,
+1178,
+853
+]
 },
 "44357": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/Β70-1.jpg",
@@ -8072,7 +9716,13 @@
 "44252": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D70c2.jpg",
 "title": "D70 Καθρέπτης Τοίχου 158×83",
-"path": "v7/44252-e1a1cd22.jpg"
+"path": "v7/44252-4f8a38e5.jpg",
+"crop": [
+116,
+0,
+1209,
+853
+]
 },
 "3373": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tref003-1.jpg",
@@ -8087,12 +9737,24 @@
 "45308": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s170.jpg",
 "title": "S170 Καθρέπτης Τοίχου",
-"path": "v7/45308-f5f40798.jpg"
+"path": "v7/45308-a6f1815e.jpg",
+"crop": [
+78,
+0,
+1171,
+853
+]
 },
 "52958": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC0800.jpg",
 "title": "Κομοδίνο Nemesis 58x40x46",
-"path": "v7/52958-9e8db083.jpg"
+"path": "v7/52958-4c2a066c.jpg",
+"crop": [
+212,
+94,
+1835,
+1177
+]
 },
 "44291": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N110.jpg",
@@ -8112,7 +9774,13 @@
 "86186": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1069.jpg",
 "title": "Poli Bar-Stool",
-"path": "v7/86186-ee279b2f.jpg"
+"path": "v7/86186-5dbdb829.jpg",
+"crop": [
+171,
+0,
+1924,
+1368
+]
 },
 "47316": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -8247,7 +9915,13 @@
 "74050": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j10.jpg",
 "title": "J10 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/74050-dcbc99a6.jpg"
+"path": "v7/74050-1e5c1efd.jpg",
+"crop": [
+158,
+0,
+1251,
+853
+]
 },
 "73917": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/L180.jpg",
@@ -8257,12 +9931,24 @@
 "74100": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j100.jpg",
 "title": "J100 Καθρέπτης Τοίχου 100Φ",
-"path": "v7/74100-a7d03388.jpg"
+"path": "v7/74100-c8285ffe.jpg",
+"crop": [
+86,
+0,
+1179,
+853
+]
 },
 "46725": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03212_A.jpg",
 "title": "Συρταριέρα Star 60x45x131",
-"path": "v7/46725-ea72ff9c.jpg"
+"path": "v7/46725-248dfc63.jpg",
+"crop": [
+45,
+163,
+1078,
+853
+]
 },
 "42735": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC00647.jpg",
@@ -8282,7 +9968,13 @@
 "7918": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/d635ef48-db20-432c-b7a1-5b96161dbbfa.png",
 "title": "Κομοδίνο Asteras",
-"path": "v7/7918-ece38c06.jpg"
+"path": "v7/7918-dd48bf3a.jpg",
+"crop": [
+267,
+120,
+1266,
+899
+]
 },
 "74120": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j150.jpg",
@@ -8322,12 +10014,24 @@
 "45329": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/p110.jpg",
 "title": "P110 Καθρέπτης Τοίχου",
-"path": "v7/45329-3b1db43e.jpg"
+"path": "v7/45329-d5b30633.jpg",
+"crop": [
+109,
+0,
+1202,
+853
+]
 },
 "64844": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/03/88fb451d-dfe4-4b81-a507-6447f55aad21.png",
 "title": "Κρεβάτι Zita",
-"path": "v7/64844-0dd53f8b.jpg"
+"path": "v7/64844-5fcbd67e.jpg",
+"crop": [
+185,
+0,
+1423,
+966
+]
 },
 "46354": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/04/mplevelvet.jpg",
@@ -8387,12 +10091,24 @@
 "80681": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/09/DSC0594.jpg",
 "title": "Τραπέζι Chara 160x90x80",
-"path": "v7/80681-ed61475e.jpg"
+"path": "v7/80681-96c667c8.jpg",
+"crop": [
+72,
+0,
+1825,
+1368
+]
 },
 "74088": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/j90.jpg",
 "title": "J90 Καθρέπτης Τοίχου 100x100",
-"path": "v7/74088-bb662b1a.jpg"
+"path": "v7/74088-5c537f27.jpg",
+"crop": [
+186,
+0,
+1280,
+853
+]
 },
 "74014": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/l100.jpg",
@@ -8407,7 +10123,13 @@
 "7996": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/e5aea1e6-5d70-4002-be34-2927eb478cd7.png",
 "title": "Παιδικό Κομοδίνο Margarita 60x44x46",
-"path": "v7/7996-d3018574.jpg"
+"path": "v7/7996-2f84d264.jpg",
+"crop": [
+303,
+208,
+1225,
+928
+]
 },
 "90752": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO222AA00169-1445x690-1-principale-1.jpg",
@@ -8452,7 +10174,13 @@
 "9313": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/10/DSC03366.jpg",
 "title": "Side Sofa Maseratti 220x60",
-"path": "v7/9313-dc8f942d.jpg"
+"path": "v7/9313-0a59b263.jpg",
+"crop": [
+134,
+0,
+1191,
+704
+]
 },
 "3377": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/tref004-1.jpg",
@@ -8462,7 +10190,13 @@
 "44950": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ524-1.jpg",
 "title": "X524 Καθρέπτης Τοίχου",
-"path": "v7/44950-0ffafc9e.jpg"
+"path": "v7/44950-3868c654.jpg",
+"crop": [
+42,
+0,
+1135,
+853
+]
 },
 "44326": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/z110.jpg",
@@ -8492,7 +10226,13 @@
 "45264": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Τ303-1.jpg",
 "title": "T303 Καθρέπτης Τοίχου",
-"path": "v7/45264-cc2ab7f6.jpg"
+"path": "v7/45264-412254a9.jpg",
+"crop": [
+250,
+32,
+1209,
+780
+]
 },
 "46106": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/03/marta-special-moka.jpg",
@@ -8527,7 +10267,13 @@
 "45248": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ502-1.jpg",
 "title": "X502 Καθρέπτης Τοίχου",
-"path": "v7/45248-f7943a10.jpg"
+"path": "v7/45248-597e2a56.jpg",
+"crop": [
+1,
+0,
+1094,
+853
+]
 },
 "45625": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/lusso_grey.webp",
@@ -8557,7 +10303,13 @@
 "86218": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/dsc1185.jpg",
 "title": "Viva Bar-Stool",
-"path": "v7/86218-9fea68e8.jpg"
+"path": "v7/86218-633f8f36.jpg",
+"crop": [
+102,
+0,
+1855,
+1368
+]
 },
 "45700": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/velvet.webp",
@@ -8577,7 +10329,13 @@
 "45323": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s120.jpg",
 "title": "S120 Καθρέπτης Τοίχου",
-"path": "v7/45323-6898674d.jpg"
+"path": "v7/45323-d7e9cf65.jpg",
+"crop": [
+79,
+0,
+1172,
+853
+]
 },
 "47885": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
@@ -8587,12 +10345,24 @@
 "81068": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/11/DSC0655.jpg",
 "title": "2 Καρέκλες Dion",
-"path": "v7/81068-e816290b.jpg"
+"path": "v7/81068-7ba31cda.jpg",
+"crop": [
+99,
+0,
+1852,
+1368
+]
 },
 "45356": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC00596.jpg",
 "title": "Κρεβάτι Irida",
-"path": "v7/45356-b07ac0be.jpg"
+"path": "v7/45356-56599f57.jpg",
+"crop": [
+133,
+114,
+1228,
+844
+]
 },
 "64063": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03291.jpg",
@@ -8612,7 +10382,13 @@
 "45170": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ507-1.jpg",
 "title": "X507 Καθρέπτης Τοίχου",
-"path": "v7/45170-fc943ecf.jpg"
+"path": "v7/45170-08cfce59.jpg",
+"crop": [
+120,
+0,
+1214,
+853
+]
 },
 "90619": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/Q50_1.jpg",
@@ -8687,7 +10463,13 @@
 "2728": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/07/c7b9f760-1be6-444b-bf7d-2702d57fdbac.png",
 "title": "Παιδικό κρεβάτι Colt 100x215x100",
-"path": "v7/2728-0943e18a.jpg"
+"path": "v7/2728-7475cbc7.jpg",
+"crop": [
+240,
+147,
+1361,
+1023
+]
 },
 "47288": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -8697,7 +10479,13 @@
 "44350": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/g400.jpg",
 "title": "G400 Καθρέπτης Τοίχου 160x85",
-"path": "v7/44350-042c0c5f.jpg"
+"path": "v7/44350-62d6696f.jpg",
+"crop": [
+100,
+0,
+1191,
+852
+]
 },
 "47318": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -8707,7 +10495,13 @@
 "77307": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04387-Edit.jpg",
 "title": "Repan Blue",
-"path": "v7/77307-160b0247.jpg"
+"path": "v7/77307-b00306e6.jpg",
+"crop": [
+114,
+0,
+1207,
+853
+]
 },
 "90056": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/05/SAK_1287ww.jpg",
@@ -8737,12 +10531,24 @@
 "58547": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/DSC02515.jpg",
 "title": "Πολυθρόνα Omega 78x76x110",
-"path": "v7/58547-597bb964.jpg"
+"path": "v7/58547-41d0f028.jpg",
+"crop": [
+48,
+0,
+1797,
+1365
+]
 },
 "80528": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/11/DSC04269-Edit.jpg",
 "title": "W20 Καθρέπτης Τοίχου 120x80",
-"path": "v7/80528-7e493dd7.jpg"
+"path": "v7/80528-4a8545c8.jpg",
+"crop": [
+122,
+0,
+1159,
+809
+]
 },
 "46257": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/04/comfortgkri.jpg",
@@ -8772,17 +10578,35 @@
 "45249": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/Χ502-1.jpg",
 "title": "X502 Καθρέπτης Τοίχου",
-"path": "v7/45249-f7943a10.jpg"
+"path": "v7/45249-597e2a56.jpg",
+"crop": [
+1,
+0,
+1094,
+853
+]
 },
 "44306": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/01/N80-1.jpg",
 "title": "N80 Καθρέπτης Τοίχου 104Φ",
-"path": "v7/44306-e67483d8.jpg"
+"path": "v7/44306-754699b0.jpg",
+"crop": [
+133,
+0,
+1226,
+853
+]
 },
 "85726": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1146.jpg",
 "title": "Bar-Stool Foldi",
-"path": "v7/85726-44dfa936.jpg"
+"path": "v7/85726-e705dfcf.jpg",
+"crop": [
+155,
+0,
+1908,
+1368
+]
 },
 "90938": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/virtusos-shop2.jpg",
@@ -8797,7 +10621,13 @@
 "44337": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/04/e580.jpg",
 "title": "E580 Καθρέπτης Τοίχου 158x45",
-"path": "v7/44337-6b2f5ac7.jpg"
+"path": "v7/44337-31f17614.jpg",
+"crop": [
+122,
+0,
+1215,
+853
+]
 },
 "80327": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/07/ML15015-1.jpg",
@@ -8817,7 +10647,13 @@
 "45284": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/03/s206.jpg",
 "title": "S206 Καθρέπτης Τοίχου",
-"path": "v7/45284-a41a5e45.jpg"
+"path": "v7/45284-eb151658.jpg",
+"crop": [
+93,
+0,
+1186,
+853
+]
 },
 "47314": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",

@@ -213,6 +213,7 @@ def card(it, out):
     im = Image.open(io.BytesIO(raw))
     if im.mode in ('RGBA', 'LA', 'P'): im = im.convert('RGBA'); bg = Image.new('RGBA', im.size, 'white'); bg.alpha_composite(im); im = bg
     im = im.convert('RGB'); cut = is_cutout(im); im = trim_white(im)
+    if it.get('crop') and not cut: im = im.crop(tuple(it['crop']))  # v8: zoom onto the product (box from v8_crops.json, QC'd offline)
     c = Image.new('RGB', (S, S), 'white'); d = ImageDraw.Draw(c)
     # info block anchored to the bottom; the photo takes the rest at full width (never cropped)
     has_opt = bool(it['swatches'] or it['sizes'])
