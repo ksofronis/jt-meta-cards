@@ -76,7 +76,16 @@ def build(it):
     if 'Καναπέδες' in ptype: b = [x for x in b if x != 'Στα μέτρα σας']
     return {'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': g('image_link'),
             'badges': list(dict.fromkeys(b))[:2], 'swatches': sw, 'swatch_label': sw_label,
-            'sizes': sizes if mattress else [], 'secondary': sec}
+            'sizes': sizes if mattress else [], 'secondary': sec, 'finance': finance_line(g('sale_price') or g('price'))}
+
+def finance_line(price):
+    """v9 instalments pill, same split as the site (homepage instalments section + site product cards, 2026-10-19):
+    up to EUR 1,000 -> Klarna, 3 interest-free; up to EUR 10,000 -> TBI Bank, up to 60. No monthly amount (credit-cost figures need a representative example)."""
+    try: p = float(price.split()[0])
+    except (ValueError, IndexError): return None
+    if 0 < p <= 1000: return ('Klarna', '3 άτοκες δόσεις')
+    if 1000 < p <= 10000: return ('TBI', 'Έως 60 δόσεις')
+    return None
 
 # ---------- colour: pick the most contrasting swatches (greedy farthest point in Lab) ----------
 def lab(h):
@@ -205,6 +214,32 @@ def trim_white(im):
     box = ImageChops.difference(im, Image.new('RGB', im.size, 'white')).convert('L').point(lambda p: 255 if p > 12 else 0).getbbox()
     return im.crop(box) if box else im
 
+def bg_alpha(t):
+    """Soft mask for the v9 cream panel: only the white background CONNECTED TO THE PHOTO EDGE turns transparent
+    (flood fill from a white frame, small colour tolerance). White parts inside the product stay white, not cream."""
+    import numpy as np
+    P = 4; pad = Image.new('RGB', (t.width + 2 * P, t.height + 2 * P), 'white'); pad.paste(t.convert('RGB'), (P, P))
+    ImageDraw.floodfill(pad, (0, 0), (255, 0, 255), thresh=24)
+    q = np.asarray(pad)[P:-P, P:-P].astype(int)
+    bg = (q[..., 0] == 255) & (q[..., 1] == 0) & (q[..., 2] == 255)
+    a = np.asarray(t.convert('RGB')).astype(int).min(2)
+    near = np.asarray(Image.fromarray((bg * 255).astype('uint8')).filter(ImageFilter.MaxFilter(5))) > 0
+    soft = np.clip((250 - a) * 255 / 22, 0, 255)  # anti-aliased product edge next to the background
+    alpha = np.where(bg, 0, np.where(near, np.maximum(soft, 0), 255)).astype('uint8')
+    return Image.fromarray(alpha).filter(ImageFilter.GaussianBlur(1))
+
+def fin_pill(c, x, y, fin, h=72):
+    """White pill on the photo: dark provider chip (Klarna/TBI) + instalment line."""
+    label, text = fin
+    d = ImageDraw.Draw(c); f = FONT(600, 36); chip = FONT(700, 28)
+    cw = int(d.textlength(label, font=chip)) + 24; w = int(d.textlength(text, font=f)) + cw + 26 + 26
+    shadow(c, (x, y, x + w, y + h), h / 2, BTN_SH[1:])
+    big = Image.new('RGBA', (w * X, h * X), (0, 0, 0, 0))
+    ImageDraw.Draw(big).rounded_rectangle((0, 0, big.width - 1, big.height - 1), radius=h * X // 2, fill='white')
+    big = big.resize((w, h), Image.LANCZOS); c.paste(big, (x, y), big)
+    pill(c, x + 10, y + 12, label, chip, CREAM, INK, h=h - 24, pad=12)
+    d.text((x + 10 + cw + 14, y + h / 2), text, font=f, fill=INK, anchor='lm')
+
 ALLOWED_HOSTS = ('jthomedesign.gr', 'www.jthomedesign.gr')  # images are only fetched from the client's own site
 def card(it, out):
     u = urllib.parse.urlparse(it['image'])
@@ -219,16 +254,25 @@ def card(it, out):
     has_opt = bool(it['swatches'] or it['sizes'])
     info_h = 62 + 36 + (76 + 36 if has_opt else 0) + 76
     area_top, area_bot = M, S - M - info_h - 44
-    r = min((S - 2 * M) / im.width, (area_bot - area_top) / im.height); t = im.resize((round(im.width * r), round(im.height * r)), Image.LANCZOS)
-    px, py = (S - t.width) // 2, area_top + (area_bot - area_top - t.height) // 2
-    if cut: c.paste(t, (px, py))  # white-background shot: no box, no shadow, the product sits on the card
-    else: shadow(c, (px, py, px + t.width, py + t.height), 28, PHOTO_SH); c.paste(t, (px, py), mask(t.size, 28))
+    v9 = it.get('v9'); fin = it.get('finance') if v9 else None
+    if v9 and cut:  # v9: cream panel the size of the photo frame, product centred, kept clear of the instalments pill
+        aw, ah = S - 2 * M, area_bot - area_top; free = 24 + 72 + 12 if fin else 0
+        pr = min(aw * 0.94 / im.width, (ah - free) * 0.94 / im.height); t = im.resize((round(im.width * pr), round(im.height * pr)), Image.LANCZOS)
+        shadow(c, (M, area_top, M + aw, area_top + ah), 28, PHOTO_SH)
+        panel = Image.new('RGB', (aw, ah), CREAM); panel.paste(t, ((aw - t.width) // 2, (ah - free - t.height) // 2 + 8), bg_alpha(t))
+        c.paste(panel, (M, area_top), mask(panel.size, 28)); px, py, tw, th = M, area_top, aw, ah
+    else:
+        r = min((S - 2 * M) / im.width, (area_bot - area_top) / im.height); t = im.resize((round(im.width * r), round(im.height * r)), Image.LANCZOS)
+        px, py = (S - t.width) // 2, area_top + (area_bot - area_top - t.height) // 2; tw, th = t.size
+        if cut: c.paste(t, (px, py))  # white-background shot: no box, no shadow, the product sits on the card
+        else: shadow(c, (px, py, px + t.width, py + t.height), 28, PHOTO_SH); c.paste(t, (px, py), mask(t.size, 28))
     bx = px + 24
     for b in it['badges']:
         dark = b == 'ΝΕΟ'
         bx += pill(c, bx, py + 24, b, FONT(700 if dark else 600, 36), CREAM if dark else INK, INK if dark else (255, 255, 255),
                    h=68, pad=28, depth=BTN_SH[1:]) + 14
 
+    if fin: fin_pill(c, px + 24, py + th - 24 - 72, fin)  # v9 instalments, on the photo (photo keeps its size)
     x, y = M + 4, area_bot + 44
     nm = it['name'].replace('"', '').replace('  ', ' ')
     if d.textlength(nm, font=FONT(600, 52)) > S - 2 * M - 8 and ' με ' in nm: nm = nm.split(' με ')[0]  # "… με Σκαμπό/αποθηκευτικό" is detail, not name

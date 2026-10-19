@@ -51,7 +51,7 @@ GitHub repo ksofronis/jt-meta-cards     │ supplementary feed overrides image_l
 | `generator/make_cards.py` | Card renderer (single source of the design and badge rules). |
 | `generator/build_per_item.py` | Builds a card for every product in a feed file and writes `manifest_items.json`. |
 | `generator/icon-phone-hi.png` | Phone icon (Tabler "phone" outline, same as the newsletters), colour #7A6645. |
-| `cards/`, `u/` | Earlier per-photo builds from the pilot. Not used by the supplementary feed. |
+| `cards/`, `u/` | Removed 19/10/2026 (pilot builds, never referenced by either feed; 243 MB freed for v9 under the 1 GB Pages limit). Still in git history. |
 | `docs/` | Before/after illustration. |
 
 ## 4. Card design
@@ -137,3 +137,12 @@ Every hourly run of `meta-feed` now also runs `auto_cards.py` before `supp_build
 - `supp_build.py` uses the automatic card only while it matches the live feed, so a later change on the website again falls back to the original photo until the next run makes a new card.
 - A product that receives its first card, or a new one, is temporarily not eligible for catalog ads until Meta downloads the image (typically a few hours).
 - The workflow now re-triggers itself permanently (about every 56 minutes), because GitHub's scheduled trigger is unreliable on this repository.
+
+## 12. v9: instalments pill, cream backdrop, cards 2/3 and videos (added 19/10/2026)
+
+- **Switch:** `v9.txt` = `on`. Rollback: empty the file. `v7_cards.py` then rebuilds every card back to v7/v8 (60 per run) and `supp_build.py` stops sending extras.
+- **Card 1 (all products, `v7/`):** instalment pill on the photo, same split as the site: up to EUR 1,000 `Klarna · 3 άτοκες δόσεις`, up to EUR 10,000 `TBI · Έως 60 δόσεις`, none above. No monthly amount. White-background shots sit on a cream panel. The pill label is part of the file hash, so a card rebuilds when a price crosses EUR 1,000.
+- **Extras (top products only, `v9x/`, `v9_extras.py`, `generator/make_v9x.py`):** `v9_top.txt` lists 200 ids (top by catalog-ad impressions, last 28 days to 19/10, plus Meta's top-48 by product views). Per product: card 2 colour range (only with swatches), card 3 dimensions + `Αχαρνές · Πανελλαδικά` + phone, video 9:16 and 1:1 (6 s, 60 fps, H.264 CRF 26). About 1.2 MB per product.
+- **Feed:** `supplementary.csv` gains `additional_image_link` (cards 2/3 first, then the product's own site gallery, max 20; every row repeats its site gallery so nothing is blanked), `video[0].url` (9:16) and `video[1].url` (1:1). Extras are sent only while `v9x_manifest.json` matches the live photo, title, crop and price band.
+- **Size budget:** GitHub Pages publishes at most 1 GB. Site after v9 is about 0.9 GB. Products dropped from `v9_top.txt` have their extras deleted on the next run. Do not grow the top list without checking the site size.
+- **CI cost:** max 3 products' extras per hourly run (`V9X_MAX`); the step is non-blocking.
