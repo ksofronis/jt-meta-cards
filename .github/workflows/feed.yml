@@ -19,9 +19,17 @@ jobs:
       - run: sudo apt-get install -y -qq fonts-liberation >/dev/null && pip install -q pillow numpy
       - run: python3 auto_cards.py
       - run: python3 v7_cards.py
-      - run: (which ffmpeg >/dev/null || sudo apt-get install -y -qq ffmpeg >/dev/null) && python3 v9_extras.py
+      - run: (which ffmpeg >/dev/null || sudo apt-get install -y -qq ffmpeg >/dev/null) && pip install -q boto3 && python3 v9_extras.py
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          V9X_MAX: '10'
         continue-on-error: true  # extras are optional: a failure must never block the card/feed refresh
       - run: python3 supp_build.py
+      - run: python3 review_sheet.py
+        continue-on-error: true  # review sheet is for people; never blocks the feed
       - run: |
           git config user.name "jt-feed-bot"
           git config user.email "jt-feed-bot@users.noreply.github.com"
@@ -29,6 +37,7 @@ jobs:
           if [ -d auto ]; then git add -A auto; fi
           if [ -d v7 ]; then git add -A v7; fi
           if [ -d v9x ]; then git add -A v9x; git add v9x_manifest.json; fi
+          if [ -d review ]; then git add -A review; fi
           [ -e PAUSE ] || git rm -q --cached --ignore-unmatch PAUSE
           git diff --cached --quiet || (git commit -m "feed refresh" && git push)
   # GitHub's cron is unreliable on this repo: the job re-triggers itself after ~55 min, permanently (PAUSE does not stop this).

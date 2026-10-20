@@ -146,3 +146,14 @@ Every hourly run of `meta-feed` now also runs `auto_cards.py` before `supp_build
 - **Feed:** `supplementary.csv` gains `additional_image_link` (cards 2/3 first, then the product's own site gallery, max 20; every row repeats its site gallery so nothing is blanked), `video[0].url` (9:16) and `video[1].url` (1:1). Extras are sent only while `v9x_manifest.json` matches the live photo, title, crop and price band.
 - **Size budget:** GitHub Pages publishes at most 1 GB. Site after v9 is about 0.9 GB. Products dropped from `v9_top.txt` have their extras deleted on the next run. Do not grow the top list without checking the site size.
 - **CI cost:** max 3 products' extras per hourly run (`V9X_MAX`); the step is non-blocking.
+
+## 13. Extras for all products on Cloudflare R2 + review sheet (added 20/10/2026)
+
+- **Hosting:** videos and cards 2/3 for every product live in Cloudflare R2 (account Ks.clientele, bucket `jt-meta-media`, public URL in `r2_public.txt`). Free tier 10 GB; about 1.9 GB used. Main cards (`v7/`) stay on GitHub Pages.
+- **Switches:** `v9_all.txt` = `on` covers all products (needs the 4 R2 secrets); empty = back to `v9_top.txt`. `v9.txt` empty turns all v9 extras off.
+- **Hourly job:** `v9_extras.py` builds up to 10 new or changed products per run, uploads them to R2 and deletes their old objects; nothing large is committed to git (`v9x/` is ignored). `v9x_manifest.json` records each product's files and `r2: true`.
+- **Secrets (GitHub → Settings → Secrets → Actions):** `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT`, `R2_BUCKET`. Token: R2 → Manage API tokens → `jt-meta-cards` (Object Read & Write on `jt-meta-media`). Rotate there; update the secrets.
+- **Review sheet:** `review_sheet.py` runs every hour and publishes `review/index.html` and `review/latest.jpg` (new and changed cards, newest first, with flags). Open https://ksofronis.github.io/jt-meta-cards/review/index.html.
+- **Card names:** leading model codes are dropped ("M30 Καθρέπτης" becomes "Καθρέπτης"); numbers under 100 are quantities and stay.
+- **Chain safety:** the `next` job runs even when a run fails, so one site timeout no longer stops the hourly chain.
+- **Note:** `r2.dev` URLs are rate-limited by Cloudflare; a custom domain on the bucket is the production-grade upgrade.

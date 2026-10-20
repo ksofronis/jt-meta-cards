@@ -47,13 +47,15 @@ crops = json.load(open('v8_crops.json')) if os.path.exists('v8_crops.json') else
 def x_ok(i):
     if i not in v9x or i not in cur: return False
     crop = crops[i]['crop'] if i in crops and crops[i]['image'] == cur[i][0] else None
-    fin = '|'.join(make_v7.finance_line(price.get(i, '')) or ('-',))
-    return v9x[i]['key'] == [cur[i][0], cur[i][1], crop, fin] and all(os.path.exists(f) for f in v9x[i]['files'].values())
+    fin = '|'.join(make_v7.finance_line(price.get(i, '')) or ('-',)) + make_v7.name_salt(cur[i][1])
+    return v9x[i]['key'] == [cur[i][0], cur[i][1], crop, fin] and (v9x[i].get('r2') or all(os.path.exists(f) for f in v9x[i]['files'].values()))
 PAGES = 'https://ksofronis.github.io/jt-meta-cards/'
+R2_PUBLIC = open('r2_public.txt').read().strip().rstrip('/') + '/' if os.path.exists('r2_public.txt') else None  # bucket's public URL
 def more(i):
     f = v9x[i]['files'] if x_ok(i) else {}
-    imgs = [PAGES + f[k] for k in ('c2', 'c3') if k in f] + extra.get(i, [])
-    return [','.join(imgs[:20]), PAGES + f['story'] if 'story' in f else '', PAGES + f['feed'] if 'feed' in f else '']
+    base = R2_PUBLIC if v9x.get(i, {}).get('r2') and R2_PUBLIC else PAGES
+    imgs = [base + f[k] for k in ('c2', 'c3') if k in f] + extra.get(i, [])
+    return [','.join(imgs[:20]), base + f['story'] if 'story' in f else '', base + f['feed'] if 'feed' in f else '']
 with open('feed/supplementary.csv', 'w', newline='') as f:
     w = csv.writer(f); w.writerow(['id', 'image_link', 'additional_image_link', 'video[0].url', 'video[1].url'])
     w.writerows([r[0], r[1], *more(r[0])] for r in rows)
