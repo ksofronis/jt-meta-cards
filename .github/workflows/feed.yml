@@ -36,7 +36,7 @@ jobs:
           git add feed/facebook.xml feed/supplementary.csv supp_count.txt auto_manifest.json v7_manifest.json
           if [ -d auto ]; then git add -A auto; fi
           if [ -d v7 ]; then git add -A v7; fi
-          if [ -d v9x ]; then git add -A v9x; git add v9x_manifest.json; fi
+          if [ -f v9x_manifest.json ]; then git add v9x_manifest.json; fi
           if [ -d review ]; then git add -A review; fi
           [ -e PAUSE ] || git rm -q --cached --ignore-unmatch PAUSE
           git diff --cached --quiet || (git commit -m "feed refresh" && git push)
