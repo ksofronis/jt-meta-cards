@@ -34,6 +34,7 @@ jobs:
   # GitHub's cron is unreliable on this repo: the job re-triggers itself after ~55 min, permanently (PAUSE does not stop this).
   next:
     needs: build
+    if: ${{ always() }}  # keep the hourly chain alive even when one run fails (e.g. the site feed times out)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
