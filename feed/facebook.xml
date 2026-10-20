@@ -2918,6 +2918,22 @@
         <g:sale_price>958.00 EUR</g:sale_price>
     </item>
     <item>
+        <g:id>92679</g:id>
+        <g:quantity_to_sell_on_facebook>5</g:quantity_to_sell_on_facebook>
+        <g:description><![CDATA[ Γωνιακός Καναπές 270×200   “ΕΤΟΙΜΟΠΑΡΑΔΟΤΟ”  Γωνιακός καναπές σε γκρι χρώμα, με μοντέρνο σχεδιασμό και υφασμάτινη επένδυση. Διαθέτει άνετα καθίσματα, μεγάλα μαξιλάρια πλάτης και ανάκλιντρο για περισσότερη άνεση στην καθημερινή χρήση.        		          			               ]]></g:description>
+        <g:additional_image_link><![CDATA[https://jthomedesign.gr/wp-content/uploads/2026/10/18438.jpg]]></g:additional_image_link>
+        <g:condition>new</g:condition>
+        <g:title>Γωνιακός Καναπές 270x200</g:title>
+        <g:short_description><![CDATA[       		          			               ]]></g:short_description>
+        <g:availability>in stock</g:availability>
+        <g:price>1880.00 EUR</g:price>
+        <g:link><![CDATA[https://jthomedesign.gr/product/goniakos-kanapes/]]></g:link>
+        <g:image_link><![CDATA[https://jthomedesign.gr/wp-content/uploads/2026/10/18437.jpg]]></g:image_link>
+        <g:item_group_id>92678</g:item_group_id>
+        <g:custom_label_0>recent-product</g:custom_label_0>
+        <g:product_type>Προσφορές έως 60%</g:product_type>
+    </item>
+    <item>
         <g:id>30650</g:id>
         <g:quantity_to_sell_on_facebook>5</g:quantity_to_sell_on_facebook>
         <g:description><![CDATA[Τραπέζι Chara Κατασκευασμένο από ξύλο δρυς, με μασίφ πόδια τραπεζιού και στοιχεία κρυστάλλου, αποτελεί ένα εντυπωσιακό σύνολο ποιοτικής κατασκευής που σας δίνει τη δυνατότητα να το παραγγείλετε σε χρώμα επιλογής σας.  *Για ειδικές παραγγελίες καλέστε στο 2102476585 ή 6970448985         		          			               ]]></g:description>
@@ -9738,7 +9754,7 @@
         <g:link><![CDATA[https://jthomedesign.gr/product/set-olympus-trapzaria/]]></g:link>
         <g:image_link><![CDATA[https://ksofronis.github.io/jt-meta-cards/item/91348.jpg]]></g:image_link>
         <g:item_group_id>91347</g:item_group_id>
-        <g:custom_label_0>recent-product on-sale</g:custom_label_0>
+        <g:custom_label_0>on-sale</g:custom_label_0>
         <g:product_type>Νέα Προϊόντα , Δωμάτιο &gt; Τραπεζαρία , Δωμάτιο &gt; Τραπεζαρία &gt; Τραπεζαρίες Σετ</g:product_type>
         <g:custom_label_1>classic</g:custom_label_1>
         <g:sale_price>2550.00 EUR</g:sale_price>
