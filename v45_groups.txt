@@ -1,2 +1,1 @@
-# 4:5 crop-safe cards (v10). One group at a time; compare link CTR and cost per add-to-cart against the other groups.
-tables
+# 4:5 crop-safe cards: none enabled since 21/10 (owner decision: all square). One group name per line to enable.
