@@ -24,7 +24,7 @@ PLAIN = [(r'^μεταλλικό γκρι ανθρακί$', '#3d3f42'), (r'^γκ�
          (r'^καφέ$', '#6b4a2f'), (r'^μόκα$', '#7b5a45'), (r'^μαύρο$', '#1d1d1d'), (r'^ανθρακί$', '#3b3b3b')]
 # leading model codes ("1025-1 Τραπέζι", "309 Τραπέζι", "M30 Καθρέπτης"): dropped from the card name; quantities ("2 Καρέκλες", "10 Καρέκλες") stay
 CODE = re.compile(r'^(?:[A-Za-z]{1,3}\d{2,}[A-Za-z]?(?:-\d+)*|\d{3,}(?:-\d+)*|\d+-\d+)\s+(?=[Α-Ωα-ωΆ-Ώά-ώ])')  # pure numbers under 100 are quantities: kept
-X_SALT = '|V11'  # V11: colour card shows the product photo, video complete from frame 0 (21/10)  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
+X_SALT = '|V12'  # V12: video gallery shots only from site photos cleared as product photos; V11: complete from frame 0 (21/10)  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
 name_salt = lambda title: '|nc' if CODE.match(title or '') else ''  # in the card hash, so affected cards get a new file name
 SIZE_PREF = ['90x200', '140x200', '160x200', '150x200', '170x200', '180x200', '100x200', '120x200']
 
@@ -83,7 +83,7 @@ def build(it):
     return {'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': g('image_link'),
             'badges': list(dict.fromkeys(b))[:2], 'swatches': sw, 'swatch_label': sw_label,
             'sizes': sizes if mattress else [], 'secondary': sec, 'finance': finance_line(g('sale_price') or g('price')),
-            'warranty': has_warranty(ptype), 'swatch_terms': sw_terms, 'gallery': [e.text.strip() for e in it.findall('g:additional_image_link', namespaces=NS) if e.text and e.text.strip()]}
+            'warranty': has_warranty(ptype), 'swatch_terms': sw_terms, 'gallery': [e.text.strip() for e in it.findall('g:additional_image_link', namespaces=NS) if e.text and site_photo_ok(e.text.strip())]}
 
 WARRANTY = '10ετής εγγύηση'  # owner-approved 21/10: sofas and beds only (the "10 χρόνια γραπτή εγγύηση" claim in every JT ad)
 def has_warranty(ptype): return 'Καναπέδες' in ptype or 'Κρεβατοκάμαρα > Κρεβάτι' in ptype
@@ -94,6 +94,16 @@ def shield(size, color):
     d.line(pts + [pts[0]], fill=color, width=w, joint='curve')
     d.line([(b*.32, b*.5), (b*.45, b*.63), (b*.7, b*.36)], fill=color, width=w, joint='curve')
     return im.resize((size, size), Image.LANCZOS)
+
+_SITE_QC = None
+def site_photo_ok(u):
+    """Site gallery photo cleared as showing the product (site_photos_qc.json, built by meta-cards/tools/site_photo_qc.py).
+    Owner rule 21/10: swatch and sample charts never reach Meta. Unknown or unclassified = not ok (fail-closed)."""
+    global _SITE_QC
+    if _SITE_QC is None:
+        p = os.path.join(os.path.dirname(HERE), 'site_photos_qc.json')
+        _SITE_QC = json.load(open(p)) if os.path.exists(p) else {}
+    return bool(_SITE_QC.get(u, {}).get('ok'))
 
 def finance_line(price):
     """v9 instalments pill, same split as the site (homepage instalments section + site product cards, 2026-10-19):

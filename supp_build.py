@@ -38,6 +38,7 @@ ok_v7 = lambda i: i in v7m and i in cur and cur[i] == (v7m[i]['image'], v7m[i]['
 ids = order[:n] + [i for i in cur if i not in set(order)]
 pick = lambda i: v7m[i]['path'] if ok_v7(i) else auto[i]['path'] if ok_auto(i) and not ok_man(i) else None
 rows = [(i, f"https://ksofronis.github.io/jt-meta-cards/{pick(i)}" if pick(i) else url(i)) for i in ids if ok_v7(i) or ok_man(i) or ok_auto(i)]
+main_of = dict(rows).get
 # v9 extras (v9_extras.py, top products): cards 2/3 lead the gallery, the site's own gallery photos follow (never dropped);
 # videos as video[0] (9:16) and video[1] (1:1). Every row repeats its site gallery so the column never blanks a product's photos.
 import make_v7
@@ -55,7 +56,9 @@ def more(i):
     f = v9x[i]['files'] if x_ok(i) else {}
     base = R2_PUBLIC if v9x.get(i, {}).get('r2') and R2_PUBLIC else PAGES
     qc = v9x.get(i, {}).get('qc', {}); f = {k: v for k, v in f.items() if qc.get(k) is True}  # guardrail (21/10): only assets that passed qc_assets reach Meta; no flag = not published
-    imgs = [base + f[k] for k in ('c3',) if k in f] + extra.get(i, [])  # no colour card (c2): owner decision 21/10, swatches alone showed with 0 context
+    # owner decisions 21/10 ("0 chance of a photo with no context"): no colour card, no detail card, no site gallery photos
+    # (sample charts and detail close-ups shown alone). The main card fills the field: an empty cell may keep Meta's old copy.
+    imgs = [main_of(i)]
     return [','.join(imgs[:20]), base + f['story'] if 'story' in f else '', base + f['feed'] if 'feed' in f else '']
 with open('feed/supplementary.csv', 'w', newline='') as f:
     w = csv.writer(f); w.writerow(['id', 'image_link', 'additional_image_link', 'video[0].url', 'video[1].url'])
