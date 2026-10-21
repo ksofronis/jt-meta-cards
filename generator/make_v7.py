@@ -83,7 +83,17 @@ def build(it):
     return {'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': g('image_link'),
             'badges': list(dict.fromkeys(b))[:2], 'swatches': sw, 'swatch_label': sw_label,
             'sizes': sizes if mattress else [], 'secondary': sec, 'finance': finance_line(g('sale_price') or g('price')),
-            'swatch_terms': sw_terms, 'gallery': [e.text.strip() for e in it.findall('g:additional_image_link', namespaces=NS) if e.text and e.text.strip()]}
+            'warranty': has_warranty(ptype), 'swatch_terms': sw_terms, 'gallery': [e.text.strip() for e in it.findall('g:additional_image_link', namespaces=NS) if e.text and e.text.strip()]}
+
+WARRANTY = '10ετής εγγύηση'  # owner-approved 21/10: sofas and beds only (the "10 χρόνια γραπτή εγγύηση" claim in every JT ad)
+def has_warranty(ptype): return 'Καναπέδες' in ptype or 'Κρεβατοκάμαρα > Κρεβάτι' in ptype
+
+def shield(size, color):
+    b = size * 4; im = Image.new('RGBA', (b, b), (0, 0, 0, 0)); d = ImageDraw.Draw(im); w = int(b * .09)
+    pts = [(b*.5, b*.06), (b*.88, b*.2), (b*.84, b*.56), (b*.5, b*.94), (b*.16, b*.56), (b*.12, b*.2)]
+    d.line(pts + [pts[0]], fill=color, width=w, joint='curve')
+    d.line([(b*.32, b*.5), (b*.45, b*.63), (b*.7, b*.36)], fill=color, width=w, joint='curve')
+    return im.resize((size, size), Image.LANCZOS)
 
 def finance_line(price):
     """v9 instalments pill, same split as the site (homepage instalments section + site product cards, 2026-10-19):
@@ -280,10 +290,11 @@ def card(it, out):
         if cut: c.paste(t, (px, py))  # white-background shot: no box, no shadow, the product sits on the card
         else: shadow(c, (px, py, px + t.width, py + t.height), 28, PHOTO_SH); c.paste(t, (px, py), mask(t.size, 28))
     bx = px + 24
-    for b in it['badges']:
+    for b in it['badges'][:1 if it.get('warranty') else 2]:  # warranty takes the 2nd chip slot
         dark = b == 'ΝΕΟ'
         bx += pill(c, bx, py + 24, b, FONT(700 if dark else 600, 36), CREAM if dark else INK, INK if dark else (255, 255, 255),
                    h=68, pad=28, depth=BTN_SH[1:]) + 14
+    if it.get('warranty'): pill(c, bx, py + 24, WARRANTY, FONT(600, 36), INK, (255, 255, 255), h=68, pad=26, depth=BTN_SH[1:], icon=shield(38, INK))
 
     if fin: fin_pill(c, px + 24, py + th - 24 - 72, fin)  # v9 instalments, on the photo (photo keeps its size)
     x, y = M + 4, area_bot + 36
