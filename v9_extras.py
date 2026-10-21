@@ -46,7 +46,6 @@ for it in todo[:MAX]:
     try:
         spec = dict(m.build(it), crop=crop_of(it))
         files = {}
-        if spec['swatches']: x.colours(spec, f'{base}-c2.jpg'); files['c2'] = f'{base}-c2.jpg'
         x.details(spec, f'{base}-c3.jpg'); files['c3'] = f'{base}-c3.jpg'
         x.video(spec, f'{base}-story.mp4', 1080, 1920); files['story'] = f'{base}-story.mp4'
         x.video(spec, f'{base}-feed.mp4', 1080, 1080); files['feed'] = f'{base}-feed.mp4'

@@ -55,7 +55,7 @@ def more(i):
     f = v9x[i]['files'] if x_ok(i) else {}
     base = R2_PUBLIC if v9x.get(i, {}).get('r2') and R2_PUBLIC else PAGES
     qc = v9x.get(i, {}).get('qc', {}); f = {k: v for k, v in f.items() if qc.get(k) is True}  # guardrail (21/10): only assets that passed qc_assets reach Meta; no flag = not published
-    imgs = [base + f[k] for k in ('c2', 'c3') if k in f] + extra.get(i, [])
+    imgs = [base + f[k] for k in ('c3',) if k in f] + extra.get(i, [])  # no colour card (c2): owner decision 21/10, swatches alone showed with 0 context
     return [','.join(imgs[:20]), base + f['story'] if 'story' in f else '', base + f['feed'] if 'feed' in f else '']
 with open('feed/supplementary.csv', 'w', newline='') as f:
     w = csv.writer(f); w.writerow(['id', 'image_link', 'additional_image_link', 'video[0].url', 'video[1].url'])
