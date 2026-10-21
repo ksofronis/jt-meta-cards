@@ -3567,13 +3567,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/f0276480-Edit.jpg",
 "Γωνιακός Καναπές Kouros 295x250x110",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59034-67c7d64a-c2.jpg",
-"c3": "v9x/59034-67c7d64a-c3.jpg",
-"story": "v9x/59034-67c7d64a-story.mp4",
-"feed": "v9x/59034-67c7d64a-feed.mp4"
+"story": "v9x/59034-7c5df5b0-story.mp4",
+"feed": "v9x/59034-7c5df5b0-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -3737,13 +3739,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/DSC02507.jpg",
 "Γωνιακός Καναπές Martel 295x245x98",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59032-a6c5f20a-c2.jpg",
-"c3": "v9x/59032-a6c5f20a-c3.jpg",
-"story": "v9x/59032-a6c5f20a-story.mp4",
-"feed": "v9x/59032-a6c5f20a-feed.mp4"
+"story": "v9x/59032-c3fdc45f-story.mp4",
+"feed": "v9x/59032-c3fdc45f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4325,13 +4329,15 @@ null,
 1418,
 1024
 ],
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49733-7164ceab-c2.jpg",
-"c3": "v9x/49733-7164ceab-c3.jpg",
-"story": "v9x/49733-7164ceab-story.mp4",
-"feed": "v9x/49733-7164ceab-feed.mp4"
+"story": "v9x/49733-a42305e5-story.mp4",
+"feed": "v9x/49733-a42305e5-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4340,13 +4346,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC03899.jpg",
 "Μπουφέ Lidia 200x50x80",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/63729-ab2ec250-c2.jpg",
-"c3": "v9x/63729-ab2ec250-c3.jpg",
-"story": "v9x/63729-ab2ec250-story.mp4",
-"feed": "v9x/63729-ab2ec250-feed.mp4"
+"story": "v9x/63729-2cb465c2-story.mp4",
+"feed": "v9x/63729-2cb465c2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4355,13 +4363,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/07/a4d7b82b-9395-4a36-8f25-ef883d728892.png",
 "Τραπέζι Village 180×90×76",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/48145-860ef697-c2.jpg",
-"c3": "v9x/48145-860ef697-c3.jpg",
-"story": "v9x/48145-860ef697-story.mp4",
-"feed": "v9x/48145-860ef697-feed.mp4"
+"story": "v9x/48145-44fd2b3c-story.mp4",
+"feed": "v9x/48145-44fd2b3c-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4545,13 +4555,15 @@ null,
 1418,
 1024
 ],
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49730-7164ceab-c2.jpg",
-"c3": "v9x/49730-7164ceab-c3.jpg",
-"story": "v9x/49730-7164ceab-story.mp4",
-"feed": "v9x/49730-7164ceab-feed.mp4"
+"story": "v9x/49730-a42305e5-story.mp4",
+"feed": "v9x/49730-a42305e5-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4994,13 +5006,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/6bdae615-5976-41f8-aa08-0b89503f6eb0.png",
 "Μπουφέ Olive 200x50x77",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49751-22d99524-c2.jpg",
-"c3": "v9x/49751-22d99524-c3.jpg",
-"story": "v9x/49751-22d99524-story.mp4",
-"feed": "v9x/49751-22d99524-feed.mp4"
+"story": "v9x/49751-ba3f3888-story.mp4",
+"feed": "v9x/49751-ba3f3888-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5088,13 +5102,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC0170.jpg",
 "Τραπεζάκι σαλονιού Fiera 120×80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/50172-fd641de2-c2.jpg",
-"c3": "v9x/50172-fd641de2-c3.jpg",
-"story": "v9x/50172-fd641de2-story.mp4",
-"feed": "v9x/50172-fd641de2-feed.mp4"
+"story": "v9x/50172-cebdc941-story.mp4",
+"feed": "v9x/50172-cebdc941-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5212,13 +5228,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC0170.jpg",
 "Τραπεζάκι σαλονιού Fiera 120×80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/50171-fd641de2-c2.jpg",
-"c3": "v9x/50171-fd641de2-c3.jpg",
-"story": "v9x/50171-fd641de2-story.mp4",
-"feed": "v9x/50171-fd641de2-feed.mp4"
+"story": "v9x/50171-cebdc941-story.mp4",
+"feed": "v9x/50171-cebdc941-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5340,13 +5358,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC03898.jpg",
 "Τραπέζι Lidia 200x100x78",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49715-3fab769c-c2.jpg",
-"c3": "v9x/49715-3fab769c-c3.jpg",
-"story": "v9x/49715-3fab769c-story.mp4",
-"feed": "v9x/49715-3fab769c-feed.mp4"
+"story": "v9x/49715-5bb18a70-story.mp4",
+"feed": "v9x/49715-5bb18a70-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5609,13 +5629,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/DSC04047.jpg",
 "Rafaela Καρέκλα Τραπεζαρίας",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59247-2a46f540-c2.jpg",
-"c3": "v9x/59247-2a46f540-c3.jpg",
-"story": "v9x/59247-2a46f540-story.mp4",
-"feed": "v9x/59247-2a46f540-feed.mp4"
+"story": "v9x/59247-49bc269b-story.mp4",
+"feed": "v9x/59247-49bc269b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5837,13 +5859,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC0170.jpg",
 "Τραπεζάκι σαλονιού Fiera 120×80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49764-fd641de2-c2.jpg",
-"c3": "v9x/49764-fd641de2-c3.jpg",
-"story": "v9x/49764-fd641de2-story.mp4",
-"feed": "v9x/49764-fd641de2-feed.mp4"
+"story": "v9x/49764-cebdc941-story.mp4",
+"feed": "v9x/49764-cebdc941-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6135,13 +6159,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/03/sestina-mavro.jpg",
 "Καρέκλα Κουζίνας Sestina 2",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59412-23d01574-c2.jpg",
-"c3": "v9x/59412-23d01574-c3.jpg",
-"story": "v9x/59412-23d01574-story.mp4",
-"feed": "v9x/59412-23d01574-feed.mp4"
+"story": "v9x/59412-a70d86e7-story.mp4",
+"feed": "v9x/59412-a70d86e7-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6366,13 +6392,15 @@ null,
 1411,
 898
 ],
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49757-106121ca-c2.jpg",
-"c3": "v9x/49757-106121ca-c3.jpg",
-"story": "v9x/49757-106121ca-story.mp4",
-"feed": "v9x/49757-106121ca-feed.mp4"
+"story": "v9x/49757-3731a881-story.mp4",
+"feed": "v9x/49757-3731a881-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6569,13 +6597,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC03899.jpg",
 "Μπουφέ Lidia 200x50x80",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/63728-ab2ec250-c2.jpg",
-"c3": "v9x/63728-ab2ec250-c3.jpg",
-"story": "v9x/63728-ab2ec250-story.mp4",
-"feed": "v9x/63728-ab2ec250-feed.mp4"
+"story": "v9x/63728-2cb465c2-story.mp4",
+"feed": "v9x/63728-2cb465c2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6601,13 +6631,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/DSC02508.jpg",
 "Σετ Τραπεζαρίας Cargo 2 200x100",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59419-fc99fdba-c2.jpg",
-"c3": "v9x/59419-fc99fdba-c3.jpg",
-"story": "v9x/59419-fc99fdba-story.mp4",
-"feed": "v9x/59419-fc99fdba-feed.mp4"
+"story": "v9x/59419-ddb788f6-story.mp4",
+"feed": "v9x/59419-ddb788f6-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6631,12 +6663,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/scoop.jpg",
 "Τραπέζι Κουζίνας Scoop 110x75x77",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/561-4a056cd7-c3.jpg",
-"story": "v9x/561-4a056cd7-story.mp4",
-"feed": "v9x/561-4a056cd7-feed.mp4"
+"story": "v9x/561-2650347a-story.mp4",
+"feed": "v9x/561-2650347a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6739,13 +6774,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/05/DSC02345.jpg",
 "Star Καρέκλα Τραπεζαρίας",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/51719-be19c3ca-c2.jpg",
-"c3": "v9x/51719-be19c3ca-c3.jpg",
-"story": "v9x/51719-be19c3ca-story.mp4",
-"feed": "v9x/51719-be19c3ca-feed.mp4"
+"story": "v9x/51719-4e49048c-story.mp4",
+"feed": "v9x/51719-4e49048c-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6801,13 +6838,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/07/tores.jpg",
 "Καρέκλα Tores",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/48151-5835869b-c2.jpg",
-"c3": "v9x/48151-5835869b-c3.jpg",
-"story": "v9x/48151-5835869b-story.mp4",
-"feed": "v9x/48151-5835869b-feed.mp4"
+"story": "v9x/48151-005abfc7-story.mp4",
+"feed": "v9x/48151-005abfc7-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7031,13 +7070,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/05/DSC02358.jpg",
 "Καρέκλα Monday",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/51726-dbd2cfdd-c2.jpg",
-"c3": "v9x/51726-dbd2cfdd-c3.jpg",
-"story": "v9x/51726-dbd2cfdd-story.mp4",
-"feed": "v9x/51726-dbd2cfdd-feed.mp4"
+"story": "v9x/51726-a0f412dc-story.mp4",
+"feed": "v9x/51726-a0f412dc-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7308,13 +7349,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03280-Edit.jpg",
 "Μπουφέ Jason 207x50x78",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/63939-c453d30f-c2.jpg",
-"c3": "v9x/63939-c453d30f-c3.jpg",
-"story": "v9x/63939-c453d30f-story.mp4",
-"feed": "v9x/63939-c453d30f-feed.mp4"
+"story": "v9x/63939-b8074828-story.mp4",
+"feed": "v9x/63939-b8074828-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7489,12 +7532,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/venus-1.jpg",
 "Τραπέζι Κουζίνας Venus Maxi 120x70x75",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/566-7306f3de-c3.jpg",
-"story": "v9x/566-7306f3de-story.mp4",
-"feed": "v9x/566-7306f3de-feed.mp4"
+"story": "v9x/566-d499a6f6-story.mp4",
+"feed": "v9x/566-d499a6f6-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7768,13 +7814,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC0170.jpg",
 "Τραπεζάκι σαλονιού Fiera 120×80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/50173-fd641de2-c2.jpg",
-"c3": "v9x/50173-fd641de2-c3.jpg",
-"story": "v9x/50173-fd641de2-story.mp4",
-"feed": "v9x/50173-fd641de2-feed.mp4"
+"story": "v9x/50173-cebdc941-story.mp4",
+"feed": "v9x/50173-cebdc941-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8028,7 +8076,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "74117": {
 "key": [
@@ -8124,13 +8173,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2023/01/Κονσόλα-Νο81.jpg",
 "Κονσόλα No81",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/62828-1d1b2109-c2.jpg",
-"c3": "v9x/62828-1d1b2109-c3.jpg",
-"story": "v9x/62828-1d1b2109-story.mp4",
-"feed": "v9x/62828-1d1b2109-feed.mp4"
+"story": "v9x/62828-dbd43c41-story.mp4",
+"feed": "v9x/62828-dbd43c41-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8170,13 +8221,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/05/DSC02387-Edit.jpg",
 "Πολυθρόνα Katania",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/51749-e3feb36e-c2.jpg",
-"c3": "v9x/51749-e3feb36e-c3.jpg",
-"story": "v9x/51749-e3feb36e-story.mp4",
-"feed": "v9x/51749-e3feb36e-feed.mp4"
+"story": "v9x/51749-7ad74675-story.mp4",
+"feed": "v9x/51749-7ad74675-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8416,13 +8469,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/f9914f98-70ab-4d7c-b19c-2e4ae31e9099.png",
 "Κρεβάτι Lidia",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49689-ab24d1de-c2.jpg",
-"c3": "v9x/49689-ab24d1de-c3.jpg",
-"story": "v9x/49689-ab24d1de-story.mp4",
-"feed": "v9x/49689-ab24d1de-feed.mp4"
+"story": "v9x/49689-e2506ddf-story.mp4",
+"feed": "v9x/49689-e2506ddf-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8450,13 +8505,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/DSC02548.jpg",
 "Συρταριέρα Erato",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59152-c5210940-c2.jpg",
-"c3": "v9x/59152-c5210940-c3.jpg",
-"story": "v9x/59152-c5210940-story.mp4",
-"feed": "v9x/59152-c5210940-feed.mp4"
+"story": "v9x/59152-444e9685-story.mp4",
+"feed": "v9x/59152-444e9685-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8633,12 +8690,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/loft-lila-1.jpg",
 "Μοκέτα Υφαντή Loft",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58741-5e819dcb-c3.jpg",
-"story": "v9x/58741-5e819dcb-story.mp4",
-"feed": "v9x/58741-5e819dcb-feed.mp4"
+"story": "v9x/58741-7e17e125-story.mp4",
+"feed": "v9x/58741-7e17e125-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8647,12 +8707,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47675-15f260b4-c3.jpg",
-"story": "v9x/47675-15f260b4-story.mp4",
-"feed": "v9x/47675-15f260b4-feed.mp4"
+"story": "v9x/47675-b547bfca-story.mp4",
+"feed": "v9x/47675-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8861,12 +8924,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47673-15f260b4-c3.jpg",
-"story": "v9x/47673-15f260b4-story.mp4",
-"feed": "v9x/47673-15f260b4-feed.mp4"
+"story": "v9x/47673-b547bfca-story.mp4",
+"feed": "v9x/47673-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8939,12 +9005,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47853-bc22c05f-c3.jpg",
-"story": "v9x/47853-bc22c05f-story.mp4",
-"feed": "v9x/47853-bc22c05f-feed.mp4"
+"story": "v9x/47853-fd6adde2-story.mp4",
+"feed": "v9x/47853-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8981,12 +9050,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47855-bc22c05f-c3.jpg",
-"story": "v9x/47855-bc22c05f-story.mp4",
-"feed": "v9x/47855-bc22c05f-feed.mp4"
+"story": "v9x/47855-fd6adde2-story.mp4",
+"feed": "v9x/47855-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9046,13 +9118,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47317-ec8d53a4-c2.jpg",
-"c3": "v9x/47317-ec8d53a4-c3.jpg",
-"story": "v9x/47317-ec8d53a4-story.mp4",
-"feed": "v9x/47317-ec8d53a4-feed.mp4"
+"story": "v9x/47317-e75be1c1-story.mp4",
+"feed": "v9x/47317-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9132,13 +9206,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/12/8a80594b-63fa-49a0-933d-956374e906a6.png",
 "Κρεβάτι Faidra",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49394-4bbff1f1-c2.jpg",
-"c3": "v9x/49394-4bbff1f1-c3.jpg",
-"story": "v9x/49394-4bbff1f1-story.mp4",
-"feed": "v9x/49394-4bbff1f1-feed.mp4"
+"story": "v9x/49394-0b62fcc2-story.mp4",
+"feed": "v9x/49394-0b62fcc2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9284,12 +9360,15 @@ null,
 1198,
 853
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/63198-dac454b7-c3.jpg",
-"story": "v9x/63198-dac454b7-story.mp4",
-"feed": "v9x/63198-dac454b7-feed.mp4"
+"story": "v9x/63198-d6bef794-story.mp4",
+"feed": "v9x/63198-d6bef794-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9364,13 +9443,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47315-ec8d53a4-c2.jpg",
-"c3": "v9x/47315-ec8d53a4-c3.jpg",
-"story": "v9x/47315-ec8d53a4-story.mp4",
-"feed": "v9x/47315-ec8d53a4-feed.mp4"
+"story": "v9x/47315-e75be1c1-story.mp4",
+"feed": "v9x/47315-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9384,13 +9465,15 @@ null,
 1125,
 737
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49387-e9569670-c2.jpg",
-"c3": "v9x/49387-e9569670-c3.jpg",
-"story": "v9x/49387-e9569670-story.mp4",
-"feed": "v9x/49387-e9569670-feed.mp4"
+"story": "v9x/49387-8fa9afeb-story.mp4",
+"feed": "v9x/49387-8fa9afeb-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9430,13 +9513,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC01703.jpg",
 "Σετ Κρεβατοκάμαρας Lidia",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49661-7716e607-c2.jpg",
-"c3": "v9x/49661-7716e607-c3.jpg",
-"story": "v9x/49661-7716e607-story.mp4",
-"feed": "v9x/49661-7716e607-feed.mp4"
+"story": "v9x/49661-1678d837-story.mp4",
+"feed": "v9x/49661-1678d837-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9502,12 +9587,15 @@ null,
 1797,
 1365
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58546-b27fd5d8-c3.jpg",
-"story": "v9x/58546-b27fd5d8-story.mp4",
-"feed": "v9x/58546-b27fd5d8-feed.mp4"
+"story": "v9x/58546-1fbca8aa-story.mp4",
+"feed": "v9x/58546-1fbca8aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9615,7 +9703,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "76719": {
 "key": [
@@ -9764,12 +9853,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47857-bc22c05f-c3.jpg",
-"story": "v9x/47857-bc22c05f-story.mp4",
-"feed": "v9x/47857-bc22c05f-feed.mp4"
+"story": "v9x/47857-fd6adde2-story.mp4",
+"feed": "v9x/47857-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9858,13 +9950,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/06/3AA7A119-D4C4-45D7-86E1-4E135DDC4770.png",
 "Σετ Κρεβατοκάμαρας Nemesis",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/52936-9b7d446b-c2.jpg",
-"c3": "v9x/52936-9b7d446b-c3.jpg",
-"story": "v9x/52936-9b7d446b-story.mp4",
-"feed": "v9x/52936-9b7d446b-feed.mp4"
+"story": "v9x/52936-164ff307-story.mp4",
+"feed": "v9x/52936-164ff307-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10114,12 +10208,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Print-1.jpg",
 "Μαξιλαράκι Print 43x43",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/5654-f49f2511-c3.jpg",
-"story": "v9x/5654-f49f2511-story.mp4",
-"feed": "v9x/5654-f49f2511-feed.mp4"
+"story": "v9x/5654-e804e6da-story.mp4",
+"feed": "v9x/5654-e804e6da-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10304,12 +10401,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/pluto-vison-1.jpg",
 "Μοκέτα Υφαντή Pluto",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58737-648f513d-c3.jpg",
-"story": "v9x/58737-648f513d-story.mp4",
-"feed": "v9x/58737-648f513d-feed.mp4"
+"story": "v9x/58737-9f8932b2-story.mp4",
+"feed": "v9x/58737-9f8932b2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10318,12 +10418,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/venus-gkri-skouro-1.jpg",
 "Μοκέτα Υφαντή Venus",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58724-5008c62c-c3.jpg",
-"story": "v9x/58724-5008c62c-story.mp4",
-"feed": "v9x/58724-5008c62c-feed.mp4"
+"story": "v9x/58724-b3d61511-story.mp4",
+"feed": "v9x/58724-b3d61511-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10380,13 +10483,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/ermis_gkri-1.jpg",
 "Μοκέτα Υφαντή Ermis",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/58748-e008a08b-c2.jpg",
-"c3": "v9x/58748-e008a08b-c3.jpg",
-"story": "v9x/58748-e008a08b-story.mp4",
-"feed": "v9x/58748-e008a08b-feed.mp4"
+"story": "v9x/58748-ddfb31ff-story.mp4",
+"feed": "v9x/58748-ddfb31ff-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10395,12 +10500,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47875-a26eca50-c3.jpg",
-"story": "v9x/47875-a26eca50-story.mp4",
-"feed": "v9x/47875-a26eca50-feed.mp4"
+"story": "v9x/47875-a01851aa-story.mp4",
+"feed": "v9x/47875-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10525,12 +10633,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47879-a26eca50-c3.jpg",
-"story": "v9x/47879-a26eca50-story.mp4",
-"feed": "v9x/47879-a26eca50-feed.mp4"
+"story": "v9x/47879-a01851aa-story.mp4",
+"feed": "v9x/47879-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10539,12 +10650,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/venus-gkri-skouro-1.jpg",
 "Μοκέτα Υφαντή Venus",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58624-5008c62c-c3.jpg",
-"story": "v9x/58624-5008c62c-story.mp4",
-"feed": "v9x/58624-5008c62c-feed.mp4"
+"story": "v9x/58624-b3d61511-story.mp4",
+"feed": "v9x/58624-b3d61511-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10628,12 +10742,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/pluto-vison-1.jpg",
 "Μοκέτα Υφαντή Pluto",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58738-648f513d-c3.jpg",
-"story": "v9x/58738-648f513d-story.mp4",
-"feed": "v9x/58738-648f513d-feed.mp4"
+"story": "v9x/58738-9f8932b2-story.mp4",
+"feed": "v9x/58738-9f8932b2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10657,12 +10774,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/loft-lila-1.jpg",
 "Μοκέτα Υφαντή Loft",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58744-5e819dcb-c3.jpg",
-"story": "v9x/58744-5e819dcb-story.mp4",
-"feed": "v9x/58744-5e819dcb-feed.mp4"
+"story": "v9x/58744-7e17e125-story.mp4",
+"feed": "v9x/58744-7e17e125-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10750,13 +10870,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02395-Edit_.jpg",
 "Σετ Κρεβατοκάμαρας Johan",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/53019-70b53593-c2.jpg",
-"c3": "v9x/53019-70b53593-c3.jpg",
-"story": "v9x/53019-70b53593-story.mp4",
-"feed": "v9x/53019-70b53593-feed.mp4"
+"story": "v9x/53019-16727d8f-story.mp4",
+"feed": "v9x/53019-16727d8f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10804,13 +10926,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02411.jpg",
 "Συρταριέρα Johan",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/53198-bb28d4e3-c2.jpg",
-"c3": "v9x/53198-bb28d4e3-c3.jpg",
-"story": "v9x/53198-bb28d4e3-story.mp4",
-"feed": "v9x/53198-bb28d4e3-feed.mp4"
+"story": "v9x/53198-c83480e5-story.mp4",
+"feed": "v9x/53198-c83480e5-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -11478,12 +11602,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/loft-lila-1.jpg",
 "Μοκέτα Υφαντή Loft",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58572-5e819dcb-c3.jpg",
-"story": "v9x/58572-5e819dcb-story.mp4",
-"feed": "v9x/58572-5e819dcb-feed.mp4"
+"story": "v9x/58572-7e17e125-story.mp4",
+"feed": "v9x/58572-7e17e125-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -12101,13 +12228,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47309-ec8d53a4-c2.jpg",
-"c3": "v9x/47309-ec8d53a4-c3.jpg",
-"story": "v9x/47309-ec8d53a4-story.mp4",
-"feed": "v9x/47309-ec8d53a4-feed.mp4"
+"story": "v9x/47309-e75be1c1-story.mp4",
+"feed": "v9x/47309-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -12334,12 +12463,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47881-a26eca50-c3.jpg",
-"story": "v9x/47881-a26eca50-story.mp4",
-"feed": "v9x/47881-a26eca50-feed.mp4"
+"story": "v9x/47881-a01851aa-story.mp4",
+"feed": "v9x/47881-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -12858,12 +12990,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/torino-kokkino-1.jpg",
 "Μοκέτα Υφαντή Torino",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58603-3a2c514a-c3.jpg",
-"story": "v9x/58603-3a2c514a-story.mp4",
-"feed": "v9x/58603-3a2c514a-feed.mp4"
+"story": "v9x/58603-dc240a1f-story.mp4",
+"feed": "v9x/58603-dc240a1f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -13063,13 +13198,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC09699-Edit_.jpg",
 "Σετ Κρεβατοκάμαρας Faidra",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49354-9cdd891a-c2.jpg",
-"c3": "v9x/49354-9cdd891a-c3.jpg",
-"story": "v9x/49354-9cdd891a-story.mp4",
-"feed": "v9x/49354-9cdd891a-feed.mp4"
+"story": "v9x/49354-122de42f-story.mp4",
+"feed": "v9x/49354-122de42f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -13447,12 +13584,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/pluto-vison-1.jpg",
 "Μοκέτα Υφαντή Pluto",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58736-648f513d-c3.jpg",
-"story": "v9x/58736-648f513d-story.mp4",
-"feed": "v9x/58736-648f513d-feed.mp4"
+"story": "v9x/58736-9f8932b2-story.mp4",
+"feed": "v9x/58736-9f8932b2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -13461,12 +13601,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/torino-kokkino-1.jpg",
 "Μοκέτα Υφαντή Torino",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58729-3a2c514a-c3.jpg",
-"story": "v9x/58729-3a2c514a-story.mp4",
-"feed": "v9x/58729-3a2c514a-feed.mp4"
+"story": "v9x/58729-dc240a1f-story.mp4",
+"feed": "v9x/58729-dc240a1f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -13826,13 +13969,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/Aura-stool-scaled-1.jpg",
 "Bar-Stool Aura",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59235-5b938b18-c2.jpg",
-"c3": "v9x/59235-5b938b18-c3.jpg",
-"story": "v9x/59235-5b938b18-story.mp4",
-"feed": "v9x/59235-5b938b18-feed.mp4"
+"story": "v9x/59235-1b355a50-story.mp4",
+"feed": "v9x/59235-1b355a50-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -14011,7 +14156,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "45662": {
 "key": [
@@ -14071,12 +14217,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/torino-kokkino-1.jpg",
 "Μοκέτα Υφαντή Torino",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58733-3a2c514a-c3.jpg",
-"story": "v9x/58733-3a2c514a-story.mp4",
-"feed": "v9x/58733-3a2c514a-feed.mp4"
+"story": "v9x/58733-dc240a1f-story.mp4",
+"feed": "v9x/58733-dc240a1f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -14111,19 +14260,23 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "58590": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2022/10/pluto-vison-1.jpg",
 "Μοκέτα Υφαντή Pluto",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58590-648f513d-c3.jpg",
-"story": "v9x/58590-648f513d-story.mp4",
-"feed": "v9x/58590-648f513d-feed.mp4"
+"story": "v9x/58590-9f8932b2-story.mp4",
+"feed": "v9x/58590-9f8932b2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -14276,13 +14429,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03324.jpg",
 "Συρταριέρα Elisabeth 66x42x120",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/64080-e0400130-c2.jpg",
-"c3": "v9x/64080-e0400130-c3.jpg",
-"story": "v9x/64080-e0400130-story.mp4",
-"feed": "v9x/64080-e0400130-feed.mp4"
+"story": "v9x/64080-cd330af3-story.mp4",
+"feed": "v9x/64080-cd330af3-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -14411,13 +14566,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2023/01/DSC04034-Edit.jpg",
 "Κονσόλα No77",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/62823-133e432d-c2.jpg",
-"c3": "v9x/62823-133e432d-c3.jpg",
-"story": "v9x/62823-133e432d-story.mp4",
-"feed": "v9x/62823-133e432d-feed.mp4"
+"story": "v9x/62823-39bb72dd-story.mp4",
+"feed": "v9x/62823-39bb72dd-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -14487,12 +14644,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47856-bc22c05f-c3.jpg",
-"story": "v9x/47856-bc22c05f-story.mp4",
-"feed": "v9x/47856-bc22c05f-feed.mp4"
+"story": "v9x/47856-fd6adde2-story.mp4",
+"feed": "v9x/47856-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -14524,7 +14684,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "80303": {
 "key": [
@@ -14946,13 +15107,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC01664-1.jpg",
 "Σύνθεση Clio 200x45x45",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49467-e82de9fb-c2.jpg",
-"c3": "v9x/49467-e82de9fb-c3.jpg",
-"story": "v9x/49467-e82de9fb-story.mp4",
-"feed": "v9x/49467-e82de9fb-feed.mp4"
+"story": "v9x/49467-55e51b45-story.mp4",
+"feed": "v9x/49467-55e51b45-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15032,12 +15195,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47682-15f260b4-c3.jpg",
-"story": "v9x/47682-15f260b4-story.mp4",
-"feed": "v9x/47682-15f260b4-feed.mp4"
+"story": "v9x/47682-b547bfca-story.mp4",
+"feed": "v9x/47682-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15046,13 +15212,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC09699-Edit_.jpg",
 "Σετ Κρεβατοκάμαρας Faidra",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49355-9cdd891a-c2.jpg",
-"c3": "v9x/49355-9cdd891a-c3.jpg",
-"story": "v9x/49355-9cdd891a-story.mp4",
-"feed": "v9x/49355-9cdd891a-feed.mp4"
+"story": "v9x/49355-122de42f-story.mp4",
+"feed": "v9x/49355-122de42f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15061,13 +15229,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/ermis_gkri-1.jpg",
 "Μοκέτα Υφαντή Ermis",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/58747-e008a08b-c2.jpg",
-"c3": "v9x/58747-e008a08b-c3.jpg",
-"story": "v9x/58747-e008a08b-story.mp4",
-"feed": "v9x/58747-e008a08b-feed.mp4"
+"story": "v9x/58747-ddfb31ff-story.mp4",
+"feed": "v9x/58747-ddfb31ff-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15292,12 +15462,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47674-15f260b4-c3.jpg",
-"story": "v9x/47674-15f260b4-story.mp4",
-"feed": "v9x/47674-15f260b4-feed.mp4"
+"story": "v9x/47674-b547bfca-story.mp4",
+"feed": "v9x/47674-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15430,12 +15603,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47684-15f260b4-c3.jpg",
-"story": "v9x/47684-15f260b4-story.mp4",
-"feed": "v9x/47684-15f260b4-feed.mp4"
+"story": "v9x/47684-b547bfca-story.mp4",
+"feed": "v9x/47684-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15449,13 +15625,15 @@ null,
 1204,
 813
 ],
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/53043-736926dd-c2.jpg",
-"c3": "v9x/53043-736926dd-c3.jpg",
-"story": "v9x/53043-736926dd-story.mp4",
-"feed": "v9x/53043-736926dd-feed.mp4"
+"story": "v9x/53043-cf34c7a6-story.mp4",
+"feed": "v9x/53043-cf34c7a6-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15464,12 +15642,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Totem-1.jpg",
 "Μαξιλαράκι Totem 60x30",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/5660-f64f9364-c3.jpg",
-"story": "v9x/5660-f64f9364-story.mp4",
-"feed": "v9x/5660-f64f9364-feed.mp4"
+"story": "v9x/5660-e1181c46-story.mp4",
+"feed": "v9x/5660-e1181c46-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15535,7 +15716,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "45251": {
 "key": [
@@ -15625,13 +15807,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03268-2.jpg",
 "Σύνθεση Jason 247x44x49",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/63937-4cefc7a0-c2.jpg",
-"c3": "v9x/63937-4cefc7a0-c3.jpg",
-"story": "v9x/63937-4cefc7a0-story.mp4",
-"feed": "v9x/63937-4cefc7a0-feed.mp4"
+"story": "v9x/63937-9255d432-story.mp4",
+"feed": "v9x/63937-9255d432-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15864,12 +16048,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/torino-kokkino-1.jpg",
 "Μοκέτα Υφαντή Torino",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58731-3a2c514a-c3.jpg",
-"story": "v9x/58731-3a2c514a-story.mp4",
-"feed": "v9x/58731-3a2c514a-feed.mp4"
+"story": "v9x/58731-dc240a1f-story.mp4",
+"feed": "v9x/58731-dc240a1f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15878,13 +16065,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC01707_.jpg",
 "Συρταριέρα Lidia 60x45x121",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49702-43f08ad7-c2.jpg",
-"c3": "v9x/49702-43f08ad7-c3.jpg",
-"story": "v9x/49702-43f08ad7-story.mp4",
-"feed": "v9x/49702-43f08ad7-feed.mp4"
+"story": "v9x/49702-7c3f52f2-story.mp4",
+"feed": "v9x/49702-7c3f52f2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -15987,12 +16176,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/VOGUE-4.jpg",
 "Κομοδίνο Vogue 60x40,5x45",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/606-c882ce1a-c3.jpg",
-"story": "v9x/606-c882ce1a-story.mp4",
-"feed": "v9x/606-c882ce1a-feed.mp4"
+"story": "v9x/606-8473a1a7-story.mp4",
+"feed": "v9x/606-8473a1a7-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -16040,13 +16232,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/07/DSC08199_.jpg",
 "Βοηθητικό Τραπεζάκι Elve 43x40",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/48137-2dd5cd38-c2.jpg",
-"c3": "v9x/48137-2dd5cd38-c3.jpg",
-"story": "v9x/48137-2dd5cd38-story.mp4",
-"feed": "v9x/48137-2dd5cd38-feed.mp4"
+"story": "v9x/48137-bbe4be62-story.mp4",
+"feed": "v9x/48137-bbe4be62-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -16084,13 +16278,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47311-ec8d53a4-c2.jpg",
-"c3": "v9x/47311-ec8d53a4-c3.jpg",
-"story": "v9x/47311-ec8d53a4-story.mp4",
-"feed": "v9x/47311-ec8d53a4-feed.mp4"
+"story": "v9x/47311-e75be1c1-story.mp4",
+"feed": "v9x/47311-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -16164,12 +16360,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47680-15f260b4-c3.jpg",
-"story": "v9x/47680-15f260b4-story.mp4",
-"feed": "v9x/47680-15f260b4-feed.mp4"
+"story": "v9x/47680-b547bfca-story.mp4",
+"feed": "v9x/47680-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -16766,13 +16965,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/MIDI-scaled-1.jpg",
 "Bar-Stool Midi",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59245-710448d0-c2.jpg",
-"c3": "v9x/59245-710448d0-c3.jpg",
-"story": "v9x/59245-710448d0-story.mp4",
-"feed": "v9x/59245-710448d0-feed.mp4"
+"story": "v9x/59245-579ce70b-story.mp4",
+"feed": "v9x/59245-579ce70b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -16911,13 +17112,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC0787-Edit.jpg",
 "Συρταριέρα Nemesis 118x45x71",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/52960-9131e9f4-c2.jpg",
-"c3": "v9x/52960-9131e9f4-c3.jpg",
-"story": "v9x/52960-9131e9f4-story.mp4",
-"feed": "v9x/52960-9131e9f4-feed.mp4"
+"story": "v9x/52960-fb0f09e8-story.mp4",
+"feed": "v9x/52960-fb0f09e8-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -17011,12 +17214,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/venus-gkri-skouro-1.jpg",
 "Μοκέτα Υφαντή Venus",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58725-5008c62c-c3.jpg",
-"story": "v9x/58725-5008c62c-story.mp4",
-"feed": "v9x/58725-5008c62c-feed.mp4"
+"story": "v9x/58725-b3d61511-story.mp4",
+"feed": "v9x/58725-b3d61511-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -17195,7 +17401,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "45286": {
 "key": [
@@ -17713,12 +17920,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/pluto-vison-1.jpg",
 "Μοκέτα Υφαντή Pluto",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58735-648f513d-c3.jpg",
-"story": "v9x/58735-648f513d-story.mp4",
-"feed": "v9x/58735-648f513d-feed.mp4"
+"story": "v9x/58735-9f8932b2-story.mp4",
+"feed": "v9x/58735-9f8932b2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -17744,13 +17954,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC0781.jpg",
 "Κρεβάτι Nemesis",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/52956-75dedc01-c2.jpg",
-"c3": "v9x/52956-75dedc01-c3.jpg",
-"story": "v9x/52956-75dedc01-story.mp4",
-"feed": "v9x/52956-75dedc01-feed.mp4"
+"story": "v9x/52956-175b7612-story.mp4",
+"feed": "v9x/52956-175b7612-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -17759,12 +17971,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47850-bc22c05f-c3.jpg",
-"story": "v9x/47850-bc22c05f-story.mp4",
-"feed": "v9x/47850-bc22c05f-feed.mp4"
+"story": "v9x/47850-fd6adde2-story.mp4",
+"feed": "v9x/47850-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18015,12 +18230,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47686-15f260b4-c3.jpg",
-"story": "v9x/47686-15f260b4-story.mp4",
-"feed": "v9x/47686-15f260b4-feed.mp4"
+"story": "v9x/47686-b547bfca-story.mp4",
+"feed": "v9x/47686-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18048,12 +18266,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47878-a26eca50-c3.jpg",
-"story": "v9x/47878-a26eca50-story.mp4",
-"feed": "v9x/47878-a26eca50-feed.mp4"
+"story": "v9x/47878-a01851aa-story.mp4",
+"feed": "v9x/47878-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18062,12 +18283,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/QUEEN-ΜΑΥΡΟ-1.jpg",
 "Bar-Stool Queen",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/476-badba021-c3.jpg",
-"story": "v9x/476-badba021-story.mp4",
-"feed": "v9x/476-badba021-feed.mp4"
+"story": "v9x/476-1203f3e2-story.mp4",
+"feed": "v9x/476-1203f3e2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18251,12 +18475,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47887-a26eca50-c3.jpg",
-"story": "v9x/47887-a26eca50-story.mp4",
-"feed": "v9x/47887-a26eca50-feed.mp4"
+"story": "v9x/47887-a01851aa-story.mp4",
+"feed": "v9x/47887-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18279,12 +18506,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/venus-gkri-skouro-1.jpg",
 "Μοκέτα Υφαντή Venus",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58726-5008c62c-c3.jpg",
-"story": "v9x/58726-5008c62c-story.mp4",
-"feed": "v9x/58726-5008c62c-feed.mp4"
+"story": "v9x/58726-b3d61511-story.mp4",
+"feed": "v9x/58726-b3d61511-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18332,13 +18562,15 @@ null,
 1204,
 813
 ],
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/53044-736926dd-c2.jpg",
-"c3": "v9x/53044-736926dd-c3.jpg",
-"story": "v9x/53044-736926dd-story.mp4",
-"feed": "v9x/53044-736926dd-feed.mp4"
+"story": "v9x/53044-cf34c7a6-story.mp4",
+"feed": "v9x/53044-cf34c7a6-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18378,13 +18610,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC01699.jpg",
 "Κομοδίνο Lidia 55x42x48",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49700-69b3b779-c2.jpg",
-"c3": "v9x/49700-69b3b779-c3.jpg",
-"story": "v9x/49700-69b3b779-story.mp4",
-"feed": "v9x/49700-69b3b779-feed.mp4"
+"story": "v9x/49700-ec4058c7-story.mp4",
+"feed": "v9x/49700-ec4058c7-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18457,12 +18691,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47883-a26eca50-c3.jpg",
-"story": "v9x/47883-a26eca50-story.mp4",
-"feed": "v9x/47883-a26eca50-feed.mp4"
+"story": "v9x/47883-a01851aa-story.mp4",
+"feed": "v9x/47883-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18508,12 +18745,15 @@ null,
 1198,
 853
 ],
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/63199-31a8d339-c3.jpg",
-"story": "v9x/63199-31a8d339-story.mp4",
-"feed": "v9x/63199-31a8d339-feed.mp4"
+"story": "v9x/63199-f77f8ac4-story.mp4",
+"feed": "v9x/63199-f77f8ac4-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18745,12 +18985,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47677-15f260b4-c3.jpg",
-"story": "v9x/47677-15f260b4-story.mp4",
-"feed": "v9x/47677-15f260b4-feed.mp4"
+"story": "v9x/47677-b547bfca-story.mp4",
+"feed": "v9x/47677-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18854,13 +19097,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC09708_.jpg",
 "Συρταριέρα Faidra 60x46x126",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49389-4446a39e-c2.jpg",
-"c3": "v9x/49389-4446a39e-c3.jpg",
-"story": "v9x/49389-4446a39e-story.mp4",
-"feed": "v9x/49389-4446a39e-feed.mp4"
+"story": "v9x/49389-18e8a56b-story.mp4",
+"feed": "v9x/49389-18e8a56b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18921,12 +19166,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47880-a26eca50-c3.jpg",
-"story": "v9x/47880-a26eca50-story.mp4",
-"feed": "v9x/47880-a26eca50-feed.mp4"
+"story": "v9x/47880-a01851aa-story.mp4",
+"feed": "v9x/47880-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -18950,13 +19198,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47319-ec8d53a4-c2.jpg",
-"c3": "v9x/47319-ec8d53a4-c3.jpg",
-"story": "v9x/47319-ec8d53a4-story.mp4",
-"feed": "v9x/47319-ec8d53a4-feed.mp4"
+"story": "v9x/47319-e75be1c1-story.mp4",
+"feed": "v9x/47319-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -19229,7 +19479,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "45796": {
 "key": [
@@ -19277,13 +19528,15 @@ null,
 1202,
 728
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/53195-d28243d6-c2.jpg",
-"c3": "v9x/53195-d28243d6-c3.jpg",
-"story": "v9x/53195-d28243d6-story.mp4",
-"feed": "v9x/53195-d28243d6-feed.mp4"
+"story": "v9x/53195-17c108d3-story.mp4",
+"feed": "v9x/53195-17c108d3-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -19308,13 +19561,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/01/DSC01707_.jpg",
 "Καθρέπτης Δαπέδου Lidia",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49704-0b1358b3-c2.jpg",
-"c3": "v9x/49704-0b1358b3-c3.jpg",
-"story": "v9x/49704-0b1358b3-story.mp4",
-"feed": "v9x/49704-0b1358b3-feed.mp4"
+"story": "v9x/49704-74ff0456-story.mp4",
+"feed": "v9x/49704-74ff0456-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -19454,13 +19709,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47307-ec8d53a4-c2.jpg",
-"c3": "v9x/47307-ec8d53a4-c3.jpg",
-"story": "v9x/47307-ec8d53a4-story.mp4",
-"feed": "v9x/47307-ec8d53a4-feed.mp4"
+"story": "v9x/47307-e75be1c1-story.mp4",
+"feed": "v9x/47307-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -19512,7 +19769,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "9490": {
 "key": [
@@ -19663,13 +19921,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47308-ec8d53a4-c2.jpg",
-"c3": "v9x/47308-ec8d53a4-c3.jpg",
-"story": "v9x/47308-ec8d53a4-story.mp4",
-"feed": "v9x/47308-ec8d53a4-feed.mp4"
+"story": "v9x/47308-e75be1c1-story.mp4",
+"feed": "v9x/47308-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -19781,12 +20041,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47852-bc22c05f-c3.jpg",
-"story": "v9x/47852-bc22c05f-story.mp4",
-"feed": "v9x/47852-bc22c05f-feed.mp4"
+"story": "v9x/47852-fd6adde2-story.mp4",
+"feed": "v9x/47852-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -20243,13 +20506,15 @@ null,
 1202,
 728
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/53196-d28243d6-c2.jpg",
-"c3": "v9x/53196-d28243d6-c3.jpg",
-"story": "v9x/53196-d28243d6-story.mp4",
-"feed": "v9x/53196-d28243d6-feed.mp4"
+"story": "v9x/53196-17c108d3-story.mp4",
+"feed": "v9x/53196-17c108d3-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -21503,13 +21768,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/ermis_gkri-1.jpg",
 "Μοκέτα Υφαντή Ermis",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/58745-e008a08b-c2.jpg",
-"c3": "v9x/58745-e008a08b-c3.jpg",
-"story": "v9x/58745-e008a08b-story.mp4",
-"feed": "v9x/58745-e008a08b-feed.mp4"
+"story": "v9x/58745-ddfb31ff-story.mp4",
+"feed": "v9x/58745-ddfb31ff-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -21881,12 +22148,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/loft-lila-1.jpg",
 "Μοκέτα Υφαντή Loft",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58742-5e819dcb-c3.jpg",
-"story": "v9x/58742-5e819dcb-story.mp4",
-"feed": "v9x/58742-5e819dcb-feed.mp4"
+"story": "v9x/58742-7e17e125-story.mp4",
+"feed": "v9x/58742-7e17e125-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -21918,7 +22188,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "45804": {
 "key": [
@@ -22051,13 +22322,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/erato.jpg",
 "Σετ κρεβατοκάμαρας Erato",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59126-6a4c8c24-c2.jpg",
-"c3": "v9x/59126-6a4c8c24-c3.jpg",
-"story": "v9x/59126-6a4c8c24-story.mp4",
-"feed": "v9x/59126-6a4c8c24-feed.mp4"
+"story": "v9x/59126-149eb124-story.mp4",
+"feed": "v9x/59126-149eb124-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -22085,12 +22358,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/venus-gkri-skouro-1.jpg",
 "Μοκέτα Υφαντή Venus",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58727-5008c62c-c3.jpg",
-"story": "v9x/58727-5008c62c-story.mp4",
-"feed": "v9x/58727-5008c62c-feed.mp4"
+"story": "v9x/58727-b3d61511-story.mp4",
+"feed": "v9x/58727-b3d61511-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -22099,13 +22375,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/ermis_gkri-1.jpg",
 "Μοκέτα Υφαντή Ermis",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/58746-e008a08b-c2.jpg",
-"c3": "v9x/58746-e008a08b-c3.jpg",
-"story": "v9x/58746-e008a08b-story.mp4",
-"feed": "v9x/58746-e008a08b-feed.mp4"
+"story": "v9x/58746-ddfb31ff-story.mp4",
+"feed": "v9x/58746-ddfb31ff-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -22216,13 +22494,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47313-ec8d53a4-c2.jpg",
-"c3": "v9x/47313-ec8d53a4-c3.jpg",
-"story": "v9x/47313-ec8d53a4-story.mp4",
-"feed": "v9x/47313-ec8d53a4-feed.mp4"
+"story": "v9x/47313-e75be1c1-story.mp4",
+"feed": "v9x/47313-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -22793,12 +23073,15 @@ null,
 1176,
 853
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/50042-edbaf664-c3.jpg",
-"story": "v9x/50042-edbaf664-story.mp4",
-"feed": "v9x/50042-edbaf664-feed.mp4"
+"story": "v9x/50042-69542996-story.mp4",
+"feed": "v9x/50042-69542996-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -22864,7 +23147,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "44320": {
 "key": [
@@ -23136,7 +23420,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "45280": {
 "key": [
@@ -23160,12 +23445,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47854-bc22c05f-c3.jpg",
-"story": "v9x/47854-bc22c05f-story.mp4",
-"feed": "v9x/47854-bc22c05f-feed.mp4"
+"story": "v9x/47854-fd6adde2-story.mp4",
+"feed": "v9x/47854-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -23365,13 +23653,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03291-3.jpg",
 "Σετ κρεβατοκάμαρας Elisabeth",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/63854-5a4e8d89-c2.jpg",
-"c3": "v9x/63854-5a4e8d89-c3.jpg",
-"story": "v9x/63854-5a4e8d89-story.mp4",
-"feed": "v9x/63854-5a4e8d89-feed.mp4"
+"story": "v9x/63854-592a8c35-story.mp4",
+"feed": "v9x/63854-592a8c35-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -23585,12 +23875,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47679-15f260b4-c3.jpg",
-"story": "v9x/47679-15f260b4-story.mp4",
-"feed": "v9x/47679-15f260b4-feed.mp4"
+"story": "v9x/47679-b547bfca-story.mp4",
+"feed": "v9x/47679-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -23689,13 +23982,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC09708_.jpg",
 "Καθρέπτης Δαπέδου Faidra",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49391-9fec9cc0-c2.jpg",
-"c3": "v9x/49391-9fec9cc0-c3.jpg",
-"story": "v9x/49391-9fec9cc0-story.mp4",
-"feed": "v9x/49391-9fec9cc0-feed.mp4"
+"story": "v9x/49391-7dec93bd-story.mp4",
+"feed": "v9x/49391-7dec93bd-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -23788,13 +24083,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/b35e2b30-0296-432e-b96c-e1dae34886c6.png",
 "Κρεβάτι Erato",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59146-a6263edc-c2.jpg",
-"c3": "v9x/59146-a6263edc-c3.jpg",
-"story": "v9x/59146-a6263edc-story.mp4",
-"feed": "v9x/59146-a6263edc-feed.mp4"
+"story": "v9x/59146-33179ea9-story.mp4",
+"feed": "v9x/59146-33179ea9-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -23893,13 +24190,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2023/01/no78.jpg",
 "Κονσόλα No78",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/62826-1c83589d-c2.jpg",
-"c3": "v9x/62826-1c83589d-c3.jpg",
-"story": "v9x/62826-1c83589d-story.mp4",
-"feed": "v9x/62826-1c83589d-feed.mp4"
+"story": "v9x/62826-00da6509-story.mp4",
+"feed": "v9x/62826-00da6509-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -23947,12 +24246,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Kristal-1.jpg",
 "Μαξιλαράκι Kristal 43x43",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/5649-e975777f-c3.jpg",
-"story": "v9x/5649-e975777f-story.mp4",
-"feed": "v9x/5649-e975777f-feed.mp4"
+"story": "v9x/5649-89c2ab04-story.mp4",
+"feed": "v9x/5649-89c2ab04-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24031,12 +24333,15 @@ null,
 1280,
 853
 ],
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/48498-02678afa-c3.jpg",
-"story": "v9x/48498-02678afa-story.mp4",
-"feed": "v9x/48498-02678afa-feed.mp4"
+"story": "v9x/48498-20c02216-story.mp4",
+"feed": "v9x/48498-20c02216-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24211,13 +24516,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/05/DSC02387-Edit.jpg",
 "Πολυθρόνα Katania",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/56504-e3feb36e-c2.jpg",
-"c3": "v9x/56504-e3feb36e-c3.jpg",
-"story": "v9x/56504-e3feb36e-story.mp4",
-"feed": "v9x/56504-e3feb36e-feed.mp4"
+"story": "v9x/56504-7ad74675-story.mp4",
+"feed": "v9x/56504-7ad74675-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24321,19 +24628,23 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "50033": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2022/02/b1ed455c-f9c8-41dc-861b-98807d38161b.png",
 "Παιδικό κρεβάτι Gea",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/50033-db0a38f8-c3.jpg",
-"story": "v9x/50033-db0a38f8-story.mp4",
-"feed": "v9x/50033-db0a38f8-feed.mp4"
+"story": "v9x/50033-5dda704b-story.mp4",
+"feed": "v9x/50033-5dda704b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24342,13 +24653,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47312-ec8d53a4-c2.jpg",
-"c3": "v9x/47312-ec8d53a4-c3.jpg",
-"story": "v9x/47312-ec8d53a4-story.mp4",
-"feed": "v9x/47312-ec8d53a4-feed.mp4"
+"story": "v9x/47312-e75be1c1-story.mp4",
+"feed": "v9x/47312-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24453,12 +24766,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47681-15f260b4-c3.jpg",
-"story": "v9x/47681-15f260b4-story.mp4",
-"feed": "v9x/47681-15f260b4-feed.mp4"
+"story": "v9x/47681-b547bfca-story.mp4",
+"feed": "v9x/47681-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24467,13 +24783,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02411.jpg",
 "Συρταριέρα Johan",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/53199-bb28d4e3-c2.jpg",
-"c3": "v9x/53199-bb28d4e3-c3.jpg",
-"story": "v9x/53199-bb28d4e3-story.mp4",
-"feed": "v9x/53199-bb28d4e3-feed.mp4"
+"story": "v9x/53199-c83480e5-story.mp4",
+"feed": "v9x/53199-c83480e5-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24504,12 +24822,15 @@ null,
 1184,
 853
 ],
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/62758-dbcf3810-c3.jpg",
-"story": "v9x/62758-dbcf3810-story.mp4",
-"feed": "v9x/62758-dbcf3810-feed.mp4"
+"story": "v9x/62758-ab038b59-story.mp4",
+"feed": "v9x/62758-ab038b59-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24643,13 +24964,15 @@ null,
 1182,
 732
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/64074-ad29eaf4-c2.jpg",
-"c3": "v9x/64074-ad29eaf4-c3.jpg",
-"story": "v9x/64074-ad29eaf4-story.mp4",
-"feed": "v9x/64074-ad29eaf4-feed.mp4"
+"story": "v9x/64074-a2b8f954-story.mp4",
+"feed": "v9x/64074-a2b8f954-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -25005,12 +25328,15 @@ null,
 1198,
 853
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/63200-dac454b7-c3.jpg",
-"story": "v9x/63200-dac454b7-story.mp4",
-"feed": "v9x/63200-dac454b7-feed.mp4"
+"story": "v9x/63200-d6bef794-story.mp4",
+"feed": "v9x/63200-d6bef794-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -25370,12 +25696,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47851-bc22c05f-c3.jpg",
-"story": "v9x/47851-bc22c05f-story.mp4",
-"feed": "v9x/47851-bc22c05f-feed.mp4"
+"story": "v9x/47851-fd6adde2-story.mp4",
+"feed": "v9x/47851-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -25389,12 +25718,15 @@ null,
 1299,
 947
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/50035-4fd3e558-c3.jpg",
-"story": "v9x/50035-4fd3e558-story.mp4",
-"feed": "v9x/50035-4fd3e558-feed.mp4"
+"story": "v9x/50035-62ecfc07-story.mp4",
+"feed": "v9x/50035-62ecfc07-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -25439,13 +25771,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47310-ec8d53a4-c2.jpg",
-"c3": "v9x/47310-ec8d53a4-c3.jpg",
-"story": "v9x/47310-ec8d53a4-story.mp4",
-"feed": "v9x/47310-ec8d53a4-feed.mp4"
+"story": "v9x/47310-e75be1c1-story.mp4",
+"feed": "v9x/47310-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -25554,13 +25888,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC03868-Edit_.jpg",
 "Έπιπλο TV Steel 2 120x45x45",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49492-f0254259-c2.jpg",
-"c3": "v9x/49492-f0254259-c3.jpg",
-"story": "v9x/49492-f0254259-story.mp4",
-"feed": "v9x/49492-f0254259-feed.mp4"
+"story": "v9x/49492-d7074ad0-story.mp4",
+"feed": "v9x/49492-d7074ad0-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -25659,12 +25995,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/02/b1ed455c-f9c8-41dc-861b-98807d38161b.png",
 "Παιδικό κρεβάτι Gea",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/50034-db0a38f8-c3.jpg",
-"story": "v9x/50034-db0a38f8-story.mp4",
-"feed": "v9x/50034-db0a38f8-feed.mp4"
+"story": "v9x/50034-5dda704b-story.mp4",
+"feed": "v9x/50034-5dda704b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -25673,12 +26012,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/torino-kokkino-1.jpg",
 "Μοκέτα Υφαντή Torino",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58732-3a2c514a-c3.jpg",
-"story": "v9x/58732-3a2c514a-story.mp4",
-"feed": "v9x/58732-3a2c514a-feed.mp4"
+"story": "v9x/58732-dc240a1f-story.mp4",
+"feed": "v9x/58732-dc240a1f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -25883,12 +26225,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47683-15f260b4-c3.jpg",
-"story": "v9x/47683-15f260b4-story.mp4",
-"feed": "v9x/47683-15f260b4-feed.mp4"
+"story": "v9x/47683-b547bfca-story.mp4",
+"feed": "v9x/47683-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -26000,12 +26345,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47685-15f260b4-c3.jpg",
-"story": "v9x/47685-15f260b4-story.mp4",
-"feed": "v9x/47685-15f260b4-feed.mp4"
+"story": "v9x/47685-b547bfca-story.mp4",
+"feed": "v9x/47685-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -26269,12 +26617,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/ef9ac09a-d48e-4daa-9c0c-74c86094a82c.png",
 "Κρεβάτι Vogue",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/634-faf49fe8-c3.jpg",
-"story": "v9x/634-faf49fe8-story.mp4",
-"feed": "v9x/634-faf49fe8-feed.mp4"
+"story": "v9x/634-7f23f5b0-story.mp4",
+"feed": "v9x/634-7f23f5b0-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -26335,12 +26686,15 @@ null,
 1280,
 853
 ],
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/48497-02678afa-c3.jpg",
-"story": "v9x/48497-02678afa-story.mp4",
-"feed": "v9x/48497-02678afa-feed.mp4"
+"story": "v9x/48497-20c02216-story.mp4",
+"feed": "v9x/48497-20c02216-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -26599,12 +26953,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47876-a26eca50-c3.jpg",
-"story": "v9x/47876-a26eca50-story.mp4",
-"feed": "v9x/47876-a26eca50-feed.mp4"
+"story": "v9x/47876-a01851aa-story.mp4",
+"feed": "v9x/47876-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -26695,13 +27052,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/DSC0780.jpg",
 "Bar-Stool Espina",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/59238-6a60f74e-c2.jpg",
-"c3": "v9x/59238-6a60f74e-c3.jpg",
-"story": "v9x/59238-6a60f74e-story.mp4",
-"feed": "v9x/59238-6a60f74e-feed.mp4"
+"story": "v9x/59238-433725c4-story.mp4",
+"feed": "v9x/59238-433725c4-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -26928,12 +27287,15 @@ null,
 1797,
 1365
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58548-b27fd5d8-c3.jpg",
-"story": "v9x/58548-b27fd5d8-story.mp4",
-"feed": "v9x/58548-b27fd5d8-feed.mp4"
+"story": "v9x/58548-1fbca8aa-story.mp4",
+"feed": "v9x/58548-1fbca8aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -27154,13 +27516,15 @@ null,
 1835,
 1177
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/52958-f76ab321-c2.jpg",
-"c3": "v9x/52958-f76ab321-c3.jpg",
-"story": "v9x/52958-f76ab321-story.mp4",
-"feed": "v9x/52958-f76ab321-feed.mp4"
+"story": "v9x/52958-8aed0269-story.mp4",
+"feed": "v9x/52958-8aed0269-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -27234,13 +27598,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47316-ec8d53a4-c2.jpg",
-"c3": "v9x/47316-ec8d53a4-c3.jpg",
-"story": "v9x/47316-ec8d53a4-story.mp4",
-"feed": "v9x/47316-ec8d53a4-feed.mp4"
+"story": "v9x/47316-e75be1c1-story.mp4",
+"feed": "v9x/47316-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -27506,12 +27872,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47861-bc22c05f-c3.jpg",
-"story": "v9x/47861-bc22c05f-story.mp4",
-"feed": "v9x/47861-bc22c05f-feed.mp4"
+"story": "v9x/47861-fd6adde2-story.mp4",
+"feed": "v9x/47861-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -27749,12 +28118,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/soft.webp",
 "Soft Topper",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47859-bc22c05f-c3.jpg",
-"story": "v9x/47859-bc22c05f-story.mp4",
-"feed": "v9x/47859-bc22c05f-feed.mp4"
+"story": "v9x/47859-fd6adde2-story.mp4",
+"feed": "v9x/47859-fd6adde2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -27955,12 +28327,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47678-15f260b4-c3.jpg",
-"story": "v9x/47678-15f260b4-story.mp4",
-"feed": "v9x/47678-15f260b4-feed.mp4"
+"story": "v9x/47678-b547bfca-story.mp4",
+"feed": "v9x/47678-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -28101,12 +28476,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/loft-lila-1.jpg",
 "Μοκέτα Υφαντή Loft",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58743-5e819dcb-c3.jpg",
-"story": "v9x/58743-5e819dcb-story.mp4",
-"feed": "v9x/58743-5e819dcb-feed.mp4"
+"story": "v9x/58743-7e17e125-story.mp4",
+"feed": "v9x/58743-7e17e125-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -28365,13 +28743,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC01681.jpg",
 "Σύνθεση Areti 200x45x45",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/49480-fddfb46f-c2.jpg",
-"c3": "v9x/49480-fddfb46f-c3.jpg",
-"story": "v9x/49480-fddfb46f-story.mp4",
-"feed": "v9x/49480-fddfb46f-feed.mp4"
+"story": "v9x/49480-fca59fe0-story.mp4",
+"feed": "v9x/49480-fca59fe0-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -28637,12 +29017,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47885-a26eca50-c3.jpg",
-"story": "v9x/47885-a26eca50-story.mp4",
-"feed": "v9x/47885-a26eca50-feed.mp4"
+"story": "v9x/47885-a01851aa-story.mp4",
+"feed": "v9x/47885-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -28665,13 +29048,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03291.jpg",
 "Κρεβάτι Elisabeth",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/64063-2d59fbcc-c2.jpg",
-"c3": "v9x/64063-2d59fbcc-c3.jpg",
-"story": "v9x/64063-2d59fbcc-story.mp4",
-"feed": "v9x/64063-2d59fbcc-feed.mp4"
+"story": "v9x/64063-5352222b-story.mp4",
+"feed": "v9x/64063-5352222b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -28886,12 +29271,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/09/313-memory.webp",
 "Topper Memory",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47877-a26eca50-c3.jpg",
-"story": "v9x/47877-a26eca50-story.mp4",
-"feed": "v9x/47877-a26eca50-feed.mp4"
+"story": "v9x/47877-a01851aa-story.mp4",
+"feed": "v9x/47877-a01851aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -28900,12 +29288,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/Energy.webp",
 "Στρώμα Energy",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/47676-15f260b4-c3.jpg",
-"story": "v9x/47676-15f260b4-story.mp4",
-"feed": "v9x/47676-15f260b4-feed.mp4"
+"story": "v9x/47676-b547bfca-story.mp4",
+"feed": "v9x/47676-b547bfca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -28931,13 +29322,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/10/ermis_gkri-1.jpg",
 "Μοκέτα Υφαντή Ermis",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/58568-e008a08b-c2.jpg",
-"c3": "v9x/58568-e008a08b-c3.jpg",
-"story": "v9x/58568-e008a08b-story.mp4",
-"feed": "v9x/58568-e008a08b-feed.mp4"
+"story": "v9x/58568-ddfb31ff-story.mp4",
+"feed": "v9x/58568-ddfb31ff-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -29060,13 +29453,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47318-ec8d53a4-c2.jpg",
-"c3": "v9x/47318-ec8d53a4-c3.jpg",
-"story": "v9x/47318-ec8d53a4-story.mp4",
-"feed": "v9x/47318-ec8d53a4-feed.mp4"
+"story": "v9x/47318-e75be1c1-story.mp4",
+"feed": "v9x/47318-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -29097,12 +29492,15 @@ null,
 1797,
 1365
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/58547-b27fd5d8-c3.jpg",
-"story": "v9x/58547-b27fd5d8-story.mp4",
-"feed": "v9x/58547-b27fd5d8-feed.mp4"
+"story": "v9x/58547-1fbca8aa-story.mp4",
+"feed": "v9x/58547-1fbca8aa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -29378,13 +29776,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/47314-ec8d53a4-c2.jpg",
-"c3": "v9x/47314-ec8d53a4-c3.jpg",
-"story": "v9x/47314-ec8d53a4-story.mp4",
-"feed": "v9x/47314-ec8d53a4-feed.mp4"
+"story": "v9x/47314-e75be1c1-story.mp4",
+"feed": "v9x/47314-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
