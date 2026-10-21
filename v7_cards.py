@@ -19,7 +19,9 @@ crops = json.load(open('v8_crops.json')) if os.path.exists('v8_crops.json') else
 V9 = os.path.exists('v9.txt') and open('v9.txt').read().strip() == 'on'
 # v10 4:5 crop-safe card, per product group listed in v45_groups.txt (rollout: tables first, 2026-10-21)
 G45 = v7_groups.enabled('v45_groups.txt')
-R45 = lambda it: v7_groups.group_of(g(it, 'product_type')) in G45
+HALF45 = 'on' in v7_groups.enabled('v45_half.txt')  # 21/10 owner: 4:5 on half of every group (odd product ids), even ids stay 1:1 as the comparison
+_odd = lambda i: (int(i) if i.isdigit() else sum(map(ord, i))) % 2 == 1
+R45 = lambda it: v7_groups.group_of(g(it, 'product_type')) in G45 or (HALF45 and _odd(g(it, 'id')))
 v9_of = lambda it: ('v9:' + ('|'.join(m.finance_line(g(it, 'sale_price') or g(it, 'price')) or ('-',))) + m.name_salt(g(it, 'title')) + '|L10' + ('|45' if R45(it) else '') + ('|W' if m.has_warranty(g(it, 'product_type')) else '')) if V9 else None  # |L10: legible layout (2026-10-21), part of the card hash
 crop_of = lambda it: crops[g(it, 'id')]['crop'] if g(it, 'id') in crops and crops[g(it, 'id')]['image'] == g(it, 'image_link') else None
 if '--preview' in sys.argv:

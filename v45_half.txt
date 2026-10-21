@@ -1,0 +1,2 @@
+# 4:5 split test (21/10): odd product ids in every group get the crop-safe 4:5 card, even ids stay 1:1. Compare on 27/10.
+on
