@@ -24,6 +24,7 @@ PLAIN = [(r'^μεταλλικό γκρι ανθρακί$', '#3d3f42'), (r'^γκ�
          (r'^καφέ$', '#6b4a2f'), (r'^μόκα$', '#7b5a45'), (r'^μαύρο$', '#1d1d1d'), (r'^ανθρακί$', '#3b3b3b')]
 # leading model codes ("1025-1 Τραπέζι", "309 Τραπέζι", "M30 Καθρέπτης"): dropped from the card name; quantities ("2 Καρέκλες", "10 Καρέκλες") stay
 CODE = re.compile(r'^(?:[A-Za-z]{1,3}\d{2,}[A-Za-z]?(?:-\d+)*|\d{3,}(?:-\d+)*|\d+-\d+)\s+(?=[Α-Ωα-ωΆ-Ώά-ώ])')  # pure numbers under 100 are quantities: kept
+X_SALT = '|V10'  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
 name_salt = lambda title: '|nc' if CODE.match(title or '') else ''  # in the card hash, so affected cards get a new file name
 SIZE_PREF = ['90x200', '140x200', '160x200', '150x200', '170x200', '180x200', '100x200', '120x200']
 
@@ -59,11 +60,12 @@ def build(it):
     attrs = {a['taxonomy'] or a['name']: [t['name'] for t in a['terms']] for a in store(g('item_group_id') or g('id')).get('attributes', [])}
     mattress = 'Στρώματα' in ptype
     # primary option row: fabric/colour (pa_xroma, pa_chroma) first, then wood colour; sizes for mattresses
-    sw, sw_label = [], ''
+    sw, sw_label, sw_terms = [], '', []
     for tax, lbl in (('pa_xroma', 'χρώματα υφάσματος'), ('pa_chroma', 'χρώματα'), ('pa_xroma-xilou', 'χρώματα ξύλου')):
         terms = [t for t in attrs.get(tax, []) if not re.match(r'ως\s*φωτογραφ', t, re.I)]
-        found = [s for s in map(swatch, terms) if s]
+        pairs = [(t, s) for t in terms for s in [swatch(t)] if s]; found = [s for _, s in pairs]
         if len(terms) > 1 and len(found) >= len(terms) / 2:
+            sw_terms = [t for t, _ in pairs]  # fabric names, aligned with sw (video colour cycle)
             sw, sw_label = found, f"{len(terms)} {lbl if any(s.get('sprite') for s in found) else 'χρώματα'}"; break  # plain named colours: no material claim
     sizes = [s.replace('×', 'x') for s in attrs.get('pa_diastasis-stroma', []) + attrs.get('pa_diastasi', []) if re.fullmatch(r'\d{2,3}[x×]\d{3}', s)]
     # secondary line (footer, left)
@@ -80,7 +82,8 @@ def build(it):
     if 'Καναπέδες' in ptype: b = [x for x in b if x != 'Στα μέτρα σας']
     return {'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': g('image_link'),
             'badges': list(dict.fromkeys(b))[:2], 'swatches': sw, 'swatch_label': sw_label,
-            'sizes': sizes if mattress else [], 'secondary': sec, 'finance': finance_line(g('sale_price') or g('price'))}
+            'sizes': sizes if mattress else [], 'secondary': sec, 'finance': finance_line(g('sale_price') or g('price')),
+            'swatch_terms': sw_terms, 'gallery': [e.text.strip() for e in it.findall('g:additional_image_link', namespaces=NS) if e.text and e.text.strip()]}
 
 def finance_line(price):
     """v9 instalments pill, same split as the site (homepage instalments section + site product cards, 2026-10-19):
@@ -253,14 +256,17 @@ def card(it, out):
     if im.mode in ('RGBA', 'LA', 'P'): im = im.convert('RGBA'); bg = Image.new('RGBA', im.size, 'white'); bg.alpha_composite(im); im = bg
     im = im.convert('RGB'); cut = is_cutout(im); im = trim_white(im)
     if it.get('crop') and not cut: im = im.crop(tuple(it['crop']))  # v8: zoom onto the product (box from v8_crops.json, QC'd offline)
-    c = Image.new('RGB', (S, S), 'white'); d = ImageDraw.Draw(c)
+    # v10 4:5 (owner-approved 2026-10-21, rolled out per group): crop-safe, so a centre square crop (carousels) keeps every
+    # readable element; only the bottom showroom strip and a little of the photo top fall outside the square
+    HC = 1350 if it.get('r45') else S; BOT = 135 if it.get('r45') else 0
+    c = Image.new('RGB', (S, HC), 'white'); d = ImageDraw.Draw(c)
     # info block anchored to the bottom; the photo takes the rest at full width (never cropped)
     has_opt = bool(it['swatches'] or it['sizes'])
     # v10 (2026-10-21, owner-approved proposal 7): same information, sized for a ~300 px carousel tile:
     # bold 72 px name, 84 px rows, 5 bigger swatches, bold size/colour count, larger phone pill
     NM, ROW, GAP = 72, 84, 32
     info_h = NM + GAP + (ROW + GAP if has_opt else 0) + ROW
-    area_top, area_bot = M, S - M - info_h - 36
+    area_top, area_bot = M, HC - M - BOT - info_h - 36
     v9 = it.get('v9'); fin = it.get('finance') if v9 else None
     if v9 and cut:  # v9: cream panel the size of the photo frame, product centred, kept clear of the instalments pill
         aw, ah = S - 2 * M, area_bot - area_top; free = 24 + 72 + 12 if fin else 0
@@ -311,4 +317,8 @@ def card(it, out):
         ic = ruler_icon(52, INK2); c.paste(ic, (x - 2, y + 16), ic)
         dt, df = fit(d, it['dims'], 600, 48, S - M - pw - 24 - (x + 68), floor=36)
         d.text((x + 68, y + ROW / 2), dt, font=df, fill=INK, anchor='lm')
+    if BOT:  # showroom + nationwide delivery strip below the centre square
+        import make_v9x as x9
+        sy = HC - BOT; c.paste(Image.new('RGB', (S, BOT), CREAM), (0, sy)); d.line((0, sy, S, sy), fill=LINE, width=2)
+        lw_ = x9.loc_line(c, 0, 0, 60, size=40, measure=True); x9.loc_line(c, (S - lw_) // 2, sy + (BOT - 60) // 2, 60, size=40, color=INK)
     os.makedirs(os.path.dirname(out), exist_ok=True); c.save(out, quality=90, optimize=True)

@@ -1,0 +1,2 @@
+# 4:5 crop-safe cards (v10). One group at a time; compare link CTR and cost per add-to-cart against the other groups.
+tables
