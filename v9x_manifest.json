@@ -26938,15 +26938,16 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03321-Edit.jpg",
 "Καθρέπτης Elisabeth",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/64084-572f2887-c2.jpg",
-"c3": "v9x/64084-572f2887-c3.jpg",
-"story": "v9x/64084-572f2887-story.mp4",
-"feed": "v9x/64084-572f2887-feed.mp4"
+"story": "v9x/64084-c08c545d-story.mp4",
+"feed": "v9x/64084-c08c545d-feed.mp4"
 },
-"r2": true
+"qc": {
+"story": true,
+"feed": true
+}
 },
 "47876": {
 "key": [
