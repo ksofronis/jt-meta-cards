@@ -24,7 +24,7 @@ PLAIN = [(r'^μεταλλικό γκρι ανθρακί$', '#3d3f42'), (r'^γκ�
          (r'^καφέ$', '#6b4a2f'), (r'^μόκα$', '#7b5a45'), (r'^μαύρο$', '#1d1d1d'), (r'^ανθρακί$', '#3b3b3b')]
 # leading model codes ("1025-1 Τραπέζι", "309 Τραπέζι", "M30 Καθρέπτης"): dropped from the card name; quantities ("2 Καρέκλες", "10 Καρέκλες") stay
 CODE = re.compile(r'^(?:[A-Za-z]{1,3}\d{2,}[A-Za-z]?(?:-\d+)*|\d{3,}(?:-\d+)*|\d+-\d+)\s+(?=[Α-Ωα-ωΆ-Ώά-ώ])')  # pure numbers under 100 are quantities: kept
-X_SALT = '|V12'  # V12: video gallery shots only from site photos cleared as product photos; V11: complete from frame 0 (21/10)  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
+X_SALT = '|V13'  # V13: video carries the warranty chip like the main card; V12: video gallery shots only from site photos cleared as product photos; V11: complete from frame 0 (21/10)  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
 name_salt = lambda title: '|nc' if CODE.match(title or '') else ''  # in the card hash, so affected cards get a new file name
 SIZE_PREF = ['90x200', '140x200', '160x200', '150x200', '170x200', '180x200', '100x200', '120x200']
 

@@ -203,9 +203,10 @@ def video(it, out, W, H, secs=6.0, fps=30):
     lay0 = bgp.crop((fx, fy, fx + lw, fy + lh)); m.shadow(lay0, (PAD, PAD, PAD + fw, PAD + fh), 28, m.PHOTO_SH)
     def layer(fr):
         L = lay0.copy(); L.paste(fr, (PAD, PAD), fmask); bx = PAD + 24
-        for b_ in it['badges']:
+        for b_ in it['badges'][:1 if it.get('warranty') else 2]:  # same chips as the main card (warranty takes the 2nd slot)
             dark = b_ == 'ΝΕΟ'
             bx += m.pill(L, bx, PAD + 24, b_, FONT(700 if dark else 600, 36), CREAM if dark else INK, INK if dark else (255, 255, 255), h=68, pad=28, depth=m.BTN_SH[1:]) + 14
+        if it.get('warranty'): m.pill(L, bx, PAD + 24, m.WARRANTY, FONT(600, 36), INK, (255, 255, 255), h=68, pad=26, depth=m.BTN_SH[1:], icon=m.shield(38, INK))
         return L
     lays = [layer(f) for f in frames]
     la = Image.new('L', (lw, lh), 0); ImageDraw.Draw(la).rectangle((PAD // 2, PAD // 2, lw - PAD // 2, lh - PAD // 2), fill=255); la = la.filter(ImageFilter.GaussianBlur(PAD / 6))
