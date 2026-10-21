@@ -59,7 +59,8 @@ def more(i):
     # owner decisions 21/10 ("0 chance of a photo with no context"): no colour card, no detail card, no site gallery photos
     # (sample charts and detail close-ups shown alone). The main card fills the field: an empty cell may keep Meta's old copy.
     imgs = [main_of(i)]
-    return [','.join(imgs[:20]), base + f['story'] if 'story' in f else '', base + f['feed'] if 'feed' in f else '']
+    # video[0] = Meta's default: the 1:1 file (safe in every placement); video[1] = 9:16 alternative for Stories/Reels (owner 22/10)
+    return [','.join(imgs[:20]), base + f['feed'] if 'feed' in f else '', base + f['story'] if 'story' in f else '']
 with open('feed/supplementary.csv', 'w', newline='') as f:
     w = csv.writer(f); w.writerow(['id', 'image_link', 'additional_image_link', 'video[0].url', 'video[1].url'])
     w.writerows([r[0], r[1], *more(r[0])] for r in rows)
