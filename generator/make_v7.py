@@ -24,7 +24,7 @@ PLAIN = [(r'^μεταλλικό γκρι ανθρακί$', '#3d3f42'), (r'^γκ�
          (r'^καφέ$', '#6b4a2f'), (r'^μόκα$', '#7b5a45'), (r'^μαύρο$', '#1d1d1d'), (r'^ανθρακί$', '#3b3b3b')]
 # leading model codes ("1025-1 Τραπέζι", "309 Τραπέζι", "M30 Καθρέπτης"): dropped from the card name; quantities ("2 Καρέκλες", "10 Καρέκλες") stay
 CODE = re.compile(r'^(?:[A-Za-z]{1,3}\d{2,}[A-Za-z]?(?:-\d+)*|\d{3,}(?:-\d+)*|\d+-\d+)\s+(?=[Α-Ωα-ωΆ-Ώά-ώ])')  # pure numbers under 100 are quantities: kept
-X_SALT = '|V10'  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
+X_SALT = '|V11'  # V11: colour card shows the product photo, video complete from frame 0 (21/10)  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
 name_salt = lambda title: '|nc' if CODE.match(title or '') else ''  # in the card hash, so affected cards get a new file name
 SIZE_PREF = ['90x200', '140x200', '160x200', '150x200', '170x200', '180x200', '100x200', '120x200']
 
@@ -205,7 +205,7 @@ def pill(c, x, y, text, font, fg, bg, h=64, pad=26, outline=None, depth=None, ic
 _sprites = {}
 def swatch_dot(c, s, cx, cy, r):
     if s.get('sprite'):
-        sp = _sprites.setdefault(s['sprite'], Image.open(os.path.join(ASSETS, 'sprites', s['sprite'])).convert('RGB'))
+        sp = _sprites.get(s['sprite']) or _sprites.setdefault(s['sprite'], Image.open(os.path.join(ASSETS, 'sprites', s['sprite'])).convert('RGB'))  # get first: setdefault alone re-decoded the WebP on every call
         tw = sp.width / s['n']; x0 = s['i'] * tw
         tile = sp.crop((int(x0 + tw * .2), int(sp.height * .2), int(x0 + tw * .8), int(sp.height * .8))).resize((2 * r, 2 * r), Image.LANCZOS)
     else:

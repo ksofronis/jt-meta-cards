@@ -47,13 +47,14 @@ crops = json.load(open('v8_crops.json')) if os.path.exists('v8_crops.json') else
 def x_ok(i):
     if i not in v9x or i not in cur: return False
     crop = crops[i]['crop'] if i in crops and crops[i]['image'] == cur[i][0] else None
-    fin = '|'.join(make_v7.finance_line(price.get(i, '')) or ('-',)) + make_v7.name_salt(cur[i][1])
+    fin = '|'.join(make_v7.finance_line(price.get(i, '')) or ('-',)) + make_v7.name_salt(cur[i][1]) + make_v7.X_SALT
     return v9x[i]['key'] == [cur[i][0], cur[i][1], crop, fin] and (v9x[i].get('r2') or all(os.path.exists(f) for f in v9x[i]['files'].values()))
 PAGES = 'https://ksofronis.github.io/jt-meta-cards/'
 R2_PUBLIC = open('r2_public.txt').read().strip().rstrip('/') + '/' if os.path.exists('r2_public.txt') else None  # bucket's public URL
 def more(i):
     f = v9x[i]['files'] if x_ok(i) else {}
     base = R2_PUBLIC if v9x.get(i, {}).get('r2') and R2_PUBLIC else PAGES
+    qc = v9x.get(i, {}).get('qc', {}); f = {k: v for k, v in f.items() if qc.get(k) is True}  # guardrail (21/10): only assets that passed qc_assets reach Meta; no flag = not published
     imgs = [base + f[k] for k in ('c2', 'c3') if k in f] + extra.get(i, [])
     return [','.join(imgs[:20]), base + f['story'] if 'story' in f else '', base + f['feed'] if 'feed' in f else '']
 with open('feed/supplementary.csv', 'w', newline='') as f:
