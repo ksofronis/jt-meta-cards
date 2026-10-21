@@ -924,13 +924,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/sinthesi-shade.jpg",
 "Σύνθεση Shade 220x45x210",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9486-65b75ae1-c2.jpg",
-"c3": "v9x/9486-65b75ae1-c3.jpg",
-"story": "v9x/9486-65b75ae1-story.mp4",
-"feed": "v9x/9486-65b75ae1-feed.mp4"
+"story": "v9x/9486-50fc2b32-story.mp4",
+"feed": "v9x/9486-50fc2b32-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -1841,13 +1843,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/06/3AA7A119-D4C4-45D7-86E1-4E135DDC4770.png",
 "Σετ Κρεβατοκάμαρας Nemesis",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/52935-9b7d446b-c2.jpg",
-"c3": "v9x/52935-9b7d446b-c3.jpg",
-"story": "v9x/52935-9b7d446b-story.mp4",
-"feed": "v9x/52935-9b7d446b-feed.mp4"
+"story": "v9x/52935-164ff307-story.mp4",
+"feed": "v9x/52935-164ff307-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -3324,13 +3328,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2019/10/DSC03437-1.jpg",
 "Τραπέζι Cargo 200x100",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/30645-2415fb89-c2.jpg",
-"c3": "v9x/30645-2415fb89-c3.jpg",
-"story": "v9x/30645-2415fb89-story.mp4",
-"feed": "v9x/30645-2415fb89-feed.mp4"
+"story": "v9x/30645-ee192e3a-story.mp4",
+"feed": "v9x/30645-ee192e3a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7152,12 +7158,15 @@ null,
 1199,
 853
 ],
-"Klarna|3 άτοκες δόσεις|nc"
+"Klarna|3 άτοκες δόσεις|nc|V13"
 ],
 "files": {
-"c3": "v9x/44268-c9cf1549-c3.jpg",
-"story": "v9x/44268-c9cf1549-story.mp4",
-"feed": "v9x/44268-c9cf1549-feed.mp4"
+"story": "v9x/44268-ca9b4ef6-story.mp4",
+"feed": "v9x/44268-ca9b4ef6-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7171,12 +7180,15 @@ null,
 1239,
 757
 ],
-"Klarna|3 άτοκες δόσεις|nc"
+"Klarna|3 άτοκες δόσεις|nc|V13"
 ],
 "files": {
-"c3": "v9x/44265-c7404cd2-c3.jpg",
-"story": "v9x/44265-c7404cd2-story.mp4",
-"feed": "v9x/44265-c7404cd2-feed.mp4"
+"story": "v9x/44265-c3171539-story.mp4",
+"feed": "v9x/44265-c3171539-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7185,12 +7197,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO225AA00168-1445x690-1-principale.jpg",
 "Massaggio Deluxe",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/90987-b4c33c22-c3.jpg",
-"story": "v9x/90987-b4c33c22-story.mp4",
-"feed": "v9x/90987-b4c33c22-feed.mp4"
+"story": "v9x/90987-a9bef71f-story.mp4",
+"feed": "v9x/90987-a9bef71f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7199,12 +7214,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1107.jpg",
 "Τραπεζάκι σαλονιού Golf Σετ",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/85678-96be9845-c3.jpg",
-"story": "v9x/85678-96be9845-story.mp4",
-"feed": "v9x/85678-96be9845-feed.mp4"
+"story": "v9x/85678-f12e932a-story.mp4",
+"feed": "v9x/85678-f12e932a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7218,12 +7236,15 @@ null,
 1226,
 853
 ],
-"Klarna|3 άτοκες δόσεις|nc"
+"Klarna|3 άτοκες δόσεις|nc|V13"
 ],
 "files": {
-"c3": "v9x/44305-8b2552e4-c3.jpg",
-"story": "v9x/44305-8b2552e4-story.mp4",
-"feed": "v9x/44305-8b2552e4-feed.mp4"
+"story": "v9x/44305-cc7b6455-story.mp4",
+"feed": "v9x/44305-cc7b6455-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7232,13 +7253,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0740.jpg",
 "Σετ Κρεβατοκάμαρας Angel",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/88872-e78efe99-c2.jpg",
-"c3": "v9x/88872-e78efe99-c3.jpg",
-"story": "v9x/88872-e78efe99-story.mp4",
-"feed": "v9x/88872-e78efe99-feed.mp4"
+"story": "v9x/88872-a737570f-story.mp4",
+"feed": "v9x/88872-a737570f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
