@@ -256,8 +256,11 @@ def card(it, out):
     c = Image.new('RGB', (S, S), 'white'); d = ImageDraw.Draw(c)
     # info block anchored to the bottom; the photo takes the rest at full width (never cropped)
     has_opt = bool(it['swatches'] or it['sizes'])
-    info_h = 62 + 36 + (76 + 36 if has_opt else 0) + 76
-    area_top, area_bot = M, S - M - info_h - 44
+    # v10 (2026-10-21, owner-approved proposal 7): same information, sized for a ~300 px carousel tile:
+    # bold 72 px name, 84 px rows, 5 bigger swatches, bold size/colour count, larger phone pill
+    NM, ROW, GAP = 72, 84, 32
+    info_h = NM + GAP + (ROW + GAP if has_opt else 0) + ROW
+    area_top, area_bot = M, S - M - info_h - 36
     v9 = it.get('v9'); fin = it.get('finance') if v9 else None
     if v9 and cut:  # v9: cream panel the size of the photo frame, product centred, kept clear of the instalments pill
         aw, ah = S - 2 * M, area_bot - area_top; free = 24 + 72 + 12 if fin else 0
@@ -277,35 +280,35 @@ def card(it, out):
                    h=68, pad=28, depth=BTN_SH[1:]) + 14
 
     if fin: fin_pill(c, px + 24, py + th - 24 - 72, fin)  # v9 instalments, on the photo (photo keeps its size)
-    x, y = M + 4, area_bot + 44
+    x, y = M + 4, area_bot + 36
     nm = it['name'].replace('"', '').replace('  ', ' ')
     if d.textlength(nm, font=FONT(600, 52)) > S - 2 * M - 8 and ' με ' in nm: nm = nm.split(' με ')[0]  # "… με Σκαμπό/αποθηκευτικό" is detail, not name
-    name, f = fit(d, nm, 600, 62, S - 2 * M - 8, floor=46)
-    d.text((x, y), name, font=f, fill=INK, anchor='lt'); y += 62 + 36
+    name, f = fit(d, nm, 700, NM, S - 2 * M - 8, floor=50)
+    d.text((x, y), name, font=f, fill=INK, anchor='lt'); y += NM + GAP
     if it['swatches']:
-        rad, gap, show = 36, 18, 6
+        rad, gap, show = 42, 18, 5
         many = len(it['swatches']) > show; pick = calm_pick(it['swatches'], show - 1 if many else show, photo_match(im, it['swatches']))
         cx = x + rad + 4
         for s_ in pick: swatch_dot(c, s_, cx, y + rad + 2, rad); cx += 2 * rad + gap
         if many:  # "+N" overflow cue: same size and lift as a swatch, cream face
             shadow(c, (cx - rad - 4, y - 2, cx + rad + 4, y + 2 * rad + 6), None, DOT_SH)
             ring(c, cx, y + rad + 2, rad + 2, color='white', w=5, fill='white'); ring(c, cx, y + rad + 2, rad, color=LINE, w=2, fill=CREAM)
-            d.text((cx, y + rad + 2), f"+{len(it['swatches']) - len(pick)}", font=FONT(600, 34), fill=INK, anchor='mm'); cx += 2 * rad + gap
-        d.text((cx + 6, y + rad + 2), f"{len(it['swatches'])} χρώματα", font=FONT(500, 42), fill=INK2, anchor='lm')
-        y += 76 + 36
+            d.text((cx, y + rad + 2), f"+{len(it['swatches']) - len(pick)}", font=FONT(600, 38), fill=INK, anchor='mm'); cx += 2 * rad + gap
+        d.text((cx + 6, y + rad + 2), f"{len(it['swatches'])} χρώματα", font=FONT(600, 46), fill=INK, anchor='lm')
+        y += ROW + GAP
     elif it['sizes']:
         pref = [s_ for s_ in SIZE_PREF if s_ in it['sizes']][:3] or it['sizes'][:3]
         cx = x
-        for s_ in pref: cx += pill(c, cx, y, s_.replace('x', '×'), FONT(500, 40), INK, 'white', h=76, pad=26, outline=LINE, depth=DOT_SH) + 14
-        if len(it['sizes']) > len(pref): cx += pill(c, cx, y, f"+{len(it['sizes']) - len(pref)}", FONT(600, 40), INK, CREAM, h=76, pad=24, outline=LINE, depth=DOT_SH) + 14
-        y += 76 + 36
+        for s_ in pref: cx += pill(c, cx, y, s_.replace('x', '×'), FONT(600, 44), INK, 'white', h=ROW, pad=26, outline=LINE, depth=DOT_SH) + 14
+        if len(it['sizes']) > len(pref): cx += pill(c, cx, y, f"+{len(it['sizes']) - len(pref)}", FONT(600, 44), INK, CREAM, h=ROW, pad=24, outline=LINE, depth=DOT_SH) + 14
+        y += ROW + GAP
     # last row: dimensions (icon + text) left, phone as the site's dark pill button right
-    ph = Image.open(os.path.join(HERE, 'icon-phone-hi.png')).convert('RGBA'); ph = ph.resize((round(ph.width * 38 / ph.height), 38), Image.LANCZOS)
+    ph = Image.open(os.path.join(HERE, 'icon-phone-hi.png')).convert('RGBA'); ph = ph.resize((round(ph.width * 44 / ph.height), 44), Image.LANCZOS)
     ph = Image.merge('RGBA', (*Image.new('RGB', ph.size, CREAM).split(), ph.split()[3]))  # cream icon on the dark button
-    pf = FONT(700, 40); pw = int(d.textlength(PHONE, font=pf) + 2 * 30 + ph.width + 14)
-    pill(c, S - M - pw, y, PHONE, pf, CREAM, INK, h=76, pad=30, depth=BTN_SH, icon=ph)
+    pf = FONT(700, 46); pw = int(d.textlength(PHONE, font=pf) + 2 * 30 + ph.width + 14)
+    pill(c, S - M - pw, y, PHONE, pf, CREAM, INK, h=ROW, pad=30, depth=BTN_SH, icon=ph)
     if it['dims']:
-        ic = ruler_icon(46, INK2); c.paste(ic, (x - 2, y + 15), ic)
-        dt, df = fit(d, it['dims'], 500, 42, S - M - pw - 24 - (x + 62), floor=34)
-        d.text((x + 62, y + 38), dt, font=df, fill=INK2, anchor='lm')
+        ic = ruler_icon(52, INK2); c.paste(ic, (x - 2, y + 16), ic)
+        dt, df = fit(d, it['dims'], 600, 48, S - M - pw - 24 - (x + 68), floor=36)
+        d.text((x + 68, y + ROW / 2), dt, font=df, fill=INK, anchor='lm')
     os.makedirs(os.path.dirname(out), exist_ok=True); c.save(out, quality=90, optimize=True)

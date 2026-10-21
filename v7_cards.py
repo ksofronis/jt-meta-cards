@@ -17,7 +17,7 @@ items = [it for it in root.findall('./channel/item') if SAFE_ID.fullmatch(g(it, 
 crops = json.load(open('v8_crops.json')) if os.path.exists('v8_crops.json') else {}
 # v9: instalments pill + cream panel for white-background shots; switch = v9.txt ('on'), rollback = empty file (cards rebuild back to v7/v8)
 V9 = os.path.exists('v9.txt') and open('v9.txt').read().strip() == 'on'
-v9_of = lambda it: ('v9:' + ('|'.join(m.finance_line(g(it, 'sale_price') or g(it, 'price')) or ('-',))) + m.name_salt(g(it, 'title'))) if V9 else None
+v9_of = lambda it: ('v9:' + ('|'.join(m.finance_line(g(it, 'sale_price') or g(it, 'price')) or ('-',))) + m.name_salt(g(it, 'title')) + '|L10') if V9 else None  # |L10: legible layout (2026-10-21), part of the card hash
 crop_of = lambda it: crops[g(it, 'id')]['crop'] if g(it, 'id') in crops and crops[g(it, 'id')]['image'] == g(it, 'image_link') else None
 if '--preview' in sys.argv:
     want = set(sys.argv[sys.argv.index('--preview') + 1:]); os.makedirs('preview', exist_ok=True)
