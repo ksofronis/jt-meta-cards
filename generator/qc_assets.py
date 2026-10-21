@@ -22,9 +22,15 @@ def _frame(path, t, W, H):
     return Image.frombytes('RGB', (W, H), raw[:W * H * 3])
 
 def photo_score(asset, src, box):
-    bw, bh = box[2] - box[0], box[3] - box[1]; r = min(bw / src.width, bh / src.height)
-    s = Image.new('RGB', (bw, bh), 'white'); t = src.convert('RGB').resize((max(1, round(src.width * r)), max(1, round(src.height * r))))
-    s.paste(t, ((bw - t.width) // 2, (bh - t.height) // 2)); return _corr(_g(asset, box), _g(s))
+    """Best correlation of the source photo placed in the box at small scale/offset variations
+    (cut-outs sit at 94% and shifted up on a cream panel; the hook zoom adds up to 7%)."""
+    bw, bh = box[2] - box[0], box[3] - box[1]; a = _g(asset, box); best = -1.0
+    for k in (0.8, 0.87, 0.94, 1.0, 1.07):
+        r = min(bw / src.width, bh / src.height) * k; t = src.convert('RGB').resize((max(1, round(src.width * r)), max(1, round(src.height * r))))
+        for dy in (-0.08, -0.04, 0.0, 0.04):
+            s = Image.new('RGB', (bw, bh), 'white'); s.paste(t, ((bw - t.width) // 2, (bh - t.height) // 2 + round(dy * bh)))
+            best = max(best, _corr(a, _g(s)))
+    return best
 
 def check_image(path, src, box):
     return photo_score(Image.open(path), src, box) >= PHOTO_MIN
