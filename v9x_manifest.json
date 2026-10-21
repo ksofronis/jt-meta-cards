@@ -156,15 +156,16 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2025/03/fellis-set-8.jpg",
 "Σετ Τραπεζαρίας Fellis με 4 καρέκλες 120×120x77",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/84199-9cdd1b1c-c2.jpg",
-"c3": "v9x/84199-9cdd1b1c-c3.jpg",
-"story": "v9x/84199-9cdd1b1c-story.mp4",
-"feed": "v9x/84199-9cdd1b1c-feed.mp4"
+"story": "v9x/84199-b258cf0a-story.mp4",
+"feed": "v9x/84199-b258cf0a-feed.mp4"
 },
-"r2": true
+"qc": {
+"story": true,
+"feed": true
+}
 },
 "44280": {
 "key": [
@@ -950,13 +951,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/sinthesi-shade.jpg",
 "Σύνθεση Shade 220x45x210",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9486-65b75ae1-c2.jpg",
-"c3": "v9x/9486-65b75ae1-c3.jpg",
-"story": "v9x/9486-65b75ae1-story.mp4",
-"feed": "v9x/9486-65b75ae1-feed.mp4"
+"story": "v9x/9486-50fc2b32-story.mp4",
+"feed": "v9x/9486-50fc2b32-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -1902,13 +1905,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2022/06/3AA7A119-D4C4-45D7-86E1-4E135DDC4770.png",
 "Σετ Κρεβατοκάμαρας Nemesis",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/52935-9b7d446b-c2.jpg",
-"c3": "v9x/52935-9b7d446b-c3.jpg",
-"story": "v9x/52935-9b7d446b-story.mp4",
-"feed": "v9x/52935-9b7d446b-feed.mp4"
+"story": "v9x/52935-164ff307-story.mp4",
+"feed": "v9x/52935-164ff307-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7571,12 +7576,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO225AA00168-1445x690-1-principale.jpg",
 "Massaggio Deluxe",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/90987-b4c33c22-c3.jpg",
-"story": "v9x/90987-b4c33c22-story.mp4",
-"feed": "v9x/90987-b4c33c22-feed.mp4"
+"story": "v9x/90987-a9bef71f-story.mp4",
+"feed": "v9x/90987-a9bef71f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7585,12 +7593,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1107.jpg",
 "Τραπεζάκι σαλονιού Golf Σετ",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/85678-96be9845-c3.jpg",
-"story": "v9x/85678-96be9845-story.mp4",
-"feed": "v9x/85678-96be9845-feed.mp4"
+"story": "v9x/85678-f12e932a-story.mp4",
+"feed": "v9x/85678-f12e932a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7621,13 +7632,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0740.jpg",
 "Σετ Κρεβατοκάμαρας Angel",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/88872-e78efe99-c2.jpg",
-"c3": "v9x/88872-e78efe99-c3.jpg",
-"story": "v9x/88872-e78efe99-story.mp4",
-"feed": "v9x/88872-e78efe99-feed.mp4"
+"story": "v9x/88872-a737570f-story.mp4",
+"feed": "v9x/88872-a737570f-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
