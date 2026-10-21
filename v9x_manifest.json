@@ -1130,9 +1130,10 @@ null,
 "feed": "v9x/44300-906c1d08-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "30585": {
 "key": [
@@ -1404,9 +1405,10 @@ null,
 "feed": "v9x/44299-906c1d08-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "62819": {
 "key": [
@@ -2335,9 +2337,10 @@ null,
 "feed": "v9x/89135-a2a061b7-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "89153": {
 "key": [
@@ -2368,9 +2371,10 @@ null,
 "feed": "v9x/1328-aae7fd4f-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "89116": {
 "key": [
@@ -2452,9 +2456,10 @@ null,
 "feed": "v9x/88948-0b7d0152-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "89131": {
 "key": [
@@ -2536,9 +2541,10 @@ null,
 "feed": "v9x/1330-bd1d876c-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "88966": {
 "key": [
@@ -2637,9 +2643,10 @@ null,
 "feed": "v9x/26474-70f55912-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "1334": {
 "key": [
@@ -2925,9 +2932,10 @@ null,
 "feed": "v9x/1332-eae13dea-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "3398": {
 "key": [
@@ -3449,12 +3457,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2020/03/IMG_9218.jpg",
 "Σαλόνι 3θέσιος+2θέσιος Nikol 220x93, 170x93",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9358-920f701f-c3.jpg",
-"story": "v9x/9358-920f701f-story.mp4",
-"feed": "v9x/9358-920f701f-feed.mp4"
+"story": "v9x/9358-812d13c5-story.mp4",
+"feed": "v9x/9358-812d13c5-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -3769,13 +3780,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2020/06/NIKOLETTA.jpg",
 "Πολυμορφικός Καναπές Γωνία Nikoletta με Σκαμπό 280x245x93",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9728-ac3497bd-c2.jpg",
-"c3": "v9x/9728-ac3497bd-c3.jpg",
-"story": "v9x/9728-ac3497bd-story.mp4",
-"feed": "v9x/9728-ac3497bd-feed.mp4"
+"story": "v9x/9728-f8e1054b-story.mp4",
+"feed": "v9x/9728-f8e1054b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4000,9 +4013,10 @@ null,
 "feed": "v9x/1175-ac5c54cb-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "47266": {
 "key": [
@@ -4177,12 +4191,15 @@ null,
 1148,
 853
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9564-354c52f9-c3.jpg",
-"story": "v9x/9564-354c52f9-story.mp4",
-"feed": "v9x/9564-354c52f9-feed.mp4"
+"story": "v9x/9564-d4a56794-story.mp4",
+"feed": "v9x/9564-d4a56794-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4191,13 +4208,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/DSC03838.jpg",
 "Τραπεζάκι σαλονιού Ten 120x80x33",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9546-6082eaf7-c2.jpg",
-"c3": "v9x/9546-6082eaf7-c3.jpg",
-"story": "v9x/9546-6082eaf7-story.mp4",
-"feed": "v9x/9546-6082eaf7-feed.mp4"
+"story": "v9x/9546-801a3cd1-story.mp4",
+"feed": "v9x/9546-801a3cd1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4245,13 +4264,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/DSC03258.jpg",
 "Τραπεζάκι σαλονιού Six 90x90x41",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9539-91e09c99-c2.jpg",
-"c3": "v9x/9539-91e09c99-c3.jpg",
-"story": "v9x/9539-91e09c99-story.mp4",
-"feed": "v9x/9539-91e09c99-feed.mp4"
+"story": "v9x/9539-1c8b84ca-story.mp4",
+"feed": "v9x/9539-1c8b84ca-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4552,12 +4573,15 @@ null,
 1188,
 853
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9552-df43e4f1-c3.jpg",
-"story": "v9x/9552-df43e4f1-story.mp4",
-"feed": "v9x/9552-df43e4f1-feed.mp4"
+"story": "v9x/9552-037bc413-story.mp4",
+"feed": "v9x/9552-037bc413-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4758,13 +4782,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/05/DSC00194.jpg",
 "Τραπεζάκι σαλονιού Avis 120x75x40",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9514-9cb35ff7-c2.jpg",
-"c3": "v9x/9514-9cb35ff7-c3.jpg",
-"story": "v9x/9514-9cb35ff7-story.mp4",
-"feed": "v9x/9514-9cb35ff7-feed.mp4"
+"story": "v9x/9514-10de2709-story.mp4",
+"feed": "v9x/9514-10de2709-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -4824,13 +4850,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/12/trapezali-saloniou-gala.jpg",
 "Τραπεζάκι σαλονιού Gala 120x80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9519-04be62aa-c2.jpg",
-"c3": "v9x/9519-04be62aa-c3.jpg",
-"story": "v9x/9519-04be62aa-story.mp4",
-"feed": "v9x/9519-04be62aa-feed.mp4"
+"story": "v9x/9519-1c660bb1-story.mp4",
+"feed": "v9x/9519-1c660bb1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5007,13 +5035,15 @@ null,
 1250,
 777
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9538-c687caee-c2.jpg",
-"c3": "v9x/9538-c687caee-c3.jpg",
-"story": "v9x/9538-c687caee-story.mp4",
-"feed": "v9x/9538-c687caee-feed.mp4"
+"story": "v9x/9538-6b682a20-story.mp4",
+"feed": "v9x/9538-6b682a20-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5294,13 +5324,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/DSC00761.jpg",
 "Τραπέζι καθιστικού Light 96Φ, 85Φ",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9548-b8141d4b-c2.jpg",
-"c3": "v9x/9548-b8141d4b-c3.jpg",
-"story": "v9x/9548-b8141d4b-story.mp4",
-"feed": "v9x/9548-b8141d4b-feed.mp4"
+"story": "v9x/9548-074c0ce0-story.mp4",
+"feed": "v9x/9548-074c0ce0-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5326,13 +5358,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2020/05/DSC0246.jpg",
 "Τραπέζι καθιστικού Light 1 96Φ",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9550-c8ffedfd-c2.jpg",
-"c3": "v9x/9550-c8ffedfd-c3.jpg",
-"story": "v9x/9550-c8ffedfd-story.mp4",
-"feed": "v9x/9550-c8ffedfd-feed.mp4"
+"story": "v9x/9550-db7352ac-story.mp4",
+"feed": "v9x/9550-db7352ac-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5358,13 +5392,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/03/king02.jpg",
 "Τραπεζάκι σαλονιού King 1 90x34",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9561-1db51de4-c2.jpg",
-"c3": "v9x/9561-1db51de4-c3.jpg",
-"story": "v9x/9561-1db51de4-story.mp4",
-"feed": "v9x/9561-1db51de4-feed.mp4"
+"story": "v9x/9561-e1efaa95-story.mp4",
+"feed": "v9x/9561-e1efaa95-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5509,13 +5545,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/VICTORY-1.jpg",
 "Τραπεζάκι καθιστικού Victory 120x80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9527-2e818492-c2.jpg",
-"c3": "v9x/9527-2e818492-c3.jpg",
-"story": "v9x/9527-2e818492-story.mp4",
-"feed": "v9x/9527-2e818492-feed.mp4"
+"story": "v9x/9527-56e5b1e5-story.mp4",
+"feed": "v9x/9527-56e5b1e5-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5616,9 +5654,10 @@ null,
 "feed": "v9x/1195-fb2bd915-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "33036": {
 "key": [
@@ -5649,9 +5688,10 @@ null,
 "feed": "v9x/1169-d96a3ff1-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "34283": {
 "key": [
@@ -5782,12 +5822,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC00109.jpg",
 "Τραπεζάκι σαλονιού Twelve 2 80Φ, 40Φ",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9522-3944473b-c3.jpg",
-"story": "v9x/9522-3944473b-story.mp4",
-"feed": "v9x/9522-3944473b-feed.mp4"
+"story": "v9x/9522-46944bfa-story.mp4",
+"feed": "v9x/9522-46944bfa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -5954,13 +5997,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2019/07/SAVIS.jpg",
 "Τραπεζάκι σαλονιού Savis 120x60x42",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9516-3abc3789-c2.jpg",
-"c3": "v9x/9516-3abc3789-c3.jpg",
-"story": "v9x/9516-3abc3789-story.mp4",
-"feed": "v9x/9516-3abc3789-feed.mp4"
+"story": "v9x/9516-644b9e41-story.mp4",
+"feed": "v9x/9516-644b9e41-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6059,13 +6104,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/iride01-1.jpg",
 "Τραπεζάκι σαλονιού Iride",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9531-bb0cc15e-c2.jpg",
-"c3": "v9x/9531-bb0cc15e-c3.jpg",
-"story": "v9x/9531-bb0cc15e-story.mp4",
-"feed": "v9x/9531-bb0cc15e-feed.mp4"
+"story": "v9x/9531-f2b36ea4-story.mp4",
+"feed": "v9x/9531-f2b36ea4-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6344,13 +6391,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/DSC00960-1.jpg",
 "Τραπεζάκι σαλονιού Madeira \"S\" 120x80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9533-b7b0205a-c2.jpg",
-"c3": "v9x/9533-b7b0205a-c3.jpg",
-"story": "v9x/9533-b7b0205a-story.mp4",
-"feed": "v9x/9533-b7b0205a-feed.mp4"
+"story": "v9x/9533-a74f5d33-story.mp4",
+"feed": "v9x/9533-a74f5d33-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6478,13 +6527,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/double02-1.jpg",
 "Τραπεζάκι σαλονιού Double 120x80x39",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9525-77a98a4f-c2.jpg",
-"c3": "v9x/9525-77a98a4f-c3.jpg",
-"story": "v9x/9525-77a98a4f-story.mp4",
-"feed": "v9x/9525-77a98a4f-feed.mp4"
+"story": "v9x/9525-1a958688-story.mp4",
+"feed": "v9x/9525-1a958688-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6600,13 +6651,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/12/trapezaki-libre.jpg",
 "Τραπεζάκι σαλονιού Libre 120x80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9517-25335042-c2.jpg",
-"c3": "v9x/9517-25335042-c3.jpg",
-"story": "v9x/9517-25335042-story.mp4",
-"feed": "v9x/9517-25335042-feed.mp4"
+"story": "v9x/9517-25f1466b-story.mp4",
+"feed": "v9x/9517-25f1466b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6734,9 +6787,10 @@ null,
 "feed": "v9x/1204-7a867637-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "63728": {
 "key": [
@@ -6845,13 +6899,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/05/01.jpg",
 "Τραπεζάκι σαλονιού Coffee Cream 120x80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9520-f332bec8-c2.jpg",
-"c3": "v9x/9520-f332bec8-c3.jpg",
-"story": "v9x/9520-f332bec8-story.mp4",
-"feed": "v9x/9520-f332bec8-feed.mp4"
+"story": "v9x/9520-48866359-story.mp4",
+"feed": "v9x/9520-48866359-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6877,13 +6933,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/sixteen01-1.jpg",
 "Τραπεζάκι σαλονιού Sixteen 120x80x38",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9537-228e5d58-c2.jpg",
-"c3": "v9x/9537-228e5d58-c3.jpg",
-"story": "v9x/9537-228e5d58-story.mp4",
-"feed": "v9x/9537-228e5d58-feed.mp4"
+"story": "v9x/9537-77b68540-story.mp4",
+"feed": "v9x/9537-77b68540-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -6960,13 +7018,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/TRAPEZAKI-Eighteen.jpg",
 "Τραπεζάκι σαλονιού Eighteen 120x80x41",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9535-a317b491-c2.jpg",
-"c3": "v9x/9535-a317b491-c3.jpg",
-"story": "v9x/9535-a317b491-story.mp4",
-"feed": "v9x/9535-a317b491-feed.mp4"
+"story": "v9x/9535-6ac7e358-story.mp4",
+"feed": "v9x/9535-6ac7e358-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7172,13 +7232,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/evelina06-1.jpg",
 "Τραπεζάκι σαλονιού Evelina 120x80x42",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9556-b2117c81-c2.jpg",
-"c3": "v9x/9556-b2117c81-c3.jpg",
-"story": "v9x/9556-b2117c81-story.mp4",
-"feed": "v9x/9556-b2117c81-feed.mp4"
+"story": "v9x/9556-dfbcca45-story.mp4",
+"feed": "v9x/9556-dfbcca45-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7345,13 +7407,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/twenty02-1.jpg",
 "Τραπεζάκι σαλονιού Twenty 120x80x39",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9555-7c5ee3eb-c2.jpg",
-"c3": "v9x/9555-7c5ee3eb-c3.jpg",
-"story": "v9x/9555-7c5ee3eb-story.mp4",
-"feed": "v9x/9555-7c5ee3eb-feed.mp4"
+"story": "v9x/9555-a7c31ffd-story.mp4",
+"feed": "v9x/9555-a7c31ffd-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7411,12 +7475,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC04191.jpg",
 "Τραπεζάκι σαλονιού Twelve",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9524-693a0055-c3.jpg",
-"story": "v9x/9524-693a0055-story.mp4",
-"feed": "v9x/9524-693a0055-feed.mp4"
+"story": "v9x/9524-6bf04eab-story.mp4",
+"feed": "v9x/9524-6bf04eab-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7459,13 +7526,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/oliveS01-1.jpg",
 "Τραπεζάκι σαλονιού Olive S 130x80x39",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9530-78a79fd9-c2.jpg",
-"c3": "v9x/9530-78a79fd9-c3.jpg",
-"story": "v9x/9530-78a79fd9-story.mp4",
-"feed": "v9x/9530-78a79fd9-feed.mp4"
+"story": "v9x/9530-3423bd5a-story.mp4",
+"feed": "v9x/9530-3423bd5a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7610,13 +7679,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/11/martinicaS.jpg",
 "Τραπεζάκι σαλονιού Martinica \"S\" 120x80",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9532-7ce2c100-c2.jpg",
-"c3": "v9x/9532-7ce2c100-c3.jpg",
-"story": "v9x/9532-7ce2c100-story.mp4",
-"feed": "v9x/9532-7ce2c100-feed.mp4"
+"story": "v9x/9532-57038ea6-story.mp4",
+"feed": "v9x/9532-57038ea6-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7812,13 +7883,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/DSC06860.jpg",
 "Τραπεζάκι σαλονιού Caribe S 120x80x41",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9528-cb3ea684-c2.jpg",
-"c3": "v9x/9528-cb3ea684-c3.jpg",
-"story": "v9x/9528-cb3ea684-story.mp4",
-"feed": "v9x/9528-cb3ea684-feed.mp4"
+"story": "v9x/9528-04a2299b-story.mp4",
+"feed": "v9x/9528-04a2299b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -7912,13 +7985,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/olive01-1.jpg",
 "Τραπεζάκι σαλονιού Olive 130x80x41",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9529-c705494d-c2.jpg",
-"c3": "v9x/9529-c705494d-c3.jpg",
-"story": "v9x/9529-c705494d-story.mp4",
-"feed": "v9x/9529-c705494d-feed.mp4"
+"story": "v9x/9529-f69eec6c-story.mp4",
+"feed": "v9x/9529-f69eec6c-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8017,13 +8092,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/nine01-1.jpg",
 "Τραπεζάκι σαλονιού Nine 120x80x39",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9540-8c468bab-c2.jpg",
-"c3": "v9x/9540-8c468bab-c3.jpg",
-"story": "v9x/9540-8c468bab-story.mp4",
-"feed": "v9x/9540-8c468bab-feed.mp4"
+"story": "v9x/9540-d8407224-story.mp4",
+"feed": "v9x/9540-d8407224-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8032,13 +8109,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/fifteen.jpg",
 "Τραπεζάκι σαλονιού Fifteen 120x80x37",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9553-4e37fd84-c2.jpg",
-"c3": "v9x/9553-4e37fd84-c3.jpg",
-"story": "v9x/9553-4e37fd84-story.mp4",
-"feed": "v9x/9553-4e37fd84-feed.mp4"
+"story": "v9x/9553-2c15a5c1-story.mp4",
+"feed": "v9x/9553-2c15a5c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -8436,13 +8515,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/08/sinthesi-genova.jpg",
 "Σύνθεση Genova 180x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9478-4c75fbe1-c2.jpg",
-"c3": "v9x/9478-4c75fbe1-c3.jpg",
-"story": "v9x/9478-4c75fbe1-story.mp4",
-"feed": "v9x/9478-4c75fbe1-feed.mp4"
+"story": "v9x/9478-6a5257d2-story.mp4",
+"feed": "v9x/9478-6a5257d2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9055,8 +9136,9 @@ null,
 },
 "qc": {
 "story": true,
-"feed": false
-}
+"feed": true
+},
+"r2": true
 },
 "45636": {
 "key": [
@@ -9148,9 +9230,10 @@ null,
 "feed": "v9x/74084-44dc42cd-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "47673": {
 "key": [
@@ -9213,12 +9296,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/147.jpg",
 "147 Καρέκλα Κουζίνας",
 null,
-"Klarna|3 άτοκες δόσεις|nc"
+"Klarna|3 άτοκες δόσεις|nc|V13"
 ],
 "files": {
-"c3": "v9x/982-684b8250-c3.jpg",
-"story": "v9x/982-684b8250-story.mp4",
-"feed": "v9x/982-684b8250-feed.mp4"
+"story": "v9x/982-dd3408a4-story.mp4",
+"feed": "v9x/982-dd3408a4-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9453,9 +9539,10 @@ null,
 "feed": "v9x/46129-6d294f1f-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "49394": {
 "key": [
@@ -9812,9 +9899,10 @@ null,
 "feed": "v9x/46132-6d294f1f-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "45644": {
 "key": [
@@ -9843,12 +9931,15 @@ null,
 1177,
 853
 ],
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9444-71b11bab-c3.jpg",
-"story": "v9x/9444-71b11bab-story.mp4",
-"feed": "v9x/9444-71b11bab-feed.mp4"
+"story": "v9x/9444-aa0908e5-story.mp4",
+"feed": "v9x/9444-aa0908e5-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -9879,13 +9970,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/05/DSC00212.jpg",
 "Σύνθεση Olive 230x40",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9480-c3edcd68-c2.jpg",
-"c3": "v9x/9480-c3edcd68-c3.jpg",
-"story": "v9x/9480-c3edcd68-story.mp4",
-"feed": "v9x/9480-c3edcd68-feed.mp4"
+"story": "v9x/9480-a16adbfb-story.mp4",
+"feed": "v9x/9480-a16adbfb-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10168,7 +10261,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "90885": {
 "key": [
@@ -10231,13 +10325,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2019/04/tv-chara.jpg",
 "Έπιπλο TV Chara 120x45x47",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9503-8bb74bbe-c2.jpg",
-"c3": "v9x/9503-8bb74bbe-c3.jpg",
-"story": "v9x/9503-8bb74bbe-story.mp4",
-"feed": "v9x/9503-8bb74bbe-feed.mp4"
+"story": "v9x/9503-0344efc7-story.mp4",
+"feed": "v9x/9503-0344efc7-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10297,13 +10393,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/DSC00917.jpg",
 "Σκαμπό Round 40x40",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9328-9aea4f6a-c2.jpg",
-"c3": "v9x/9328-9aea4f6a-c3.jpg",
-"story": "v9x/9328-9aea4f6a-story.mp4",
-"feed": "v9x/9328-9aea4f6a-feed.mp4"
+"story": "v9x/9328-c5376211-story.mp4",
+"feed": "v9x/9328-c5376211-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -10679,12 +10777,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Bumbac3-1.jpg",
 "Μαξιλαράκι Bumbac 3 44x44",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9464-415ee9c4-c3.jpg",
-"story": "v9x/9464-415ee9c4-story.mp4",
-"feed": "v9x/9464-415ee9c4-feed.mp4"
+"story": "v9x/9464-8f9203c3-story.mp4",
+"feed": "v9x/9464-8f9203c3-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -11060,13 +11161,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/12/sinthesi-amaretto.jpg",
 "Σύνθεση Amaretto 220x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9473-92c680e0-c2.jpg",
-"c3": "v9x/9473-92c680e0-c3.jpg",
-"story": "v9x/9473-92c680e0-story.mp4",
-"feed": "v9x/9473-92c680e0-feed.mp4"
+"story": "v9x/9473-3b57d1df-story.mp4",
+"feed": "v9x/9473-3b57d1df-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -11503,13 +11606,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/08/DSC07362.jpg",
 "Σύνθεση Life 240x45",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9485-44704750-c2.jpg",
-"c3": "v9x/9485-44704750-c3.jpg",
-"story": "v9x/9485-44704750-story.mp4",
-"feed": "v9x/9485-44704750-feed.mp4"
+"story": "v9x/9485-323ad2b2-story.mp4",
+"feed": "v9x/9485-323ad2b2-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -11574,12 +11679,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Bumbac-1.jpg",
 "Μαξιλαράκι Bumbac 80x32",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9472-7953670f-c3.jpg",
-"story": "v9x/9472-7953670f-story.mp4",
-"feed": "v9x/9472-7953670f-feed.mp4"
+"story": "v9x/9472-7a143f69-story.mp4",
+"feed": "v9x/9472-7a143f69-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -11702,21 +11810,25 @@ null,
 "feed": "v9x/3422-d166b689-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "9471": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Romo-1.jpg",
 "Μαξιλαράκι Romo 60x30",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9471-d07a9f1a-c3.jpg",
-"story": "v9x/9471-d07a9f1a-story.mp4",
-"feed": "v9x/9471-d07a9f1a-feed.mp4"
+"story": "v9x/9471-5e7db1ef-story.mp4",
+"feed": "v9x/9471-5e7db1ef-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -11742,13 +11854,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/03/DSC00381.jpg",
 "Σύνθεση Light 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9497-962d157e-c2.jpg",
-"c3": "v9x/9497-962d157e-c3.jpg",
-"story": "v9x/9497-962d157e-story.mp4",
-"feed": "v9x/9497-962d157e-feed.mp4"
+"story": "v9x/9497-4f1efc36-story.mp4",
+"feed": "v9x/9497-4f1efc36-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -11771,7 +11885,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "73911": {
 "key": [
@@ -12104,13 +12219,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/12/sinthesi-gala.jpg",
 "Σύνθεση Gala 240x50x190",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9476-46079960-c2.jpg",
-"c3": "v9x/9476-46079960-c3.jpg",
-"story": "v9x/9476-46079960-story.mp4",
-"feed": "v9x/9476-46079960-feed.mp4"
+"story": "v9x/9476-c7a35c40-story.mp4",
+"feed": "v9x/9476-c7a35c40-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -12225,9 +12342,10 @@ null,
 "feed": "v9x/44292-c3923535-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "44261": {
 "key": [
@@ -12258,9 +12376,10 @@ null,
 "feed": "v9x/26476-8fd6407e-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "45245": {
 "key": [
@@ -12785,9 +12904,10 @@ null,
 "feed": "v9x/74023-ef058c53-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "80106": {
 "key": [
@@ -13008,9 +13128,10 @@ null,
 "feed": "v9x/77262-44f6edbb-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "80126": {
 "key": [
@@ -13221,9 +13342,10 @@ null,
 "feed": "v9x/74055-e8455d9d-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "86083": {
 "key": [
@@ -13393,13 +13515,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00328-1.jpg",
 "Σύνθεση Line 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9498-139b1db8-c2.jpg",
-"c3": "v9x/9498-139b1db8-c3.jpg",
-"story": "v9x/9498-139b1db8-story.mp4",
-"feed": "v9x/9498-139b1db8-feed.mp4"
+"story": "v9x/9498-0eef20c1-story.mp4",
+"feed": "v9x/9498-0eef20c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -13980,12 +14104,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Bumbac2-1.jpg",
 "Μαξιλαράκι Bumbac 2 60x13",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9470-bdfa8653-c3.jpg",
-"story": "v9x/9470-bdfa8653-story.mp4",
-"feed": "v9x/9470-bdfa8653-feed.mp4"
+"story": "v9x/9470-8759de44-story.mp4",
+"feed": "v9x/9470-8759de44-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -14354,13 +14481,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/simthesi-element.jpg",
 "Σύνθεση Element 220x35",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9487-c9ecd00b-c2.jpg",
-"c3": "v9x/9487-c9ecd00b-c3.jpg",
-"story": "v9x/9487-c9ecd00b-story.mp4",
-"feed": "v9x/9487-c9ecd00b-feed.mp4"
+"story": "v9x/9487-9cd08f84-story.mp4",
+"feed": "v9x/9487-9cd08f84-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -14476,13 +14605,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Polo-1.jpg",
 "Μαξιλαράκι Polo 43x43",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9466-49a17517-c2.jpg",
-"c3": "v9x/9466-49a17517-c3.jpg",
-"story": "v9x/9466-49a17517-story.mp4",
-"feed": "v9x/9466-49a17517-feed.mp4"
+"story": "v9x/9466-28910e96-story.mp4",
+"feed": "v9x/9466-28910e96-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -14566,9 +14697,10 @@ null,
 "feed": "v9x/44290-0b00f052-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "462": {
 "key": [
@@ -14915,9 +15047,10 @@ null,
 "feed": "v9x/74056-e8455d9d-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "45663": {
 "key": [
@@ -15434,7 +15567,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "45648": {
 "key": [
@@ -16328,9 +16462,10 @@ null,
 "feed": "v9x/91473-cfc19ce6-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "45364": {
 "key": [
@@ -16410,13 +16545,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/IfiC-1.jpg",
 "Μαξιλαράκι Ifi 2 42x42",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9458-4075d736-c2.jpg",
-"c3": "v9x/9458-4075d736-c3.jpg",
-"story": "v9x/9458-4075d736-story.mp4",
-"feed": "v9x/9458-4075d736-feed.mp4"
+"story": "v9x/9458-7e4faf64-story.mp4",
+"feed": "v9x/9458-7e4faf64-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -16476,13 +16613,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00400-1.jpg",
 "Σύνθεση Victory 240x50x190",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9499-6490325f-c2.jpg",
-"c3": "v9x/9499-6490325f-c3.jpg",
-"story": "v9x/9499-6490325f-story.mp4",
-"feed": "v9x/9499-6490325f-feed.mp4"
+"story": "v9x/9499-e52ad5a4-story.mp4",
+"feed": "v9x/9499-e52ad5a4-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -16676,13 +16815,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/12/tv-amaretto.jpg",
 "Έπιπλο TV Amaretto 130x45",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9502-483999cb-c2.jpg",
-"c3": "v9x/9502-483999cb-c3.jpg",
-"story": "v9x/9502-483999cb-story.mp4",
-"feed": "v9x/9502-483999cb-feed.mp4"
+"story": "v9x/9502-a9230adc-story.mp4",
+"feed": "v9x/9502-a9230adc-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -16832,13 +16973,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2019/10/DSC05656.jpg",
 "Πολυθρόνα Shell 110x100x100",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9439-4c3c2dec-c2.jpg",
-"c3": "v9x/9439-4c3c2dec-c3.jpg",
-"story": "v9x/9439-4c3c2dec-story.mp4",
-"feed": "v9x/9439-4c3c2dec-feed.mp4"
+"story": "v9x/9439-157137b9-story.mp4",
+"feed": "v9x/9439-157137b9-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -17163,12 +17306,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/sinthesi-milena.jpg",
 "Σύνθεση Milena 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9494-e456b532-c3.jpg",
-"story": "v9x/9494-e456b532-story.mp4",
-"feed": "v9x/9494-e456b532-feed.mp4"
+"story": "v9x/9494-8544a365-story.mp4",
+"feed": "v9x/9494-8544a365-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -17642,13 +17788,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/12/DSC03870_.jpg",
 "Έπιπλο TV Steel 120x45x45",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9507-3ada0031-c2.jpg",
-"c3": "v9x/9507-3ada0031-c3.jpg",
-"story": "v9x/9507-3ada0031-story.mp4",
-"feed": "v9x/9507-3ada0031-feed.mp4"
+"story": "v9x/9507-77ffe848-story.mp4",
+"feed": "v9x/9507-77ffe848-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -17909,7 +18057,8 @@ null,
 "qc": {
 "story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "90915": {
 "key": [
@@ -18947,9 +19096,10 @@ null,
 "feed": "v9x/74085-44dc42cd-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "90735": {
 "key": [
@@ -18978,13 +19128,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/06/CUBA.jpg",
 "Σύνθεση Cuba 240x50x195",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9475-624d94a7-c2.jpg",
-"c3": "v9x/9475-624d94a7-c3.jpg",
-"story": "v9x/9475-624d94a7-story.mp4",
-"feed": "v9x/9475-624d94a7-feed.mp4"
+"story": "v9x/9475-6e8ce12a-story.mp4",
+"feed": "v9x/9475-6e8ce12a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -19642,9 +19794,10 @@ null,
 "feed": "v9x/65968-baa92560-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "90643": {
 "key": [
@@ -20006,9 +20159,10 @@ null,
 "feed": "v9x/44289-0b00f052-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "45368": {
 "key": [
@@ -20136,13 +20290,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/sinthesi-line.jpg",
 "Έπιπλο TV More 210x50x185",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9495-7af14e9c-c2.jpg",
-"c3": "v9x/9495-7af14e9c-c3.jpg",
-"story": "v9x/9495-7af14e9c-story.mp4",
-"feed": "v9x/9495-7af14e9c-feed.mp4"
+"story": "v9x/9495-acaa0d10-story.mp4",
+"feed": "v9x/9495-acaa0d10-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -20151,13 +20307,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/sinthesi-mykonos.jpg",
 "Σύνθεση Mykonos 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9489-2ebd7a28-c2.jpg",
-"c3": "v9x/9489-2ebd7a28-c3.jpg",
-"story": "v9x/9489-2ebd7a28-story.mp4",
-"feed": "v9x/9489-2ebd7a28-feed.mp4"
+"story": "v9x/9489-b50405bf-story.mp4",
+"feed": "v9x/9489-b50405bf-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -20166,13 +20324,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Ifi-1.jpg",
 "Μαξιλαράκι Ifi 42x42",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9463-737805c2-c2.jpg",
-"c3": "v9x/9463-737805c2-c3.jpg",
-"story": "v9x/9463-737805c2-story.mp4",
-"feed": "v9x/9463-737805c2-feed.mp4"
+"story": "v9x/9463-fc2746ee-story.mp4",
+"feed": "v9x/9463-fc2746ee-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -20181,13 +20341,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
 "Σύνθεση Triplex 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9496-ec8d53a4-c2.jpg",
-"c3": "v9x/9496-ec8d53a4-c3.jpg",
-"story": "v9x/9496-ec8d53a4-story.mp4",
-"feed": "v9x/9496-ec8d53a4-feed.mp4"
+"story": "v9x/9496-e75be1c1-story.mp4",
+"feed": "v9x/9496-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -20453,9 +20615,10 @@ null,
 "feed": "v9x/46130-6d294f1f-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "49704": {
 "key": [
@@ -20688,13 +20851,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/sinthesi-fly.jpg",
 "Σύνθεση Fly 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9490-3a87d2d0-c2.jpg",
-"c3": "v9x/9490-3a87d2d0-c3.jpg",
-"story": "v9x/9490-3a87d2d0-story.mp4",
-"feed": "v9x/9490-3a87d2d0-feed.mp4"
+"story": "v9x/9490-da26b63c-story.mp4",
+"feed": "v9x/9490-da26b63c-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -20720,13 +20885,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/03/ΣΥΝΘΕΣΗ-ΗΡΑ.jpg",
 "Σύνθεση Ira 210x45",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9479-93062b06-c2.jpg",
-"c3": "v9x/9479-93062b06-c3.jpg",
-"story": "v9x/9479-93062b06-story.mp4",
-"feed": "v9x/9479-93062b06-feed.mp4"
+"story": "v9x/9479-8334ba55-story.mp4",
+"feed": "v9x/9479-8334ba55-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -20803,13 +20970,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/DSC03256-1.jpg",
 "Έπιπλο TV Sense 195x28x155",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9510-656339cf-c2.jpg",
-"c3": "v9x/9510-656339cf-c3.jpg",
-"story": "v9x/9510-656339cf-story.mp4",
-"feed": "v9x/9510-656339cf-feed.mp4"
+"story": "v9x/9510-8c0f23f9-story.mp4",
+"feed": "v9x/9510-8c0f23f9-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -20876,9 +21045,10 @@ null,
 "feed": "v9x/46131-6d294f1f-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "88415": {
 "key": [
@@ -21797,9 +21967,10 @@ null,
 "feed": "v9x/20319-a451b212-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "74010": {
 "key": [
@@ -21942,13 +22113,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/12/trapezaki-tv-gala.jpg",
 "Σύνθεση - έπιπλο TV Gala 180x50x190",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9508-a8d98414-c2.jpg",
-"c3": "v9x/9508-a8d98414-c3.jpg",
-"story": "v9x/9508-a8d98414-story.mp4",
-"feed": "v9x/9508-a8d98414-feed.mp4"
+"story": "v9x/9508-a531bedf-story.mp4",
+"feed": "v9x/9508-a531bedf-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -22360,13 +22533,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2019/04/desire.jpg",
 "Έπιπλο TV Desire 180x50x190",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9504-2d9651ab-c2.jpg",
-"c3": "v9x/9504-2d9651ab-c3.jpg",
-"story": "v9x/9504-2d9651ab-story.mp4",
-"feed": "v9x/9504-2d9651ab-feed.mp4"
+"story": "v9x/9504-f2fe1339-story.mp4",
+"feed": "v9x/9504-f2fe1339-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -22949,9 +23124,10 @@ null,
 "feed": "v9x/74022-ef058c53-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "90620": {
 "key": [
@@ -23306,13 +23482,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/10/TV-FREELINE-sinthesi.jpg",
 "Σύνθεση Freeline 180x45x220",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9483-79201bde-c2.jpg",
-"c3": "v9x/9483-79201bde-c3.jpg",
-"story": "v9x/9483-79201bde-story.mp4",
-"feed": "v9x/9483-79201bde-feed.mp4"
+"story": "v9x/9483-f02d016c-story.mp4",
+"feed": "v9x/9483-f02d016c-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -23817,13 +23995,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Panda-1.jpg",
 "Μαξιλαράκι Panda 42x42",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9469-753f8df4-c2.jpg",
-"c3": "v9x/9469-753f8df4-c3.jpg",
-"story": "v9x/9469-753f8df4-story.mp4",
-"feed": "v9x/9469-753f8df4-feed.mp4"
+"story": "v9x/9469-730f254a-story.mp4",
+"feed": "v9x/9469-730f254a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24117,13 +24297,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/PetraB-1.jpg",
 "Μαξιλαράκι Petra 42x42",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9459-62bfd797-c2.jpg",
-"c3": "v9x/9459-62bfd797-c3.jpg",
-"story": "v9x/9459-62bfd797-story.mp4",
-"feed": "v9x/9459-62bfd797-feed.mp4"
+"story": "v9x/9459-56f4dbfa-story.mp4",
+"feed": "v9x/9459-56f4dbfa-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24402,13 +24584,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/ViktorioC-1.jpg",
 "Μαξιλαράκι Viktorio 43x43",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9468-87488321-c2.jpg",
-"c3": "v9x/9468-87488321-c3.jpg",
-"story": "v9x/9468-87488321-story.mp4",
-"feed": "v9x/9468-87488321-feed.mp4"
+"story": "v9x/9468-c65a4c8e-story.mp4",
+"feed": "v9x/9468-c65a4c8e-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24490,13 +24674,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/10/sinthesi-earth-living-1.jpg",
 "Σύνθεση Earth Living 240x50x200",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9482-2aa2f420-c2.jpg",
-"c3": "v9x/9482-2aa2f420-c3.jpg",
-"story": "v9x/9482-2aa2f420-story.mp4",
-"feed": "v9x/9482-2aa2f420-feed.mp4"
+"story": "v9x/9482-b7e2032a-story.mp4",
+"feed": "v9x/9482-b7e2032a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -24845,9 +25031,10 @@ null,
 "feed": "v9x/74128-b50e2263-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "90635": {
 "key": [
@@ -24900,9 +25087,10 @@ null,
 "feed": "v9x/74129-b50e2263-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "44295": {
 "key": [
@@ -25335,13 +25523,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/10/Skabo-PROLET.jpg",
 "Σκαμπό Prolet 100x60",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9329-a7eb3dae-c2.jpg",
-"c3": "v9x/9329-a7eb3dae-c3.jpg",
-"story": "v9x/9329-a7eb3dae-story.mp4",
-"feed": "v9x/9329-a7eb3dae-feed.mp4"
+"story": "v9x/9329-7e8dce4b-story.mp4",
+"feed": "v9x/9329-7e8dce4b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -25569,12 +25759,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/8131.jpg",
 "8131 Καρέκλα Γραφείου",
 null,
-"Klarna|3 άτοκες δόσεις|nc"
+"Klarna|3 άτοκες δόσεις|nc|V13"
 ],
 "files": {
-"c3": "v9x/958-bd80b937-c3.jpg",
-"story": "v9x/958-bd80b937-story.mp4",
-"feed": "v9x/958-bd80b937-feed.mp4"
+"story": "v9x/958-a12665e7-story.mp4",
+"feed": "v9x/958-a12665e7-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -26468,9 +26661,10 @@ null,
 "feed": "v9x/77261-44f6edbb-feed.mp4"
 },
 "qc": {
-"story": false,
+"story": true,
 "feed": true
-}
+},
+"r2": true
 },
 "44264": {
 "key": [
@@ -27219,13 +27413,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00357-1.jpg",
 "Σύνθεση Chara 260x50x190",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9500-c3fb6d92-c2.jpg",
-"c3": "v9x/9500-c3fb6d92-c3.jpg",
-"story": "v9x/9500-c3fb6d92-story.mp4",
-"feed": "v9x/9500-c3fb6d92-feed.mp4"
+"story": "v9x/9500-e9fce959-story.mp4",
+"feed": "v9x/9500-e9fce959-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -27618,9 +27814,10 @@ null,
 "feed": "v9x/45263-f35d15c0-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "46233": {
 "key": [
@@ -27996,9 +28193,10 @@ null,
 "feed": "v9x/46134-6d294f1f-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "48497": {
 "key": [
@@ -28229,13 +28427,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/GordonB-1.jpg",
 "Μαξιλαράκι Gordon 90x33",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9462-0191c614-c2.jpg",
-"c3": "v9x/9462-0191c614-c3.jpg",
-"story": "v9x/9462-0191c614-story.mp4",
-"feed": "v9x/9462-0191c614-feed.mp4"
+"story": "v9x/9462-94ddaf1d-story.mp4",
+"feed": "v9x/9462-94ddaf1d-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -28876,9 +29076,10 @@ null,
 "feed": "v9x/44291-c3923535-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "3455": {
 "key": [
@@ -29021,9 +29222,10 @@ null,
 "feed": "v9x/46133-6d294f1f-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "44327": {
 "key": [
@@ -29132,13 +29334,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/sinthesi-oliver.jpg",
 "Σύνθεση Oliver 240x50x200",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9488-032a7f72-c2.jpg",
-"c3": "v9x/9488-032a7f72-c3.jpg",
-"story": "v9x/9488-032a7f72-story.mp4",
-"feed": "v9x/9488-032a7f72-feed.mp4"
+"story": "v9x/9488-0d997c50-story.mp4",
+"feed": "v9x/9488-0d997c50-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -29590,13 +29794,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00315-1.jpg",
 "Σύνθεση Simple 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9501-8f467631-c2.jpg",
-"c3": "v9x/9501-8f467631-c3.jpg",
-"story": "v9x/9501-8f467631-story.mp4",
-"feed": "v9x/9501-8f467631-feed.mp4"
+"story": "v9x/9501-2f0ece25-story.mp4",
+"feed": "v9x/9501-2f0ece25-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -29717,12 +29923,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/09/Romo2-1.jpg",
 "Μαξιλαράκι Romo 2 42x42",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c3": "v9x/9467-2c4ab27e-c3.jpg",
-"story": "v9x/9467-2c4ab27e-story.mp4",
-"feed": "v9x/9467-2c4ab27e-feed.mp4"
+"story": "v9x/9467-6397ca37-story.mp4",
+"feed": "v9x/9467-6397ca37-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -29979,13 +30188,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/sinthesi-dream.jpg",
 "Σύνθεση - Έπιπλο TV Dream 240x50",
 null,
-"TBI|Έως 60 δόσεις"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9509-30c6d4ba-c2.jpg",
-"c3": "v9x/9509-30c6d4ba-c3.jpg",
-"story": "v9x/9509-30c6d4ba-story.mp4",
-"feed": "v9x/9509-30c6d4ba-feed.mp4"
+"story": "v9x/9509-194c5e35-story.mp4",
+"feed": "v9x/9509-194c5e35-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -29994,13 +30205,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2019/07/LIGHT-ΕΠΙΠΛΟ-ΤV.jpg",
 "Έπιπλο TV Light 140x50x50",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9505-02330631-c2.jpg",
-"c3": "v9x/9505-02330631-c3.jpg",
-"story": "v9x/9505-02330631-story.mp4",
-"feed": "v9x/9505-02330631-feed.mp4"
+"story": "v9x/9505-9ba50cbe-story.mp4",
+"feed": "v9x/9505-9ba50cbe-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -30201,9 +30414,10 @@ null,
 "feed": "v9x/45264-f35d15c0-feed.mp4"
 },
 "qc": {
-"story": false,
-"feed": false
-}
+"story": true,
+"feed": true
+},
+"r2": true
 },
 "46106": {
 "key": [
@@ -30385,13 +30599,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/10/DSC00799-1.jpg",
 "Side Sofa Prolet 220x60",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9330-00764da5-c2.jpg",
-"c3": "v9x/9330-00764da5-c3.jpg",
-"story": "v9x/9330-00764da5-story.mp4",
-"feed": "v9x/9330-00764da5-feed.mp4"
+"story": "v9x/9330-3d183b4e-story.mp4",
+"feed": "v9x/9330-3d183b4e-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },
@@ -30743,13 +30959,15 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/06/sinthesi-simple.jpg",
 "Έπιπλο TV Simple 180x50x55",
 null,
-"Klarna|3 άτοκες δόσεις"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"c2": "v9x/9511-e2431b39-c2.jpg",
-"c3": "v9x/9511-e2431b39-c3.jpg",
-"story": "v9x/9511-e2431b39-story.mp4",
-"feed": "v9x/9511-e2431b39-feed.mp4"
+"story": "v9x/9511-a3b99094-story.mp4",
+"feed": "v9x/9511-a3b99094-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
 },
 "r2": true
 },

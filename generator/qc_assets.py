@@ -6,7 +6,7 @@ import subprocess
 import numpy as np
 from PIL import Image
 
-PHOTO_MIN, INFO_MAX = 0.55, 6.0
+PHOTO_MIN, INFO_MAX = 0.35, 6.0  # 21/10: real low-contrast videos (white chair, pillow, mirrors) score 0.38-0.54; swatch-only and empty-start assets 0.00-0.21
 
 def _g(im, box=None, n=32):
     im = im.convert('L')
@@ -30,6 +30,10 @@ def photo_score(asset, src, box):
         for dy in (-0.08, -0.04, 0.0, 0.04):
             s = Image.new('RGB', (bw, bh), 'white'); s.paste(t, ((bw - t.width) // 2, (bh - t.height) // 2 + round(dy * bh)))
             best = max(best, _corr(a, _g(s)))
+    src3 = src.convert('RGB')  # the video fills the frame for non-gallery shots: stretched and cover-cropped variants
+    best = max(best, _corr(a, _g(src3.resize((bw, bh)))))
+    r = max(bw / src3.width, bh / src3.height); t = src3.resize((max(1, round(src3.width * r)), max(1, round(src3.height * r))))
+    l, u = (t.width - bw) // 2, (t.height - bh) // 2; best = max(best, _corr(a, _g(t.crop((l, u, l + bw, u + bh)))))
     return best
 
 def check_image(path, src, box):
