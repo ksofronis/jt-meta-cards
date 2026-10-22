@@ -48,8 +48,9 @@ crops = json.load(open('v8_crops.json')) if os.path.exists('v8_crops.json') else
 def x_ok(i):
     if i not in v9x or i not in cur: return False
     crop = crops[i]['crop'] if i in crops and crops[i]['image'] == cur[i][0] else None
-    fin = '|'.join(make_v7.finance_line(price.get(i, '')) or ('-',)) + make_v7.name_salt(cur[i][1]) + make_v7.X_SALT
-    return v9x[i]['key'] == [cur[i][0], cur[i][1], crop, fin] and bool(v9x[i].get('r2'))  # published only once uploaded to R2: v9x/ is gitignored, a local file is not a public URL (21/10)
+    fin = '|'.join(make_v7.finance_line(price.get(i, '')) or ('-',)) + make_v7.name_salt(cur[i][1])
+    ok = v9x[i]['key'] in ([cur[i][0], cur[i][1], crop, fin + make_v7.X_SALT], [cur[i][0], cur[i][1], crop, fin + make_v7.X_SALT_PREV])  # previous design stays live until the new upload
+    return ok and bool(v9x[i].get('r2'))  # published only once uploaded to R2: v9x/ is gitignored, a local file is not a public URL (21/10)
 PAGES = 'https://ksofronis.github.io/jt-meta-cards/'
 R2_PUBLIC = open('r2_public.txt').read().strip().rstrip('/') + '/' if os.path.exists('r2_public.txt') else None  # bucket's public URL
 def more(i):

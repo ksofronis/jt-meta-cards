@@ -155,10 +155,15 @@ def video(it, out, W, H, secs=6.0, fps=30):
     Photos are never cropped. 9:16: white card inside Meta's Stories/Reels safe zone (top 14%, bottom 20% free)."""
     from PIL import ImageFilter
     im, cut = photo(it); vertical = H > W
-    pick = m.calm_pick(it['swatches'], 5 if len(it['swatches']) > 6 else 6, m.photo_match(im, it['swatches'])) if it['swatches'] else []
+    d11 = it.get('d11'); mg = m.D11_M if d11 else M  # v11 deeper card (owner 22/10): same look as the main card, in both formats
+    psh, bsh, dsh = (m.D11_PHOTO_SH, m.D11_BTN_SH, m.D11_DOT_SH) if d11 else (m.PHOTO_SH, m.BTN_SH, m.DOT_SH)
+    nshow = (7 if len(it['swatches']) > 8 else 8) if d11 else (5 if len(it['swatches']) > 6 else 6)
+    pick = m.calm_pick(it['swatches'], nshow, m.photo_match(im, it['swatches'])) if it['swatches'] else []
     more = len(it['swatches']) - len(pick)
     ph = phone_icon(); pf = FONT(700, 44 if vertical else 40); phh = 84 if vertical else 76
     nm = it['name'].replace('"', '').replace('  ', ' ')
+    cat, model = m.split_name(nm) if d11 else ('', nm)
+    NMV = (80 if d11 else (66 if vertical else 62)); EH = 36 if cat else 0; G = 24 if d11 else 36
     # gallery shots first: the frame shape depends on whether there are any
     srcs, gal = [im], []
     th = lambda z: list(z.convert('L').resize((24, 24)).getdata())
@@ -174,18 +179,19 @@ def video(it, out, W, H, secs=6.0, fps=30):
     if vertical:
         sz_top, sz_bot = int(H * 0.14), int(H * 0.80); pad = 40
         cx0, cx1 = M, W - M; iw = cx1 - cx0 - 2 * pad
-        info_h = 66 + 36 + (84 + 36 if pick else 0) + (50 + 40 if it['dims'] else 0) + phh + 28 + 40
+        info_h = EH + NMV + G + (84 + G if pick else 0) + (50 + 40 if it['dims'] else 0) + phh + 28 + 40
         ph_max = sz_bot - sz_top - 2 * pad - 44 - info_h
         if cut or MULTI: fw, fh = iw, min(ph_max, int(iw * (0.8 if cut else 0.75)))
         else: r = min(iw / im.width, ph_max / im.height); fw, fh = round(im.width * r), round(im.height * r)
         card_h = 2 * pad + fh + 44 + info_h; cy0 = sz_top + (sz_bot - sz_top - card_h) // 2
         fx, fy = cx0 + pad + (iw - fw) // 2, cy0 + pad; info_x, info_y = cx0 + pad + 4, fy + fh + 44; right = cx1 - pad
     else:
-        info_h = 62 + 36 + (76 + 36 if pick else 0) + 76
-        aw, ah = W - 2 * M, H - 2 * M - info_h - 44
+        TOPG = 22 if d11 else 44
+        info_h = EH + NMV + G + ((84 if d11 else 76) + G if pick else 0) + (84 if d11 else 76)
+        aw, ah = W - 2 * mg, H - 2 * mg - info_h - TOPG
         if cut or MULTI: fw, fh = aw, ah
         else: r = min(aw / im.width, ah / im.height); fw, fh = round(im.width * r), round(im.height * r)
-        fx, fy = (W - fw) // 2, M + (ah - fh) // 2; info_x, info_y = M + 4, M + ah + 44; right = W - M
+        fx, fy = (W - fw) // 2, mg + (ah - fh) // 2; info_x, info_y = mg + 4, mg + ah + TOPG; right = W - mg
     def framed(src, is_cut):
         if is_cut:
             free = 24 + 72 + 12 if it['finance'] else 0
@@ -194,19 +200,23 @@ def video(it, out, W, H, secs=6.0, fps=30):
         return _contain(src, fw, fh) if MULTI else src.resize((fw, fh), Image.LANCZOS)
     frames = [framed(im, cut)] + [framed(g, False) for g in gal]
     fmask = m.mask((fw, fh), 28)
-    bg = Image.new('RGB', (W, H), CREAM if vertical else 'white')
+    ground = m.D11_GROUND if d11 else (CREAM if vertical else 'white')
+    bg = Image.new('RGB', (W, H), ground)
     if vertical:
-        m.shadow(bg, (cx0, cy0, cx1, cy0 + card_h), 40, m.PHOTO_SH)
+        m.shadow(bg, (cx0, cy0, cx1, cy0 + card_h), 40, m.D11_CARD_SH if d11 else m.PHOTO_SH)
         cm = m.mask((cx1 - cx0, card_h), 40); bg.paste(Image.new('RGB', cm.size, 'white'), (cx0, cy0), cm)
+    elif d11:  # 1:1: the white sheet on the deeper cream, as on the main card
+        ci = m.D11_INSET; m.shadow(bg, (ci, ci, W - ci, H - ci), 36, m.D11_CARD_SH)
+        cm = m.mask((W - 2 * ci, H - 2 * ci), 36); bg.paste(Image.new('RGB', cm.size, 'white'), (ci, ci), cm)
     PAD = 160; lw, lh = fw + 2 * PAD, fh + 2 * PAD
-    bgp = Image.new('RGB', (W + 2 * PAD, H + 2 * PAD), CREAM if vertical else 'white'); bgp.paste(bg, (PAD, PAD))
-    lay0 = bgp.crop((fx, fy, fx + lw, fy + lh)); m.shadow(lay0, (PAD, PAD, PAD + fw, PAD + fh), 28, m.PHOTO_SH)
+    bgp = Image.new('RGB', (W + 2 * PAD, H + 2 * PAD), ground); bgp.paste(bg, (PAD, PAD))
+    lay0 = bgp.crop((fx, fy, fx + lw, fy + lh)); m.shadow(lay0, (PAD, PAD, PAD + fw, PAD + fh), 28, psh)
     def layer(fr):
         L = lay0.copy(); L.paste(fr, (PAD, PAD), fmask); bx = PAD + 24
         for b_ in it['badges'][:1 if it.get('warranty') else 2]:  # same chips as the main card (warranty takes the 2nd slot)
             dark = b_ == 'ΝΕΟ'
-            bx += m.pill(L, bx, PAD + 24, b_, FONT(700 if dark else 600, 36), CREAM if dark else INK, INK if dark else (255, 255, 255), h=68, pad=28, depth=m.BTN_SH[1:]) + 14
-        if it.get('warranty'): m.pill(L, bx, PAD + 24, m.WARRANTY, FONT(600, 36), INK, (255, 255, 255), h=68, pad=26, depth=m.BTN_SH[1:], icon=m.shield(38, INK))
+            bx += m.pill(L, bx, PAD + 24, b_, FONT(700 if dark else 600, 36), CREAM if dark else INK, INK if dark else (255, 255, 255), h=68, pad=28, depth=bsh[1:]) + 14
+        if it.get('warranty'): m.pill(L, bx, PAD + 24, m.WARRANTY, FONT(600, 36), INK, (255, 255, 255), h=68, pad=26, depth=bsh[1:], icon=m.shield(38, INK))
         return L
     lays = [layer(f) for f in frames]
     la = Image.new('L', (lw, lh), 0); ImageDraw.Draw(la).rectangle((PAD // 2, PAD // 2, lw - PAD // 2, lh - PAD // 2), fill=255); la = la.filter(ImageFilter.GaussianBlur(PAD / 6))
@@ -231,29 +241,32 @@ def video(it, out, W, H, secs=6.0, fps=30):
     T = {'name': 0.0, 'sw': 0.0, 'swd': 0.0, 'dims': 0.0, 'fin': 0.0, 'phone': 0.0, 'loc': 0.0}
     E = []; y = info_y
     def name_(c, dy, y=y):
-        d = ImageDraw.Draw(c); n2, f = m.fit(d, nm, 600, 66 if vertical else 62, right - info_x - 4, floor=46); d.text((info_x, y + dy), n2, font=f, fill=INK, anchor='lt')
-    E.append((T['name'], name_)); y += (66 if vertical else 62) + 36
-    sw_y = y; rad, gap = (40, 20) if vertical else (36, 18); sw_x = []; lbl_x = info_x
+        d = ImageDraw.Draw(c)
+        if cat: d.text((info_x, y + dy), m.caps(cat), font=FONT(600, 30), fill=INK2, anchor='lt')
+        n2, f = m.fit(d, model, 700 if d11 else 600, NMV, right - info_x - 4, floor=46); d.text((info_x, y + EH + dy), n2, font=f, fill=INK, anchor='lt')
+    E.append((T['name'], name_)); y += EH + NMV + G
+    sw_y = y; rad, gap = (42, 30 - 42) if d11 else ((40, 20) if vertical else (36, 18)); sw_x = []; lbl_x = info_x
     if pick:
         cx = info_x + rad
         for i, s_ in enumerate(pick):
-            sw_x.append(cx); E.append((T['sw'] + T['swd'] * i, lambda c, dy, s_=s_, cx=cx, y=y: m.swatch_dot(c, s_, cx, y + rad + 2 + dy, rad))); cx += 2 * rad + gap
+            sw_x.append(cx); E.append((T['sw'] + T['swd'] * i, lambda c, dy, s_=s_, cx=cx, y=y: m.swatch_dot(c, s_, cx, y + rad + 2 + dy, rad, sh=dsh))); cx += 2 * rad + gap
         st = T['sw'] + T['swd'] * len(pick)
         if more:
             def plus(c, dy, cx=cx, y=y):
-                d = ImageDraw.Draw(c); m.ring(c, cx, y + rad + 2 + dy, rad + 2, color='white', w=5, fill='white'); m.ring(c, cx, y + rad + 2 + dy, rad, color=LINE, w=2, fill=CREAM)
+                d = ImageDraw.Draw(c); m.shadow(c, (cx - rad - 4, y - 2 + dy, cx + rad + 4, y + 2 * rad + 6 + dy), None, dsh) if d11 else None; m.ring(c, cx, y + rad + 2 + dy, rad + 2, color='white', w=5, fill='white'); m.ring(c, cx, y + rad + 2 + dy, rad, color=LINE, w=2, fill=CREAM)
                 d.text((cx, y + rad + 2 + dy), f"+{more}", font=FONT(600, 36), fill=INK, anchor='mm')
             E.append((st, plus)); cx += 2 * rad + gap; st += T['swd']
+        if d11: cx += 42 + 12  # past the last overlapped dot
         lbl_x = cx + 6
-        E.append((st, lambda c, dy, cx=cx, y=y: ImageDraw.Draw(c).text((cx + 6, y + rad + 2 + dy), f"{len(it['swatches'])} χρώματα", font=FONT(500, 44 if vertical else 42), fill=INK2, anchor='lm')))
-        y += (84 if vertical else 76) + 36
+        if not d11: E.append((st, lambda c, dy, cx=cx, y=y: ImageDraw.Draw(c).text((cx + 6, y + rad + 2 + dy), f"{len(it['swatches'])} χρώματα", font=FONT(500, 44 if vertical else 42), fill=INK2, anchor='lm')))
+        y += (84 if (vertical or d11) else 76) + G
     pw = int(ImageDraw.Draw(Image.new('RGB', (1, 1))).textlength(PHONE, font=pf) + 2 * 30 + ph.width + 14)
     if vertical:
         if it['dims']:
             def dims_(c, dy, y=y):
                 ic = m.ruler_icon(48, INK2); c.paste(ic, (info_x - 2, y + 1 + dy), ic); ImageDraw.Draw(c).text((info_x + 66, y + 25 + dy), it['dims'], font=FONT(500, 46), fill=INK2, anchor='lm')
             E.append((T['dims'], dims_)); y += 50 + 40
-        E.append((T['phone'], lambda c, dy, y=y: m.pill(c, info_x, y + dy, PHONE, pf, CREAM, INK, h=phh, pad=30, depth=m.BTN_SH, icon=ph)))
+        E.append((T['phone'], lambda c, dy, y=y: m.pill(c, info_x, y + dy, PHONE, pf, CREAM, INK, h=phh, pad=30, depth=bsh, icon=ph)))
         E.append((T['loc'], lambda c, dy, y=y: loc_line(c, info_x + 4, y + phh + 20 + dy, 48, size=38, color=INK2)))
     else:
         if it['dims']:
@@ -261,14 +274,14 @@ def video(it, out, W, H, secs=6.0, fps=30):
                 d = ImageDraw.Draw(c); ic = m.ruler_icon(46, INK2); c.paste(ic, (info_x - 2, y + 15 + dy), ic)
                 dt, df = m.fit(d, it['dims'], 500, 42, right - pw - 24 - (info_x + 62), floor=34); d.text((info_x + 62, y + 38 + dy), dt, font=df, fill=INK2, anchor='lm')
             E.append((T['dims'], dims_))
-        E.append((T['phone'], lambda c, dy, y=y: m.pill(c, right - pw, y + dy, PHONE, pf, CREAM, INK, h=phh, pad=30, depth=m.BTN_SH, icon=ph)))
-    if it['finance']: E.append((T['fin'], lambda c, dy: m.fin_pill(c, fx + 24 - dy, fy + fh - 24 - 72, it['finance'])))
+        E.append((T['phone'], lambda c, dy, y=y: m.pill(c, right - pw, y + dy, PHONE, pf, CREAM, INK, h=phh, pad=30, depth=bsh, icon=ph)))
+    if it['finance']: E.append((T['fin'], lambda c, dy: m.fin_pill(c, fx + 24 - dy, fy + fh - 24 - 72, it['finance'], sh=bsh)))
     terms = it.get('swatch_terms') or []
     nm_of = lambda s_: (terms[it['swatches'].index(s_)].split('/')[0].strip().title() if it['swatches'].index(s_) < len(terms) else '')
     def rowcyc(c, t):  # swatch-row colour cycle from 2 s
         i = int((t - 2.0) / 0.6) % len(pick); a = out_cubic(((t - 2.0) % 0.6) / 0.2); d = ImageDraw.Draw(c)
         cx_, cy_ = sw_x[i], sw_y + rad + 2
-        m.ring(c, cx_, cy_, rad + 9, color=GOLD, w=4); m.swatch_dot(c, pick[i], cx_, cy_, int(rad * (1 + 0.1 * a)))
+        m.ring(c, cx_, cy_, rad + 9, color=GOLD, w=4); m.swatch_dot(c, pick[i], cx_, cy_, int(rad * (1 + 0.1 * a)), sh=dsh)
         fz = FONT(600, 44 if vertical else 42); d.rectangle((lbl_x - 4, cy_ - 34, right, cy_ + 34), fill='white')
         n_ = nm_of(pick[i]) or f"{len(it['swatches'])} χρώματα"; n_, fz = m.fit(d, n_, 600, 44 if vertical else 42, right - lbl_x, floor=30)
         d.text((lbl_x, cy_), n_, font=fz, fill=INK, anchor='lm')

@@ -1,3 +1,5 @@
 v9x/
 v9x_manifest.lock
 v9x_manifest.json.tmp
+v9x_pending.json
+*.lock

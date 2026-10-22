@@ -3,7 +3,7 @@ Photo (uncropped, rounded) with up to 2 badges; name; dimensions as text; option
 (real fabric/wood swatches: photo colour first, then a calm light-to-dark spread with at most 1 strong colour, "+N" circle when more exist; size chips for mattresses); phone always.
 Every text is >= 34px on the 1080 canvas, so it stays readable at ~360px (Stories grid tile, phone feed).
 Library only: v7_cards.py builds items from the live feed and calls card(item, out_path)."""
-import ast, io, os, re, sys, json, math, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import unicodedata, ast, io, os, re, sys, json, math, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from PIL import Image, ImageDraw, ImageFont, ImageChops
 
 HERE = os.path.dirname(os.path.abspath(__file__))  # generator/
@@ -24,7 +24,10 @@ PLAIN = [(r'^μεταλλικό γκρι ανθρακί$', '#3d3f42'), (r'^γκ�
          (r'^καφέ$', '#6b4a2f'), (r'^μόκα$', '#7b5a45'), (r'^μαύρο$', '#1d1d1d'), (r'^ανθρακί$', '#3b3b3b')]
 # leading model codes ("1025-1 Τραπέζι", "309 Τραπέζι", "M30 Καθρέπτης"): dropped from the card name; quantities ("2 Καρέκλες", "10 Καρέκλες") stay
 CODE = re.compile(r'^(?:[A-Za-z]{1,3}\d{2,}[A-Za-z]?(?:-\d+)*|\d{3,}(?:-\d+)*|\d+-\d+)\s+(?=[Α-Ωα-ωΆ-Ώά-ώ])')  # pure numbers under 100 are quantities: kept
-X_SALT = '|V13'  # V13: video carries the warranty chip like the main card; V12: video gallery shots only from site photos cleared as product photos; V11: complete from frame 0 (21/10)  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
+# v11 deeper card (owner 22/10) for the main card and both videos. Switch: v11.txt ('on'); rollback: empty file
+D11 = (lambda f: os.path.exists(f) and open(f).read().strip() == 'on')(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'v11.txt'))
+X_SALT_PREV = '|V13'  # supp_build keeps publishing the previous videos until each product's new ones are uploaded
+X_SALT = '|V14' if D11 else '|V13'  # V14: v11 deeper-card video design; V13: video carries the warranty chip like the main card; V12: video gallery shots only from site photos cleared as product photos; V11: complete from frame 0 (21/10)  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
 name_salt = lambda title: '|nc' if CODE.match(title or '') else ''  # in the card hash, so affected cards get a new file name
 SIZE_PREF = ['90x200', '140x200', '160x200', '150x200', '170x200', '180x200', '100x200', '120x200']
 
@@ -80,7 +83,7 @@ def build(it):
     if fab and all('/αδιάβροχο' in t.lower() for t in fab): b.insert(0, 'Αδιάβροχο ύφασμα')
     if 'Νέα Προϊόντα' in ptype: b.insert(0, 'ΝΕΟ')
     if 'Καναπέδες' in ptype: b = [x for x in b if x != 'Στα μέτρα σας']
-    return {'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': g('image_link'),
+    return {'d11': D11, 'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': g('image_link'),
             'badges': list(dict.fromkeys(b))[:2], 'swatches': sw, 'swatch_label': sw_label,
             'sizes': sizes if mattress else [], 'secondary': sec, 'finance': finance_line(g('sale_price') or g('price')),
             'warranty': has_warranty(ptype), 'swatch_terms': sw_terms, 'gallery': [e.text.strip() for e in it.findall('g:additional_image_link', namespaces=NS) if e.text and site_photo_ok(e.text.strip())]}
@@ -188,6 +191,18 @@ from PIL import ImageFilter
 PHOTO_SH = [(5, 10, 0, .06), (43, 96, -53, .30)]   # .woocommerce-product-gallery__wrapper: 0 2px 4px .06, 0 18px 40px -22px .3
 BTN_SH = [(24, 66, -19, .45), (5, 14, 0, .12)]      # .jth-btn: 0 10px 28px -8px .45, 0 2px 6px .12
 DOT_SH = [(3, 12, 0, .14), (10, 22, -8, .22)]       # swatch lift (site swatch: white ring + soft drop)
+# v11 deeper card (owner pick 22/10): white card on a deeper cream, stronger lift on every layer, photo +4% vs v10
+D11_GROUND, D11_INSET, D11_M = '#eae0cd', 16, 40
+D11_CARD_SH = [(10, 24, 0, .16), (70, 140, -26, .50)]
+D11_PHOTO_SH = [(6, 14, 0, .10), (50, 110, -46, .42)]
+D11_BTN_SH = [(28, 70, -16, .55), (6, 16, 0, .18)]
+D11_DOT_SH = [(4, 14, 0, .22), (12, 26, -6, .32)]
+def split_name(nm):
+    """v11 editorial name: 'Γωνιακός Καναπές Aigina' -> ('Γωνιακός Καναπές', 'Aigina'), split before the first Latin word.
+    No Latin word, or nothing before it -> ('', nm): the full name stays one line."""
+    w = nm.split(); k = next((j for j, t in enumerate(w) if t[:1].isascii() and t[:1].isalpha()), len(w))
+    return (' '.join(w[:k]), ' '.join(w[k:])) if 0 < k < len(w) else ('', nm)
+def caps(t): return ''.join(ch for ch in unicodedata.normalize('NFD', t.upper()) if unicodedata.category(ch) != 'Mn')  # Greek caps drop accents
 def shadow(c, box, radius, layers):
     """Paint layered soft shadows under box=(x0,y0,x1,y1); spread<0 shrinks the shape, like CSS."""
     x0, y0, x1, y1 = box; pad = 140
@@ -213,14 +228,14 @@ def pill(c, x, y, text, font, fg, bg, h=64, pad=26, outline=None, depth=None, ic
     d.text((x + iw + (w - iw) / 2, y + h / 2), text, font=font, fill=fg, anchor='mm'); return w
 
 _sprites = {}
-def swatch_dot(c, s, cx, cy, r):
+def swatch_dot(c, s, cx, cy, r, sh=None):
     if s.get('sprite'):
         sp = _sprites.get(s['sprite']) or _sprites.setdefault(s['sprite'], Image.open(os.path.join(ASSETS, 'sprites', s['sprite'])).convert('RGB'))  # get first: setdefault alone re-decoded the WebP on every call
         tw = sp.width / s['n']; x0 = s['i'] * tw
         tile = sp.crop((int(x0 + tw * .2), int(sp.height * .2), int(x0 + tw * .8), int(sp.height * .8))).resize((2 * r, 2 * r), Image.LANCZOS)
     else:
         tile = Image.new('RGB', (2 * r, 2 * r), s['hex'])
-    shadow(c, (cx - r - 4, cy - r - 4, cx + r + 4, cy + r + 4), None, DOT_SH)
+    shadow(c, (cx - r - 4, cy - r - 4, cx + r + 4, cy + r + 4), None, sh or DOT_SH)
     ring(c, cx, cy, r + 2, color='white', w=5, fill='white')  # site swatch: 2px white ring
     c.paste(tile, (cx - r, cy - r), mask((2 * r, 2 * r))); ring(c, cx, cy, r, color=(53, 38, 0, 30), w=2)
 
@@ -255,12 +270,12 @@ def bg_alpha(t):
     alpha = np.where(bg, 0, np.where(near, np.maximum(soft, 0), 255)).astype('uint8')
     return Image.fromarray(alpha).filter(ImageFilter.GaussianBlur(1))
 
-def fin_pill(c, x, y, fin, h=72):
+def fin_pill(c, x, y, fin, h=72, sh=None):
     """White pill on the photo: dark provider chip (Klarna/TBI) + instalment line."""
     label, text = fin
     d = ImageDraw.Draw(c); f = FONT(600, 36); chip = FONT(700, 28)
     cw = int(d.textlength(label, font=chip)) + 24; w = int(d.textlength(text, font=f)) + cw + 26 + 26
-    shadow(c, (x, y, x + w, y + h), h / 2, BTN_SH[1:])
+    shadow(c, (x, y, x + w, y + h), h / 2, (sh or BTN_SH)[1:])
     big = Image.new('RGBA', (w * X, h * X), (0, 0, 0, 0))
     ImageDraw.Draw(big).rounded_rectangle((0, 0, big.width - 1, big.height - 1), radius=h * X // 2, fill='white')
     big = big.resize((w, h), Image.LANCZOS); c.paste(big, (x, y), big)
@@ -279,64 +294,75 @@ def card(it, out):
     # v10 4:5 (owner-approved 2026-10-21, rolled out per group): crop-safe, so a centre square crop (carousels) keeps every
     # readable element; only the bottom showroom strip and a little of the photo top fall outside the square
     HC = 1350 if it.get('r45') else S; BOT = 135 if it.get('r45') else 0
-    c = Image.new('RGB', (S, HC), 'white'); d = ImageDraw.Draw(c)
+    d11 = it.get('d11'); mg = D11_M if d11 else M
+    psh, bsh, dsh = (D11_PHOTO_SH, D11_BTN_SH, D11_DOT_SH) if d11 else (PHOTO_SH, BTN_SH, DOT_SH)
+    c = Image.new('RGB', (S, HC), D11_GROUND if d11 else 'white'); d = ImageDraw.Draw(c)
+    if d11:  # v11: the whole card is a white sheet lifted off a deeper cream
+        cw = S - 2 * D11_INSET; shadow(c, (D11_INSET, D11_INSET, S - D11_INSET, HC - D11_INSET), 36, D11_CARD_SH)
+        c.paste(Image.new('RGB', (cw, HC - 2 * D11_INSET), 'white'), (D11_INSET, D11_INSET), mask((cw, HC - 2 * D11_INSET), 36))
     # info block anchored to the bottom; the photo takes the rest at full width (never cropped)
     has_opt = bool(it['swatches'] or it['sizes'])
     # v10 (2026-10-21, owner-approved proposal 7): same information, sized for a ~300 px carousel tile:
     # bold 72 px name, 84 px rows, 5 bigger swatches, bold size/colour count, larger phone pill
-    NM, ROW, GAP = 72, 84, 32
-    info_h = NM + GAP + (ROW + GAP if has_opt else 0) + ROW
-    area_top, area_bot = M, HC - M - BOT - info_h - 36
+    NM, ROW, GAP, TOP = 72, 84, 32, 36
+    nm = it['name'].replace('"', '').replace('  ', ' ')
+    if d11 and d.textlength(nm, font=FONT(600, 52)) > S - 2 * mg - 8 and ' με ' in nm: nm = nm.split(' με ')[0]
+    cat, model = split_name(nm) if d11 else ('', nm)
+    if d11: NM, GAP, TOP = 80, 14, 22  # v11: tighter rows pay for the category line, the photo grows instead of shrinking
+    EH = 36 if cat else 0
+    info_h = NM + GAP + (ROW + GAP if has_opt else 0) + ROW + EH
+    area_top, area_bot = mg, HC - mg - BOT - info_h - TOP
     v9 = it.get('v9'); fin = it.get('finance') if v9 else None
     if v9 and cut:  # v9: cream panel the size of the photo frame, product centred, kept clear of the instalments pill
-        aw, ah = S - 2 * M, area_bot - area_top; free = 24 + 72 + 12 if fin else 0
+        aw, ah = S - 2 * mg, area_bot - area_top; free = 24 + 72 + 12 if fin else 0
         pr = min(aw * 0.94 / im.width, (ah - free) * 0.94 / im.height); t = im.resize((round(im.width * pr), round(im.height * pr)), Image.LANCZOS)
-        shadow(c, (M, area_top, M + aw, area_top + ah), 28, PHOTO_SH)
+        shadow(c, (mg, area_top, mg + aw, area_top + ah), 28, psh)
         panel = Image.new('RGB', (aw, ah), CREAM); panel.paste(t, ((aw - t.width) // 2, (ah - free - t.height) // 2 + 8), bg_alpha(t))
-        c.paste(panel, (M, area_top), mask(panel.size, 28)); px, py, tw, th = M, area_top, aw, ah
+        c.paste(panel, (mg, area_top), mask(panel.size, 28)); px, py, tw, th = mg, area_top, aw, ah
     else:
-        r = min((S - 2 * M) / im.width, (area_bot - area_top) / im.height); t = im.resize((round(im.width * r), round(im.height * r)), Image.LANCZOS)
+        r = min((S - 2 * mg) / im.width, (area_bot - area_top) / im.height); t = im.resize((round(im.width * r), round(im.height * r)), Image.LANCZOS)
         px, py = (S - t.width) // 2, area_top + (area_bot - area_top - t.height) // 2; tw, th = t.size
         if cut: c.paste(t, (px, py))  # white-background shot: no box, no shadow, the product sits on the card
-        else: shadow(c, (px, py, px + t.width, py + t.height), 28, PHOTO_SH); c.paste(t, (px, py), mask(t.size, 28))
+        else: shadow(c, (px, py, px + t.width, py + t.height), 28, psh); c.paste(t, (px, py), mask(t.size, 28))
     bx = px + 24
     for b in it['badges'][:1 if it.get('warranty') else 2]:  # warranty takes the 2nd chip slot
         dark = b == 'ΝΕΟ'
         bx += pill(c, bx, py + 24, b, FONT(700 if dark else 600, 36), CREAM if dark else INK, INK if dark else (255, 255, 255),
-                   h=68, pad=28, depth=BTN_SH[1:]) + 14
-    if it.get('warranty'): pill(c, bx, py + 24, WARRANTY, FONT(600, 36), INK, (255, 255, 255), h=68, pad=26, depth=BTN_SH[1:], icon=shield(38, INK))
+                   h=68, pad=28, depth=bsh[1:]) + 14
+    if it.get('warranty'): pill(c, bx, py + 24, WARRANTY, FONT(600, 36), INK, (255, 255, 255), h=68, pad=26, depth=bsh[1:], icon=shield(38, INK))
 
-    if fin: fin_pill(c, px + 24, py + th - 24 - 72, fin)  # v9 instalments, on the photo (photo keeps its size)
-    x, y = M + 4, area_bot + 36
-    nm = it['name'].replace('"', '').replace('  ', ' ')
-    if d.textlength(nm, font=FONT(600, 52)) > S - 2 * M - 8 and ' με ' in nm: nm = nm.split(' με ')[0]  # "… με Σκαμπό/αποθηκευτικό" is detail, not name
-    name, f = fit(d, nm, 700, NM, S - 2 * M - 8, floor=50)
+    if fin: fin_pill(c, px + 24, py + th - 24 - 72, fin, sh=bsh)  # v9 instalments, on the photo (photo keeps its size)
+    x, y = mg + 4, area_bot + TOP
+    if not d11 and d.textlength(nm, font=FONT(600, 52)) > S - 2 * mg - 8 and ' με ' in nm: nm = model = nm.split(' με ')[0]  # "… με Σκαμπό/αποθηκευτικό" is detail, not name
+    if cat: d.text((x, y), caps(cat), font=FONT(600, 30), fill=INK2, anchor='lt'); y += EH  # v11 editorial: category line over the model name
+    name, f = fit(d, model, 700, NM, S - 2 * mg - 8, floor=50)
     d.text((x, y), name, font=f, fill=INK, anchor='lt'); y += NM + GAP
     if it['swatches']:
         rad, gap, show = 42, 18, 5
+        if d11: show, gap = 8, 30 - rad  # v11: 7 overlapping swatches + "+N", no colour-count text (owner 22/10)
         many = len(it['swatches']) > show; pick = calm_pick(it['swatches'], show - 1 if many else show, photo_match(im, it['swatches']))
         cx = x + rad + 4
-        for s_ in pick: swatch_dot(c, s_, cx, y + rad + 2, rad); cx += 2 * rad + gap
+        for s_ in pick: swatch_dot(c, s_, cx, y + rad + 2, rad, sh=dsh); cx += 2 * rad + gap
         if many:  # "+N" overflow cue: same size and lift as a swatch, cream face
-            shadow(c, (cx - rad - 4, y - 2, cx + rad + 4, y + 2 * rad + 6), None, DOT_SH)
+            shadow(c, (cx - rad - 4, y - 2, cx + rad + 4, y + 2 * rad + 6), None, dsh)
             ring(c, cx, y + rad + 2, rad + 2, color='white', w=5, fill='white'); ring(c, cx, y + rad + 2, rad, color=LINE, w=2, fill=CREAM)
             d.text((cx, y + rad + 2), f"+{len(it['swatches']) - len(pick)}", font=FONT(600, 38), fill=INK, anchor='mm'); cx += 2 * rad + gap
-        d.text((cx + 6, y + rad + 2), f"{len(it['swatches'])} χρώματα", font=FONT(600, 46), fill=INK, anchor='lm')
+        if not d11: d.text((cx + 6, y + rad + 2), f"{len(it['swatches'])} χρώματα", font=FONT(600, 46), fill=INK, anchor='lm')
         y += ROW + GAP
     elif it['sizes']:
         pref = [s_ for s_ in SIZE_PREF if s_ in it['sizes']][:3] or it['sizes'][:3]
         cx = x
-        for s_ in pref: cx += pill(c, cx, y, s_.replace('x', '×'), FONT(600, 44), INK, 'white', h=ROW, pad=26, outline=LINE, depth=DOT_SH) + 14
-        if len(it['sizes']) > len(pref): cx += pill(c, cx, y, f"+{len(it['sizes']) - len(pref)}", FONT(600, 44), INK, CREAM, h=ROW, pad=24, outline=LINE, depth=DOT_SH) + 14
+        for s_ in pref: cx += pill(c, cx, y, s_.replace('x', '×'), FONT(600, 44), INK, 'white', h=ROW, pad=26, outline=LINE, depth=dsh) + 14
+        if len(it['sizes']) > len(pref): cx += pill(c, cx, y, f"+{len(it['sizes']) - len(pref)}", FONT(600, 44), INK, CREAM, h=ROW, pad=24, outline=LINE, depth=dsh) + 14
         y += ROW + GAP
     # last row: dimensions (icon + text) left, phone as the site's dark pill button right
     ph = Image.open(os.path.join(HERE, 'icon-phone-hi.png')).convert('RGBA'); ph = ph.resize((round(ph.width * 44 / ph.height), 44), Image.LANCZOS)
     ph = Image.merge('RGBA', (*Image.new('RGB', ph.size, CREAM).split(), ph.split()[3]))  # cream icon on the dark button
     pf = FONT(700, 46); pw = int(d.textlength(PHONE, font=pf) + 2 * 30 + ph.width + 14)
-    pill(c, S - M - pw, y, PHONE, pf, CREAM, INK, h=ROW, pad=30, depth=BTN_SH, icon=ph)
+    pill(c, S - mg - pw, y, PHONE, pf, CREAM, INK, h=ROW, pad=30, depth=bsh, icon=ph)
     if it['dims']:
         ic = ruler_icon(52, INK2); c.paste(ic, (x - 2, y + 16), ic)
-        dt, df = fit(d, it['dims'], 600, 48, S - M - pw - 24 - (x + 68), floor=36)
+        dt, df = fit(d, it['dims'], 600, 48, S - mg - pw - 24 - (x + 68), floor=36)
         d.text((x + 68, y + ROW / 2), dt, font=df, fill=INK, anchor='lm')
     if BOT:  # showroom + nationwide delivery strip below the centre square
         import make_v9x as x9
