@@ -210,7 +210,9 @@ def video(it, out, W, H, secs=6.0, fps=30):
         cm = m.mask((W - 2 * ci, H - 2 * ci), 36); bg.paste(Image.new('RGB', cm.size, 'white'), (ci, ci), cm)
     PAD = 160; lw, lh = fw + 2 * PAD, fh + 2 * PAD
     bgp = Image.new('RGB', (W + 2 * PAD, H + 2 * PAD), ground); bgp.paste(bg, (PAD, PAD))
-    lay0 = bgp.crop((fx, fy, fx + lw, fy + lh)); m.shadow(lay0, (PAD, PAD, PAD + fw, PAD + fh), 28, psh)
+    lay0 = bgp.crop((fx, fy, fx + lw, fy + lh))
+    if d11: m.shadow(bg, (fx, fy, fx + fw, fy + fh), 28, psh)  # v11: the deeper photo shadow stays put on the ground; only the photo itself zooms
+    else: m.shadow(lay0, (PAD, PAD, PAD + fw, PAD + fh), 28, psh)
     def layer(fr):
         L = lay0.copy(); L.paste(fr, (PAD, PAD), fmask); bx = PAD + 24
         for b_ in it['badges'][:1 if it.get('warranty') else 2]:  # same chips as the main card (warranty takes the 2nd slot)
@@ -220,13 +222,14 @@ def video(it, out, W, H, secs=6.0, fps=30):
         return L
     lays = [layer(f) for f in frames]
     la = Image.new('L', (lw, lh), 0); ImageDraw.Draw(la).rectangle((PAD // 2, PAD // 2, lw - PAD // 2, lh - PAD // 2), fill=255); la = la.filter(ImageFilter.GaussianBlur(PAD / 6))
-    ox, oy = fx - PAD, fy - PAD; ccx, ccy = fx + fw / 2, fy + fh / 2
+    if d11: la = Image.new('L', (lw, lh), 0); la.paste(fmask, (PAD, PAD))  # photo shape only: the static shadow around it stays visible
+    ox, oy = fx - PAD, fy - PAD; ccx, ccy = fx + fw / 2, fy + fh * (0.7 if d11 else 0.5)  # v11: zoom grows mostly upward, away from the text block
     HOOK = 2.0; seg = (secs - HOOK) / len(gal) if gal else None
     def shot(t):  # (layer index, time inside that shot, shot length)
         if not gal or t < HOOK: return 0, t, HOOK if gal else secs
         i = min(int((t - HOOK) // seg), len(gal) - 1); return i + 1, t - HOOK - i * seg, seg
     def scale(i, tl, ln):
-        if i == 0: return 1.07 - 0.07 * out_cubic(tl / 0.7) + 0.02 * ease((tl - 0.7) / max(0.1, ln - 0.7))
+        if i == 0: z = 0.04 if d11 else 0.07; return 1 + z - z * out_cubic(tl / 0.7) + 0.02 * ease((tl - 0.7) / max(0.1, ln - 0.7))  # v11: gentler hook (tighter gap to the name)
         return 1.02 + 0.03 * ease(tl / ln)
     def warp(L, k):  # bilinear: zoom stays within 1.00 to 1.07, bicubic cost 2x for no visible gain
         inv = 1 / k; tx = ccx - ox - (ccx - ox) * inv; ty = ccy - oy - (ccy - oy) * inv
