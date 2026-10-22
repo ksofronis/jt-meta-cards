@@ -31229,5 +31229,185 @@ null,
 "feed": true
 },
 "r2": true
+},
+"44268": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2021/01/M30-2.jpg",
+"M30 Καθρέπτης Τοίχου 104Φ",
+[
+106,
+0,
+1199,
+853
+],
+"Klarna|3 άτοκες δόσεις|nc|V13"
+],
+"files": {
+"story": "v9x/44268-ca9b4ef6-story.mp4",
+"feed": "v9x/44268-ca9b4ef6-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"44265": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2021/02/M20-1.jpg",
+"M20 Καθρέπτης Τοίχου 160x85",
+[
+268,
+0,
+1239,
+757
+],
+"Klarna|3 άτοκες δόσεις|nc|V13"
+],
+"files": {
+"story": "v9x/44265-c3171539-story.mp4",
+"feed": "v9x/44265-c3171539-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"52935": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2022/06/3AA7A119-D4C4-45D7-86E1-4E135DDC4770.png",
+"Σετ Κρεβατοκάμαρας Nemesis",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/52935-164ff307-story.mp4",
+"feed": "v9x/52935-164ff307-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"9486": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/07/sinthesi-shade.jpg",
+"Σύνθεση Shade 220x45x210",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/9486-50fc2b32-story.mp4",
+"feed": "v9x/9486-50fc2b32-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"85678": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1107.jpg",
+"Τραπεζάκι σαλονιού Golf Σετ",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/85678-f12e932a-story.mp4",
+"feed": "v9x/85678-f12e932a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"47305": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
+"Σύνθεση Triplex 240x50",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/47305-e75be1c1-story.mp4",
+"feed": "v9x/47305-e75be1c1-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"45699": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/09/velvet.webp",
+"Στρώμα Velvet",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/45699-06c31b9c-story.mp4",
+"feed": "v9x/45699-06c31b9c-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"45713": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/09/ocean.webp",
+"Στρώμα Ocean",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/45713-0398c378-story.mp4",
+"feed": "v9x/45713-0398c378-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"45575": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/09/serenity.webp",
+"Στρώμα Serenity",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/45575-b871c53a-story.mp4",
+"feed": "v9x/45575-b871c53a-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"45716": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/09/ocean.webp",
+"Στρώμα Ocean",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/45716-0398c378-story.mp4",
+"feed": "v9x/45716-0398c378-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
 }
 }
