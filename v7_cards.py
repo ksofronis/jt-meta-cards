@@ -22,7 +22,7 @@ G45 = v7_groups.enabled('v45_groups.txt')
 HALF45 = 'on' in v7_groups.enabled('v45_half.txt')  # 21/10 owner: 4:5 on half of every group (odd product ids), even ids stay 1:1 as the comparison
 _odd = lambda i: (int(i) if i.isdigit() else sum(map(ord, i))) % 2 == 1
 R45 = lambda it: v7_groups.group_of(g(it, 'product_type')) in G45 or (HALF45 and _odd(g(it, 'id')))
-v9_of = lambda it: ('v9:' + ('|'.join(m.finance_line(g(it, 'sale_price') or g(it, 'price')) or ('-',))) + m.name_salt(g(it, 'title')) + '|L10' + ('|45' if R45(it) else '') + ('|W' if m.has_warranty(g(it, 'product_type')) else '') + ('|D11' if m.D11 else '')) if V9 else None  # |D11: v11 deeper card (22/10)  # |L10: legible layout (2026-10-21), part of the card hash
+v9_of = lambda it: ('v9:' + ('|'.join(m.finance_line(g(it, 'sale_price') or g(it, 'price')) or ('-',))) + m.name_salt(g(it, 'title')) + '|L10' + ('|45' if R45(it) else '') + ('|W' if m.has_warranty(g(it, 'product_type')) else '') + ('|D11' if m.d11_on(g(it, 'id')) else '')) if V9 else None  # |D11: v11 deeper card (22/10)  # |L10: legible layout (2026-10-21), part of the card hash
 crop_of = lambda it: crops[g(it, 'id')]['crop'] if g(it, 'id') in crops and crops[g(it, 'id')]['image'] == g(it, 'image_link') else None
 if '--preview' in sys.argv:
     want = set(sys.argv[sys.argv.index('--preview') + 1:]); os.makedirs('preview', exist_ok=True)

@@ -26,6 +26,11 @@ PLAIN = [(r'^μεταλλικό γκρι ανθρακί$', '#3d3f42'), (r'^γκ�
 CODE = re.compile(r'^(?:[A-Za-z]{1,3}\d{2,}[A-Za-z]?(?:-\d+)*|\d{3,}(?:-\d+)*|\d+-\d+)\s+(?=[Α-Ωα-ωΆ-Ώά-ώ])')  # pure numbers under 100 are quantities: kept
 # v11 deeper card (owner 22/10) for the main card and both videos. Switch: v11.txt ('on'); rollback: empty file
 D11 = (lambda f: os.path.exists(f) and open(f).read().strip() == 'on')(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'v11.txt'))
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# 22/10 owner: random half of the products stays on the v10 design (split test, stratified by impressions); ids in v11_holdout.txt
+D11_HOLD = set(open(os.path.join(_ROOT, 'v11_holdout.txt')).read().split()) if os.path.exists(os.path.join(_ROOT, 'v11_holdout.txt')) else set()
+d11_on = lambda iid: D11 and iid not in D11_HOLD
+x_salt = lambda iid: '|V14' if d11_on(iid) else '|V13'  # per-product video design salt
 X_SALT_PREV = '|V13'  # supp_build keeps publishing the previous videos until each product's new ones are uploaded
 X_SALT = '|V14' if D11 else '|V13'  # V14: v11 deeper-card video design; V13: video carries the warranty chip like the main card; V12: video gallery shots only from site photos cleared as product photos; V11: complete from frame 0 (21/10)  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
 name_salt = lambda title: '|nc' if CODE.match(title or '') else ''  # in the card hash, so affected cards get a new file name
@@ -83,7 +88,7 @@ def build(it):
     if fab and all('/αδιάβροχο' in t.lower() for t in fab): b.insert(0, 'Αδιάβροχο ύφασμα')
     if 'Νέα Προϊόντα' in ptype: b.insert(0, 'ΝΕΟ')
     if 'Καναπέδες' in ptype: b = [x for x in b if x != 'Στα μέτρα σας']
-    return {'d11': D11, 'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': g('image_link'),
+    return {'d11': d11_on(g('id')), 'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': g('image_link'),
             'badges': list(dict.fromkeys(b))[:2], 'swatches': sw, 'swatch_label': sw_label,
             'sizes': sizes if mattress else [], 'secondary': sec, 'finance': finance_line(g('sale_price') or g('price')),
             'warranty': has_warranty(ptype), 'swatch_terms': sw_terms, 'gallery': [e.text.strip() for e in it.findall('g:additional_image_link', namespaces=NS) if e.text and site_photo_ok(e.text.strip())]}

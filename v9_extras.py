@@ -32,7 +32,7 @@ items = {g(it, 'id'): it for it in root.findall('./channel/item') if SAFE_ID.ful
 if ALL and R2: top = list(items)
 crops = json.load(open('v8_crops.json')) if os.path.exists('v8_crops.json') else {}
 crop_of = lambda it: crops[g(it, 'id')]['crop'] if g(it, 'id') in crops and crops[g(it, 'id')]['image'] == g(it, 'image_link') else None
-fin_of = lambda it: '|'.join(m.finance_line(g(it, 'sale_price') or g(it, 'price')) or ('-',)) + m.name_salt(g(it, 'title')) + m.X_SALT
+fin_of = lambda it: '|'.join(m.finance_line(g(it, 'sale_price') or g(it, 'price')) or ('-',)) + m.name_salt(g(it, 'title')) + m.x_salt(g(it, 'id'))
 key = lambda it: [g(it, 'image_link'), g(it, 'title'), crop_of(it), fin_of(it)]
 man = json.load(open('v9x_manifest.json')) if os.path.exists('v9x_manifest.json') else {}
 todo = [items[i] for i in top if i in items and man.get(i, {}).get('key') != key(items[i])]
