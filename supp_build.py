@@ -62,7 +62,10 @@ def more(i):
     imgs = [main_of(i)]
     # video[0] = Meta's default: the 1:1 file (safe in every placement); video[1] = 9:16 alternative for Stories/Reels (owner 22/10)
     return [','.join(imgs[:20]), base + f['feed'] if 'feed' in f else '', base + f['story'] if 'story' in f else '']
+# weekly product tiers (meta-cards/scorecard/build.py, owner 22/10): jt_a / jt_b / jt_c / jt_new as custom_label_4 for product sets.
+# Labels 0 and 1 belong to the site feed. A label alone changes no delivery: only product sets that filter on it do.
+tiers = json.load(open('product_tiers.json')) if os.path.exists('product_tiers.json') else {}
 with open('feed/supplementary.csv', 'w', newline='') as f:
-    w = csv.writer(f); w.writerow(['id', 'image_link', 'additional_image_link', 'video[0].url', 'video[1].url'])
-    w.writerows([r[0], r[1], *more(r[0])] for r in rows)
+    w = csv.writer(f); w.writerow(['id', 'image_link', 'additional_image_link', 'video[0].url', 'video[1].url', 'custom_label_4'])
+    w.writerows([r[0], r[1], *more(r[0]), tiers.get(r[0], 'jt_new')] for r in rows)
 print('supplementary rows', len(rows), 'of first', n, '| auto', sum(1 for r in rows if '/auto/' in r[1]), '| v2', sum(1 for r in rows if '/v2/' in r[1]), '| v3', sum(1 for r in rows if '/v3/' in r[1]), '| v4', sum(1 for r in rows if '/v4/' in r[1]), '| v5', sum(1 for r in rows if '/v5/' in r[1]), '| v6', sum(1 for r in rows if '/v6/' in r[1]), '| v7', sum(1 for r in rows if '/v7/' in r[1]), '| v9 extras', sum(1 for r in rows if x_ok(r[0])))
