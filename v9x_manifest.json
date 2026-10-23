@@ -31302,5 +31302,151 @@ null,
 "feed": true
 },
 "r2": true
+},
+"90937": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2026/07/virtusos-shop2.jpg",
+"Virtuoso 12",
+null,
+"TBI|Έως 60 δόσεις|V14"
+],
+"files": {
+"story": "v9x/90937-602f8c29-story.mp4",
+"feed": "v9x/90937-602f8c29-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"59146": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2022/10/b35e2b30-0296-432e-b96c-e1dae34886c6.png",
+"Κρεβάτι Erato",
+null,
+"TBI|Έως 60 δόσεις|V14"
+],
+"files": {
+"story": "v9x/59146-8fe06005-story.mp4",
+"feed": "v9x/59146-8fe06005-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"45626": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/09/lusso_grey.webp",
+"Στρώμα Lusso Gray",
+null,
+"Klarna|3 άτοκες δόσεις|V14"
+],
+"files": {
+"story": "v9x/45626-e2522ac8-story.mp4",
+"feed": "v9x/45626-e2522ac8-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"46789": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03302_.jpg",
+"Κομοδίνο Niovi 48,5x47x42,4",
+[
+89,
+0,
+1182,
+853
+],
+"Klarna|3 άτοκες δόσεις|V14"
+],
+"files": {
+"story": "v9x/46789-0dbda331-story.mp4",
+"feed": "v9x/46789-0dbda331-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"90041": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2026/05/SAK_1249ww.jpg",
+"Φωτιστικό Κρεμαστό 1249",
+null,
+"Klarna|3 άτοκες δόσεις|V14"
+],
+"files": {
+"story": "v9x/90041-a407e308-story.mp4",
+"feed": "v9x/90041-a407e308-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"45313": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/03/s150.jpg",
+"S150 Καθρέπτης Τοίχου",
+[
+132,
+0,
+1225,
+853
+],
+"Klarna|3 άτοκες δόσεις|nc|V14"
+],
+"files": {
+"story": "v9x/45313-bd635690-story.mp4",
+"feed": "v9x/45313-bd635690-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"45446": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2019/02/καθρεπτης-dream.jpg",
+"Καθρέπτης Dream",
+null,
+"Klarna|3 άτοκες δόσεις|V14"
+],
+"files": {
+"story": "v9x/45446-ef1ddb4e-story.mp4",
+"feed": "v9x/45446-ef1ddb4e-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"45556": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/09/Elixir.webp",
+"Στρώμα Elixir",
+null,
+"Klarna|3 άτοκες δόσεις|V14"
+],
+"files": {
+"story": "v9x/45556-a8be1e9d-story.mp4",
+"feed": "v9x/45556-a8be1e9d-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
 }
 }
