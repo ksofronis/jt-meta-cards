@@ -31392,5 +31392,61 @@ null,
 "feed": true
 },
 "r2": true
+},
+"45716": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/09/ocean.webp",
+"Στρώμα Ocean",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/45716-0398c378-story.mp4",
+"feed": "v9x/45716-0398c378-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"45569": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/09/Elixir.webp",
+"Στρώμα Elixir",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/45569-48969e04-story.mp4",
+"feed": "v9x/45569-48969e04-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"48497": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/06/mpoufes-tokyo-1.jpg",
+"Καθρέπτης Tokyo 160×90 / 180x90",
+[
+186,
+0,
+1280,
+853
+],
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/48497-20c02216-story.mp4",
+"feed": "v9x/48497-20c02216-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
 }
 }
