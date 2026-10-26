@@ -1,0 +1,4 @@
+# v12 proposal 1 control half (owner 26/10): these keep the white cutout. Pairs by 28-day impressions, one per pair at random (seed 20261026). New photo batches: pair within the batch and append.
+# Room photo must show the product as the main subject (cushions/nightstands inside a sofa or bed scene do not qualify).
+78183
+48151

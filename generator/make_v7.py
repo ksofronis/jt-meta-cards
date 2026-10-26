@@ -30,7 +30,12 @@ _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 22/10 owner: random half of the products stays on the v10 design (split test, stratified by impressions); ids in v11_holdout.txt
 D11_HOLD = set(open(os.path.join(_ROOT, 'v11_holdout.txt')).read().split()) if os.path.exists(os.path.join(_ROOT, 'v11_holdout.txt')) else set()
 d11_on = lambda iid: D11 and iid not in D11_HOLD
-x_salt = lambda iid: '|V14' if d11_on(iid) else '|V13'  # per-product video design salt
+# v12 proposal 1 test (owner 26/10): room/showroom photo replaces the white cutout as the main photo of card + both videos
+# for the test half. p1_room.json = {id: room photo url, QC'd by eye}; control half = ids in p1_holdout.txt. Rollback: empty p1_room.json ({})
+P1_ROOM = json.load(open(os.path.join(_ROOT, 'p1_room.json'))) if os.path.exists(os.path.join(_ROOT, 'p1_room.json')) else {}
+P1_HOLD = {l.strip() for l in open(os.path.join(_ROOT, 'p1_holdout.txt')) if l.strip() and not l.startswith('#')} if os.path.exists(os.path.join(_ROOT, 'p1_holdout.txt')) else set()
+p1_on = lambda iid: iid in P1_ROOM and iid not in P1_HOLD
+x_salt = lambda iid: ('|V14' if d11_on(iid) else '|V13') + ('|P1' if p1_on(iid) else '')  # per-product video design salt
 X_SALT_PREV = '|V13'  # supp_build keeps publishing the previous videos until each product's new ones are uploaded
 X_SALT = '|V14' if D11 else '|V13'  # V14: v11 deeper-card video design; V13: video carries the warranty chip like the main card; V12: video gallery shots only from site photos cleared as product photos; V11: complete from frame 0 (21/10)  # v10 video (hook + gallery shots + swatch-row cycle, 2026-10-21): part of the extras key, so every extra rebuilds once
 name_salt = lambda title: '|nc' if CODE.match(title or '') else ''  # in the card hash, so affected cards get a new file name
@@ -88,7 +93,7 @@ def build(it):
     if fab and all('/αδιάβροχο' in t.lower() for t in fab): b.insert(0, 'Αδιάβροχο ύφασμα')
     if 'Νέα Προϊόντα' in ptype: b.insert(0, 'ΝΕΟ')
     if 'Καναπέδες' in ptype: b = [x for x in b if x != 'Στα μέτρα σας']
-    return {'d11': d11_on(g('id')), 'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': g('image_link'),
+    return {'d11': d11_on(g('id')), 'id': g('id'), 'name': name, 'dims': (dims[0] + ' cm') if dims and not mattress else '', 'image': P1_ROOM[g('id')] if p1_on(g('id')) else g('image_link'), 'p1': p1_on(g('id')),
             'badges': list(dict.fromkeys(b))[:2], 'swatches': sw, 'swatch_label': sw_label,
             'sizes': sizes if mattress else [], 'secondary': sec, 'finance': finance_line(g('sale_price') or g('price')),
             'warranty': has_warranty(ptype), 'swatch_terms': sw_terms, 'gallery': [e.text.strip() for e in it.findall('g:additional_image_link', namespaces=NS) if e.text and site_photo_ok(e.text.strip())]}
@@ -295,7 +300,7 @@ def card(it, out):
     im = Image.open(io.BytesIO(raw))
     if im.mode in ('RGBA', 'LA', 'P'): im = im.convert('RGBA'); bg = Image.new('RGBA', im.size, 'white'); bg.alpha_composite(im); im = bg
     im = im.convert('RGB'); cut = is_cutout(im); im = trim_white(im)
-    if it.get('crop') and not cut: im = im.crop(tuple(it['crop']))  # v8: zoom onto the product (box from v8_crops.json, QC'd offline)
+    if it.get('crop') and not cut and not it.get('p1'): im = im.crop(tuple(it['crop']))  # v8: zoom onto the product (box from v8_crops.json, QC'd offline)
     # v10 4:5 (owner-approved 2026-10-21, rolled out per group): crop-safe, so a centre square crop (carousels) keeps every
     # readable element; only the bottom showroom strip and a little of the photo top fall outside the square
     HC = 1350 if it.get('r45') else S; BOT = 135 if it.get('r45') else 0

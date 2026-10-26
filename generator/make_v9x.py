@@ -49,7 +49,7 @@ def photo(it):
         im = Image.open(io.BytesIO(raw))
         if im.mode in ('RGBA', 'LA', 'P'): im = im.convert('RGBA'); bg = Image.new('RGBA', im.size, 'white'); bg.alpha_composite(im); im = bg
         im = im.convert('RGB'); cut = m.is_cutout(im); im = m.trim_white(im)
-        if it.get('crop') and not cut: im = im.crop(tuple(it['crop']))
+        if it.get('crop') and not cut and not it.get('p1'): im = im.crop(tuple(it['crop']))  # p1: room photo, the crop box belongs to the cutout
         _img[it['id']] = (im, cut)
     return _img[it['id']]
 
