@@ -1,3 +1,3 @@
 # v12 proposal 1 control half (owner 26/10): these keep the white cutout. Pairs by 28-day impressions, one per pair at random (seed 20261026). New photo batches: pair within the batch and append.
-# Room photo must show the exact product/variant (89139 removed 26/10: room photo was a different single-leaf model). Room photo must show the product as the main subject (cushions/nightstands inside a sofa or bed scene do not qualify).
+# Room photo must show the exact product/variant (89139 removed 26/10: room photo showed only one leaf of the chandelier, a part of the product). Room photo must show the product as the main subject (cushions/nightstands inside a sofa or bed scene do not qualify).
 48151
