@@ -133,11 +133,13 @@ def bf_layer(base, L, phase, ready, with_phase_chip=True):
         else: place.append(('bot', used_br - w, w, 72, paint, tx)); used_br -= w + gap
     if with_phase_chip:
         w, paint, tx = chip_spec(PHASES[phase]['chip'], d, light=L['cut'])
-        # always the bottom-right slot; never moved over the product (a too-narrow photo is reported, not drawn elsewhere)
-        if used_br - w < bot_left: raise ValueError(f"phase chip {w}px does not fit beside the instalments pill on {L['it']['id']}")
-        place.append(('bot', used_br - w, w, 72, paint, tx))
+        # always the bottom-right slot, never over the product; a too-narrow photo keeps only the top ribbon
+        if used_br - w >= bot_left: place.append(('bot', used_br - w, w, 72, paint, tx))
     for row, x, w, h, paint, tx in place:
         y = row_y[row]; paint(c, x, y, h, sh); rects.append((x, y, x + w, y + h)); texts += tx
+    if with_phase_chip:  # template C (owner 2/11): top ribbon in the margin above the photo; 9:16 has its own band
+        h = py - 6; dr = ImageDraw.Draw(c); dr.rectangle((0, 0, c.width, h), fill=BF_BLACK); dr.rectangle((0, h - 3, c.width, h), fill=BF_GOLD)
+        f = m.FONT(700, 26); t = 'BLACK FRIDAY'; spaced(dr, (c.width - spaced_len(dr, t, f, 6)) / 2, (h - 3) / 2, t, f, BF_GOLD_LT, 6); texts.append(t)
     return c, rects, texts
 
 # ---------- 9:16: card on the cream base, BF band above it, Stories safe zones kept clear ----------

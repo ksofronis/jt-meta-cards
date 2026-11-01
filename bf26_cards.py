@@ -37,7 +37,7 @@ def render_one(it, g, outdir):
 def items_of(raw):
     root = ET.fromstring(raw); g = lambda it, k: (it.findtext(f'g:{k}', namespaces=m.NS) or '').strip()
     return [it for it in root.findall('./channel/item') if re.fullmatch(r'[A-Za-z0-9_-]{1,64}', g(it, 'id'))], g
-def key_of(it, g): return hashlib.sha1('|'.join((g(it, 'image_link'), g(it, 'title'), g(it, 'sale_price') or g(it, 'price'))).encode()).hexdigest()[:8]
+def key_of(it, g): return hashlib.sha1('|'.join(('c', g(it, 'image_link'), g(it, 'title'), g(it, 'sale_price') or g(it, 'price'))).encode()).hexdigest()[:8]
 def render(shard, n):
     items, g = items_of(fetch()); cl = s3(); bucket = os.environ['R2_BUCKET']
     mkey = f'bf26/m/{shard}.json'; man = get_json(mkey); made = fail = 0
