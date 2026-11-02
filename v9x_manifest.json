@@ -2,7 +2,7 @@
 "76469": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2023/09/DSC04165.jpg",
-"Κρεβάτι Mary και στρώμα EN07 170x216x108",
+"Κρεβάτι Mary και στρώμα ENERGY 170x216x108",
 [
 56,
 0,
@@ -12,8 +12,8 @@
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/76469-8eb705f7-story.mp4",
-"feed": "v9x/76469-8eb705f7-feed.mp4"
+"story": "v9x/76469-3ba0bf7c-story.mp4",
+"feed": "v9x/76469-3ba0bf7c-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -126,13 +126,13 @@ null,
 "79742": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2024/07/DSC0163-Edit.jpg",
-"Σετ Τραπεζαρίας Olympus 200×100x76",
+"Σετ Τραπεζαρίας Olympus με 6 καρέκλες Kalia 200×100x76",
 null,
 "TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"story": "v9x/79742-f965e002-story.mp4",
-"feed": "v9x/79742-f965e002-feed.mp4"
+"story": "v9x/79742-e29cbe4b-story.mp4",
+"feed": "v9x/79742-e29cbe4b-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -7312,13 +7312,13 @@ null,
 "46016": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/02/kozi-diafano.jpg",
-"Τραπέζι Κουζίνας Kozi",
+"Τραπέζι Κουζίνας Kozi 110Φx75Y",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/46016-9cf30a8d-story.mp4",
-"feed": "v9x/46016-9cf30a8d-feed.mp4"
+"story": "v9x/46016-6d30c134-story.mp4",
+"feed": "v9x/46016-6d30c134-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -7380,13 +7380,13 @@ null,
 "45977": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2021/03/orion-mavro.jpg",
-"Τραπέζι Κουζίνας Orion",
+"Τραπέζι Κουζίνας Orion 135x80x75",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/45977-16d0525a-story.mp4",
-"feed": "v9x/45977-16d0525a-feed.mp4"
+"story": "v9x/45977-55711a7a-story.mp4",
+"feed": "v9x/45977-55711a7a-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -7431,13 +7431,13 @@ null,
 "46008": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2021/03/alyson-ex.jpg",
-"Τραπέζι Κουζίνας Alyson Ex",
+"Τραπέζι Κουζίνας Alyson Ex 160x90x76",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/46008-42cc4d93-story.mp4",
-"feed": "v9x/46008-42cc4d93-feed.mp4"
+"story": "v9x/46008-713d1710-story.mp4",
+"feed": "v9x/46008-713d1710-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -27671,11 +27671,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09055.jpg",
 "Κρεβάτι City",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/89024-7a9bdbaf-story.mp4",
-"feed": "v9x/89024-7a9bdbaf-feed.mp4"
+"story": "v9x/89024-1dfc39f0-story.mp4",
+"feed": "v9x/89024-1dfc39f0-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -27931,11 +27931,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2026/07/virtusos-shop2.jpg",
 "Virtuoso 12",
 null,
-"-|V13"
+"TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"story": "v9x/90939-a91f9f89-story.mp4",
-"feed": "v9x/90939-a91f9f89-feed.mp4"
+"story": "v9x/90939-d87697f6-story.mp4",
+"feed": "v9x/90939-d87697f6-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -30964,11 +30964,11 @@ null,
 1280,
 853
 ],
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/48497-20c02216-story.mp4",
-"feed": "v9x/48497-20c02216-feed.mp4"
+"story": "v9x/48497-af587228-story.mp4",
+"feed": "v9x/48497-af587228-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -31241,6 +31241,40 @@ null,
 "files": {
 "story": "v9x/86185-036eca1b-story.mp4",
 "feed": "v9x/86185-036eca1b-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"79372": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2024/06/DSC0092.jpg",
+"Καναπές-Κρεβάτι Rest 120x80x78",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/79372-cb4c9748-story.mp4",
+"feed": "v9x/79372-cb4c9748-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"2690": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/07/18e62f81-88b2-4e79-918e-717bb87433e0.png",
+"Παιδικό κρεβάτι - καναπές Oliver 100x210",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/2690-e2883e36-story.mp4",
+"feed": "v9x/2690-e2883e36-feed.mp4"
 },
 "qc": {
 "story": true,
