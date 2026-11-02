@@ -5438,13 +5438,13 @@ null,
 "1195": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/02/TB340-MOKA-e1511373700241-1.jpg",
-"ΤΒ340 Τραπέζι Κουζίνας",
+"ΤΒ340 Τραπέζι Κουζίνας 120x70x",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/1195-fb2bd915-story.mp4",
-"feed": "v9x/1195-fb2bd915-feed.mp4"
+"story": "v9x/1195-71cb4a69-story.mp4",
+"feed": "v9x/1195-71cb4a69-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -5472,13 +5472,13 @@ null,
 "1169": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/02/1025-1ASPROMAYROKREM-e1511373523752-1.jpg",
-"1025-1 Τραπέζι Κουζίνας",
+"1025-1 Τραπέζι Κουζίνας 110x70",
 null,
 "Klarna|3 άτοκες δόσεις|nc|V13"
 ],
 "files": {
-"story": "v9x/1169-d96a3ff1-story.mp4",
-"feed": "v9x/1169-d96a3ff1-feed.mp4"
+"story": "v9x/1169-e3ecb18a-story.mp4",
+"feed": "v9x/1169-e3ecb18a-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -17268,14 +17268,14 @@ null,
 },
 "42709": {
 "key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/02/BOX-5.jpg",
-"Κομοδίνο Box",
+"https://jthomedesign.gr/wp-content/uploads/2019/02/7bd2bf48-4750-4a1a-bffe-451b84636df6.png",
+"Κομοδίνο Box 60x48",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/42709-d8058aac-story.mp4",
-"feed": "v9x/42709-d8058aac-feed.mp4"
+"story": "v9x/42709-90ff831c-story.mp4",
+"feed": "v9x/42709-90ff831c-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -18195,11 +18195,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO225AA00168-1445x690-1-principale.jpg",
 "Massaggio Deluxe",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/90986-fdec6f68-story.mp4",
-"feed": "v9x/90986-fdec6f68-feed.mp4"
+"story": "v9x/90986-a9bef71f-story.mp4",
+"feed": "v9x/90986-a9bef71f-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -18278,13 +18278,13 @@ null,
 "52956": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC0781.jpg",
-"Κρεβάτι Nemesis",
+"Κρεβάτι Nemesis 167×212",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/52956-175b7612-story.mp4",
-"feed": "v9x/52956-175b7612-feed.mp4"
+"story": "v9x/52956-637d7279-story.mp4",
+"feed": "v9x/52956-637d7279-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -18677,7 +18677,7 @@ null,
 "8018": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2019/07/a19a38cb-f142-495a-ab6c-ea81a5a7727b.png",
-"Παιδικό κρεβάτι Ifaistos",
+"Παιδικό κρεβάτι Ifaistos 108x208",
 [
 342,
 212,
@@ -18687,8 +18687,8 @@ null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/8018-d8aa3f91-story.mp4",
-"feed": "v9x/8018-d8aa3f91-feed.mp4"
+"story": "v9x/8018-cde2588c-story.mp4",
+"feed": "v9x/8018-cde2588c-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -18823,13 +18823,13 @@ null,
 "42711": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/02/FELINA-5.jpg",
-"Κομοδίνο Felina",
+"Κομοδίνο Felina 60x46x49",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/42711-64e19a01-story.mp4",
-"feed": "v9x/42711-64e19a01-feed.mp4"
+"story": "v9x/42711-b3a32f1a-story.mp4",
+"feed": "v9x/42711-b3a32f1a-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -31105,6 +31105,57 @@ null,
 "files": {
 "story": "v9x/64833-6b5e7f27-story.mp4",
 "feed": "v9x/64833-6b5e7f27-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"77239": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04412.jpg",
+"Πολυθρόνα Pafi 80x100x100",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/77239-281d5994-story.mp4",
+"feed": "v9x/77239-281d5994-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"6859": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2019/02/a3aa0eb5-0a56-4123-ae94-83820b8f1f7a.png",
+"Σετ Κρεβατοκάμαρας Box",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/6859-4be3d3ed-story.mp4",
+"feed": "v9x/6859-4be3d3ed-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"89475": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2026/02/41d6b3f2-9d14-4669-9720-2eeeb7dd4cf0.png",
+"Κρεβάτι Alma 100x200",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/89475-0593dbf0-story.mp4",
+"feed": "v9x/89475-0593dbf0-feed.mp4"
 },
 "qc": {
 "story": true,
