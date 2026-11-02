@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main  # a run queued behind another must build on the latest commit, not the one it was queued at
       - run: python3 feed_rewrite.py
       - run: python3 release.py
       - run: sudo apt-get install -y -qq fonts-liberation >/dev/null && pip install -q pillow numpy
@@ -51,7 +53,18 @@ jobs:
           if [ -f site_photos_qc.json ]; then git add site_photos_qc.json; fi
           if [ -d review ]; then git add -A review; fi
           [ -e PAUSE ] || git rm -q --cached --ignore-unmatch PAUSE
-          git diff --cached --quiet || (git commit -m "feed refresh" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "feed refresh"
+          # someone pushed during the build: rebase and retry. A conflict means they changed the generated feed too; keep theirs, the next run rebuilds on it.
+          for i in 1 2 3; do
+            git push && exit 0
+            if ! git pull -q --rebase origin main; then
+              git rebase --abort
+              echo "::warning::feed refresh skipped: conflict with a newer commit, next run rebuilds"
+              exit 0
+            fi
+          done
+          exit 1
   # GitHub's cron is unreliable on this repo: the job re-triggers itself after ~55 min, permanently (PAUSE does not stop this).
   next:
     needs: build
