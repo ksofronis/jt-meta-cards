@@ -1934,18 +1934,18 @@ null,
 "45367": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/02/elsa.jpg",
-"Κρεβάτι Elsa",
+"Κρεβάτι Elsa 177×228",
 [
 0,
 167,
 1026,
 853
 ],
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/45367-95f328a8-story.mp4",
-"feed": "v9x/45367-95f328a8-feed.mp4"
+"story": "v9x/45367-a36e9341-story.mp4",
+"feed": "v9x/45367-a36e9341-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -6245,13 +6245,13 @@ null,
 "74569": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/07/glamour-ammovoli.jpg",
-"Τραπέζι Κουζίνας Glamour",
+"Τραπέζι Κουζίνας Glamour 100x65x75",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/74569-59d8965c-story.mp4",
-"feed": "v9x/74569-59d8965c-feed.mp4"
+"story": "v9x/74569-5cb733dc-story.mp4",
+"feed": "v9x/74569-5cb733dc-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -21306,13 +21306,13 @@ null,
 "42712": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/02/GLAMOUR-1.jpg",
-"Κομοδίνο Glamour",
+"Κομοδίνο Glamour 60x40x46",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/42712-8cffd2d3-story.mp4",
-"feed": "v9x/42712-8cffd2d3-feed.mp4"
+"story": "v9x/42712-222b0ed1-story.mp4",
+"feed": "v9x/42712-222b0ed1-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -21551,11 +21551,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2021/06/DSC03650_.jpg",
 "Κρεβάτι Glamour και στρώμα Elixir 174x220x112",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/47124-99e3feb9-story.mp4",
-"feed": "v9x/47124-99e3feb9-feed.mp4"
+"story": "v9x/47124-b2b43842-story.mp4",
+"feed": "v9x/47124-b2b43842-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -21899,13 +21899,13 @@ null,
 "45418": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC03666_.jpg",
-"Κρεβάτι Carmen",
+"Κρεβάτι Carmen 187×220",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/45418-def487df-story.mp4",
-"feed": "v9x/45418-def487df-feed.mp4"
+"story": "v9x/45418-ccdba500-story.mp4",
+"feed": "v9x/45418-ccdba500-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -21960,13 +21960,13 @@ null,
 "82156": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0738.jpg",
-"Κρεβάτι Angel",
+"Κρεβάτι Angel 185×249",
 null,
 "TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"story": "v9x/82156-f227df7f-story.mp4",
-"feed": "v9x/82156-f227df7f-feed.mp4"
+"story": "v9x/82156-bec202a0-story.mp4",
+"feed": "v9x/82156-bec202a0-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -22089,13 +22089,13 @@ null,
 "89003": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/09/DSC09038.jpg",
-"Κρεβάτι Simple",
+"Κρεβάτι Simple 174x212x115",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/89003-b34a55d9-story.mp4",
-"feed": "v9x/89003-b34a55d9-feed.mp4"
+"story": "v9x/89003-118e304e-story.mp4",
+"feed": "v9x/89003-118e304e-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -22300,11 +22300,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09055.jpg",
 "Κρεβάτι City",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/89026-7a9bdbaf-story.mp4",
-"feed": "v9x/89026-7a9bdbaf-feed.mp4"
+"story": "v9x/89026-1dfc39f0-story.mp4",
+"feed": "v9x/89026-1dfc39f0-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -31173,6 +31173,40 @@ null,
 "files": {
 "story": "v9x/89498-7db24750-story.mp4",
 "feed": "v9x/89498-7db24750-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"8712": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2019/12/DSC06158.jpg",
+"Σετ κρεβατοκάμαρας Napoli",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/8712-f60d16ee-story.mp4",
+"feed": "v9x/8712-f60d16ee-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"86174": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1067.jpg",
+"Poli Καρέκλα Τραπεζαρίας",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/86174-4d9085e0-story.mp4",
+"feed": "v9x/86174-4d9085e0-feed.mp4"
 },
 "qc": {
 "story": true,
