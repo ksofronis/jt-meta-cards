@@ -94,11 +94,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2020/05/NISOS.jpg",
 "Σαλόνι γωνία - κρεβάτι Nisos με αποθηκευτικό χώρο 260x85x200",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/88650-5852cb4b-story.mp4",
-"feed": "v9x/88650-5852cb4b-feed.mp4"
+"story": "v9x/88650-52f7b2da-story.mp4",
+"feed": "v9x/88650-52f7b2da-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -2323,13 +2323,13 @@ null,
 "89156": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2026/01/054.jpg",
-"Φωτιστικό Επιτραπέζιο 054",
+"Φωτιστικό Επιτραπέζιο 054  33x72",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/89156-3d753568-story.mp4",
-"feed": "v9x/89156-3d753568-feed.mp4"
+"story": "v9x/89156-d7e5823a-story.mp4",
+"feed": "v9x/89156-d7e5823a-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -3702,11 +3702,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2018/12/DSC01075.jpg",
 "Γωνιακός Καναπές Leo 235x180x93",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/9047-9a3a69cf-story.mp4",
-"feed": "v9x/9047-9a3a69cf-feed.mp4"
+"story": "v9x/9047-778e06da-story.mp4",
+"feed": "v9x/9047-778e06da-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -7720,13 +7720,13 @@ null,
 "46014": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2021/03/orion-mavro.jpg",
-"Τραπέζι Κουζίνας Orion",
+"Τραπέζι Κουζίνας Orion 135x80x75",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/46014-16d0525a-story.mp4",
-"feed": "v9x/46014-16d0525a-feed.mp4"
+"story": "v9x/46014-55711a7a-story.mp4",
+"feed": "v9x/46014-55711a7a-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -7895,13 +7895,13 @@ null,
 "45944": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2021/03/gianno.jpg",
-"Τραπέζι Κουζίνας Gianno",
+"Τραπέζι Κουζίνας Gianno 180x90x76",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/45944-8aebbb21-story.mp4",
-"feed": "v9x/45944-8aebbb21-feed.mp4"
+"story": "v9x/45944-bbcdd66e-story.mp4",
+"feed": "v9x/45944-bbcdd66e-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -29159,11 +29159,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2017/07/sinthesi-dream.jpg",
 "Σύνθεση - Έπιπλο TV Dream 240x50",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/9509-194c5e35-story.mp4",
-"feed": "v9x/9509-194c5e35-feed.mp4"
+"story": "v9x/9509-8810e1f4-story.mp4",
+"feed": "v9x/9509-8810e1f4-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -29692,13 +29692,13 @@ null,
 "64063": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03291.jpg",
-"Κρεβάτι Elisabeth",
+"Κρεβάτι Elisabeth 175x211x38",
 null,
 "TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"story": "v9x/64063-5352222b-story.mp4",
-"feed": "v9x/64063-5352222b-feed.mp4"
+"story": "v9x/64063-5204aa25-story.mp4",
+"feed": "v9x/64063-5204aa25-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -29709,7 +29709,7 @@ null,
 "45356": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC00596.jpg",
-"Κρεβάτι Irida",
+"Κρεβάτι Irida 180×220",
 [
 133,
 114,
@@ -29719,8 +29719,8 @@ null,
 "TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"story": "v9x/45356-5c08a549-story.mp4",
-"feed": "v9x/45356-5c08a549-feed.mp4"
+"story": "v9x/45356-da0865ca-story.mp4",
+"feed": "v9x/45356-da0865ca-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -31275,6 +31275,23 @@ null,
 "files": {
 "story": "v9x/2690-e2883e36-story.mp4",
 "feed": "v9x/2690-e2883e36-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"46703": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03193-Edit_.jpg",
+"Σετ κρεβατοκάμαρας Star",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/46703-93ed10ae-story.mp4",
+"feed": "v9x/46703-93ed10ae-feed.mp4"
 },
 "qc": {
 "story": true,
