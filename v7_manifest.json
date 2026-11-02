@@ -254,8 +254,8 @@
 "9040": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/LEONIDAS-1.jpg",
 "title": "Γωνιακός Καναπές Leonidas 270x200x93",
-"path": "v7/9040-2d465f07.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"path": "v7/9040-25783562.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "45760": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/03/Thespis.jpg",
@@ -432,9 +432,9 @@
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "91311": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2350.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2350.jpg",
 "title": "Tokyo Καρέκλα Τραπεζαρίας",
-"path": "v7/91311-ff79f49e.jpg",
+"path": "v7/91311-4ded6100.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "46640": {
@@ -720,9 +720,9 @@
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "91260": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2398.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2398.jpg",
 "title": "Τραπεζάκι σαλονιού Galaxy 120x70",
-"path": "v7/91260-b0144424.jpg",
+"path": "v7/91260-d541a6e3.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "33901": {
@@ -834,9 +834,15 @@
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "91465": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/08/Wooden_table_on_wool_rug_.jpeg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/08/Wooden_table_on_wool_rug_.jpeg",
 "title": "Τραπεζάκι σαλονιού Coen",
-"path": "v7/91465-d1c1ec93.jpg",
+"path": "v7/91465-697b3f7d.jpg",
+"crop": [
+289,
+246,
+2118,
+1673
+],
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "79648": {
@@ -900,9 +906,9 @@
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "91348": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2475.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2475.jpg",
 "title": "Σετ Τραπεζαρίας Olympus 200×100x76",
-"path": "v7/91348-5bcf7c7d.jpg",
+"path": "v7/91348-96da78af.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "80534": {
@@ -1008,9 +1014,9 @@
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "91332": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2372.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2372.jpg",
 "title": "Forte Πολυθρόνα Τραπεζαρίας",
-"path": "v7/91332-85bd4f0f.jpg",
+"path": "v7/91332-f3a80b31.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "33011": {
@@ -1128,9 +1134,9 @@
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "91343": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2371-Edit.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2371-Edit.jpg",
 "title": "Σετ Τραπεζαρίας Napoli με 6 καρέκλες 105x200x76.5",
-"path": "v7/91343-58e5725f.jpg",
+"path": "v7/91343-872500fb.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "49715": {
@@ -1272,9 +1278,9 @@
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "91244": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2431.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2431.jpg",
 "title": "Σετ Τραπεζαρίας Galaxy 200×100",
-"path": "v7/91244-421fbac1.jpg",
+"path": "v7/91244-5e50ccb6.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "59247": {
@@ -1350,9 +1356,9 @@
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "91322": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2380.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2380.jpg",
 "title": "Forte Καρέκλα Τραπεζαρίας",
-"path": "v7/91322-638d9dd8.jpg",
+"path": "v7/91322-031ff665.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "86143": {
@@ -1417,8 +1423,8 @@
 },
 "45957": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/03/harry.jpg",
-"title": "Τραπέζι Κουζίνας Harry",
-"path": "v7/45957-5663efbf.jpg",
+"title": "Τραπέζι Κουζίνας Harry 120x80x75",
+"path": "v7/45957-193c7a8f.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "86175": {
@@ -1447,8 +1453,8 @@
 },
 "45973": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/03/massimo-diafano.jpg",
-"title": "Τραπέζι Κουζίνας Massimo",
-"path": "v7/45973-f46054d6.jpg",
+"title": "Τραπέζι Κουζίνας Massimo 110x75",
+"path": "v7/45973-30de3886.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "33780": {
@@ -1519,8 +1525,8 @@
 },
 "45983": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/03/norma.jpg",
-"title": "Τραπέζι Κουζίνας Norma",
-"path": "v7/45983-460e5e2a.jpg",
+"title": "Τραπέζι Κουζίνας Norma 120x75",
+"path": "v7/45983-529f58c4.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "91185": {
@@ -1633,8 +1639,8 @@
 },
 "74569": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/07/glamour-ammovoli.jpg",
-"title": "Τραπέζι Κουζίνας Glamour",
-"path": "v7/74569-6c30a22a.jpg",
+"title": "Τραπέζι Κουζίνας Glamour 100x65x75",
+"path": "v7/74569-6549faa7.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "9525": {
@@ -1681,8 +1687,8 @@
 },
 "46015": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/03/massimo-diafano.jpg",
-"title": "Τραπέζι Κουζίνας Massimo",
-"path": "v7/46015-f46054d6.jpg",
+"title": "Τραπέζι Κουζίνας Massimo 110x75",
+"path": "v7/46015-30de3886.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "47250": {
@@ -1783,14 +1789,14 @@
 },
 "1204": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/TB661-KREM-e1511374986142-1.jpg",
-"title": "ΤΒ661 Τραπέζι Κουζίνας",
-"path": "v7/1204-ae7915bd.jpg",
+"title": "ΤΒ661 Τραπέζι Κουζίνας 120x70",
+"path": "v7/1204-827a59de.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "76050": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/05/DSC02358.jpg",
-"title": "Καρέκλα Monday",
-"path": "v7/76050-2f5ca877.jpg",
+"title": "Καρέκλα Monday με Μαύρη Βάση",
+"path": "v7/76050-a26e8018.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "47258": {
@@ -3876,9 +3882,9 @@
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "91479": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/08/DSC2565-Edit.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/08/DSC2565-Edit.jpg",
 "title": "Καθρέπτης Square",
-"path": "v7/91479-f0f21b90.jpg",
+"path": "v7/91479-f2827bb7.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "45176": {
@@ -4218,15 +4224,27 @@
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "91364": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2451.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2451.jpg",
 "title": "Βοηθητικό Τραπεζάκι σαλονιού Taso 2/39*46",
-"path": "v7/91364-5a4f6e28.jpg",
+"path": "v7/91364-62cf9714.jpg",
+"crop": [
+217,
+104,
+1898,
+1416
+],
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "91408": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2540.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2540.jpg",
 "title": "Κομοδίνο Linda 55x42x53",
-"path": "v7/91408-de50e980.jpg",
+"path": "v7/91408-aae74ac6.jpg",
+"crop": [
+193,
+216,
+1973,
+1404
+],
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "90017": {
@@ -5010,9 +5028,15 @@
 "v9": "v9:Klarna|3 άτοκες δόσεις|nc|L10"
 },
 "91378": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2470.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2470.jpg",
 "title": "Βοηθητικό Τραπεζάκι σαλονιού Taso 4/39*46",
-"path": "v7/91378-fac10370.jpg",
+"path": "v7/91378-4a178cf5.jpg",
+"crop": [
+282,
+0,
+1948,
+1300
+],
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "45588": {
@@ -5874,9 +5898,9 @@
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "91473": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/08/DSC2579-Edit.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/08/DSC2579-Edit.jpg",
 "title": "Καθρέπτης Round",
-"path": "v7/91473-8d3d2d93.jpg",
+"path": "v7/91473-53ae167e.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "47304": {
@@ -7254,9 +7278,9 @@
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "91269": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2512-Edit.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/07/DSC2512-Edit.jpg",
 "title": "Σύνθεση Galaxy 230x40x53.5",
-"path": "v7/91269-1d4e9ac5.jpg",
+"path": "v7/91269-ebdacf04.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "90808": {
@@ -7471,8 +7495,8 @@
 },
 "45368": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/elsa.jpg",
-"title": "Κρεβάτι Elsa",
-"path": "v7/45368-a123a4dd.jpg",
+"title": "Κρεβάτι Elsa 177×228",
+"path": "v7/45368-7766610b.jpg",
 "crop": [
 0,
 167,
@@ -7495,8 +7519,8 @@
 },
 "89166": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/029.jpg",
-"title": "Φωτιστικό Επιτραπέζιο 029",
-"path": "v7/89166-57f22f2c.jpg",
+"title": "Φωτιστικό Επιτραπέζιο 029 50x35",
+"path": "v7/89166-5903ffab.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "20869": {
@@ -7567,9 +7591,9 @@
 },
 "45374": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/f2302615-93f8-4cee-9584-b7884e41ed8b.png",
-"title": "Κρεβάτι River",
-"path": "v7/45374-cbb260ab.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"title": "Κρεβάτι River 175×225",
+"path": "v7/45374-f6fe454f.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "44254": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/02/D80c2.jpg",
@@ -7610,8 +7634,8 @@
 "45664": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/memory_lux.webp",
 "title": "Στρώμα Memory Lux",
-"path": "v7/45664-e3357062.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10"
+"path": "v7/45664-bdf36669.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "47297": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -7639,8 +7663,8 @@
 },
 "53195": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02414.jpg",
-"title": "Κομοδίνο Johan",
-"path": "v7/53195-5fa6373b.jpg",
+"title": "Κομοδίνο Johan 60x45",
+"path": "v7/53195-eadc3b1e.jpg",
 "crop": [
 111,
 0,
@@ -7693,8 +7717,8 @@
 },
 "83191": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0810.jpg",
-"title": "Κρεβάτι Ruba",
-"path": "v7/83191-cf1e5507.jpg",
+"title": "Κρεβάτι Ruba 173×214",
+"path": "v7/83191-deeb073c.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10|W"
 },
 "42744": {
@@ -8041,8 +8065,8 @@
 },
 "53196": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02414.jpg",
-"title": "Κομοδίνο Johan",
-"path": "v7/53196-5fa6373b.jpg",
+"title": "Κομοδίνο Johan 60x45",
+"path": "v7/53196-eadc3b1e.jpg",
 "crop": [
 111,
 0,
@@ -8078,8 +8102,8 @@
 "89074": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09071.jpg",
 "title": "Κρεβάτι Bubbles",
-"path": "v7/89074-73b20ca4.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"path": "v7/89074-44614c23.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "45440": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/11/DSC03036-Edit.jpg",
@@ -8251,8 +8275,8 @@
 },
 "42712": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/GLAMOUR-1.jpg",
-"title": "Κομοδίνο Glamour",
-"path": "v7/42712-c4ab9dd5.jpg",
+"title": "Κομοδίνο Glamour 60x40x46",
+"path": "v7/42712-0adee9fc.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "80130": {
@@ -8275,15 +8299,15 @@
 },
 "45367": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/elsa.jpg",
-"title": "Κρεβάτι Elsa",
-"path": "v7/45367-a123a4dd.jpg",
+"title": "Κρεβάτι Elsa 177×228",
+"path": "v7/45367-c9573dba.jpg",
 "crop": [
 0,
 167,
 1026,
 853
 ],
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "90518": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/06/Q20_1.jpg",
@@ -8348,8 +8372,8 @@
 "47124": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/06/DSC03650_.jpg",
 "title": "Κρεβάτι Glamour και στρώμα Elixir 174x220x112",
-"path": "v7/47124-3a9d86c7.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"path": "v7/47124-58b8dbbf.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "45580": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/serenity.webp",
@@ -8503,9 +8527,9 @@
 },
 "45418": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC03666_.jpg",
-"title": "Κρεβάτι Carmen",
-"path": "v7/45418-5866ef08.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"title": "Κρεβάτι Carmen 187×220",
+"path": "v7/45418-3809121d.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "74124": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/07/h180.jpg",
@@ -8527,8 +8551,8 @@
 },
 "82156": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0738.jpg",
-"title": "Κρεβάτι Angel",
-"path": "v7/82156-785fee58.jpg",
+"title": "Κρεβάτι Angel 185×249",
+"path": "v7/82156-52beb465.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10|W"
 },
 "90695": {
@@ -8581,9 +8605,9 @@
 },
 "89003": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/DSC09038.jpg",
-"title": "Κρεβάτι Simple",
-"path": "v7/89003-befde9b1.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"title": "Κρεβάτι Simple 174x212x115",
+"path": "v7/89003-a0ac04b1.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "3452": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/12/trel002m.jpg",
@@ -8672,8 +8696,8 @@
 "89026": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09055.jpg",
 "title": "Κρεβάτι City",
-"path": "v7/89026-8c52b55d.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"path": "v7/89026-f92cd697.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "58745": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/ermis_gkri-1.jpg",
@@ -8797,21 +8821,21 @@
 },
 "45361": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/08/DREAM-e1511346885500-1500x781-1.jpg",
-"title": "Κρεβάτι Dream",
-"path": "v7/45361-b89c918e.jpg",
+"title": "Κρεβάτι Dream 178×225",
+"path": "v7/45361-b316e42c.jpg",
 "crop": [
 0,
 179,
 1009,
 853
 ],
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "77331": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2024/01/DSC04449-Edit.jpg",
 "title": "Κρεβάτι Riviera 170x220x103",
-"path": "v7/77331-dded7ce8.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"path": "v7/77331-72f02d87.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "7999": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2019/07/STHLH-MARGARITA-200.jpg",
@@ -8839,8 +8863,8 @@
 },
 "89159": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/062.jpg",
-"title": "Φωτιστικό Επιτραπέζιο 062",
-"path": "v7/89159-4dfa2bbc.jpg",
+"title": "Φωτιστικό Επιτραπέζιο 062  35x66",
+"path": "v7/89159-9c76982d.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "45620": {
@@ -9007,8 +9031,8 @@
 },
 "91085": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/DSC09038.jpg",
-"title": "Κρεβάτι Simple",
-"path": "v7/91085-b6d751f7.jpg",
+"title": "Κρεβάτι Simple 174x212x115",
+"path": "v7/91085-a0ac04b1.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "47313": {
@@ -9331,8 +9355,8 @@
 },
 "46326": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/04/specialgkri.jpg",
-"title": "Bar-Stool King",
-"path": "v7/46326-f14cd34c.jpg",
+"title": "Bar-Stool King Special",
+"path": "v7/46326-25ceb87a.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "45000": {
@@ -9391,8 +9415,8 @@
 },
 "91087": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/DSC09038.jpg",
-"title": "Κρεβάτι Simple",
-"path": "v7/91087-b6d751f7.jpg",
+"title": "Κρεβάτι Simple 174x212x115",
+"path": "v7/91087-a0ac04b1.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "45609": {
@@ -9422,13 +9446,13 @@
 "45645": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/10/aria.webp",
 "title": "Στρώμα Aria",
-"path": "v7/45645-1b125ffc.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10"
+"path": "v7/45645-99a39d8b.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "42693": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2020/04/DSC06969.jpg",
-"title": "Κομοδίνο Venus",
-"path": "v7/42693-d299a6b1.jpg",
+"title": "Κομοδίνο Venus 60x45x45",
+"path": "v7/42693-45e6814c.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "44949": {
@@ -9481,8 +9505,8 @@
 },
 "75425": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/09/DSC04195.jpg",
-"title": "Κρεβάτι Niko με στρώμα Elegant και Αποθηκευτικό χώρο 170x218x110",
-"path": "v7/75425-ae7ee36f.jpg",
+"title": "Κρεβάτι Niko με στρώμα ENERGY και Αποθηκευτικό χώρο 170x218x110",
+"path": "v7/75425-2ea838d0.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10|W"
 },
 "83979": {
@@ -9512,8 +9536,8 @@
 "89049": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09028.jpg",
 "title": "Κρεβάτι Comfort",
-"path": "v7/89049-098b8351.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"path": "v7/89049-4ad7fd8a.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "47125": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/06/DSC03650_.jpg",
@@ -9542,8 +9566,8 @@
 "45711": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/ocean.webp",
 "title": "Στρώμα Ocean",
-"path": "v7/45711-a8a6fda1.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10"
+"path": "v7/45711-fb248ff3.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "63854": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2023/03/DSC03291-3.jpg",
@@ -9716,8 +9740,8 @@
 "79262": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/velvet.webp",
 "title": "Στρώμα Velvet",
-"path": "v7/79262-347b9529.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10"
+"path": "v7/79262-b792af4e.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "90856": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/07/MPO224AA00430-1445x690-1-principale.jpg",
@@ -9751,9 +9775,9 @@
 },
 "59146": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/10/b35e2b30-0296-432e-b96c-e1dae34886c6.png",
-"title": "Κρεβάτι Erato",
-"path": "v7/59146-fb49a882.jpg",
-"v9": "v9:TBI|Έως 60 δόσεις|L10|W"
+"title": "Κρεβάτι Erato 166x210x107",
+"path": "v7/59146-c5248f72.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10|W"
 },
 "9329": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/10/Skabo-PROLET.jpg",
@@ -9860,14 +9884,14 @@
 "48498": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/06/mpoufes-tokyo-1.jpg",
 "title": "Καθρέπτης Tokyo 160×90 / 180x90",
-"path": "v7/48498-3af2e951.jpg",
+"path": "v7/48498-82c21ebe.jpg",
 "crop": [
 186,
 0,
 1280,
 853
 ],
-"v9": "v9:TBI|Έως 60 δόσεις|L10"
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "90044": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/05/SAK_1250ww.jpg",
@@ -10015,8 +10039,8 @@
 },
 "50033": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/02/b1ed455c-f9c8-41dc-861b-98807d38161b.png",
-"title": "Παιδικό κρεβάτι Gea",
-"path": "v7/50033-aae73b97.jpg",
+"title": "Παιδικό κρεβάτι Gea 100x210",
+"path": "v7/50033-0f81de4c.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "46234": {
@@ -10045,8 +10069,8 @@
 },
 "53199": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2022/06/DSC02411.jpg",
-"title": "Συρταριέρα Johan",
-"path": "v7/53199-5e0b0ac7.jpg",
+"title": "Συρταριέρα Johan 120x45",
+"path": "v7/53199-be208df6.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "9477": {
@@ -10082,14 +10106,14 @@
 "62758": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2021/12/DSC01664-1.jpg",
 "title": "Σύνθεση Clio",
-"path": "v7/62758-6e04a7fe.jpg",
+"path": "v7/62758-c1671fa2.jpg",
 "crop": [
 91,
 0,
 1184,
 853
 ],
-"v9": "v9:TBI|Έως 60 δόσεις|L10"
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "45654": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2017/09/memory_lux.webp",
@@ -10111,8 +10135,8 @@
 },
 "82155": {
 "image": "https://jthomedesign.gr/wp-content/uploads/2025/01/DSC0738.jpg",
-"title": "Κρεβάτι Angel",
-"path": "v7/82155-785fee58.jpg",
+"title": "Κρεβάτι Angel 185×249",
+"path": "v7/82155-52beb465.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10|W"
 },
 "44341": {
@@ -12408,9 +12432,9 @@
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 },
 "92679": {
-"image": "https://jthomedesign.gr/wp-content/uploads/2026/10/18437.jpg?wsr",
+"image": "https://jthomedesign.gr/wp-content/uploads/2026/10/18437.jpg",
 "title": "Γωνιακός Καναπές Family 270x200x90",
-"path": "v7/92679-6e24b3da.jpg",
+"path": "v7/92679-a23178a7.jpg",
 "v9": "v9:TBI|Έως 60 δόσεις|L10"
 },
 "9363": {
@@ -12483,6 +12507,30 @@
 "image": "https://jthomedesign.gr/wp-content/uploads/2026/02/e3ccd7a3-d050-496b-999b-f5fa2ecd9938.png",
 "title": "Κρεβάτι Stella 100x200",
 "path": "v7/89498-0a2cace3.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10"
+},
+"8712": {
+"image": "https://jthomedesign.gr/wp-content/uploads/2019/12/DSC06158.jpg",
+"title": "Σετ κρεβατοκάμαρας Napoli",
+"path": "v7/8712-9ed0bc6e.jpg",
+"v9": "v9:TBI|Έως 60 δόσεις|L10"
+},
+"86174": {
+"image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1067.jpg",
+"title": "Poli Καρέκλα Τραπεζαρίας",
+"path": "v7/86174-b8d17b36.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10"
+},
+"85714": {
+"image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1137.jpg",
+"title": "Πολυθρόνα Foldi 59x58",
+"path": "v7/85714-0e22a1c7.jpg",
+"v9": "v9:Klarna|3 άτοκες δόσεις|L10"
+},
+"86185": {
+"image": "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1069.jpg",
+"title": "Poli Bar-Stool",
+"path": "v7/86185-5667a311.jpg",
 "v9": "v9:Klarna|3 άτοκες δόσεις|L10"
 }
 }
