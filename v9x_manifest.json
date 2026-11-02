@@ -1688,7 +1688,7 @@ null,
 "7944": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2019/07/FOINIKAS-GRAFEIO-1.jpg",
-"Συρταριέρα γραφείου Foinikas",
+"Συρταριέρα γραφείου Foinikas 40×50",
 [
 147,
 103,
@@ -1698,8 +1698,8 @@ null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/7944-a61d7705-story.mp4",
-"feed": "v9x/7944-a61d7705-feed.mp4"
+"story": "v9x/7944-742e072f-story.mp4",
+"feed": "v9x/7944-742e072f-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -2272,13 +2272,13 @@ null,
 "89153": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2026/01/058.jpg",
-"Φωτιστικό Επιτραπέζιο 058",
+"Φωτιστικό Επιτραπέζιο 058  33x72",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/89153-b48aef7e-story.mp4",
-"feed": "v9x/89153-b48aef7e-feed.mp4"
+"story": "v9x/89153-c1dee751-story.mp4",
+"feed": "v9x/89153-c1dee751-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -16067,11 +16067,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09028.jpg",
 "Κρεβάτι Comfort",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/89051-1ecfbb9d-story.mp4",
-"feed": "v9x/89051-1ecfbb9d-feed.mp4"
+"story": "v9x/89051-c96fdc68-story.mp4",
+"feed": "v9x/89051-c96fdc68-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -16082,13 +16082,13 @@ null,
 "42691": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2019/12/DSC05980.jpg",
-"Κομοδίνο Napoli",
+"Κομοδίνο Napoli 60x44,5x33",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/42691-98b7cb26-story.mp4",
-"feed": "v9x/42691-98b7cb26-feed.mp4"
+"story": "v9x/42691-0f579765-story.mp4",
+"feed": "v9x/42691-0f579765-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -16140,11 +16140,11 @@ null,
 "https://jthomedesign.gr/wp-content/uploads/2026/01/DSC09055.jpg",
 "Κρεβάτι City",
 null,
-"TBI|Έως 60 δόσεις|V13"
+"Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/89022-7a9bdbaf-story.mp4",
-"feed": "v9x/89022-7a9bdbaf-feed.mp4"
+"story": "v9x/89022-1dfc39f0-story.mp4",
+"feed": "v9x/89022-1dfc39f0-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -16719,13 +16719,13 @@ null,
 "46786": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2021/05/DSC03276_.jpg",
-"Κρεβάτι Niovi",
+"Κρεβάτι Niovi 183×112x225",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/46786-f331fa45-story.mp4",
-"feed": "v9x/46786-f331fa45-feed.mp4"
+"story": "v9x/46786-6370669a-story.mp4",
+"feed": "v9x/46786-6370669a-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -16836,7 +16836,7 @@ null,
 "45362": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/08/DREAM-e1511346885500-1500x781-1.jpg",
-"Κρεβάτι Dream",
+"Κρεβάτι Dream 178×225",
 [
 0,
 179,
@@ -16846,8 +16846,8 @@ null,
 "TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"story": "v9x/45362-e2ac779c-story.mp4",
-"feed": "v9x/45362-e2ac779c-feed.mp4"
+"story": "v9x/45362-519ea021-story.mp4",
+"feed": "v9x/45362-519ea021-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -16858,13 +16858,13 @@ null,
 "78509": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC04191.jpg",
-"Τραπεζάκι σαλονιού Twelve",
+"Σετ Τραπεζάκι σαλονιού Twelve",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/78509-6bf04eab-story.mp4",
-"feed": "v9x/78509-6bf04eab-feed.mp4"
+"story": "v9x/78509-62476b60-story.mp4",
+"feed": "v9x/78509-62476b60-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -31071,6 +31071,40 @@ null,
 "files": {
 "story": "v9x/86217-0bcdb495-story.mp4",
 "feed": "v9x/86217-0bcdb495-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"2830": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2018/06/b44ce1cf-9a83-4842-bdb0-3717c5c139b2.png",
+"Κομοδίνο Venezia 50x45",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/2830-023738e0-story.mp4",
+"feed": "v9x/2830-023738e0-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"64833": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2023/03/88fb451d-dfe4-4b81-a507-6447f55aad21.png",
+"Κρεβάτι Zita 100×200",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/64833-6b5e7f27-story.mp4",
+"feed": "v9x/64833-6b5e7f27-feed.mp4"
 },
 "qc": {
 "story": true,
