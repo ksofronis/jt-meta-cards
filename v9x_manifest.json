@@ -1480,14 +1480,14 @@ null,
 },
 "7920": {
 "key": [
-"https://jthomedesign.gr/wp-content/uploads/2019/07/ASTERAS-GRAFEIO2.jpg",
+"https://jthomedesign.gr/wp-content/uploads/2019/07/5d33e4ea-d400-4e54-b86e-8ad86ddec179.png",
 "Γραφείο Asteras",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/7920-029dee40-story.mp4",
-"feed": "v9x/7920-029dee40-feed.mp4"
+"story": "v9x/7920-ee9c038b-story.mp4",
+"feed": "v9x/7920-ee9c038b-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -31124,6 +31124,23 @@ null,
 "files": {
 "story": "v9x/93056-4abaecf8-story.mp4",
 "feed": "v9x/93056-4abaecf8-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"93062": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2026/02/DSC1595-Edit.jpg",
+"Κρεβάτι Fiona με στρώμα και αποθηκευτικό χώρο",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/93062-17fd044f-story.mp4",
+"feed": "v9x/93062-17fd044f-feed.mp4"
 },
 "qc": {
 "story": true,
