@@ -216,7 +216,7 @@ null,
 "91465": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2026/08/Wooden_table_on_wool_rug_.jpeg",
-"Τραπεζάκι σαλονιού Coen",
+"Τραπεζάκι σαλονιού Coen 120*75*40",
 [
 289,
 246,
@@ -226,8 +226,8 @@ null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/91465-7d7c903a-story.mp4",
-"feed": "v9x/91465-7d7c903a-feed.mp4"
+"story": "v9x/91465-576a81d7-story.mp4",
+"feed": "v9x/91465-576a81d7-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -1685,28 +1685,6 @@ null,
 },
 "r2": true
 },
-"7944": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2019/07/FOINIKAS-GRAFEIO-1.jpg",
-"Συρταριέρα γραφείου Foinikas 40×50",
-[
-147,
-103,
-1086,
-835
-],
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/7944-742e072f-story.mp4",
-"feed": "v9x/7944-742e072f-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
 "59149": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2022/10/DSC02543.jpg",
@@ -3156,13 +3134,13 @@ null,
 "8929": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2019/10/DSC05833-Edit.jpg",
-"Γωνιακός Καναπές Amorgos με Σκαμπό 300x180",
+"Γωνιακός Καναπές Amorgos με Σκαμπό 300x240",
 null,
 "TBI|Έως 60 δόσεις|V13"
 ],
 "files": {
-"story": "v9x/8929-49d64807-story.mp4",
-"feed": "v9x/8929-49d64807-feed.mp4"
+"story": "v9x/8929-c11ebe2d-story.mp4",
+"feed": "v9x/8929-c11ebe2d-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -8712,23 +8690,6 @@ null,
 },
 "r2": true
 },
-"88990": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"TBI|Έως 60 δόσεις|V13"
-],
-"files": {
-"story": "v9x/88990-07a01208-story.mp4",
-"feed": "v9x/88990-07a01208-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
 "9321": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2018/09/DSC00882.jpg",
@@ -10045,23 +10006,6 @@ null,
 },
 "r2": true
 },
-"91078": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/91078-d30d9fc5-story.mp4",
-"feed": "v9x/91078-d30d9fc5-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
 "46045": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2021/03/love-petrol.jpg",
@@ -10682,23 +10626,6 @@ null,
 "files": {
 "story": "v9x/58624-b3d61511-story.mp4",
 "feed": "v9x/58624-b3d61511-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
-"88991": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"TBI|Έως 60 δόσεις|V13"
-],
-"files": {
-"story": "v9x/88991-07a01208-story.mp4",
-"feed": "v9x/88991-07a01208-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -12428,14 +12355,14 @@ null,
 },
 "8021": {
 "key": [
-"https://jthomedesign.gr/wp-content/uploads/2019/07/ETAZERA-KREMASTH-IFAISTOS-.jpg",
-"Εταζέρα Ifaistos",
+"https://jthomedesign.gr/wp-content/uploads/2019/07/ca68c61e-02f2-416e-9a6f-5c3c29ad1e48.png",
+"Παιδικό γραφείο με κρεμαστή εταζέρα Ifaistos 120 × 60 × 80 εκ.",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/8021-4dcc00d9-story.mp4",
-"feed": "v9x/8021-4dcc00d9-feed.mp4"
+"story": "v9x/8021-0e654aca-story.mp4",
+"feed": "v9x/8021-0e654aca-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -13300,23 +13227,6 @@ null,
 "files": {
 "story": "v9x/89047-c96fdc68-story.mp4",
 "feed": "v9x/89047-c96fdc68-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
-"45351": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2020/04/DSC06965.jpg",
-"Κρεβάτι Venus 175×220",
-null,
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/45351-fc80b5d3-story.mp4",
-"feed": "v9x/45351-fc80b5d3-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -14331,23 +14241,6 @@ null,
 },
 "r2": true
 },
-"88988": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"TBI|Έως 60 δόσεις|V13"
-],
-"files": {
-"story": "v9x/88988-07a01208-story.mp4",
-"feed": "v9x/88988-07a01208-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
 "47294": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/02/DSC00407-1.jpg",
@@ -15058,23 +14951,6 @@ null,
 },
 "r2": true
 },
-"88982": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/88982-d30d9fc5-story.mp4",
-"feed": "v9x/88982-d30d9fc5-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
 "9327": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2018/06/DSC00784.jpg",
@@ -15136,23 +15012,6 @@ null,
 "files": {
 "story": "v9x/73977-8170829a-story.mp4",
 "feed": "v9x/73977-8170829a-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
-"88984": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/88984-d30d9fc5-story.mp4",
-"feed": "v9x/88984-d30d9fc5-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -20843,23 +20702,6 @@ null,
 },
 "r2": true
 },
-"91076": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/91076-d30d9fc5-story.mp4",
-"feed": "v9x/91076-d30d9fc5-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
 "45612": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/09/lusso_grey.webp",
@@ -24433,19 +24275,14 @@ null,
 },
 "8001": {
 "key": [
-"https://jthomedesign.gr/wp-content/uploads/2019/07/ETAZERA-EPIKATHIMENH-MARGARITA-1.jpg",
-"Εταζέρα Margarita",
-[
-88,
-0,
-1181,
-853
-],
+"https://jthomedesign.gr/wp-content/uploads/2019/07/69fc96f0-da87-4e45-ac91-23cf524dfbf0.png",
+"Παιδικό γραφείο με επικαθήμενη εταζέρα Margarita",
+null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/8001-b06b24da-story.mp4",
-"feed": "v9x/8001-b06b24da-feed.mp4"
+"story": "v9x/8001-777fc7cb-story.mp4",
+"feed": "v9x/8001-777fc7cb-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -25893,23 +25730,6 @@ null,
 },
 "r2": true
 },
-"88986": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/88986-d30d9fc5-story.mp4",
-"feed": "v9x/88986-d30d9fc5-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
 "45373": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2017/02/IMG_9728-e1511380730211.jpg",
@@ -26039,23 +25859,6 @@ null,
 "files": {
 "story": "v9x/90920-a865ea3f-story.mp4",
 "feed": "v9x/90920-a865ea3f-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
-"45390": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/45390-d30d9fc5-story.mp4",
-"feed": "v9x/45390-d30d9fc5-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -26863,14 +26666,14 @@ null,
 },
 "8016": {
 "key": [
-"https://jthomedesign.gr/wp-content/uploads/2019/07/GRAFEIO-IFAISTOS.jpg",
+"https://jthomedesign.gr/wp-content/uploads/2019/07/32fc3520-79d8-4fab-90b4-f56fd8f2fedb.png",
 "Γραφείο Ifaistos",
 null,
 "Klarna|3 άτοκες δόσεις|V13"
 ],
 "files": {
-"story": "v9x/8016-64c4ac9c-story.mp4",
-"feed": "v9x/8016-64c4ac9c-feed.mp4"
+"story": "v9x/8016-8bda5a40-story.mp4",
+"feed": "v9x/8016-8bda5a40-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -27722,40 +27525,6 @@ null,
 "files": {
 "story": "v9x/90665-f1502d3e-story.mp4",
 "feed": "v9x/90665-f1502d3e-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
-"91079": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/91079-d30d9fc5-story.mp4",
-"feed": "v9x/91079-d30d9fc5-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
-"91077": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2017/09/Queen.webp",
-"Κρεβάτι Queen",
-null,
-"Klarna|3 άτοκες δόσεις|V13"
-],
-"files": {
-"story": "v9x/91077-d30d9fc5-story.mp4",
-"feed": "v9x/91077-d30d9fc5-feed.mp4"
 },
 "qc": {
 "story": true,
@@ -30971,23 +30740,6 @@ null,
 },
 "r2": true
 },
-"9363": {
-"key": [
-"https://jthomedesign.gr/wp-content/uploads/2020/04/DSC06965.jpg",
-"Σετ κρεβατοκάμαρας Venus",
-null,
-"TBI|Έως 60 δόσεις|V13"
-],
-"files": {
-"story": "v9x/9363-ce262dff-story.mp4",
-"feed": "v9x/9363-ce262dff-feed.mp4"
-},
-"qc": {
-"story": true,
-"feed": true
-},
-"r2": true
-},
 "85725": {
 "key": [
 "https://jthomedesign.gr/wp-content/uploads/2025/06/DSC1146.jpg",
@@ -31287,6 +31039,91 @@ null,
 "files": {
 "story": "v9x/46703-93ed10ae-story.mp4",
 "feed": "v9x/46703-93ed10ae-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"93066": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2026/11/thassos2.jpg",
+"Κρεβάτι Thassos",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/93066-62c8eca6-story.mp4",
+"feed": "v9x/93066-62c8eca6-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"93051": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2020/04/DSC06965.jpg",
+"Σετ κρεβατοκάμαρας Venus",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/93051-ce262dff-story.mp4",
+"feed": "v9x/93051-ce262dff-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"2914": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2017/09/queen1.jpg",
+"Κρεβάτι Queen",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/2914-bafcd9cd-story.mp4",
+"feed": "v9x/2914-bafcd9cd-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"93074": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2026/11/saudi1.jpg",
+"Κρεβάτι Saudi 160x215",
+null,
+"Klarna|3 άτοκες δόσεις|V13"
+],
+"files": {
+"story": "v9x/93074-fff8403e-story.mp4",
+"feed": "v9x/93074-fff8403e-feed.mp4"
+},
+"qc": {
+"story": true,
+"feed": true
+},
+"r2": true
+},
+"93056": {
+"key": [
+"https://jthomedesign.gr/wp-content/uploads/2026/11/19123.jpg",
+"Γωνιακός Καναπές Petran 280x200x98",
+null,
+"TBI|Έως 60 δόσεις|V13"
+],
+"files": {
+"story": "v9x/93056-4abaecf8-story.mp4",
+"feed": "v9x/93056-4abaecf8-feed.mp4"
 },
 "qc": {
 "story": true,
