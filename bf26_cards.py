@@ -13,7 +13,13 @@ def phase(d=None):
     d = d or datetime.datetime.now(ATHENS).date(); Y = 2026
     if d >= datetime.date(Y, 12, 11): return None
     return 'P1' if d < datetime.date(Y, 11, 23) else 'P2' if d < datetime.date(Y, 12, 1) else 'P3'
-def fetch(): return urllib.request.urlopen(urllib.request.Request(SRC, headers={'User-Agent': 'Mozilla/5.0'}), timeout=120).read()
+def fetch(tries=4):
+    import time, http.client  # site feed download sometimes cut short (IncompleteRead 16/11): retry with backoff
+    for i in range(tries):
+        try: return urllib.request.urlopen(urllib.request.Request(SRC, headers={'User-Agent': 'Mozilla/5.0'}), timeout=120).read()
+        except (OSError, http.client.HTTPException) as e:
+            if i == tries - 1: raise
+            print(f'fetch try {i + 1} failed: {e!r}; retry in {15 * 2 ** i}s', flush=True); time.sleep(15 * 2 ** i)
 def s3():
     import boto3
     return boto3.client('s3', endpoint_url=os.environ['R2_ENDPOINT'], aws_access_key_id=os.environ['R2_ACCESS_KEY_ID'], aws_secret_access_key=os.environ['R2_SECRET_ACCESS_KEY'], region_name='auto')
